@@ -1,0 +1,48 @@
+{
+    "name": "Cancer_Death",
+    "columns":
+    [
+        {
+        "name": "index",
+        "type": "Integer"
+        },
+        {
+        "name": "Year",
+        "type": "Year",
+        "query": "which years"
+        },
+        {
+        "name": "Nationality",
+        "type": "Categorical",
+        "mapping":{
+            "National": ["national", "nationals", "citizen", "citizens", "emarati", "emaratis"],
+            "Expatriate": ["expatriate", "foreigner", "foreigners", "immigrant", "immgrants", "foreign"]
+        },
+        "query": "what nationality"
+        },
+        {
+        "name": "Gender",
+        "keywords": ["sex"],
+        "type": "Gender",
+        "query": "which gender"
+        },
+        {
+        "name": "age",
+        "type": "Age",
+        "query": "what age"
+        },
+        {
+        "name": "Cancer_site",
+        "keywords": ["cancer location","type of cancer"],
+        "type": "FuzzyString",
+        "query": "what type of cancer"
+        },
+        {
+        "name": "Death_Count",
+        "type": "Integer",
+        "keywords": ["died","death","dead"],
+        "query": "number of deaths",
+        "priority":"True"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "population_benchmarks",
+    "keywords":["population standards","people standard"],
+    "columns":
+    [
+        {
+        "name": "index",
+        "type": "Integer"
+        },
+        {
+        "name": "Year",
+        "type": "Year",
+        "query": "which years"
+        },
+        {
+        "name": "Country",
+        "keywords":["nation"],
+        "type": "String",
+        "query": "which Country"
+        },
+        {
+        "name": "Category",
+        "type": "FuzzyString",
+        "query": "which category"
+        },
+        {
+        "name": "Values",
+        "type": "Decimal",
+        "query": "how much value"
+        }
+    ]
+}

@@ -1,0 +1,917 @@
+﻿Year,Nationality,Gender,Cancer Site,Incidents
+2012,Expatriates,Female,Thyroid Gland,31
+2012,Expatriates,Female,Stomach,18
+2012,Expatriates,Female,Prostate Gland,0
+2012,Expatriates,Female,Pancreas,10
+2012,Expatriates,Female,Ovary,28
+2012,Expatriates,Female,Other Sites,64
+2012,Expatriates,Female,Lymph Nodes,30
+2012,Expatriates,Female,Hematopoietic And Reticuloendothelial Systems,54
+2012,Expatriates,Female,Corpus Uteri,26
+2012,Expatriates,Female,Colorectal,39
+2012,Expatriates,Female,Cervix Uteri,25
+2012,Expatriates,Female,Bronchus And Lung,7
+2012,Expatriates,Female,Breast (Excludes Skin Of Breast C44.5),277
+2012,Expatriates,Female,Brain,12
+2012,Expatriates,Female,Bladder,3
+2012,Expatriates,Male,Thyroid Gland,21
+2012,Expatriates,Male,Stomach,17
+2012,Expatriates,Male,Prostate Gland,45
+2012,Expatriates,Male,Pancreas,17
+2012,Expatriates,Male,Ovary,0
+2012,Expatriates,Male,Other Sites,167
+2012,Expatriates,Male,Lymph Nodes,50
+2012,Expatriates,Male,Hematopoietic And Reticuloendothelial Systems,132
+2012,Expatriates,Male,Corpus Uteri,0
+2012,Expatriates,Male,Colorectal,79
+2012,Expatriates,Male,Cervix Uteri,0
+2012,Expatriates,Male,Bronchus And Lung,32
+2012,Expatriates,Male,Breast (Excludes Skin Of Breast C44.5),4
+2012,Expatriates,Male,Brain,26
+2012,Expatriates,Male,Bladder,34
+2012,Nationals,Female,Thyroid Gland,24
+2012,Nationals,Female,Stomach,8
+2012,Nationals,Female,Prostate Gland,0
+2012,Nationals,Female,Pancreas,2
+2012,Nationals,Female,Ovary,9
+2012,Nationals,Female,Other Sites,33
+2012,Nationals,Female,Lymph Nodes,18
+2012,Nationals,Female,Hematopoietic And Reticuloendothelial Systems,46
+2012,Nationals,Female,Corpus Uteri,21
+2012,Nationals,Female,Colorectal,25
+2012,Nationals,Female,Cervix Uteri,6
+2012,Nationals,Female,Bronchus And Lung,3
+2012,Nationals,Female,Breast (Excludes Skin Of Breast C44.5),99
+2012,Nationals,Female,Brain,5
+2012,Nationals,Female,Bladder,1
+2012,Nationals,Male,Thyroid Gland,2
+2012,Nationals,Male,Stomach,7
+2012,Nationals,Male,Prostate Gland,11
+2012,Nationals,Male,Pancreas,3
+2012,Nationals,Male,Ovary,0
+2012,Nationals,Male,Other Sites,38
+2012,Nationals,Male,Lymph Nodes,26
+2012,Nationals,Male,Hematopoietic And Reticuloendothelial Systems,55
+2012,Nationals,Male,Corpus Uteri,0
+2012,Nationals,Male,Colorectal,14
+2012,Nationals,Male,Cervix Uteri,0
+2012,Nationals,Male,Bronchus And Lung,11
+2012,Nationals,Male,Breast (Excludes Skin Of Breast C44.5),0
+2012,Nationals,Male,Brain,4
+2012,Nationals,Male,Bladder,10
+2013,Expatriates,Female,Vulva,1
+2013,Expatriates,Female,Uterus,2
+2013,Expatriates,Female,Unknown Primary Site,5
+2013,Expatriates,Female,Tonsil,0
+2013,Expatriates,Female,Tongue,3
+2013,Expatriates,Female,Thyroid Gland,59
+2013,Expatriates,Female,Testis,0
+2013,Expatriates,Female,Stomach,11
+2013,Expatriates,Female,Soft Tissues,5
+2013,Expatriates,Female,Small Intestine,2
+2013,Expatriates,Female,Skin,21
+2013,Expatriates,Female,Salivary Gland,0
+2013,Expatriates,Female,Retroperitoneum And Peritoneum,3
+2013,Expatriates,Female,Renal Pelvis,0
+2013,Expatriates,Female,Prostate Gland,0
+2013,Expatriates,Female,Placenta,2
+2013,Expatriates,Female,Pharynx,0
+2013,Expatriates,Female,Parotid Gland,0
+2013,Expatriates,Female,Pancreas,3
+2013,Expatriates,Female,Ovary,25
+2013,Expatriates,Female,Oropharynx,1
+2013,Expatriates,Female,Nervous System,0
+2013,Expatriates,Female,Nasopharynx,3
+2013,Expatriates,Female,Nasal Cavity,1
+2013,Expatriates,Female,Mouth,2
+2013,Expatriates,Female,Lymph Nodes,16
+2013,Expatriates,Female,Liver,11
+2013,Expatriates,Female,Lip,0
+2013,Expatriates,Female,Leukemia,38
+2013,Expatriates,Female,Larynx,1
+2013,Expatriates,Female,Kidney,12
+2013,Expatriates,Female,Ill Defined Sites,0
+2013,Expatriates,Female,Hypopharynx,1
+2013,Expatriates,Female,Heart,0
+2013,Expatriates,Female,Gallbladder,1
+2013,Expatriates,Female,Female Genital Tract,1
+2013,Expatriates,Female,Eye,3
+2013,Expatriates,Female,Esophagus,2
+2013,Expatriates,Female,Corpus Uteri,24
+2013,Expatriates,Female,Colorectal,44
+2013,Expatriates,Female,Cervix Uteri,37
+2013,Expatriates,Female,Bronchus And Lung,16
+2013,Expatriates,Female,Breast,201
+2013,Expatriates,Female,Brain,4
+2013,Expatriates,Female,Bowel,0
+2013,Expatriates,Female,Bones,2
+2013,Expatriates,Female,Bladder,3
+2013,Expatriates,Female,Biliary Tract,2
+2013,Expatriates,Female,Autonomic Nervous System,1
+2013,Expatriates,Female,Adrenal Gland,1
+2013,Expatriates,Male,Vulva,0
+2013,Expatriates,Male,Uterus,0
+2013,Expatriates,Male,Unknown Primary Site,6
+2013,Expatriates,Male,Tonsil,4
+2013,Expatriates,Male,Tongue,10
+2013,Expatriates,Male,Thyroid Gland,41
+2013,Expatriates,Male,Testis,13
+2013,Expatriates,Male,Stomach,25
+2013,Expatriates,Male,Soft Tissues,7
+2013,Expatriates,Male,Small Intestine,8
+2013,Expatriates,Male,Skin,29
+2013,Expatriates,Male,Salivary Gland,3
+2013,Expatriates,Male,Retroperitoneum And Peritoneum,2
+2013,Expatriates,Male,Renal Pelvis,0
+2013,Expatriates,Male,Prostate Gland,53
+2013,Expatriates,Male,Placenta,0
+2013,Expatriates,Male,Pharynx,1
+2013,Expatriates,Male,Parotid Gland,4
+2013,Expatriates,Male,Pancreas,14
+2013,Expatriates,Male,Ovary,0
+2013,Expatriates,Male,Oropharynx,0
+2013,Expatriates,Male,Nervous System,2
+2013,Expatriates,Male,Nasopharynx,9
+2013,Expatriates,Male,Nasal Cavity,1
+2013,Expatriates,Male,Mouth,7
+2013,Expatriates,Male,Lymph Nodes,54
+2013,Expatriates,Male,Liver,22
+2013,Expatriates,Male,Lip,1
+2013,Expatriates,Male,Leukemia,77
+2013,Expatriates,Male,Larynx,7
+2013,Expatriates,Male,Kidney,20
+2013,Expatriates,Male,Ill Defined Sites,1
+2013,Expatriates,Male,Hypopharynx,2
+2013,Expatriates,Male,Heart,1
+2013,Expatriates,Male,Gallbladder,2
+2013,Expatriates,Male,Female Genital Tract,0
+2013,Expatriates,Male,Eye,1
+2013,Expatriates,Male,Esophagus,9
+2013,Expatriates,Male,Corpus Uteri,0
+2013,Expatriates,Male,Colorectal,88
+2013,Expatriates,Male,Cervix Uteri,0
+2013,Expatriates,Male,Bronchus And Lung,44
+2013,Expatriates,Male,Breast,5
+2013,Expatriates,Male,Brain,32
+2013,Expatriates,Male,Bowel,2
+2013,Expatriates,Male,Bones,4
+2013,Expatriates,Male,Bladder,28
+2013,Expatriates,Male,Biliary Tract,3
+2013,Expatriates,Male,Autonomic Nervous System,0
+2013,Expatriates,Male,Adrenal Gland,1
+2013,Nationals,Female,Vulva,0
+2013,Nationals,Female,Uterus,0
+2013,Nationals,Female,Unknown Primary Site,5
+2013,Nationals,Female,Tonsil,0
+2013,Nationals,Female,Tongue,1
+2013,Nationals,Female,Thyroid Gland,31
+2013,Nationals,Female,Testis,0
+2013,Nationals,Female,Stomach,3
+2013,Nationals,Female,Soft Tissues,2
+2013,Nationals,Female,Small Intestine,1
+2013,Nationals,Female,Skin,5
+2013,Nationals,Female,Salivary Gland,0
+2013,Nationals,Female,Retroperitoneum And Peritoneum,0
+2013,Nationals,Female,Renal Pelvis,1
+2013,Nationals,Female,Prostate Gland,0
+2013,Nationals,Female,Placenta,0
+2013,Nationals,Female,Pharynx,0
+2013,Nationals,Female,Parotid Gland,2
+2013,Nationals,Female,Pancreas,1
+2013,Nationals,Female,Ovary,8
+2013,Nationals,Female,Oropharynx,0
+2013,Nationals,Female,Nervous System,0
+2013,Nationals,Female,Nasopharynx,0
+2013,Nationals,Female,Nasal Cavity,0
+2013,Nationals,Female,Mouth,2
+2013,Nationals,Female,Lymph Nodes,12
+2013,Nationals,Female,Liver,3
+2013,Nationals,Female,Lip,0
+2013,Nationals,Female,Leukemia,11
+2013,Nationals,Female,Larynx,2
+2013,Nationals,Female,Kidney,2
+2013,Nationals,Female,Ill Defined Sites,0
+2013,Nationals,Female,Hypopharynx,0
+2013,Nationals,Female,Heart,2
+2013,Nationals,Female,Gallbladder,0
+2013,Nationals,Female,Female Genital Tract,0
+2013,Nationals,Female,Eye,0
+2013,Nationals,Female,Esophagus,1
+2013,Nationals,Female,Corpus Uteri,6
+2013,Nationals,Female,Colorectal,24
+2013,Nationals,Female,Cervix Uteri,26
+2013,Nationals,Female,Bronchus And Lung,5
+2013,Nationals,Female,Breast,45
+2013,Nationals,Female,Brain,2
+2013,Nationals,Female,Bowel,0
+2013,Nationals,Female,Bones,0
+2013,Nationals,Female,Bladder,1
+2013,Nationals,Female,Biliary Tract,0
+2013,Nationals,Female,Autonomic Nervous System,1
+2013,Nationals,Female,Adrenal Gland,0
+2013,Nationals,Male,Vulva,0
+2013,Nationals,Male,Uterus,0
+2013,Nationals,Male,Unknown Primary Site,2
+2013,Nationals,Male,Tonsil,0
+2013,Nationals,Male,Tongue,3
+2013,Nationals,Male,Thyroid Gland,7
+2013,Nationals,Male,Testis,2
+2013,Nationals,Male,Stomach,11
+2013,Nationals,Male,Soft Tissues,2
+2013,Nationals,Male,Small Intestine,1
+2013,Nationals,Male,Skin,10
+2013,Nationals,Male,Salivary Gland,0
+2013,Nationals,Male,Retroperitoneum And Peritoneum,1
+2013,Nationals,Male,Renal Pelvis,0
+2013,Nationals,Male,Prostate Gland,13
+2013,Nationals,Male,Placenta,0
+2013,Nationals,Male,Pharynx,1
+2013,Nationals,Male,Parotid Gland,0
+2013,Nationals,Male,Pancreas,8
+2013,Nationals,Male,Ovary,0
+2013,Nationals,Male,Oropharynx,0
+2013,Nationals,Male,Nervous System,0
+2013,Nationals,Male,Nasopharynx,3
+2013,Nationals,Male,Nasal Cavity,1
+2013,Nationals,Male,Mouth,0
+2013,Nationals,Male,Lymph Nodes,15
+2013,Nationals,Male,Liver,8
+2013,Nationals,Male,Lip,0
+2013,Nationals,Male,Leukemia,20
+2013,Nationals,Male,Larynx,4
+2013,Nationals,Male,Kidney,6
+2013,Nationals,Male,Ill Defined Sites,0
+2013,Nationals,Male,Hypopharynx,0
+2013,Nationals,Male,Heart,2
+2013,Nationals,Male,Gallbladder,2
+2013,Nationals,Male,Female Genital Tract,0
+2013,Nationals,Male,Eye,1
+2013,Nationals,Male,Esophagus,0
+2013,Nationals,Male,Corpus Uteri,0
+2013,Nationals,Male,Colorectal,17
+2013,Nationals,Male,Cervix Uteri,0
+2013,Nationals,Male,Bronchus And Lung,12
+2013,Nationals,Male,Breast,2
+2013,Nationals,Male,Brain,2
+2013,Nationals,Male,Bowel,1
+2013,Nationals,Male,Bones,0
+2013,Nationals,Male,Bladder,12
+2013,Nationals,Male,Biliary Tract,2
+2013,Nationals,Male,Autonomic Nervous System,0
+2013,Nationals,Male,Adrenal Gland,0
+2014,Expatriates,Female,Vulva,1
+2014,Expatriates,Female,Uterus,2
+2014,Expatriates,Female,Ureter,1
+2014,Expatriates,Female,Unknown Primary Site,2
+2014,Expatriates,Female,Tonsil,1
+2014,Expatriates,Female,Tongue,4
+2014,Expatriates,Female,Thyroid Gland,100
+2014,Expatriates,Female,Stomach,13
+2014,Expatriates,Female,Skin,7
+2014,Expatriates,Female,Retroperitmoneum And Peritoneum,5
+2014,Expatriates,Female,Renal Pelvis,1
+2014,Expatriates,Female,Placenta,1
+2014,Expatriates,Female,Parotid Gland,1
+2014,Expatriates,Female,Pancreas,8
+2014,Expatriates,Female,Ovary,21
+2014,Expatriates,Female,Other And Ill Defined Sites,4
+2014,Expatriates,Female,Nasopharynx,5
+2014,Expatriates,Female,Lymph Npdes,11
+2014,Expatriates,Female,Lung And Bronchus,8
+2014,Expatriates,Female,Liver,4
+2014,Expatriates,Female,Leukemia,19
+2014,Expatriates,Female,Larynx,1
+2014,Expatriates,Female,Kidney,10
+2014,Expatriates,Female,Heart,3
+2014,Expatriates,Female,Gallbladder,3
+2014,Expatriates,Female,Corpus Uteri,27
+2014,Expatriates,Female,"Connective, Subcutaneous And Other Soft Tissue",8
+2014,Expatriates,Female,Colorectal,55
+2014,Expatriates,Female,Cervix Uteri,51
+2014,Expatriates,Female,Breast,282
+2014,Expatriates,Female,Brain,13
+2014,Expatriates,Female,Bones,1
+2014,Expatriates,Female,Bladder,3
+2014,Expatriates,Male,Unknown Primary Site,11
+2014,Expatriates,Male,Tonsil,4
+2014,Expatriates,Male,Tongue,7
+2014,Expatriates,Male,Thyroid Gland,50
+2014,Expatriates,Male,Thymus,3
+2014,Expatriates,Male,Testis,20
+2014,Expatriates,Male,Stomach,24
+2014,Expatriates,Male,Small Intestine,7
+2014,Expatriates,Male,Skin,8
+2014,Expatriates,Male,Sinus,1
+2014,Expatriates,Male,Salivary Gland,1
+2014,Expatriates,Male,Retroperitmoneum And Peritoneum,1
+2014,Expatriates,Male,Prostate Gland,62
+2014,Expatriates,Male,Pharynx,1
+2014,Expatriates,Male,Penis,2
+2014,Expatriates,Male,Parotid Gland,3
+2014,Expatriates,Male,Pancreas,15
+2014,Expatriates,Male,Other And Ill Defined Sites,3
+2014,Expatriates,Male,Oropharynx,1
+2014,Expatriates,Male,Nervous System,2
+2014,Expatriates,Male,Nasopharynx,11
+2014,Expatriates,Male,Nasal Cavity,3
+2014,Expatriates,Male,Mouth,7
+2014,Expatriates,Male,Male Genital Tract,2
+2014,Expatriates,Male,Lymph Npdes,34
+2014,Expatriates,Male,Lung And Bronchus,40
+2014,Expatriates,Male,Liver,20
+2014,Expatriates,Male,Lip,3
+2014,Expatriates,Male,Leukemia,48
+2014,Expatriates,Male,Larynx,11
+2014,Expatriates,Male,Kidney,33
+2014,Expatriates,Male,Hypopharynx,1
+2014,Expatriates,Male,Heart,3
+2014,Expatriates,Male,Gallbladder,4
+2014,Expatriates,Male,Esophagus,10
+2014,Expatriates,Male,Endocrine Gland,1
+2014,Expatriates,Male,"Connective, Subcutaneous And Other Soft Tissue",13
+2014,Expatriates,Male,Colorectal,99
+2014,Expatriates,Male,Breast,1
+2014,Expatriates,Male,Brain,32
+2014,Expatriates,Male,Bones,4
+2014,Expatriates,Male,Bladder,41
+2014,Expatriates,Male,Adrenal Gland,3
+2014,Expatriates,Male,"Accessory Sinus, Nos",3
+2014,NA,Female,Corpus Uteri,3
+2014,NA,Female,Colorectal,3
+2014,NA,Female,Breast,2
+2014,NA,Male,Prostate Gland,2
+2014,NA,Male,Bladder,2
+2014,Nationals,Female,Vulva,1
+2014,Nationals,Female,Uterus,3
+2014,Nationals,Female,Unknown Primary Site,1
+2014,Nationals,Female,Tonsil,1
+2014,Nationals,Female,Tongue,1
+2014,Nationals,Female,Thyroid Gland,36
+2014,Nationals,Female,Stomach,7
+2014,Nationals,Female,Small Intestine,3
+2014,Nationals,Female,Skin,2
+2014,Nationals,Female,Retroperitmoneum And Peritoneum,2
+2014,Nationals,Female,Pancreas,2
+2014,Nationals,Female,Ovary,7
+2014,Nationals,Female,Other And Ill Defined Sites,1
+2014,Nationals,Female,Nasopharynx,1
+2014,Nationals,Female,Lymph Npdes,11
+2014,Nationals,Female,Lung And Bronchus,5
+2014,Nationals,Female,Liver,3
+2014,Nationals,Female,Leukemia,12
+2014,Nationals,Female,Kidney,4
+2014,Nationals,Female,Gallbladder,4
+2014,Nationals,Female,Corpus Uteri,10
+2014,Nationals,Female,"Connective, Subcutaneous And Other Soft Tissue",3
+2014,Nationals,Female,Colorectal,23
+2014,Nationals,Female,Cervix Uteri,31
+2014,Nationals,Female,Breast,75
+2014,Nationals,Female,Brain,6
+2014,Nationals,Female,Bones,1
+2014,Nationals,Female,Bladder,1
+2014,Nationals,Female,Autonomic Nervous System,1
+2014,Nationals,Male,Unknown Primary Site,3
+2014,Nationals,Male,Tonsil,1
+2014,Nationals,Male,Tongue,3
+2014,Nationals,Male,Thyroid Gland,10
+2014,Nationals,Male,Testis,3
+2014,Nationals,Male,Stomach,5
+2014,Nationals,Male,Small Intestine,1
+2014,Nationals,Male,Skin,2
+2014,Nationals,Male,Retroperitmoneum And Peritoneum,1
+2014,Nationals,Male,Prostate Gland,14
+2014,Nationals,Male,Pancreas,1
+2014,Nationals,Male,Oropharynx,1
+2014,Nationals,Male,Mouth,1
+2014,Nationals,Male,Lymph Npdes,5
+2014,Nationals,Male,Lung And Bronchus,12
+2014,Nationals,Male,Liver,10
+2014,Nationals,Male,Leukemia,21
+2014,Nationals,Male,Larynx,3
+2014,Nationals,Male,Kidney,7
+2014,Nationals,Male,Heart,3
+2014,Nationals,Male,Gallbladder,2
+2014,Nationals,Male,Eye,1
+2014,Nationals,Male,"Connective, Subcutaneous And Other Soft Tissue",1
+2014,Nationals,Male,Colorectal,33
+2014,Nationals,Male,Brain,8
+2014,Nationals,Male,Bones,2
+2014,Nationals,Male,Bladder,14
+2014,Nationals,Male,Adrenal Gland,1
+2015,Expatriates,Female,Uterus,4
+2015,Expatriates,Female,Unknown Primary Site,8
+2015,Expatriates,Female,Tonsil,2
+2015,Expatriates,Female,Tongue,3
+2015,Expatriates,Female,Thyroid Gland,102
+2015,Expatriates,Female,Stomach,8
+2015,Expatriates,Female,Small Intestine,5
+2015,Expatriates,Female,Skin,4
+2015,Expatriates,Female,Retroperitoneum And Peritoneum,1
+2015,Expatriates,Female,Placenta,1
+2015,Expatriates,Female,Parotid Gland,3
+2015,Expatriates,Female,Pancreas,5
+2015,Expatriates,Female,Ovary,15
+2015,Expatriates,Female,Other Ill Defined Sites,3
+2015,Expatriates,Female,Other Female Genital Tract,1
+2015,Expatriates,Female,Oropharynx,1
+2015,Expatriates,Female,Mouth,1
+2015,Expatriates,Female,Lymph Nodes,12
+2015,Expatriates,Female,Liver,7
+2015,Expatriates,Female,Leukemia & Other Hematopoietic Systems,27
+2015,Expatriates,Female,Kidney And Renal Pelvis,5
+2015,Expatriates,Female,"Heart, Mediastinum, And Pleura",2
+2015,Expatriates,Female,Gallbladder & Other Biliary Tract,4
+2015,Expatriates,Female,Esophagus,2
+2015,Expatriates,Female,Corpus Uteri,37
+2015,Expatriates,Female,"Connective, Subcutaneous & Soft Tissue",4
+2015,Expatriates,Female,Colorectal,35
+2015,Expatriates,Female,Cervix Uteri,36
+2015,Expatriates,Female,Bronchus And Lung,13
+2015,Expatriates,Female,Breast,242
+2015,Expatriates,Female,Brain,9
+2015,Expatriates,Female,Bones,2
+2015,Expatriates,Female,Bladder,4
+2015,Expatriates,Female,Adrenal Gland,1
+2015,Expatriates,Male,Unknown Primary Site,9
+2015,Expatriates,Male,Tonsil,4
+2015,Expatriates,Male,Tongue,8
+2015,Expatriates,Male,Thyroid Gland,35
+2015,Expatriates,Male,Thymus,2
+2015,Expatriates,Male,Testis,12
+2015,Expatriates,Male,Stomach,32
+2015,Expatriates,Male,Spinal Cord And Other Cns System,1
+2015,Expatriates,Male,Small Intestine,5
+2015,Expatriates,Male,Skin,11
+2015,Expatriates,Male,Retroperitoneum And Peritoneum,1
+2015,Expatriates,Male,Prostate Gland,45
+2015,Expatriates,Male,Penis,1
+2015,Expatriates,Male,Parotid Gland,3
+2015,Expatriates,Male,Pancreas,10
+2015,Expatriates,Male,Other Urinary System,1
+2015,Expatriates,Male,Other Digistive Organs,2
+2015,Expatriates,Male,Nasopharynx,5
+2015,Expatriates,Male,Mouth,17
+2015,Expatriates,Male,Meninges,1
+2015,Expatriates,Male,Lymph Nodes,43
+2015,Expatriates,Male,Liver,19
+2015,Expatriates,Male,Lip,1
+2015,Expatriates,Male,Leukemia & Other Hematopoietic Systems,56
+2015,Expatriates,Male,Larynx,21
+2015,Expatriates,Male,Kidney And Renal Pelvis,24
+2015,Expatriates,Male,Gallbladder & Other Biliary Tract,11
+2015,Expatriates,Male,Eye,1
+2015,Expatriates,Male,Esophagus,8
+2015,Expatriates,Male,"Connective, Subcutaneous & Soft Tissue",15
+2015,Expatriates,Male,Colorectal,89
+2015,Expatriates,Male,Bronchus And Lung,51
+2015,Expatriates,Male,Breast,3
+2015,Expatriates,Male,Brain,19
+2015,Expatriates,Male,Bones,7
+2015,Expatriates,Male,Bladder,25
+2015,Expatriates,Male,Adrenal Gland,2
+2015,NA,Female,Unknown Primary Site,2
+2015,NA,Female,Kidney And Renal Pelvis,1
+2015,NA,Female,Colorectal,1
+2015,NA,Female,Breast,4
+2015,NA,Female,Bladder,1
+2015,NA,Male,Unknown Primary Site,1
+2015,NA,Male,Thyroid Gland,1
+2015,NA,Male,Testis,3
+2015,NA,Male,Stomach,2
+2015,NA,Male,Salivary Gland,1
+2015,NA,Male,Prostate Gland,4
+2015,NA,Male,Penis,1
+2015,NA,Male,Pancreas,1
+2015,NA,Male,Other Endocrine Glands,1
+2015,NA,Male,Mouth,1
+2015,NA,Male,Lymph Nodes,2
+2015,NA,Male,Kidney And Renal Pelvis,1
+2015,NA,Male,Esophagus,1
+2015,NA,Male,"Connective, Subcutaneous & Soft Tissue",1
+2015,NA,Male,Colorectal,5
+2015,NA,male,Bronchus And Lung,1
+2015,NA,Male,Breast,1
+2015,NA,Male,Bones,1
+2015,NA,Male,Bladder,5
+2015,Nationals,Female,Vulva,2
+2015,Nationals,Female,Uterus,1
+2015,Nationals,Female,Unknown Primary Site,3
+2015,Nationals,Female,Tongue,2
+2015,Nationals,Female,Thyroid Gland,45
+2015,Nationals,Female,Stomach,2
+2015,Nationals,Female,Retroperitoneum And Peritoneum,2
+2015,Nationals,Female,Pancreas,6
+2015,Nationals,Female,Ovary,9
+2015,Nationals,Female,Other Ill Defined Sites,1
+2015,Nationals,Female,Other Endocrine Glands,1
+2015,Nationals,Female,Nasopharynx,1
+2015,Nationals,Female,Mouth,1
+2015,Nationals,Female,Lymph Nodes,13
+2015,Nationals,Female,Liver,2
+2015,Nationals,Female,Leukemia & Other Hematopoietic Systems,19
+2015,Nationals,Female,Kidney And Renal Pelvis,7
+2015,Nationals,Female,Gallbladder & Other Biliary Tract,1
+2015,Nationals,Female,Corpus Uteri,18
+2015,Nationals,Female,"Connective, Subcutaneous & Soft Tissue",4
+2015,Nationals,Female,Colorectal,22
+2015,Nationals,Female,Cervix Uteri,21
+2015,Nationals,Female,Bronchus And Lung,6
+2015,Nationals,Female,Breast,75
+2015,Nationals,Female,Brain,4
+2015,Nationals,Female,Bones,1
+2015,Nationals,Female,Bladder,5
+2015,Nationals,Male,Unknown Primary Site,2
+2015,Nationals,Male,Tonsil,1
+2015,Nationals,Male,Tongue,3
+2015,Nationals,male,Thyroid Gland,16
+2015,Nationals,Male,Testis,4
+2015,Nationals,Male,Stomach,5
+2015,Nationals,Male,Small Intestine,4
+2015,Nationals,Male,Skin,6
+2015,Nationals,Male,Prostate Gland,23
+2015,Nationals,Male,Pharynx,1
+2015,Nationals,Male,Pancreas,5
+2015,Nationals,Male,Other Endocrine Glands,1
+2015,Nationals,Male,Mouth,1
+2015,Nationals,Male,Lymph Nodes,12
+2015,Nationals,Male,Liver,5
+2015,Nationals,Male,Leukemia & Other Hematopoietic Systems,26
+2015,Nationals,Male,Larynx,3
+2015,Nationals,Male,Kidney And Renal Pelvis,1
+2015,Nationals,Male,"Heart, Mediastinum, And Pleura",2
+2015,Nationals,Male,Gallbladder & Other Biliary Tract,1
+2015,Nationals,Male,Eye,3
+2015,Nationals,Male,Esophagus,1
+2015,Nationals,Male,"Connective, Subcutaneous & Soft Tissue",2
+2015,Nationals,Male,Colorectal,23
+2015,Nationals,Male,Bronchus And Lung,13
+2015,Nationals,Male,Brain,4
+2015,Nationals,Male,Bones,2
+2015,Nationals,Male,Bladder,17
+2016,Expatriates,Female,Vagina,1
+2016,Expatriates,Female,Uterus,43
+2016,Expatriates,Female,Ureter,1
+2016,Expatriates,Female,Unknown And Ill Defined Sites,4
+2016,Expatriates,Female,Tonsil,1
+2016,Expatriates,Female,Tongue,5
+2016,Expatriates,Female,Thyroid Gland,96
+2016,Expatriates,Female,Stomach,10
+2016,Expatriates,Female,Small Intestine,3
+2016,Expatriates,Female,Skin,11
+2016,Expatriates,Female,Salivary Gland,2
+2016,Expatriates,Female,Retroperitoneum And Peritoneum,2
+2016,Expatriates,Female,Placenta,1
+2016,Expatriates,Female,Pharynx,3
+2016,Expatriates,Female,Parotid Gland,1
+2016,Expatriates,Female,Pancreas,12
+2016,Expatriates,Female,Ovary,17
+2016,Expatriates,Female,Non-Hodgkin'S Lymphoma,23
+2016,Expatriates,Female,Myelodysplastic Syndrome,1
+2016,Expatriates,Female,Multiple Myeloma,3
+2016,Expatriates,Female,Mouth,4
+2016,Expatriates,Female,Melanoma Of Skin,1
+2016,Expatriates,Female,Liver,15
+2016,Expatriates,Female,Leukemia,30
+2016,Expatriates,Female,Kidney And Renal Pelvis,8
+2016,Expatriates,Female,Hodgkin'S Lymphoma,10
+2016,Expatriates,Female,Gallbladder And Other Unspecified Parts Of Biliary Tract,4
+2016,Expatriates,Female,Eye,2
+2016,Expatriates,Female,Esophagus,4
+2016,Expatriates,Female,Connective And Soft Tissue,11
+2016,Expatriates,Female,Colorectum,36
+2016,Expatriates,Female,Cervix Uteri,31
+2016,Expatriates,Female,Bronchus And Lung,11
+2016,Expatriates,Female,Breast,225
+2016,Expatriates,Female,Brain And Other Cns,9
+2016,Expatriates,Female,Bone And Cartilage,2
+2016,Expatriates,Female,Bladder,4
+2016,Expatriates,Male,Unknown And Ill Defined Sites,9
+2016,Expatriates,Male,Tongue,9
+2016,Expatriates,Male,Thyroid Gland,40
+2016,Expatriates,Male,Testis,22
+2016,Expatriates,Male,Stomach,23
+2016,Expatriates,Male,Small Intestine,1
+2016,Expatriates,Male,Skin,33
+2016,Expatriates,Male,Salivary Gland,4
+2016,Expatriates,Male,Retroperitoneum And Peritoneum,3
+2016,Expatriates,Male,Prostate Gland,58
+2016,Expatriates,Male,Pharynx,15
+2016,Expatriates,Male,Parotid Gland,4
+2016,Expatriates,Male,Pancreas,16
+2016,Expatriates,Male,Other Endocrine Glands,1
+2016,Expatriates,Male,Other And Ill Defined Digistive Organs,1
+2016,Expatriates,Male,Non-Hodgkin'S Lymphoma,38
+2016,Expatriates,Male,Multiple Myeloma,14
+2016,Expatriates,Male,Mouth,13
+2016,Expatriates,Male,Melanoma Of Skin,4
+2016,Expatriates,Male,Liver,18
+2016,Expatriates,Male,Lip,1
+2016,Expatriates,Male,Leukemia,55
+2016,Expatriates,Male,Larynx,13
+2016,Expatriates,Male,Kidney And Renal Pelvis,34
+2016,Expatriates,Male,Kaposi Sarcoma,1
+2016,Expatriates,Male,Hodgkin'S Lymphoma,8
+2016,Expatriates,Male,"Heart, Mediastinum, And Pleura (Including Mesothelioma)",3
+2016,Expatriates,Male,Gallbladder And Other Unspecified Parts Of Biliary Tract,11
+2016,Expatriates,Male,Eye,1
+2016,Expatriates,Male,Esophagus,4
+2016,Expatriates,Male,Connective And Soft Tissue,11
+2016,Expatriates,Male,Colorectum,75
+2016,Expatriates,Male,Bronchus And Lung,48
+2016,Expatriates,Male,Breast,2
+2016,Expatriates,Male,Brain And Other Cns,20
+2016,Expatriates,Male,Bone And Cartilage,9
+2016,Expatriates,Male,Bladder,24
+2016,NA,Female,Uterus,1
+2016,NA,Female,Skin,1
+2016,NA,Female,Liver,1
+2016,NA,Female,Colorectum,3
+2016,NA,Female,Breast,2
+2016,NA,Male,Unknown And Ill Defined Sites,5
+2016,NA,Male,Tongue,1
+2016,NA,Male,Thyroid Gland,1
+2016,NA,Male,Stomach,3
+2016,NA,Male,Skin,2
+2016,NA,Male,Pharynx,1
+2016,NA,Male,Mouth,1
+2016,NA,Male,Kidney And Renal Pelvis,1
+2016,NA,Male,"Heart, Mediastinum, And Pleura (Including Mesothelioma)",2
+2016,NA,Male,Esophagus,1
+2016,NA,Male,Colorectum,9
+2016,NA,Male,Bladder,1
+2016,Nationals,Female,Vagina,1
+2016,Nationals,Female,Uterus,16
+2016,Nationals,Female,Unknown And Ill Defined Sites,7
+2016,Nationals,Female,Tongue,2
+2016,Nationals,Female,Thyroid Gland,66
+2016,Nationals,Female,Stomach,6
+2016,Nationals,Female,Small Intestine,3
+2016,Nationals,Female,Skin,2
+2016,Nationals,Female,Retroperitoneum And Peritoneum,1
+2016,Nationals,Female,Prostate Gland,1
+2016,Nationals,Female,Placenta,1
+2016,Nationals,Female,Pancreas,4
+2016,Nationals,Female,Ovary,6
+2016,Nationals,Female,Other And Ill Defined Digistive Organs,2
+2016,Nationals,Female,Non-Hodgkin'S Lymphoma,6
+2016,Nationals,Female,"Nasal Cavity, Middle Ear, Accessory Sinus",1
+2016,Nationals,Female,Multiple Myeloma,3
+2016,Nationals,Female,Mouth,1
+2016,Nationals,Female,Liver,4
+2016,Nationals,Female,Leukemia,12
+2016,Nationals,Female,Larynx,1
+2016,Nationals,Female,Kidney And Renal Pelvis,7
+2016,Nationals,Female,Hodgkin'S Lymphoma,4
+2016,Nationals,Female,Gallbladder And Other Unspecified Parts Of Biliary Tract,1
+2016,Nationals,Female,Connective And Soft Tissue,2
+2016,Nationals,Female,Colorectum,23
+2016,Nationals,Female,Cervix Uteri,14
+2016,Nationals,Female,Bronchus And Lung,5
+2016,Nationals,Female,Breast,72
+2016,Nationals,Female,Brain And Other Cns,3
+2016,Nationals,Female,Bone And Cartilage,1
+2016,Nationals,Female,Bladder,1
+2016,Nationals,Male,Unknown And Ill Defined Sites,4
+2016,Nationals,Male,Tongue,1
+2016,Nationals,Male,Thyroid Gland,10
+2016,Nationals,Male,Testis,1
+2016,Nationals,Male,Stomach,11
+2016,Nationals,Male,Skin,4
+2016,Nationals,Male,Prostate Gland,27
+2016,Nationals,Male,Pharynx,4
+2016,Nationals,Male,Pancreas,7
+2016,Nationals,Male,Other Endocrine Glands,1
+2016,Nationals,Male,Non-Hodgkin'S Lymphoma,13
+2016,Nationals,Male,Myelodysplastic Syndrome,1
+2016,Nationals,Male,Multiple Myeloma,6
+2016,Nationals,Male,Mouth,5
+2016,Nationals,Male,Melanoma Of Skin,1
+2016,Nationals,Male,Liver,10
+2016,Nationals,Male,Leukemia,11
+2016,Nationals,Male,Larynx,3
+2016,Nationals,Male,Kidney And Renal Pelvis,8
+2016,Nationals,Male,Hodgkin'S Lymphoma,12
+2016,Nationals,Male,Gallbladder And Other Unspecified Parts Of Biliary Tract,2
+2016,Nationals,Male,Eye,1
+2016,Nationals,Male,Esophagus,2
+2016,Nationals,Male,Connective And Soft Tissue,3
+2016,Nationals,Male,Colorectum,25
+2016,Nationals,Male,Bronchus And Lung,15
+2016,Nationals,Male,Breast,1
+2016,Nationals,Male,Brain And Other Cns,9
+2016,Nationals,Male,Bladder,10
+2017,Expatriates,Female,Without Specification Of Site,8
+2017,Expatriates,Female,Vulva,2
+2017,Expatriates,Female,Vagina,2
+2017,Expatriates,Female,"Uterus, Part Unspecified",2
+2017,Expatriates,Female,Tongue,5
+2017,Expatriates,Female,Thyroid Gland,122
+2017,Expatriates,Female,Thymus,1
+2017,Expatriates,Female,Stomach,8
+2017,Expatriates,Female,Small Intestine,1
+2017,Expatriates,Female,Skin,15
+2017,Expatriates,Female,Retroperitoneum And Peritoneum,4
+2017,Expatriates,Female,Rectum,12
+2017,Expatriates,Female,Rectosigmoid Junction,3
+2017,Expatriates,Female,Peripheral,6
+2017,Expatriates,Female,Pancreas,6
+2017,Expatriates,Female,Palate,1
+2017,Expatriates,Female,Ovary,28
+2017,Expatriates,Female,Oesophagus,3
+2017,Expatriates,Female,Non-Hodgkin Lymphoma,4
+2017,Expatriates,Female,Nasopharynx,6
+2017,Expatriates,Female,Myeloid Leukaemia,19
+2017,Expatriates,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,7
+2017,Expatriates,Female,Mouth,3
+2017,Expatriates,Female,Lymphoid Leukaemia,12
+2017,Expatriates,Female,Liver And Intrahepatic Bile Ducts,8
+2017,Expatriates,Female,Leukaemia,1
+2017,Expatriates,Female,Larynx,1
+2017,Expatriates,Female,"Kidney, Except Renal Pelvis",19
+2017,Expatriates,Female,Hodgkin'S Disease,9
+2017,Expatriates,Female,"Heart, Mediastinum And Pleura",3
+2017,Expatriates,Female,Gallbladder,3
+2017,Expatriates,Female,Follicular-Non-Hodgkin'S Lymphoma,6
+2017,Expatriates,Female,Female Genital Organs,2
+2017,Expatriates,Female,Diffuse,9
+2017,Expatriates,Female,Corpus Uteri,42
+2017,Expatriates,Female,Connective And Soft Tissue,14
+2017,Expatriates,Female,Colon,34
+2017,Expatriates,Female,Cervix Uteri,42
+2017,Expatriates,Female,Bronchus And Lung,20
+2017,Expatriates,Female,Breast,295
+2017,Expatriates,Female,Brain,15
+2017,Expatriates,Female,Bone,4
+2017,Expatriates,Female,Bladder,3
+2017,Expatriates,Female,Biliary Tract,3
+2017,Expatriates,Female,Anus And Anal Canal,1
+2017,Expatriates,Female,Adrenal Gland,1
+2017,Expatriates,Male,Without Specification Of Site,6
+2017,Expatriates,Male,Urinary Organs,2
+2017,Expatriates,Male,Ureter,2
+2017,Expatriates,Male,Tonsil,1
+2017,Expatriates,Male,Tongue,16
+2017,Expatriates,Male,Thyroid Gland,57
+2017,Expatriates,Male,Thymus,1
+2017,Expatriates,Male,Testis,19
+2017,Expatriates,Male,Stomach,28
+2017,Expatriates,Male,Spinal,2
+2017,Expatriates,Male,Small Intestine,6
+2017,Expatriates,Male,Skin,36
+2017,Expatriates,Male,Salivary Glands,1
+2017,Expatriates,Male,Retroperitoneum And Peritoneum,4
+2017,Expatriates,Male,Rectum,28
+2017,Expatriates,Male,Rectosigmoid Junction,7
+2017,Expatriates,Male,Prostate,64
+2017,Expatriates,Male,Peripheral,6
+2017,Expatriates,Male,Parotid Gland,4
+2017,Expatriates,Male,Pancreas,19
+2017,Expatriates,Male,Palate,1
+2017,Expatriates,Male,Other And Ill-Defined Sites,2
+2017,Expatriates,Male,Oropharynx,2
+2017,Expatriates,Male,Oesophagus,10
+2017,Expatriates,Male,Non-Hodgkin Lymphoma,12
+2017,Expatriates,Male,Nasopharynx,15
+2017,Expatriates,Male,Nasal Cavity And Middle Ear,2
+2017,Expatriates,Male,Myeloid Leukaemia,26
+2017,Expatriates,Male,Myelodysplastic syndromes,3
+2017,Expatriates,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,12
+2017,Expatriates,Male,Multiple myeloma,6
+2017,Expatriates,Male,Mouth,18
+2017,Expatriates,Male,Monocytic Leukaemia,2
+2017,Expatriates,Male,Mesothelioma,2
+2017,Expatriates,Male,Lymphoid Leukaemia,22
+2017,Expatriates,Male,Liver And Intrahepatic Bile Ducts,13
+2017,Expatriates,Male,Leukaemia,5
+2017,Expatriates,Male,Larynx,8
+2017,Expatriates,Male,"Kidney, Except Renal Pelvis",31
+2017,Expatriates,Male,Kaposi'S Sarcoma,2
+2017,Expatriates,Male,Hypopharynx,1
+2017,Expatriates,Male,Hodgkin'S Disease,14
+2017,Expatriates,Male,"Heart, Mediastinum And Pleura",4
+2017,Expatriates,Male,Gum,2
+2017,Expatriates,Male,Gallbladder,2
+2017,Expatriates,Male,Follicular-Non-Hodgkin'S Lymphoma,11
+2017,Expatriates,Male,Endocrine Gland,2
+2017,Expatriates,Male,Diffuse,31
+2017,Expatriates,Male,Connective And Soft Tissue,15
+2017,Expatriates,Male,Colon,63
+2017,Expatriates,Male,Bronchus And Lung,52
+2017,Expatriates,Male,Breast,4
+2017,Expatriates,Male,Brain,26
+2017,Expatriates,Male,Bone,6
+2017,Expatriates,Male,Bladder,38
+2017,Expatriates,Male,Biliary Tract,8
+2017,Expatriates,Male,Adrenal Gland,2
+2017,Expatriates,Male,Accessory Sinuses,2
+2017,NA,Female,Thyroid Gland,4
+2017,NA,Female,Skin,6
+2017,NA,Female,Parotid Gland,1
+2017,NA,Female,Corpus Uteri,3
+2017,NA,Female,Cervix Uteri,2
+2017,NA,Female,Breast,10
+2017,NA,Female,Bone,1
+2017,NA,Female,Bladder,1
+2017,NA,Male,Tonsil,1
+2017,NA,Male,Tongue,2
+2017,NA,Male,Thyroid Gland,4
+2017,NA,Male,Stomach,1
+2017,NA,Male,Skin,11
+2017,NA,Male,Rectum,5
+2017,NA,Male,Rectosigmoid Junction,1
+2017,NA,Male,Prostate,5
+2017,NA,Male,Palate,1
+2017,NA,Male,Other And Ill-Defined Sites,1
+2017,NA,Male,Oesophagus,1
+2017,NA,Male,Non-Hodgkin Lymphoma,1
+2017,NA,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1
+2017,NA,Male,Liver And Intrahepatic Bile Ducts,1
+2017,NA,Male,Hodgkin'S Disease,2
+2017,NA,Male,Endocrine Gland,1
+2017,NA,Male,Diffuse,1
+2017,NA,Male,Colon,3
+2017,NA,Male,Bladder,4
+2017,Nationals,Female,Without Specification Of Site,2
+2017,Nationals,Female,"Uterus, Part Unspecified",4
+2017,Nationals,Female,Trachea,1
+2017,Nationals,Female,Tongue,3
+2017,Nationals,Female,Thyroid Gland,85
+2017,Nationals,Female,Stomach,9
+2017,Nationals,Female,Small Intestine,3
+2017,Nationals,Female,Skin,8
+2017,Nationals,Female,Retroperitoneum And Peritoneum,2
+2017,Nationals,Female,Rectum,6
+2017,Nationals,Female,Rectosigmoid Junction,2
+2017,Nationals,Female,Peripheral,1
+2017,Nationals,Female,Pancreas,6
+2017,Nationals,Female,Ovary,11
+2017,Nationals,Female,Oesophagus,4
+2017,Nationals,Female,Non-Hodgkin Lymphoma,2
+2017,Nationals,Female,Nasopharynx,2
+2017,Nationals,Female,Myeloid Leukaemia,9
+2017,Nationals,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,2
+2017,Nationals,Female,Mouth,2
+2017,Nationals,Female,Monocytic Leukaemia,1
+2017,Nationals,Female,Malignant neoplasm of placenta,3
+2017,Nationals,Female,Lymphoid Leukaemia,7
+2017,Nationals,Female,Liver And Intrahepatic Bile Ducts,3
+2017,Nationals,Female,Leukaemia,2
+2017,Nationals,Female,"Kidney, Except Renal Pelvis",8
+2017,Nationals,Female,Hodgkin'S Disease,8
+2017,Nationals,Female,"Heart, Mediastinum And Pleura",1
+2017,Nationals,Female,Gallbladder,1
+2017,Nationals,Female,Follicular-Non-Hodgkin'S Lymphoma,6
+2017,Nationals,Female,Female Genital Organs,1
+2017,Nationals,Female,Eye And Adnexa,2
+2017,Nationals,Female,Diffuse,11
+2017,Nationals,Female,Corpus Uteri,30
+2017,Nationals,Female,Connective And Soft Tissue,3
+2017,Nationals,Female,Colon,22
+2017,Nationals,Female,Cervix Uteri,10
+2017,Nationals,Female,Bronchus And Lung,3
+2017,Nationals,Female,Breast,120
+2017,Nationals,Female,Brain,3
+2017,Nationals,Female,Bone,1
+2017,Nationals,Female,Bladder,3
+2017,Nationals,Female,Biliary Tract,1
+2017,Nationals,Female,Accessory Sinuses,1
+2017,Nationals,Male,Without Specification Of Site,6
+2017,Nationals,Male,Tongue,6
+2017,Nationals,Male,Thyroid Gland,15
+2017,Nationals,Male,Testis,11
+2017,Nationals,Male,Stomach,6
+2017,Nationals,Male,Small Intestine,1
+2017,Nationals,Male,Skin,6
+2017,Nationals,Male,Retroperitoneum And Peritoneum,4
+2017,Nationals,Male,Rectum,8
+2017,Nationals,Male,Rectosigmoid Junction,5
+2017,Nationals,Male,Prostate,32
+2017,Nationals,Male,Piriform Sinus,1
+2017,Nationals,Male,Peripheral,1
+2017,Nationals,Male,Parotid Gland,1
+2017,Nationals,Male,Pancreas,10
+2017,Nationals,Male,Oropharynx,1
+2017,Nationals,Male,Oesophagus,3
+2017,Nationals,Male,Nasopharynx,2
+2017,Nationals,Male,Myeloid Leukaemia,12
+2017,Nationals,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,6
+2017,Nationals,Male,Multiple myeloma,1
+2017,Nationals,Male,Mesothelioma,1
+2017,Nationals,Male,Lymphoid Leukaemia,7
+2017,Nationals,Male,Liver And Intrahepatic Bile Ducts,11
+2017,Nationals,Male,Leukaemia,1
+2017,Nationals,Male,Larynx,3
+2017,Nationals,Male,"Kidney, Except Renal Pelvis",14
+2017,Nationals,Male,Kaposi'S Sarcoma,1
+2017,Nationals,Male,Hodgkin'S Disease,10
+2017,Nationals,Male,"Heart, Mediastinum And Pleura",1
+2017,Nationals,Male,Gum,1
+2017,Nationals,Male,Follicular-Non-Hodgkin'S Lymphoma,3
+2017,Nationals,Male,Diffuse,8
+2017,Nationals,Male,Connective And Soft Tissue,5
+2017,Nationals,Male,Colon,20
+2017,Nationals,Male,Bronchus And Lung,20
+2017,Nationals,Male,Brain,3
+2017,Nationals,Male,Bladder,10
+2017,Nationals,Male,Biliary Tract,1
+2017,Nationals,Male,Adrenal Gland,1

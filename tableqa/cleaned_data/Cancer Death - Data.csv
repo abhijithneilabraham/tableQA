@@ -1,0 +1,2432 @@
+,Year,Nationality,Gender,Cancer_site,Death_Count,age
+0,2011,Expatriate,Female,Other Cancer,2,10
+1,2011,Expatriate,Female,"Kidney, renal pelvis and ureter",1,10
+2,2011,Expatriate,Female,Breast,1,20
+3,2011,Expatriate,Female,Stomach,1,30
+4,2011,Expatriate,Female,Leukaemia,2,30
+5,2011,Expatriate,Female,Breast,1,30
+6,2011,Expatriate,Female,Stomach,1,35
+7,2011,Expatriate,Female,Ovary,1,35
+8,2011,Expatriate,Female,Other Cancer,2,35
+9,2011,Expatriate,Female,Colorectum,2,35
+10,2011,Expatriate,Female,Cervix uteri,1,35
+11,2011,Expatriate,Female,Breast,5,35
+12,2011,Expatriate,Female,"Trachea, bronchus and lung",1,40
+13,2011,Expatriate,Female,Oesophagus,1,40
+14,2011,Expatriate,Female,Leukaemia,3,40
+15,2011,Expatriate,Female,Colorectum,1,40
+16,2011,Expatriate,Female,Breast,3,40
+17,2011,Expatriate,Female,Stomach,2,45
+18,2011,Expatriate,Female,Other Cancer,1,45
+19,2011,Expatriate,Female,Leukaemia,1,45
+20,2011,Expatriate,Female,Colorectum,2,45
+21,2011,Expatriate,Female,Breast,9,45
+22,2011,Expatriate,Female,"Trachea, bronchus and lung",1,50
+23,2011,Expatriate,Female,Stomach,2,50
+24,2011,Expatriate,Female,Leukaemia,1,50
+25,2011,Expatriate,Female,Colorectum,1,50
+26,2011,Expatriate,Female,Cervix uteri,1,50
+27,2011,Expatriate,Female,Breast,4,50
+28,2011,Expatriate,Female,Stomach,1,55
+29,2011,Expatriate,Female,Pancreas,1,55
+30,2011,Expatriate,Female,Other pharynx,2,55
+31,2011,Expatriate,Female,Other Cancer,1,55
+32,2011,Expatriate,Female,Oesophagus,1,55
+33,2011,Expatriate,Female,Melanoma of skin,1,55
+34,2011,Expatriate,Female,Lymphoma,1,55
+35,2011,Expatriate,Female,"Kidney, renal pelvis and ureter",1,55
+36,2011,Expatriate,Female,Breast,3,55
+37,2011,Expatriate,Female,"Trachea, bronchus and lung",1,60
+38,2011,Expatriate,Female,Pancreas,1,60
+39,2011,Expatriate,Female,Other pharynx,1,60
+40,2011,Expatriate,Female,Other Cancer,2,60
+41,2011,Expatriate,Female,Lymphoma,1,60
+42,2011,Expatriate,Female,Liver and intrahepatic bile ducts,1,60
+43,2011,Expatriate,Female,Leukaemia,1,60
+44,2011,Expatriate,Female,Colorectum,1,60
+45,2011,Expatriate,Female,Breast,2,60
+46,2011,Expatriate,Female,"Brain, nervous system",1,60
+47,2011,Expatriate,Female,"Trachea, bronchus and lung",1,65
+48,2011,Expatriate,Female,Ovary,1,65
+49,2011,Expatriate,Female,Other Cancer,2,65
+50,2011,Expatriate,Female,Leukaemia,1,65
+51,2011,Expatriate,Female,Colorectum,3,65
+52,2011,Expatriate,Female,Cervix uteri,1,65
+53,2011,Expatriate,Female,Breast,3,65
+54,2011,Expatriate,Female,"Trachea, bronchus and lung",1,70
+55,2011,Expatriate,Female,Pancreas,4,70
+56,2011,Expatriate,Female,Leukaemia,2,70
+57,2011,Expatriate,Female,Cervix uteri,1,70
+58,2011,Expatriate,Female,Ovary,1,75
+59,2011,Expatriate,Female,Other pharynx,1,75
+60,2011,Expatriate,Female,Liver and intrahepatic bile ducts,1,75
+61,2011,Expatriate,Female,Colorectum,1,75
+62,2011,Expatriate,Female,Stomach,1,80
+63,2011,Expatriate,Female,Pancreas,1,80
+64,2011,Expatriate,Female,Liver and intrahepatic bile ducts,2,80
+65,2011,Expatriate,Female,Leukaemia,1,80
+66,2011,Expatriate,Female,Gallbladder and extrahepatic ducts,1,80
+67,2011,Expatriate,Female,Corpus uteri,1,80
+68,2011,Expatriate,Female,Breast,2,80
+69,2011,Expatriate,Female,Pancreas,1,85
+70,2011,Expatriate,Female,Liver and intrahepatic bile ducts,2,85
+71,2011,Expatriate,Female,"Brain, nervous system",1,85
+72,2011,Expatriate,Male,Stomach,1,0
+73,2011,Expatriate,Male,"Brain, nervous system",1,0
+74,2011,Expatriate,Male,Other Cancer,2,5
+75,2011,Expatriate,Male,Leukaemia,1,10
+76,2011,Expatriate,Male,Other Cancer,1,15
+77,2011,Expatriate,Male,"Brain, nervous system",1,15
+78,2011,Expatriate,Male,Leukaemia,1,20
+79,2011,Expatriate,Male,Other Cancer,1,25
+80,2011,Expatriate,Male,Leukaemia,3,25
+81,2011,Expatriate,Male,"Brain, nervous system",1,25
+82,2011,Expatriate,Male,Pancreas,1,30
+83,2011,Expatriate,Male,Other pharynx,1,30
+84,2011,Expatriate,Male,Lymphoma,1,30
+85,2011,Expatriate,Male,Leukaemia,1,30
+86,2011,Expatriate,Male,"Brain, nervous system",1,30
+87,2011,Expatriate,Male,Pancreas,1,35
+88,2011,Expatriate,Male,Other Cancer,2,35
+89,2011,Expatriate,Male,Pancreas,1,40
+90,2011,Expatriate,Male,Other Cancer,1,40
+91,2011,Expatriate,Male,Nasopharynx,1,40
+92,2011,Expatriate,Male,Lymphoma,2,40
+93,2011,Expatriate,Male,Colorectum,2,40
+94,2011,Expatriate,Male,"Trachea, bronchus and lung",2,45
+95,2011,Expatriate,Male,Testis,1,45
+96,2011,Expatriate,Male,Stomach,1,45
+97,2011,Expatriate,Male,Other Cancer,1,45
+98,2011,Expatriate,Male,Liver and intrahepatic bile ducts,1,45
+99,2011,Expatriate,Male,Leukaemia,2,45
+100,2011,Expatriate,Male,Colorectum,3,45
+101,2011,Expatriate,Male,"Trachea, bronchus and lung",2,50
+102,2011,Expatriate,Male,Stomach,2,50
+103,2011,Expatriate,Male,Prostate,1,50
+104,2011,Expatriate,Male,Pancreas,1,50
+105,2011,Expatriate,Male,Other pharynx,2,50
+106,2011,Expatriate,Male,Other Cancer,2,50
+107,2011,Expatriate,Male,Oesophagus,1,50
+108,2011,Expatriate,Male,Lymphoma,1,50
+109,2011,Expatriate,Male,Liver and intrahepatic bile ducts,1,50
+110,2011,Expatriate,Male,Leukaemia,1,50
+111,2011,Expatriate,Male,Larynx,1,50
+112,2011,Expatriate,Male,Gallbladder and extrahepatic ducts,1,50
+113,2011,Expatriate,Male,Colorectum,1,50
+114,2011,Expatriate,Male,"Brain, nervous system",1,50
+115,2011,Expatriate,Male,"Trachea, bronchus and lung",5,55
+116,2011,Expatriate,Male,Stomach,1,55
+117,2011,Expatriate,Male,Prostate,1,55
+118,2011,Expatriate,Male,Pancreas,2,55
+119,2011,Expatriate,Male,Other Cancer,2,55
+120,2011,Expatriate,Male,Oesophagus,1,55
+121,2011,Expatriate,Male,Nasopharynx,1,55
+122,2011,Expatriate,Male,Multiple myeloma,1,55
+123,2011,Expatriate,Male,Lymphoma,1,55
+124,2011,Expatriate,Male,Liver and intrahepatic bile ducts,2,55
+125,2011,Expatriate,Male,"Lip, oral cavity",1,55
+126,2011,Expatriate,Male,"Kidney, renal pelvis and ureter",1,55
+127,2011,Expatriate,Male,Colorectum,4,55
+128,2011,Expatriate,Male,"Trachea, bronchus and lung",2,60
+129,2011,Expatriate,Male,Stomach,2,60
+130,2011,Expatriate,Male,Oesophagus,1,60
+131,2011,Expatriate,Male,Nasopharynx,1,60
+132,2011,Expatriate,Male,Melanoma of skin,1,60
+133,2011,Expatriate,Male,Lymphoma,1,60
+134,2011,Expatriate,Male,Liver and intrahepatic bile ducts,6,60
+135,2011,Expatriate,Male,Leukaemia,2,60
+136,2011,Expatriate,Male,Larynx,1,60
+137,2011,Expatriate,Male,"Kidney, renal pelvis and ureter",2,60
+138,2011,Expatriate,Male,Colorectum,1,60
+139,2011,Expatriate,Male,Bladder,2,60
+140,2011,Expatriate,Male,"Trachea, bronchus and lung",4,65
+141,2011,Expatriate,Male,Stomach,1,65
+142,2011,Expatriate,Male,Prostate,1,65
+143,2011,Expatriate,Male,Pancreas,4,65
+144,2011,Expatriate,Male,Nasopharynx,1,65
+145,2011,Expatriate,Male,Multiple myeloma,1,65
+146,2011,Expatriate,Male,Liver and intrahepatic bile ducts,4,65
+147,2011,Expatriate,Male,Leukaemia,1,65
+148,2011,Expatriate,Male,Larynx,1,65
+149,2011,Expatriate,Male,Colorectum,1,65
+150,2011,Expatriate,Male,"Brain, nervous system",2,65
+151,2011,Expatriate,Male,"Trachea, bronchus and lung",2,70
+152,2011,Expatriate,Male,Prostate,1,70
+153,2011,Expatriate,Male,Pancreas,1,70
+154,2011,Expatriate,Male,Multiple myeloma,2,70
+155,2011,Expatriate,Male,Liver and intrahepatic bile ducts,1,70
+156,2011,Expatriate,Male,Larynx,1,70
+157,2011,Expatriate,Male,Colorectum,3,70
+158,2011,Expatriate,Male,"Brain, nervous system",1,70
+159,2011,Expatriate,Male,"Trachea, bronchus and lung",1,75
+160,2011,Expatriate,Male,Stomach,1,75
+161,2011,Expatriate,Male,Liver and intrahepatic bile ducts,1,75
+162,2011,Expatriate,Male,Leukaemia,1,75
+163,2011,Expatriate,Male,Colorectum,1,75
+164,2011,Expatriate,Male,"Brain, nervous system",1,75
+165,2011,Expatriate,Male,Bladder,1,75
+166,2011,Expatriate,Male,Stomach,1,80
+167,2011,Expatriate,Male,Pancreas,1,80
+168,2011,Expatriate,Male,Stomach,1,85
+169,2011,Expatriate,Male,Prostate,1,85
+170,2011,Expatriate,Male,Oesophagus,1,85
+171,2011,Expatriate,Male,Liver and intrahepatic bile ducts,1,85
+172,2011,Expatriate,Male,Colorectum,1,85
+173,2011,Expatriate,Male,Bladder,1,85
+174,2011,National,Female,"Brain, nervous system",1,0
+175,2011,National,Female,Leukaemia,1,10
+176,2011,National,Female,Stomach,1,30
+177,2011,National,Female,Cervix uteri,1,30
+178,2011,National,Female,Leukaemia,1,35
+179,2011,National,Female,Colorectum,2,35
+180,2011,National,Female,Breast,2,35
+181,2011,National,Female,Melanoma of skin,1,40
+182,2011,National,Female,Colorectum,2,40
+183,2011,National,Female,Breast,2,40
+184,2011,National,Female,Colorectum,1,45
+185,2011,National,Female,Cervix uteri,1,45
+186,2011,National,Female,Breast,3,45
+187,2011,National,Female,Liver and intrahepatic bile ducts,1,50
+188,2011,National,Female,Breast,2,50
+189,2011,National,Female,"Trachea, bronchus and lung",1,55
+190,2011,National,Female,Pancreas,1,55
+191,2011,National,Female,Other Cancer,1,55
+192,2011,National,Female,"Lip, oral cavity",1,55
+193,2011,National,Female,Colorectum,2,55
+194,2011,National,Female,Breast,1,55
+195,2011,National,Female,Thyroid,1,60
+196,2011,National,Female,Other Cancer,1,60
+197,2011,National,Female,Gallbladder and extrahepatic ducts,1,60
+198,2011,National,Female,Colorectum,1,60
+199,2011,National,Female,Breast,1,60
+200,2011,National,Female,"Trachea, bronchus and lung",1,65
+201,2011,National,Female,Oesophagus,1,65
+202,2011,National,Female,Lymphoma,1,65
+203,2011,National,Female,Liver and intrahepatic bile ducts,1,65
+204,2011,National,Female,Leukaemia,1,65
+205,2011,National,Female,Cervix uteri,1,65
+206,2011,National,Female,Breast,1,65
+207,2011,National,Female,Bladder,1,65
+208,2011,National,Female,Other Cancer,1,70
+209,2011,National,Female,Lymphoma,1,70
+210,2011,National,Female,Liver and intrahepatic bile ducts,1,70
+211,2011,National,Female,Colorectum,1,70
+212,2011,National,Female,Breast,1,70
+213,2011,National,Female,Ovary,1,80
+214,2011,National,Female,Lymphoma,1,80
+215,2011,National,Female,Liver and intrahepatic bile ducts,2,80
+216,2011,National,Female,Leukaemia,1,80
+217,2011,National,Female,Cervix uteri,3,80
+218,2011,National,Female,Breast,1,80
+219,2011,National,Female,"Trachea, bronchus and lung",1,85
+220,2011,National,Female,Pancreas,1,85
+221,2011,National,Male,Other Cancer,1,0
+222,2011,National,Male,"Brain, nervous system",1,0
+223,2011,National,Male,Leukaemia,1,5
+224,2011,National,Male,"Brain, nervous system",1,10
+225,2011,National,Male,Other Cancer,1,20
+226,2011,National,Male,Leukaemia,1,20
+227,2011,National,Male,Other Cancer,2,30
+228,2011,National,Male,Leukaemia,2,30
+229,2011,National,Male,Kaposi sarcoma,1,35
+230,2011,National,Male,"Brain, nervous system",1,35
+231,2011,National,Male,Liver and intrahepatic bile ducts,1,40
+232,2011,National,Male,"Trachea, bronchus and lung",1,45
+233,2011,National,Male,Pancreas,1,45
+234,2011,National,Male,Other pharynx,1,45
+235,2011,National,Male,Lymphoma,1,45
+236,2011,National,Male,"Trachea, bronchus and lung",2,50
+237,2011,National,Male,Larynx,1,50
+238,2011,National,Male,Colorectum,1,50
+239,2011,National,Male,"Trachea, bronchus and lung",4,55
+240,2011,National,Male,Pancreas,1,55
+241,2011,National,Male,Other pharynx,1,55
+242,2011,National,Male,Nasopharynx,1,55
+243,2011,National,Male,Lymphoma,1,55
+244,2011,National,Male,Liver and intrahepatic bile ducts,1,55
+245,2011,National,Male,Colorectum,2,55
+246,2011,National,Male,"Trachea, bronchus and lung",3,60
+247,2011,National,Male,Pancreas,1,60
+248,2011,National,Male,Other Cancer,1,60
+249,2011,National,Male,Lymphoma,1,60
+250,2011,National,Male,Liver and intrahepatic bile ducts,2,60
+251,2011,National,Male,Leukaemia,1,60
+252,2011,National,Male,Colorectum,2,60
+253,2011,National,Male,"Brain, nervous system",2,60
+254,2011,National,Male,"Trachea, bronchus and lung",2,65
+255,2011,National,Male,Stomach,1,65
+256,2011,National,Male,Prostate,1,65
+257,2011,National,Male,Pancreas,1,65
+258,2011,National,Male,Leukaemia,1,65
+259,2011,National,Male,Gallbladder and extrahepatic ducts,1,65
+260,2011,National,Male,Stomach,1,70
+261,2011,National,Male,Liver and intrahepatic bile ducts,2,70
+262,2011,National,Male,Leukaemia,1,70
+263,2011,National,Male,Larynx,1,70
+264,2011,National,Male,Bladder,1,70
+265,2011,National,Male,"Trachea, bronchus and lung",1,75
+266,2011,National,Male,Prostate,1,75
+267,2011,National,Male,Pancreas,2,75
+268,2011,National,Male,Other Cancer,1,75
+269,2011,National,Male,Lymphoma,1,75
+270,2011,National,Male,"Lip, oral cavity",1,75
+271,2011,National,Male,Colorectum,2,75
+272,2011,National,Male,Bladder,1,75
+273,2011,National,Male,Lymphoma,2,80
+274,2011,National,Male,Liver and intrahepatic bile ducts,2,80
+275,2011,National,Male,Larynx,1,80
+276,2011,National,Male,Bladder,1,80
+277,2011,National,Male,"Trachea, bronchus and lung",3,85
+278,2011,National,Male,Colorectum,2,85
+279,2012,Expatriate,Female,Other Cancer,1,0
+280,2012,Expatriate,Female,Leukaemia,1,0
+281,2012,Expatriate,Female,Other Cancer,1,10
+282,2012,Expatriate,Female,Melanoma of skin,1,25
+283,2012,Expatriate,Female,Leukaemia,1,25
+284,2012,Expatriate,Female,"Kidney, renal pelvis and ureter",1,25
+285,2012,Expatriate,Female,Breast,1,25
+286,2012,Expatriate,Female,Stomach,1,30
+287,2012,Expatriate,Female,Pancreas,1,30
+288,2012,Expatriate,Female,Ovary,1,30
+289,2012,Expatriate,Female,Lymphoma,1,30
+290,2012,Expatriate,Female,"Brain, nervous system",1,30
+291,2012,Expatriate,Female,Multiple myeloma,1,35
+292,2012,Expatriate,Female,Leukaemia,1,35
+293,2012,Expatriate,Female,Breast,3,35
+294,2012,Expatriate,Female,Nasopharynx,1,40
+295,2012,Expatriate,Female,Colorectum,1,40
+296,2012,Expatriate,Female,Cervix uteri,1,40
+297,2012,Expatriate,Female,Breast,3,40
+298,2012,Expatriate,Female,Stomach,2,45
+299,2012,Expatriate,Female,Leukaemia,1,45
+300,2012,Expatriate,Female,Colorectum,2,45
+301,2012,Expatriate,Female,Cervix uteri,1,45
+302,2012,Expatriate,Female,Breast,6,45
+303,2012,Expatriate,Female,"Trachea, bronchus and lung",3,50
+304,2012,Expatriate,Female,Thyroid,1,50
+305,2012,Expatriate,Female,Stomach,1,50
+306,2012,Expatriate,Female,Pancreas,2,50
+307,2012,Expatriate,Female,Ovary,2,50
+308,2012,Expatriate,Female,Other Cancer,1,50
+309,2012,Expatriate,Female,Lymphoma,1,50
+310,2012,Expatriate,Female,Liver and intrahepatic bile ducts,1,50
+311,2012,Expatriate,Female,Leukaemia,1,50
+312,2012,Expatriate,Female,Gallbladder and extrahepatic ducts,1,50
+313,2012,Expatriate,Female,Colorectum,2,50
+314,2012,Expatriate,Female,Cervix uteri,2,50
+315,2012,Expatriate,Female,Breast,13,50
+316,2012,Expatriate,Female,Other Cancer,1,55
+317,2012,Expatriate,Female,Colorectum,2,55
+318,2012,Expatriate,Female,Breast,3,55
+319,2012,Expatriate,Female,"Brain, nervous system",1,55
+320,2012,Expatriate,Female,"Trachea, bronchus and lung",2,60
+321,2012,Expatriate,Female,Stomach,2,60
+322,2012,Expatriate,Female,Pancreas,2,60
+323,2012,Expatriate,Female,Ovary,3,60
+324,2012,Expatriate,Female,Oesophagus,1,60
+325,2012,Expatriate,Female,Lymphoma,1,60
+326,2012,Expatriate,Female,Liver and intrahepatic bile ducts,1,60
+327,2012,Expatriate,Female,"Kidney, renal pelvis and ureter",2,60
+328,2012,Expatriate,Female,Colorectum,2,60
+329,2012,Expatriate,Female,Cervix uteri,1,60
+330,2012,Expatriate,Female,Breast,5,60
+331,2012,Expatriate,Female,Thyroid,1,65
+332,2012,Expatriate,Female,Stomach,1,65
+333,2012,Expatriate,Female,Pancreas,1,65
+334,2012,Expatriate,Female,Other Cancer,2,65
+335,2012,Expatriate,Female,Gallbladder and extrahepatic ducts,2,65
+336,2012,Expatriate,Female,Colorectum,1,65
+337,2012,Expatriate,Female,Cervix uteri,1,65
+338,2012,Expatriate,Female,Breast,2,65
+339,2012,Expatriate,Female,"Trachea, bronchus and lung",1,70
+340,2012,Expatriate,Female,Pancreas,1,70
+341,2012,Expatriate,Female,Ovary,1,70
+342,2012,Expatriate,Female,Other Cancer,1,70
+343,2012,Expatriate,Female,Multiple myeloma,1,70
+344,2012,Expatriate,Female,Liver and intrahepatic bile ducts,1,70
+345,2012,Expatriate,Female,Breast,2,70
+346,2012,Expatriate,Female,Bladder,1,70
+347,2012,Expatriate,Female,Pancreas,1,75
+348,2012,Expatriate,Female,Ovary,1,75
+349,2012,Expatriate,Female,Colorectum,1,75
+350,2012,Expatriate,Female,Cervix uteri,1,75
+351,2012,Expatriate,Female,Bladder,1,75
+352,2012,Expatriate,Female,"Trachea, bronchus and lung",1,80
+353,2012,Expatriate,Female,Other Cancer,1,80
+354,2012,Expatriate,Female,Liver and intrahepatic bile ducts,1,80
+355,2012,Expatriate,Female,Corpus uteri,1,80
+356,2012,Expatriate,Female,Cervix uteri,1,80
+357,2012,Expatriate,Female,Breast,1,80
+358,2012,Expatriate,Female,Pancreas,1,85
+359,2012,Expatriate,Female,Other Cancer,2,85
+360,2012,Expatriate,Female,Lymphoma,1,85
+361,2012,Expatriate,Male,Lymphoma,1,0
+362,2012,Expatriate,Male,Liver and intrahepatic bile ducts,1,0
+363,2012,Expatriate,Male,Leukaemia,1,0
+364,2012,Expatriate,Male,Leukaemia,1,10
+365,2012,Expatriate,Male,Other Cancer,1,15
+366,2012,Expatriate,Male,"Trachea, bronchus and lung",1,20
+367,2012,Expatriate,Male,Other Cancer,1,20
+368,2012,Expatriate,Male,Leukaemia,4,20
+369,2012,Expatriate,Male,Leukaemia,1,25
+370,2012,Expatriate,Male,"Trachea, bronchus and lung",1,30
+371,2012,Expatriate,Male,Leukaemia,3,30
+372,2012,Expatriate,Male,Colorectum,2,30
+373,2012,Expatriate,Male,"Trachea, bronchus and lung",2,35
+374,2012,Expatriate,Male,Lymphoma,1,35
+375,2012,Expatriate,Male,Leukaemia,2,35
+376,2012,Expatriate,Male,"Kidney, renal pelvis and ureter",1,35
+377,2012,Expatriate,Male,Colorectum,1,35
+378,2012,Expatriate,Male,"Brain, nervous system",1,35
+379,2012,Expatriate,Male,Liver and intrahepatic bile ducts,1,40
+380,2012,Expatriate,Male,"Lip, oral cavity",1,40
+381,2012,Expatriate,Male,Leukaemia,1,40
+382,2012,Expatriate,Male,Colorectum,1,40
+383,2012,Expatriate,Male,Other Cancer,1,45
+384,2012,Expatriate,Male,Oesophagus,1,45
+385,2012,Expatriate,Male,Nasopharynx,1,45
+386,2012,Expatriate,Male,Liver and intrahepatic bile ducts,1,45
+387,2012,Expatriate,Male,"Kidney, renal pelvis and ureter",1,45
+388,2012,Expatriate,Male,Gallbladder and extrahepatic ducts,1,45
+389,2012,Expatriate,Male,Colorectum,1,45
+390,2012,Expatriate,Male,"Brain, nervous system",2,45
+391,2012,Expatriate,Male,"Trachea, bronchus and lung",3,50
+392,2012,Expatriate,Male,Stomach,1,50
+393,2012,Expatriate,Male,Pancreas,2,50
+394,2012,Expatriate,Male,Other Cancer,1,50
+395,2012,Expatriate,Male,Multiple myeloma,1,50
+396,2012,Expatriate,Male,Liver and intrahepatic bile ducts,3,50
+397,2012,Expatriate,Male,Leukaemia,4,50
+398,2012,Expatriate,Male,Colorectum,2,50
+399,2012,Expatriate,Male,"Brain, nervous system",2,50
+400,2012,Expatriate,Male,"Trachea, bronchus and lung",5,55
+401,2012,Expatriate,Male,Prostate,1,55
+402,2012,Expatriate,Male,Pancreas,1,55
+403,2012,Expatriate,Male,Other Cancer,1,55
+404,2012,Expatriate,Male,Multiple myeloma,1,55
+405,2012,Expatriate,Male,Lymphoma,1,55
+406,2012,Expatriate,Male,Liver and intrahepatic bile ducts,3,55
+407,2012,Expatriate,Male,"Lip, oral cavity",2,55
+408,2012,Expatriate,Male,Leukaemia,4,55
+409,2012,Expatriate,Male,Colorectum,2,55
+410,2012,Expatriate,Male,"Brain, nervous system",2,55
+411,2012,Expatriate,Male,"Trachea, bronchus and lung",2,60
+412,2012,Expatriate,Male,Thyroid,1,60
+413,2012,Expatriate,Male,Prostate,1,60
+414,2012,Expatriate,Male,Pancreas,1,60
+415,2012,Expatriate,Male,Other Cancer,1,60
+416,2012,Expatriate,Male,Multiple myeloma,1,60
+417,2012,Expatriate,Male,Lymphoma,2,60
+418,2012,Expatriate,Male,Liver and intrahepatic bile ducts,3,60
+419,2012,Expatriate,Male,"Kidney, renal pelvis and ureter",1,60
+420,2012,Expatriate,Male,Colorectum,3,60
+421,2012,Expatriate,Male,Bladder,1,60
+422,2012,Expatriate,Male,"Trachea, bronchus and lung",3,65
+423,2012,Expatriate,Male,Prostate,3,65
+424,2012,Expatriate,Male,Other pharynx,1,65
+425,2012,Expatriate,Male,Other Cancer,1,65
+426,2012,Expatriate,Male,Lymphoma,1,65
+427,2012,Expatriate,Male,"Lip, oral cavity",1,65
+428,2012,Expatriate,Male,Colorectum,1,65
+429,2012,Expatriate,Male,Bladder,1,65
+430,2012,Expatriate,Male,"Trachea, bronchus and lung",4,70
+431,2012,Expatriate,Male,Stomach,2,70
+432,2012,Expatriate,Male,Prostate,3,70
+433,2012,Expatriate,Male,Pancreas,3,70
+434,2012,Expatriate,Male,Oesophagus,1,70
+435,2012,Expatriate,Male,Multiple myeloma,1,70
+436,2012,Expatriate,Male,Liver and intrahepatic bile ducts,2,70
+437,2012,Expatriate,Male,Gallbladder and extrahepatic ducts,1,70
+438,2012,Expatriate,Male,"Brain, nervous system",2,70
+439,2012,Expatriate,Male,"Trachea, bronchus and lung",1,75
+440,2012,Expatriate,Male,Pancreas,1,75
+441,2012,Expatriate,Male,Liver and intrahepatic bile ducts,3,75
+442,2012,Expatriate,Male,Bladder,1,75
+443,2012,Expatriate,Male,Oesophagus,3,80
+444,2012,Expatriate,Male,Bladder,1,85
+445,2012,Expatriate,,Stomach,1,70
+446,2012,National,Female,"Brain, nervous system",1,0
+447,2012,National,Female,Leukaemia,1,5
+448,2012,National,Female,"Brain, nervous system",1,5
+449,2012,National,Female,Leukaemia,1,15
+450,2012,National,Female,Leukaemia,1,20
+451,2012,National,Female,Other Cancer,1,25
+452,2012,National,Female,Colorectum,1,25
+453,2012,National,Female,Nasopharynx,1,40
+454,2012,National,Female,Colorectum,1,40
+455,2012,National,Female,Breast,1,40
+456,2012,National,Female,"Trachea, bronchus and lung",1,45
+457,2012,National,Female,Breast,2,45
+458,2012,National,Female,Stomach,2,50
+459,2012,National,Female,Other Cancer,2,50
+460,2012,National,Female,Colorectum,2,50
+461,2012,National,Female,Stomach,2,55
+462,2012,National,Female,Pancreas,1,55
+463,2012,National,Female,Other Cancer,1,55
+464,2012,National,Female,Liver and intrahepatic bile ducts,1,55
+465,2012,National,Female,Colorectum,1,55
+466,2012,National,Female,Breast,2,55
+467,2012,National,Female,Stomach,1,60
+468,2012,National,Female,Other pharynx,1,60
+469,2012,National,Female,Other Cancer,2,60
+470,2012,National,Female,Liver and intrahepatic bile ducts,1,60
+471,2012,National,Female,Gallbladder and extrahepatic ducts,1,60
+472,2012,National,Female,Breast,5,60
+473,2012,National,Female,Stomach,1,65
+474,2012,National,Female,Oesophagus,1,65
+475,2012,National,Female,Breast,1,65
+476,2012,National,Female,"Trachea, bronchus and lung",1,70
+477,2012,National,Female,Ovary,2,70
+478,2012,National,Female,Liver and intrahepatic bile ducts,1,70
+479,2012,National,Female,Breast,2,70
+480,2012,National,Female,Other Cancer,1,75
+481,2012,National,Female,Colorectum,1,75
+482,2012,National,Female,Cervix uteri,1,75
+483,2012,National,Female,"Brain, nervous system",1,75
+484,2012,National,Female,Other Cancer,1,80
+485,2012,National,Female,Multiple myeloma,1,80
+486,2012,National,Female,Lymphoma,1,80
+487,2012,National,Female,Colorectum,1,80
+488,2012,National,Female,"Trachea, bronchus and lung",1,85
+489,2012,National,Female,Ovary,1,85
+490,2012,National,Female,Oesophagus,1,85
+491,2012,National,Female,Lymphoma,1,85
+492,2012,National,Female,Colorectum,1,85
+493,2012,National,Female,Breast,1,85
+494,2012,National,Male,Other Cancer,1,5
+495,2012,National,Male,Melanoma of skin,1,5
+496,2012,National,Male,Leukaemia,1,5
+497,2012,National,Male,Other Cancer,1,20
+498,2012,National,Male,"Kidney, renal pelvis and ureter",1,20
+499,2012,National,Male,Leukaemia,1,25
+500,2012,National,Male,Lymphoma,1,30
+501,2012,National,Male,Leukaemia,1,30
+502,2012,National,Male,"Trachea, bronchus and lung",1,40
+503,2012,National,Male,"Trachea, bronchus and lung",2,45
+504,2012,National,Male,Pancreas,1,45
+505,2012,National,Male,Liver and intrahepatic bile ducts,2,45
+506,2012,National,Male,"Brain, nervous system",1,45
+507,2012,National,Male,"Trachea, bronchus and lung",1,50
+508,2012,National,Male,Lymphoma,1,50
+509,2012,National,Male,Leukaemia,1,50
+510,2012,National,Male,Colorectum,2,50
+511,2012,National,Male,"Trachea, bronchus and lung",1,55
+512,2012,National,Male,Stomach,1,55
+513,2012,National,Male,Melanoma of skin,1,55
+514,2012,National,Male,Liver and intrahepatic bile ducts,1,55
+515,2012,National,Male,"Trachea, bronchus and lung",2,60
+516,2012,National,Male,Stomach,1,60
+517,2012,National,Male,Pancreas,1,60
+518,2012,National,Male,Other pharynx,1,60
+519,2012,National,Male,"Kidney, renal pelvis and ureter",1,60
+520,2012,National,Male,Colorectum,1,60
+521,2012,National,Male,"Trachea, bronchus and lung",4,65
+522,2012,National,Male,Stomach,2,65
+523,2012,National,Male,Pancreas,1,65
+524,2012,National,Male,Other Cancer,1,65
+525,2012,National,Male,Liver and intrahepatic bile ducts,3,65
+526,2012,National,Male,"Lip, oral cavity",1,65
+527,2012,National,Male,Colorectum,1,65
+528,2012,National,Male,"Brain, nervous system",1,65
+529,2012,National,Male,Bladder,1,65
+530,2012,National,Male,"Trachea, bronchus and lung",1,70
+531,2012,National,Male,Liver and intrahepatic bile ducts,2,70
+532,2012,National,Male,Colorectum,2,70
+533,2012,National,Male,Breast,1,70
+534,2012,National,Male,"Brain, nervous system",1,70
+535,2012,National,Male,"Trachea, bronchus and lung",1,75
+536,2012,National,Male,Prostate,2,75
+537,2012,National,Male,"Trachea, bronchus and lung",3,80
+538,2012,National,Male,Stomach,2,80
+539,2012,National,Male,Oesophagus,2,80
+540,2012,National,Male,Liver and intrahepatic bile ducts,3,80
+541,2012,National,Male,Colorectum,1,80
+542,2012,National,Male,Bladder,1,80
+543,2012,National,Male,Stomach,3,85
+544,2012,National,Male,Other pharynx,1,85
+545,2012,National,Male,Multiple myeloma,1,85
+546,2012,National,Male,Leukaemia,1,85
+547,2012,National,Male,Colorectum,1,85
+548,2013,Expatriate,Female,Other Cancer,1,0
+549,2013,Expatriate,Female,Leukaemia,1,0
+550,2013,Expatriate,Female,Other Cancer,1,5
+551,2013,Expatriate,Female,"Brain, nervous system",1,5
+552,2013,Expatriate,Female,Leukaemia,1,10
+553,2013,Expatriate,Female,Leukaemia,1,20
+554,2013,Expatriate,Female,Other Cancer,1,25
+555,2013,Expatriate,Female,Leukaemia,3,25
+556,2013,Expatriate,Female,Cervix uteri,2,25
+557,2013,Expatriate,Female,Other pharynx,1,30
+558,2013,Expatriate,Female,Other Cancer,1,30
+559,2013,Expatriate,Female,Stomach,2,35
+560,2013,Expatriate,Female,Colorectum,1,35
+561,2013,Expatriate,Female,Breast,4,35
+562,2013,Expatriate,Female,Stomach,1,40
+563,2013,Expatriate,Female,Ovary,1,40
+564,2013,Expatriate,Female,"Kidney, renal pelvis and ureter",1,40
+565,2013,Expatriate,Female,Gallbladder and extrahepatic ducts,1,40
+566,2013,Expatriate,Female,Breast,2,40
+567,2013,Expatriate,Female,"Trachea, bronchus and lung",1,45
+568,2013,Expatriate,Female,Stomach,2,45
+569,2013,Expatriate,Female,Ovary,1,45
+570,2013,Expatriate,Female,Melanoma of skin,1,45
+571,2013,Expatriate,Female,Colorectum,1,45
+572,2013,Expatriate,Female,Cervix uteri,2,45
+573,2013,Expatriate,Female,Breast,5,45
+574,2013,Expatriate,Female,"Trachea, bronchus and lung",1,50
+575,2013,Expatriate,Female,Pancreas,2,50
+576,2013,Expatriate,Female,"Lip, oral cavity",1,50
+577,2013,Expatriate,Female,Leukaemia,2,50
+578,2013,Expatriate,Female,Colorectum,2,50
+579,2013,Expatriate,Female,Cervix uteri,1,50
+580,2013,Expatriate,Female,Breast,7,50
+581,2013,Expatriate,Female,Pancreas,1,55
+582,2013,Expatriate,Female,Other Cancer,1,55
+583,2013,Expatriate,Female,Lymphoma,1,55
+584,2013,Expatriate,Female,Liver and intrahepatic bile ducts,2,55
+585,2013,Expatriate,Female,Leukaemia,2,55
+586,2013,Expatriate,Female,Colorectum,1,55
+587,2013,Expatriate,Female,Cervix uteri,1,55
+588,2013,Expatriate,Female,Breast,6,55
+589,2013,Expatriate,Female,"Trachea, bronchus and lung",2,60
+590,2013,Expatriate,Female,Stomach,2,60
+591,2013,Expatriate,Female,Ovary,2,60
+592,2013,Expatriate,Female,Other Cancer,2,60
+593,2013,Expatriate,Female,Non-melanoma skin cancer,1,60
+594,2013,Expatriate,Female,Lymphoma,1,60
+595,2013,Expatriate,Female,Liver and intrahepatic bile ducts,4,60
+596,2013,Expatriate,Female,"Kidney, renal pelvis and ureter",1,60
+597,2013,Expatriate,Female,Colorectum,2,60
+598,2013,Expatriate,Female,Cervix uteri,2,60
+599,2013,Expatriate,Female,Breast,6,60
+600,2013,Expatriate,Female,"Trachea, bronchus and lung",2,65
+601,2013,Expatriate,Female,Stomach,1,65
+602,2013,Expatriate,Female,Pancreas,1,65
+603,2013,Expatriate,Female,Ovary,3,65
+604,2013,Expatriate,Female,"Lip, oral cavity",1,65
+605,2013,Expatriate,Female,Leukaemia,1,65
+606,2013,Expatriate,Female,Colorectum,1,65
+607,2013,Expatriate,Female,Breast,1,65
+608,2013,Expatriate,Female,"Trachea, bronchus and lung",1,70
+609,2013,Expatriate,Female,Pancreas,1,70
+610,2013,Expatriate,Female,Liver and intrahepatic bile ducts,1,70
+611,2013,Expatriate,Female,Colorectum,1,70
+612,2013,Expatriate,Female,Cervix uteri,1,70
+613,2013,Expatriate,Female,Breast,3,70
+614,2013,Expatriate,Female,Stomach,1,75
+615,2013,Expatriate,Female,Liver and intrahepatic bile ducts,1,75
+616,2013,Expatriate,Female,Colorectum,2,75
+617,2013,Expatriate,Female,Breast,1,75
+618,2013,Expatriate,Female,Bladder,1,75
+619,2013,Expatriate,Female,Other pharynx,1,80
+620,2013,Expatriate,Female,Breast,2,80
+621,2013,Expatriate,Female,Breast,1,85
+622,2013,Expatriate,Female,"Brain, nervous system",1,85
+623,2013,Expatriate,Male,Other Cancer,1,0
+624,2013,Expatriate,Male,Leukaemia,1,0
+625,2013,Expatriate,Male,"Kidney, renal pelvis and ureter",2,0
+626,2013,Expatriate,Male,"Brain, nervous system",2,0
+627,2013,Expatriate,Male,"Brain, nervous system",1,5
+628,2013,Expatriate,Male,"Kidney, renal pelvis and ureter",1,10
+629,2013,Expatriate,Male,"Brain, nervous system",2,10
+630,2013,Expatriate,Male,"Brain, nervous system",1,15
+631,2013,Expatriate,Male,Leukaemia,3,20
+632,2013,Expatriate,Male,Other Cancer,1,25
+633,2013,Expatriate,Male,Leukaemia,3,25
+634,2013,Expatriate,Male,"Brain, nervous system",1,25
+635,2013,Expatriate,Male,"Trachea, bronchus and lung",1,30
+636,2013,Expatriate,Male,Leukaemia,1,30
+637,2013,Expatriate,Male,Stomach,1,35
+638,2013,Expatriate,Male,Other Cancer,1,35
+639,2013,Expatriate,Male,Lymphoma,1,35
+640,2013,Expatriate,Male,Kaposi sarcoma,1,35
+641,2013,Expatriate,Male,Colorectum,1,35
+642,2013,Expatriate,Male,Stomach,1,40
+643,2013,Expatriate,Male,Liver and intrahepatic bile ducts,2,40
+644,2013,Expatriate,Male,"Lip, oral cavity",1,40
+645,2013,Expatriate,Male,Leukaemia,3,40
+646,2013,Expatriate,Male,Bladder,1,40
+647,2013,Expatriate,Male,"Trachea, bronchus and lung",1,45
+648,2013,Expatriate,Male,Stomach,2,45
+649,2013,Expatriate,Male,Pancreas,2,45
+650,2013,Expatriate,Male,Multiple myeloma,1,45
+651,2013,Expatriate,Male,Liver and intrahepatic bile ducts,1,45
+652,2013,Expatriate,Male,Leukaemia,1,45
+653,2013,Expatriate,Male,Colorectum,1,45
+654,2013,Expatriate,Male,"Trachea, bronchus and lung",4,50
+655,2013,Expatriate,Male,Stomach,2,50
+656,2013,Expatriate,Male,Other Cancer,1,50
+657,2013,Expatriate,Male,Oesophagus,1,50
+658,2013,Expatriate,Male,Multiple myeloma,1,50
+659,2013,Expatriate,Male,Liver and intrahepatic bile ducts,3,50
+660,2013,Expatriate,Male,Larynx,1,50
+661,2013,Expatriate,Male,Colorectum,1,50
+662,2013,Expatriate,Male,Bladder,2,50
+663,2013,Expatriate,Male,"Trachea, bronchus and lung",1,55
+664,2013,Expatriate,Male,Stomach,1,55
+665,2013,Expatriate,Male,Pancreas,2,55
+666,2013,Expatriate,Male,Multiple myeloma,1,55
+667,2013,Expatriate,Male,Lymphoma,1,55
+668,2013,Expatriate,Male,Liver and intrahepatic bile ducts,4,55
+669,2013,Expatriate,Male,"Lip, oral cavity",1,55
+670,2013,Expatriate,Male,Leukaemia,2,55
+671,2013,Expatriate,Male,Colorectum,1,55
+672,2013,Expatriate,Male,"Brain, nervous system",1,55
+673,2013,Expatriate,Male,Bladder,1,55
+674,2013,Expatriate,Male,"Trachea, bronchus and lung",4,60
+675,2013,Expatriate,Male,Prostate,2,60
+676,2013,Expatriate,Male,Pancreas,3,60
+677,2013,Expatriate,Male,Other Cancer,2,60
+678,2013,Expatriate,Male,Lymphoma,1,60
+679,2013,Expatriate,Male,Liver and intrahepatic bile ducts,1,60
+680,2013,Expatriate,Male,Colorectum,2,60
+681,2013,Expatriate,Male,"Trachea, bronchus and lung",5,65
+682,2013,Expatriate,Male,Stomach,1,65
+683,2013,Expatriate,Male,Prostate,1,65
+684,2013,Expatriate,Male,Pancreas,2,65
+685,2013,Expatriate,Male,Other Cancer,1,65
+686,2013,Expatriate,Male,Multiple myeloma,1,65
+687,2013,Expatriate,Male,Liver and intrahepatic bile ducts,3,65
+688,2013,Expatriate,Male,Leukaemia,3,65
+689,2013,Expatriate,Male,Colorectum,2,65
+690,2013,Expatriate,Male,"Brain, nervous system",1,65
+691,2013,Expatriate,Male,"Trachea, bronchus and lung",3,70
+692,2013,Expatriate,Male,Thyroid,1,70
+693,2013,Expatriate,Male,Prostate,3,70
+694,2013,Expatriate,Male,Liver and intrahepatic bile ducts,1,70
+695,2013,Expatriate,Male,Leukaemia,1,70
+696,2013,Expatriate,Male,Colorectum,1,70
+697,2013,Expatriate,Male,Bladder,1,70
+698,2013,Expatriate,Male,"Trachea, bronchus and lung",3,75
+699,2013,Expatriate,Male,Oesophagus,1,75
+700,2013,Expatriate,Male,Liver and intrahepatic bile ducts,2,75
+701,2013,Expatriate,Male,Leukaemia,1,75
+702,2013,Expatriate,Male,Colorectum,1,75
+703,2013,Expatriate,Male,"Brain, nervous system",1,75
+704,2013,Expatriate,Male,Bladder,2,75
+705,2013,Expatriate,Male,Thyroid,1,85
+706,2013,Expatriate,Male,Liver and intrahepatic bile ducts,1,85
+707,2013,,,Cervix uteri,1,10
+708,2013,National,Female,Other Cancer,1,5
+709,2013,National,Female,Leukaemia,1,10
+710,2013,National,Female,Testis,1,15
+711,2013,National,Female,"Trachea, bronchus and lung",1,20
+712,2013,National,Female,Other Cancer,2,25
+713,2013,National,Female,Oesophagus,1,25
+714,2013,National,Female,"Brain, nervous system",1,25
+715,2013,National,Female,Stomach,1,35
+716,2013,National,Female,Colorectum,1,35
+717,2013,National,Female,Other Cancer,1,40
+718,2013,National,Female,"Kidney, renal pelvis and ureter",1,40
+719,2013,National,Female,Breast,1,40
+720,2013,National,Female,"Trachea, bronchus and lung",1,50
+721,2013,National,Female,Pancreas,1,50
+722,2013,National,Female,Liver and intrahepatic bile ducts,1,50
+723,2013,National,Female,Breast,2,50
+724,2013,National,Female,Ovary,1,55
+725,2013,National,Female,Other Cancer,1,55
+726,2013,National,Female,Breast,2,55
+727,2013,National,Female,"Brain, nervous system",1,55
+728,2013,National,Female,Liver and intrahepatic bile ducts,2,60
+729,2013,National,Female,Cervix uteri,1,60
+730,2013,National,Female,Other Cancer,1,65
+731,2013,National,Female,Oesophagus,1,65
+732,2013,National,Female,Lymphoma,1,65
+733,2013,National,Female,Liver and intrahepatic bile ducts,2,65
+734,2013,National,Female,Leukaemia,1,65
+735,2013,National,Female,Colorectum,1,65
+736,2013,National,Female,Cervix uteri,1,65
+737,2013,National,Female,"Brain, nervous system",1,65
+738,2013,National,Female,Stomach,1,70
+739,2013,National,Female,Pancreas,1,70
+740,2013,National,Female,Ovary,1,70
+741,2013,National,Female,Liver and intrahepatic bile ducts,1,70
+742,2013,National,Female,Larynx,1,70
+743,2013,National,Female,Cervix uteri,1,70
+744,2013,National,Female,"Brain, nervous system",2,70
+745,2013,National,Female,Bladder,1,70
+746,2013,National,Female,Breast,1,75
+747,2013,National,Female,"Brain, nervous system",1,75
+748,2013,National,Female,Leukaemia,1,80
+749,2013,National,Female,"Trachea, bronchus and lung",1,85
+750,2013,National,Female,Liver and intrahepatic bile ducts,1,85
+751,2013,National,Female,Breast,1,85
+752,2013,National,Male,Lymphoma,1,0
+753,2013,National,Male,Other Cancer,1,5
+754,2013,National,Male,Lymphoma,1,10
+755,2013,National,Male,Leukaemia,2,10
+756,2013,National,Male,Other Cancer,1,15
+757,2013,National,Male,Other Cancer,1,20
+758,2013,National,Male,Leukaemia,1,25
+759,2013,National,Male,Leukaemia,2,30
+760,2013,National,Male,Leukaemia,2,35
+761,2013,National,Male,"Brain, nervous system",1,35
+762,2013,National,Male,Multiple myeloma,1,40
+763,2013,National,Male,"Trachea, bronchus and lung",1,50
+764,2013,National,Male,Stomach,1,50
+765,2013,National,Male,Other pharynx,1,50
+766,2013,National,Male,Liver and intrahepatic bile ducts,3,50
+767,2013,National,Male,Colorectum,2,50
+768,2013,National,Male,"Trachea, bronchus and lung",1,55
+769,2013,National,Male,Pancreas,1,55
+770,2013,National,Male,Colorectum,1,55
+771,2013,National,Male,"Brain, nervous system",1,55
+772,2013,National,Male,Other Cancer,1,60
+773,2013,National,Male,Melanoma of skin,1,60
+774,2013,National,Male,Liver and intrahepatic bile ducts,1,60
+775,2013,National,Male,Leukaemia,1,60
+776,2013,National,Male,Colorectum,1,60
+777,2013,National,Male,"Trachea, bronchus and lung",2,65
+778,2013,National,Male,Multiple myeloma,1,65
+779,2013,National,Male,Liver and intrahepatic bile ducts,1,65
+780,2013,National,Male,"Kidney, renal pelvis and ureter",2,65
+781,2013,National,Male,"Brain, nervous system",1,65
+782,2013,National,Male,"Trachea, bronchus and lung",4,70
+783,2013,National,Male,Stomach,1,70
+784,2013,National,Male,Prostate,2,70
+785,2013,National,Male,Pancreas,1,70
+786,2013,National,Male,Oesophagus,1,70
+787,2013,National,Male,Liver and intrahepatic bile ducts,2,70
+788,2013,National,Male,Colorectum,2,70
+789,2013,National,Male,"Trachea, bronchus and lung",2,75
+790,2013,National,Male,Stomach,1,75
+791,2013,National,Male,Lymphoma,1,75
+792,2013,National,Male,Liver and intrahepatic bile ducts,1,75
+793,2013,National,Male,Leukaemia,1,75
+794,2013,National,Male,Gallbladder and extrahepatic ducts,1,75
+795,2013,National,Male,Colorectum,1,75
+796,2013,National,Male,"Brain, nervous system",1,75
+797,2013,National,Male,"Trachea, bronchus and lung",2,80
+798,2013,National,Male,Stomach,1,80
+799,2013,National,Male,Other Cancer,1,80
+800,2013,National,Male,Multiple myeloma,1,80
+801,2013,National,Male,Liver and intrahepatic bile ducts,1,80
+802,2013,National,Male,"Kidney, renal pelvis and ureter",1,80
+803,2013,National,Male,"Trachea, bronchus and lung",1,85
+804,2013,National,Male,Stomach,2,85
+805,2013,National,Male,Prostate,1,85
+806,2013,National,Male,Pancreas,2,85
+807,2013,National,Male,Liver and intrahepatic bile ducts,1,85
+808,2013,National,Male,Leukaemia,1,85
+809,2013,National,Male,"Kidney, renal pelvis and ureter",1,85
+810,2013,National,Male,Colorectum,2,85
+811,2014,Expatriate,Female,Leukaemia,1,5
+812,2014,Expatriate,Female,Leukaemia,1,10
+813,2014,Expatriate,Female,Leukaemia,1,15
+814,2014,Expatriate,Female,"Trachea, bronchus and lung",1,20
+815,2014,Expatriate,Female,Other Cancer,3,20
+816,2014,Expatriate,Female,Leukaemia,1,20
+817,2014,Expatriate,Female,"Lip, oral cavity",1,25
+818,2014,Expatriate,Female,"Brain, nervous system",1,25
+819,2014,Expatriate,Female,Ovary,1,30
+820,2014,Expatriate,Female,Other Cancer,1,30
+821,2014,Expatriate,Female,Colorectum,1,30
+822,2014,Expatriate,Female,Breast,1,30
+823,2014,Expatriate,Female,Ovary,1,35
+824,2014,Expatriate,Female,Other pharynx,1,35
+825,2014,Expatriate,Female,Breast,3,35
+826,2014,Expatriate,Female,"Trachea, bronchus and lung",2,40
+827,2014,Expatriate,Female,Other Cancer,1,40
+828,2014,Expatriate,Female,Melanoma of skin,1,40
+829,2014,Expatriate,Female,Leukaemia,2,40
+830,2014,Expatriate,Female,Breast,3,40
+831,2014,Expatriate,Female,"Trachea, bronchus and lung",1,45
+832,2014,Expatriate,Female,Other Cancer,1,45
+833,2014,Expatriate,Female,Larynx,1,45
+834,2014,Expatriate,Female,Colorectum,2,45
+835,2014,Expatriate,Female,Cervix uteri,1,45
+836,2014,Expatriate,Female,Breast,3,45
+837,2014,Expatriate,Female,Stomach,1,50
+838,2014,Expatriate,Female,Pancreas,1,50
+839,2014,Expatriate,Female,Colorectum,1,50
+840,2014,Expatriate,Female,Breast,8,50
+841,2014,Expatriate,Female,"Brain, nervous system",3,50
+842,2014,Expatriate,Female,Thyroid,1,55
+843,2014,Expatriate,Female,Pancreas,1,55
+844,2014,Expatriate,Female,Ovary,1,55
+845,2014,Expatriate,Female,Other Cancer,4,55
+846,2014,Expatriate,Female,Melanoma of skin,1,55
+847,2014,Expatriate,Female,Gallbladder and extrahepatic ducts,1,55
+848,2014,Expatriate,Female,Colorectum,1,55
+849,2014,Expatriate,Female,Breast,11,55
+850,2014,Expatriate,Female,"Trachea, bronchus and lung",2,60
+851,2014,Expatriate,Female,Stomach,1,60
+852,2014,Expatriate,Female,Ovary,2,60
+853,2014,Expatriate,Female,Other Cancer,1,60
+854,2014,Expatriate,Female,Gallbladder and extrahepatic ducts,1,60
+855,2014,Expatriate,Female,Breast,3,60
+856,2014,Expatriate,Female,"Brain, nervous system",1,60
+857,2014,Expatriate,Female,"Trachea, bronchus and lung",1,65
+858,2014,Expatriate,Female,Pancreas,1,65
+859,2014,Expatriate,Female,Ovary,1,65
+860,2014,Expatriate,Female,Other Cancer,1,65
+861,2014,Expatriate,Female,Lymphoma,1,65
+862,2014,Expatriate,Female,Liver and intrahepatic bile ducts,1,65
+863,2014,Expatriate,Female,Leukaemia,4,65
+864,2014,Expatriate,Female,"Kidney, renal pelvis and ureter",1,65
+865,2014,Expatriate,Female,Gallbladder and extrahepatic ducts,1,65
+866,2014,Expatriate,Female,Corpus uteri,1,65
+867,2014,Expatriate,Female,Colorectum,3,65
+868,2014,Expatriate,Female,Stomach,1,70
+869,2014,Expatriate,Female,Pancreas,2,70
+870,2014,Expatriate,Female,Other Cancer,1,70
+871,2014,Expatriate,Female,Liver and intrahepatic bile ducts,2,70
+872,2014,Expatriate,Female,Leukaemia,1,70
+873,2014,Expatriate,Female,Gallbladder and extrahepatic ducts,1,70
+874,2014,Expatriate,Female,Cervix uteri,1,70
+875,2014,Expatriate,Female,Breast,2,70
+876,2014,Expatriate,Female,"Trachea, bronchus and lung",2,75
+877,2014,Expatriate,Female,Pancreas,1,75
+878,2014,Expatriate,Female,Other Cancer,2,75
+879,2014,Expatriate,Female,Multiple myeloma,1,75
+880,2014,Expatriate,Female,Liver and intrahepatic bile ducts,3,75
+881,2014,Expatriate,Female,Leukaemia,1,75
+882,2014,Expatriate,Female,Colorectum,1,75
+883,2014,Expatriate,Female,Pancreas,1,80
+884,2014,Expatriate,Female,Other pharynx,1,80
+885,2014,Expatriate,Female,Lymphoma,1,80
+886,2014,Expatriate,Female,Leukaemia,1,80
+887,2014,Expatriate,Female,Breast,1,80
+888,2014,Expatriate,Female,Ovary,1,85
+889,2014,Expatriate,Female,Melanoma of skin,1,85
+890,2014,Expatriate,Male,Leukaemia,1,0
+891,2014,Expatriate,Male,Leukaemia,2,5
+892,2014,Expatriate,Male,"Brain, nervous system",1,5
+893,2014,Expatriate,Male,"Trachea, bronchus and lung",1,10
+894,2014,Expatriate,Male,"Brain, nervous system",1,10
+895,2014,Expatriate,Male,Leukaemia,1,15
+896,2014,Expatriate,Male,"Brain, nervous system",1,15
+897,2014,Expatriate,Male,Melanoma of skin,1,20
+898,2014,Expatriate,Male,Liver and intrahepatic bile ducts,1,20
+899,2014,Expatriate,Male,Leukaemia,1,20
+900,2014,Expatriate,Male,Other Cancer,1,25
+901,2014,Expatriate,Male,Leukaemia,2,25
+902,2014,Expatriate,Male,"Brain, nervous system",1,25
+903,2014,Expatriate,Male,"Trachea, bronchus and lung",2,30
+904,2014,Expatriate,Male,Pancreas,1,30
+905,2014,Expatriate,Male,Other pharynx,1,30
+906,2014,Expatriate,Male,Other Cancer,1,30
+907,2014,Expatriate,Male,Non-melanoma skin cancer,1,30
+908,2014,Expatriate,Male,Leukaemia,2,30
+909,2014,Expatriate,Male,"Trachea, bronchus and lung",1,35
+910,2014,Expatriate,Male,Other Cancer,1,35
+911,2014,Expatriate,Male,Liver and intrahepatic bile ducts,1,35
+912,2014,Expatriate,Male,Other pharynx,1,40
+913,2014,Expatriate,Male,Lymphoma,1,40
+914,2014,Expatriate,Male,Leukaemia,1,40
+915,2014,Expatriate,Male,Colorectum,1,40
+916,2014,Expatriate,Male,"Brain, nervous system",2,40
+917,2014,Expatriate,Male,Bladder,1,40
+918,2014,Expatriate,Male,Stomach,1,45
+919,2014,Expatriate,Male,Pancreas,1,45
+920,2014,Expatriate,Male,Leukaemia,5,45
+921,2014,Expatriate,Male,"Trachea, bronchus and lung",1,50
+922,2014,Expatriate,Male,Testis,1,50
+923,2014,Expatriate,Male,Stomach,2,50
+924,2014,Expatriate,Male,Oesophagus,1,50
+925,2014,Expatriate,Male,Nasopharynx,1,50
+926,2014,Expatriate,Male,Lymphoma,2,50
+927,2014,Expatriate,Male,Liver and intrahepatic bile ducts,1,50
+928,2014,Expatriate,Male,Leukaemia,1,50
+929,2014,Expatriate,Male,"Kidney, renal pelvis and ureter",1,50
+930,2014,Expatriate,Male,"Brain, nervous system",1,50
+931,2014,Expatriate,Male,"Trachea, bronchus and lung",2,55
+932,2014,Expatriate,Male,Prostate,1,55
+933,2014,Expatriate,Male,Pancreas,1,55
+934,2014,Expatriate,Male,Other pharynx,1,55
+935,2014,Expatriate,Male,Other Cancer,3,55
+936,2014,Expatriate,Male,Lymphoma,1,55
+937,2014,Expatriate,Male,Liver and intrahepatic bile ducts,1,55
+938,2014,Expatriate,Male,Kaposi sarcoma,1,55
+939,2014,Expatriate,Male,Colorectum,5,55
+940,2014,Expatriate,Male,"Trachea, bronchus and lung",3,60
+941,2014,Expatriate,Male,Prostate,1,60
+942,2014,Expatriate,Male,Pancreas,1,60
+943,2014,Expatriate,Male,Other Cancer,1,60
+944,2014,Expatriate,Male,Oesophagus,1,60
+945,2014,Expatriate,Male,Liver and intrahepatic bile ducts,1,60
+946,2014,Expatriate,Male,"Lip, oral cavity",2,60
+947,2014,Expatriate,Male,"Kidney, renal pelvis and ureter",1,60
+948,2014,Expatriate,Male,Colorectum,3,60
+949,2014,Expatriate,Male,"Brain, nervous system",1,60
+950,2014,Expatriate,Male,Bladder,1,60
+951,2014,Expatriate,Male,"Trachea, bronchus and lung",4,65
+952,2014,Expatriate,Male,Prostate,2,65
+953,2014,Expatriate,Male,Pancreas,2,65
+954,2014,Expatriate,Male,Other Cancer,1,65
+955,2014,Expatriate,Male,Oesophagus,1,65
+956,2014,Expatriate,Male,Lymphoma,1,65
+957,2014,Expatriate,Male,Liver and intrahepatic bile ducts,1,65
+958,2014,Expatriate,Male,"Lip, oral cavity",1,65
+959,2014,Expatriate,Male,Leukaemia,3,65
+960,2014,Expatriate,Male,Larynx,1,65
+961,2014,Expatriate,Male,Colorectum,4,65
+962,2014,Expatriate,Male,Bladder,1,65
+963,2014,Expatriate,Male,"Trachea, bronchus and lung",2,70
+964,2014,Expatriate,Male,Stomach,2,70
+965,2014,Expatriate,Male,Prostate,2,70
+966,2014,Expatriate,Male,Other Cancer,2,70
+967,2014,Expatriate,Male,Multiple myeloma,1,70
+968,2014,Expatriate,Male,Liver and intrahepatic bile ducts,3,70
+969,2014,Expatriate,Male,"Lip, oral cavity",1,70
+970,2014,Expatriate,Male,Leukaemia,2,70
+971,2014,Expatriate,Male,Bladder,1,70
+972,2014,Expatriate,Male,"Trachea, bronchus and lung",1,75
+973,2014,Expatriate,Male,Prostate,1,75
+974,2014,Expatriate,Male,Pancreas,1,75
+975,2014,Expatriate,Male,Multiple myeloma,1,75
+976,2014,Expatriate,Male,Liver and intrahepatic bile ducts,4,75
+977,2014,Expatriate,Male,Larynx,2,75
+978,2014,Expatriate,Male,"Brain, nervous system",1,75
+979,2014,Expatriate,Male,Multiple myeloma,1,80
+980,2014,Expatriate,Male,Lymphoma,1,80
+981,2014,Expatriate,Male,Colorectum,1,80
+982,2014,Expatriate,Male,Other Cancer,2,85
+983,2014,Expatriate,Male,Multiple myeloma,1,85
+984,2014,Expatriate,Male,Liver and intrahepatic bile ducts,1,85
+985,2014,Expatriate,Male,Gallbladder and extrahepatic ducts,1,85
+986,2014,Expatriate,Male,Colorectum,1,85
+987,2014,,Male,"Trachea, bronchus and lung",1,80
+988,2014,National,Female,Leukaemia,1,0
+989,2014,National,Female,Other Cancer,1,5
+990,2014,National,Female,Leukaemia,1,25
+991,2014,National,Female,Stomach,1,30
+992,2014,National,Female,Breast,2,30
+993,2014,National,Female,Colorectum,2,35
+994,2014,National,Female,Colorectum,1,40
+995,2014,National,Female,Cervix uteri,1,40
+996,2014,National,Female,Stomach,1,45
+997,2014,National,Female,Other Cancer,1,45
+998,2014,National,Female,Gallbladder and extrahepatic ducts,1,45
+999,2014,National,Female,Cervix uteri,1,45
+1000,2014,National,Female,Breast,1,45
+1001,2014,National,Female,Stomach,1,50
+1002,2014,National,Female,Leukaemia,1,50
+1003,2014,National,Female,Colorectum,1,50
+1004,2014,National,Female,Cervix uteri,1,50
+1005,2014,National,Female,Breast,1,50
+1006,2014,National,Female,Stomach,1,55
+1007,2014,National,Female,Cervix uteri,1,55
+1008,2014,National,Female,Breast,3,55
+1009,2014,National,Female,"Trachea, bronchus and lung",1,60
+1010,2014,National,Female,Pancreas,2,60
+1011,2014,National,Female,Other Cancer,1,60
+1012,2014,National,Female,Liver and intrahepatic bile ducts,2,60
+1013,2014,National,Female,Colorectum,1,60
+1014,2014,National,Female,"Trachea, bronchus and lung",1,65
+1015,2014,National,Female,Stomach,1,65
+1016,2014,National,Female,Pancreas,1,65
+1017,2014,National,Female,Liver and intrahepatic bile ducts,2,65
+1018,2014,National,Female,Gallbladder and extrahepatic ducts,1,65
+1019,2014,National,Female,Corpus uteri,1,65
+1020,2014,National,Female,Colorectum,1,65
+1021,2014,National,Female,Breast,1,65
+1022,2014,National,Female,Colorectum,1,70
+1023,2014,National,Female,Breast,1,70
+1024,2014,National,Female,Ovary,1,75
+1025,2014,National,Female,Other Cancer,1,75
+1026,2014,National,Female,Gallbladder and extrahepatic ducts,1,75
+1027,2014,National,Female,Cervix uteri,1,75
+1028,2014,National,Female,Stomach,1,80
+1029,2014,National,Female,Multiple myeloma,1,80
+1030,2014,National,Female,Colorectum,1,80
+1031,2014,National,Female,Breast,1,80
+1032,2014,National,Female,Other Cancer,2,85
+1033,2014,National,Female,Bladder,1,85
+1034,2014,National,Male,Other Cancer,1,0
+1035,2014,National,Male,Leukaemia,1,0
+1036,2014,National,Male,Lymphoma,1,5
+1037,2014,National,Male,"Brain, nervous system",1,5
+1038,2014,National,Male,Lymphoma,1,10
+1039,2014,National,Male,"Brain, nervous system",1,10
+1040,2014,National,Male,Testis,1,15
+1041,2014,National,Male,"Trachea, bronchus and lung",1,25
+1042,2014,National,Male,Lymphoma,1,30
+1043,2014,National,Male,Leukaemia,1,30
+1044,2014,National,Male,Leukaemia,1,35
+1045,2014,National,Male,"Trachea, bronchus and lung",1,40
+1046,2014,National,Male,Stomach,1,40
+1047,2014,National,Male,Lymphoma,1,40
+1048,2014,National,Male,Leukaemia,1,40
+1049,2014,National,Male,Colorectum,1,40
+1050,2014,National,Male,Pancreas,1,50
+1051,2014,National,Male,Oesophagus,1,50
+1052,2014,National,Male,Leukaemia,1,50
+1053,2014,National,Male,Colorectum,2,50
+1054,2014,National,Male,"Trachea, bronchus and lung",2,55
+1055,2014,National,Male,Liver and intrahepatic bile ducts,3,55
+1056,2014,National,Male,"Brain, nervous system",1,55
+1057,2014,National,Male,Stomach,1,60
+1058,2014,National,Male,Melanoma of skin,1,60
+1059,2014,National,Male,Lymphoma,1,60
+1060,2014,National,Male,Gallbladder and extrahepatic ducts,1,60
+1061,2014,National,Male,Colorectum,1,60
+1062,2014,National,Male,Bladder,1,60
+1063,2014,National,Male,"Trachea, bronchus and lung",2,65
+1064,2014,National,Male,Testis,1,65
+1065,2014,National,Male,Stomach,1,65
+1066,2014,National,Male,Prostate,1,65
+1067,2014,National,Male,Multiple myeloma,1,65
+1068,2014,National,Male,Liver and intrahepatic bile ducts,2,65
+1069,2014,National,Male,Gallbladder and extrahepatic ducts,2,65
+1070,2014,National,Male,"Brain, nervous system",1,65
+1071,2014,National,Male,"Trachea, bronchus and lung",7,70
+1072,2014,National,Male,Stomach,2,70
+1073,2014,National,Male,Pancreas,1,70
+1074,2014,National,Male,Lymphoma,1,70
+1075,2014,National,Male,Leukaemia,2,70
+1076,2014,National,Male,Gallbladder and extrahepatic ducts,2,70
+1077,2014,National,Male,"Brain, nervous system",2,70
+1078,2014,National,Male,Bladder,1,70
+1079,2014,National,Male,"Trachea, bronchus and lung",1,75
+1080,2014,National,Male,Stomach,2,75
+1081,2014,National,Male,Prostate,2,75
+1082,2014,National,Male,Pancreas,1,75
+1083,2014,National,Male,Other Cancer,1,75
+1084,2014,National,Male,Lymphoma,1,75
+1085,2014,National,Male,"Kidney, renal pelvis and ureter",1,75
+1086,2014,National,Male,"Trachea, bronchus and lung",3,80
+1087,2014,National,Male,Lymphoma,3,80
+1088,2014,National,Male,Liver and intrahepatic bile ducts,1,80
+1089,2014,National,Male,Leukaemia,2,80
+1090,2014,National,Male,"Trachea, bronchus and lung",1,85
+1091,2015,Expatriate,Female,Liver and intrahepatic bile ducts,1,0
+1092,2015,Expatriate,Female,Leukaemia,1,0
+1093,2015,Expatriate,Female,Other Cancer,2,5
+1094,2015,Expatriate,Female,Leukaemia,1,5
+1095,2015,Expatriate,Female,Leukaemia,1,10
+1096,2015,Expatriate,Female,"Brain, nervous system",1,10
+1097,2015,Expatriate,Female,Leukaemia,1,15
+1098,2015,Expatriate,Female,"Brain, nervous system",1,15
+1099,2015,Expatriate,Female,Other Cancer,2,20
+1100,2015,Expatriate,Female,Stomach,1,25
+1101,2015,Expatriate,Female,Leukaemia,1,30
+1102,2015,Expatriate,Female,Breast,1,30
+1103,2015,Expatriate,Female,"Brain, nervous system",1,30
+1104,2015,Expatriate,Female,Other Cancer,1,35
+1105,2015,Expatriate,Female,Gallbladder and extrahepatic ducts,1,35
+1106,2015,Expatriate,Female,Cervix uteri,1,35
+1107,2015,Expatriate,Female,Breast,2,35
+1108,2015,Expatriate,Female,"Brain, nervous system",1,35
+1109,2015,Expatriate,Female,Ovary,1,40
+1110,2015,Expatriate,Female,Leukaemia,1,40
+1111,2015,Expatriate,Female,Colorectum,1,40
+1112,2015,Expatriate,Female,Breast,3,40
+1113,2015,Expatriate,Female,"Trachea, bronchus and lung",1,45
+1114,2015,Expatriate,Female,Ovary,1,45
+1115,2015,Expatriate,Female,Liver and intrahepatic bile ducts,1,45
+1116,2015,Expatriate,Female,Leukaemia,1,45
+1117,2015,Expatriate,Female,Gallbladder and extrahepatic ducts,1,45
+1118,2015,Expatriate,Female,Colorectum,1,45
+1119,2015,Expatriate,Female,Cervix uteri,3,45
+1120,2015,Expatriate,Female,Breast,2,45
+1121,2015,Expatriate,Female,"Brain, nervous system",1,45
+1122,2015,Expatriate,Female,Stomach,1,50
+1123,2015,Expatriate,Female,Ovary,1,50
+1124,2015,Expatriate,Female,Other Cancer,2,50
+1125,2015,Expatriate,Female,Colorectum,2,50
+1126,2015,Expatriate,Female,Cervix uteri,1,50
+1127,2015,Expatriate,Female,Breast,5,50
+1128,2015,Expatriate,Female,"Trachea, bronchus and lung",1,55
+1129,2015,Expatriate,Female,Stomach,1,55
+1130,2015,Expatriate,Female,Pancreas,1,55
+1131,2015,Expatriate,Female,Ovary,1,55
+1132,2015,Expatriate,Female,Other Cancer,1,55
+1133,2015,Expatriate,Female,Melanoma of skin,1,55
+1134,2015,Expatriate,Female,Liver and intrahepatic bile ducts,1,55
+1135,2015,Expatriate,Female,Leukaemia,1,55
+1136,2015,Expatriate,Female,Gallbladder and extrahepatic ducts,1,55
+1137,2015,Expatriate,Female,Colorectum,3,55
+1138,2015,Expatriate,Female,Cervix uteri,1,55
+1139,2015,Expatriate,Female,Breast,5,55
+1140,2015,Expatriate,Female,"Trachea, bronchus and lung",2,60
+1141,2015,Expatriate,Female,Stomach,1,60
+1142,2015,Expatriate,Female,Pancreas,2,60
+1143,2015,Expatriate,Female,Ovary,2,60
+1144,2015,Expatriate,Female,Other Cancer,2,60
+1145,2015,Expatriate,Female,Colorectum,3,60
+1146,2015,Expatriate,Female,Cervix uteri,1,60
+1147,2015,Expatriate,Female,Breast,4,60
+1148,2015,Expatriate,Female,Bladder,1,60
+1149,2015,Expatriate,Female,Thyroid,1,65
+1150,2015,Expatriate,Female,Pancreas,1,65
+1151,2015,Expatriate,Female,Multiple myeloma,1,65
+1152,2015,Expatriate,Female,Leukaemia,2,65
+1153,2015,Expatriate,Female,Breast,6,65
+1154,2015,Expatriate,Female,Thyroid,1,70
+1155,2015,Expatriate,Female,Ovary,1,70
+1156,2015,Expatriate,Female,Lymphoma,1,70
+1157,2015,Expatriate,Female,Leukaemia,1,70
+1158,2015,Expatriate,Female,Colorectum,1,70
+1159,2015,Expatriate,Female,Cervix uteri,1,70
+1160,2015,Expatriate,Female,Breast,5,70
+1161,2015,Expatriate,Female,Bladder,1,70
+1162,2015,Expatriate,Female,Stomach,1,75
+1163,2015,Expatriate,Female,Ovary,1,75
+1164,2015,Expatriate,Female,Other Cancer,1,75
+1165,2015,Expatriate,Female,Liver and intrahepatic bile ducts,1,75
+1166,2015,Expatriate,Female,Gallbladder and extrahepatic ducts,1,75
+1167,2015,Expatriate,Female,Breast,1,75
+1168,2015,Expatriate,Female,Stomach,1,80
+1169,2015,Expatriate,Female,Ovary,2,80
+1170,2015,Expatriate,Female,Liver and intrahepatic bile ducts,2,80
+1171,2015,Expatriate,Female,Corpus uteri,1,80
+1172,2015,Expatriate,Female,"Trachea, bronchus and lung",2,85
+1173,2015,Expatriate,Male,"Kidney, renal pelvis and ureter",1,0
+1174,2015,Expatriate,Male,"Brain, nervous system",1,0
+1175,2015,Expatriate,Male,Leukaemia,1,5
+1176,2015,Expatriate,Male,Lymphoma,1,10
+1177,2015,Expatriate,Male,Other Cancer,1,15
+1178,2015,Expatriate,Male,Melanoma of skin,1,15
+1179,2015,Expatriate,Male,Leukaemia,2,15
+1180,2015,Expatriate,Male,Other pharynx,1,20
+1181,2015,Expatriate,Male,Lymphoma,1,20
+1182,2015,Expatriate,Male,"Trachea, bronchus and lung",1,25
+1183,2015,Expatriate,Male,Stomach,1,35
+1184,2015,Expatriate,Male,Multiple myeloma,1,35
+1185,2015,Expatriate,Male,Colorectum,1,35
+1186,2015,Expatriate,Male,"Brain, nervous system",1,35
+1187,2015,Expatriate,Male,Other pharynx,1,40
+1188,2015,Expatriate,Male,Other Cancer,1,40
+1189,2015,Expatriate,Male,Liver and intrahepatic bile ducts,1,40
+1190,2015,Expatriate,Male,Leukaemia,1,40
+1191,2015,Expatriate,Male,Larynx,1,40
+1192,2015,Expatriate,Male,Colorectum,2,40
+1193,2015,Expatriate,Male,"Brain, nervous system",2,40
+1194,2015,Expatriate,Male,"Trachea, bronchus and lung",3,45
+1195,2015,Expatriate,Male,Other Cancer,2,45
+1196,2015,Expatriate,Male,Liver and intrahepatic bile ducts,2,45
+1197,2015,Expatriate,Male,Gallbladder and extrahepatic ducts,1,45
+1198,2015,Expatriate,Male,Colorectum,4,45
+1199,2015,Expatriate,Male,"Brain, nervous system",1,45
+1200,2015,Expatriate,Male,"Trachea, bronchus and lung",5,50
+1201,2015,Expatriate,Male,Stomach,1,50
+1202,2015,Expatriate,Male,Pancreas,1,50
+1203,2015,Expatriate,Male,Other Cancer,1,50
+1204,2015,Expatriate,Male,Lymphoma,1,50
+1205,2015,Expatriate,Male,Leukaemia,1,50
+1206,2015,Expatriate,Male,Colorectum,1,50
+1207,2015,Expatriate,Male,Bladder,1,50
+1208,2015,Expatriate,Male,"Trachea, bronchus and lung",5,55
+1209,2015,Expatriate,Male,Stomach,1,55
+1210,2015,Expatriate,Male,Prostate,1,55
+1211,2015,Expatriate,Male,Pancreas,2,55
+1212,2015,Expatriate,Male,Other Cancer,1,55
+1213,2015,Expatriate,Male,Nasopharynx,1,55
+1214,2015,Expatriate,Male,Lymphoma,1,55
+1215,2015,Expatriate,Male,Liver and intrahepatic bile ducts,2,55
+1216,2015,Expatriate,Male,"Kidney, renal pelvis and ureter",1,55
+1217,2015,Expatriate,Male,Gallbladder and extrahepatic ducts,1,55
+1218,2015,Expatriate,Male,Colorectum,3,55
+1219,2015,Expatriate,Male,"Trachea, bronchus and lung",7,60
+1220,2015,Expatriate,Male,Prostate,1,60
+1221,2015,Expatriate,Male,Pancreas,2,60
+1222,2015,Expatriate,Male,Other Cancer,1,60
+1223,2015,Expatriate,Male,Lymphoma,1,60
+1224,2015,Expatriate,Male,Liver and intrahepatic bile ducts,2,60
+1225,2015,Expatriate,Male,Leukaemia,3,60
+1226,2015,Expatriate,Male,"Kidney, renal pelvis and ureter",1,60
+1227,2015,Expatriate,Male,Gallbladder and extrahepatic ducts,1,60
+1228,2015,Expatriate,Male,Colorectum,3,60
+1229,2015,Expatriate,Male,"Brain, nervous system",2,60
+1230,2015,Expatriate,Male,Bladder,1,60
+1231,2015,Expatriate,Male,"Trachea, bronchus and lung",5,65
+1232,2015,Expatriate,Male,Stomach,3,65
+1233,2015,Expatriate,Male,Prostate,1,65
+1234,2015,Expatriate,Male,Pancreas,2,65
+1235,2015,Expatriate,Male,Other Cancer,1,65
+1236,2015,Expatriate,Male,Lymphoma,1,65
+1237,2015,Expatriate,Male,Liver and intrahepatic bile ducts,3,65
+1238,2015,Expatriate,Male,"Lip, oral cavity",1,65
+1239,2015,Expatriate,Male,Leukaemia,1,65
+1240,2015,Expatriate,Male,Colorectum,4,65
+1241,2015,Expatriate,Male,"Trachea, bronchus and lung",2,70
+1242,2015,Expatriate,Male,Stomach,2,70
+1243,2015,Expatriate,Male,Prostate,1,70
+1244,2015,Expatriate,Male,Pancreas,4,70
+1245,2015,Expatriate,Male,Lymphoma,1,70
+1246,2015,Expatriate,Male,Liver and intrahepatic bile ducts,4,70
+1247,2015,Expatriate,Male,Leukaemia,1,70
+1248,2015,Expatriate,Male,"Kidney, renal pelvis and ureter",1,70
+1249,2015,Expatriate,Male,"Trachea, bronchus and lung",4,75
+1250,2015,Expatriate,Male,Stomach,1,75
+1251,2015,Expatriate,Male,Pancreas,1,75
+1252,2015,Expatriate,Male,Liver and intrahepatic bile ducts,1,75
+1253,2015,Expatriate,Male,Colorectum,2,75
+1254,2015,Expatriate,Male,"Trachea, bronchus and lung",2,80
+1255,2015,Expatriate,Male,Pancreas,1,80
+1256,2015,Expatriate,Male,Other Cancer,1,80
+1257,2015,Expatriate,Male,Non-melanoma skin cancer,1,80
+1258,2015,Expatriate,Male,Lymphoma,1,80
+1259,2015,Expatriate,Male,Leukaemia,1,80
+1260,2015,Expatriate,Male,"Trachea, bronchus and lung",1,85
+1261,2015,Expatriate,Male,Prostate,1,85
+1262,2015,Expatriate,Male,Other pharynx,1,85
+1263,2015,Expatriate,Male,"Kidney, renal pelvis and ureter",1,85
+1264,2015,Expatriate,Male,"Brain, nervous system",1,85
+1265,2015,National,Female,"Brain, nervous system",1,0
+1266,2015,National,Female,Other Cancer,1,20
+1267,2015,National,Female,"Trachea, bronchus and lung",1,25
+1268,2015,National,Female,Leukaemia,1,30
+1269,2015,National,Female,Breast,1,30
+1270,2015,National,Female,Breast,1,35
+1271,2015,National,Female,Colorectum,1,40
+1272,2015,National,Female,Breast,1,40
+1273,2015,National,Female,Melanoma of skin,1,45
+1274,2015,National,Female,Leukaemia,1,45
+1275,2015,National,Female,"Kidney, renal pelvis and ureter",1,45
+1276,2015,National,Female,Colorectum,2,45
+1277,2015,National,Female,Cervix uteri,1,45
+1278,2015,National,Female,Breast,5,45
+1279,2015,National,Female,Thyroid,1,50
+1280,2015,National,Female,Ovary,1,50
+1281,2015,National,Female,Colorectum,1,50
+1282,2015,National,Female,Breast,1,50
+1283,2015,National,Female,Other Cancer,1,55
+1284,2015,National,Female,Lymphoma,1,55
+1285,2015,National,Female,Cervix uteri,1,55
+1286,2015,National,Female,Breast,2,55
+1287,2015,National,Female,Colorectum,3,60
+1288,2015,National,Female,Breast,1,60
+1289,2015,National,Female,"Trachea, bronchus and lung",1,65
+1290,2015,National,Female,Multiple myeloma,1,65
+1291,2015,National,Female,Breast,1,65
+1292,2015,National,Female,"Trachea, bronchus and lung",1,70
+1293,2015,National,Female,Thyroid,1,70
+1294,2015,National,Female,Other Cancer,2,70
+1295,2015,National,Female,Gallbladder and extrahepatic ducts,1,70
+1296,2015,National,Female,Cervix uteri,1,70
+1297,2015,National,Female,Breast,2,70
+1298,2015,National,Female,"Trachea, bronchus and lung",2,75
+1299,2015,National,Female,Ovary,1,75
+1300,2015,National,Female,Leukaemia,2,75
+1301,2015,National,Female,Colorectum,1,75
+1302,2015,National,Female,Breast,2,75
+1303,2015,National,Female,Ovary,1,80
+1304,2015,National,Female,Multiple myeloma,1,80
+1305,2015,National,Female,Lymphoma,1,80
+1306,2015,National,Female,Liver and intrahepatic bile ducts,2,80
+1307,2015,National,Female,Gallbladder and extrahepatic ducts,1,80
+1308,2015,National,Female,Colorectum,1,80
+1309,2015,National,Female,Ovary,1,85
+1310,2015,National,Female,Leukaemia,1,85
+1311,2015,National,Female,Breast,1,85
+1312,2015,National,Female,Bladder,1,85
+1313,2015,National,Male,Leukaemia,1,0
+1314,2015,National,Male,Leukaemia,1,15
+1315,2015,National,Male,Stomach,1,20
+1316,2015,National,Male,Leukaemia,2,20
+1317,2015,National,Male,"Brain, nervous system",1,20
+1318,2015,National,Male,Liver and intrahepatic bile ducts,1,25
+1319,2015,National,Male,Leukaemia,1,25
+1320,2015,National,Male,"Lip, oral cavity",1,30
+1321,2015,National,Male,Leukaemia,1,30
+1322,2015,National,Male,"Lip, oral cavity",1,40
+1323,2015,National,Male,"Brain, nervous system",1,40
+1324,2015,National,Male,Lymphoma,1,45
+1325,2015,National,Male,Liver and intrahepatic bile ducts,1,45
+1326,2015,National,Male,Leukaemia,1,45
+1327,2015,National,Male,"Brain, nervous system",1,45
+1328,2015,National,Male,"Trachea, bronchus and lung",1,50
+1329,2015,National,Male,Prostate,1,50
+1330,2015,National,Male,Liver and intrahepatic bile ducts,1,50
+1331,2015,National,Male,Colorectum,1,50
+1332,2015,National,Male,Bladder,1,50
+1333,2015,National,Male,"Trachea, bronchus and lung",1,55
+1334,2015,National,Male,Colorectum,1,55
+1335,2015,National,Male,"Brain, nervous system",1,55
+1336,2015,National,Male,"Trachea, bronchus and lung",1,60
+1337,2015,National,Male,Stomach,1,60
+1338,2015,National,Male,Other pharynx,1,60
+1339,2015,National,Male,Leukaemia,1,60
+1340,2015,National,Male,"Trachea, bronchus and lung",4,65
+1341,2015,National,Male,Prostate,1,65
+1342,2015,National,Male,Pancreas,2,65
+1343,2015,National,Male,Oesophagus,1,65
+1344,2015,National,Male,Lymphoma,1,65
+1345,2015,National,Male,Liver and intrahepatic bile ducts,1,65
+1346,2015,National,Male,Leukaemia,1,65
+1347,2015,National,Male,Bladder,1,65
+1348,2015,National,Male,"Trachea, bronchus and lung",3,70
+1349,2015,National,Male,Thyroid,2,70
+1350,2015,National,Male,Stomach,1,70
+1351,2015,National,Male,Prostate,2,70
+1352,2015,National,Male,Pancreas,1,70
+1353,2015,National,Male,Other pharynx,1,70
+1354,2015,National,Male,Multiple myeloma,1,70
+1355,2015,National,Male,Liver and intrahepatic bile ducts,3,70
+1356,2015,National,Male,"Lip, oral cavity",1,70
+1357,2015,National,Male,Leukaemia,1,70
+1358,2015,National,Male,Gallbladder and extrahepatic ducts,1,70
+1359,2015,National,Male,Colorectum,4,70
+1360,2015,National,Male,"Trachea, bronchus and lung",3,75
+1361,2015,National,Male,Stomach,1,75
+1362,2015,National,Male,Pancreas,2,75
+1363,2015,National,Male,Oesophagus,1,75
+1364,2015,National,Male,Nasopharynx,1,75
+1365,2015,National,Male,Multiple myeloma,1,75
+1366,2015,National,Male,Leukaemia,1,75
+1367,2015,National,Male,Bladder,1,75
+1368,2015,National,Male,"Trachea, bronchus and lung",1,80
+1369,2015,National,Male,Stomach,1,80
+1370,2015,National,Male,Prostate,1,80
+1371,2015,National,Male,Multiple myeloma,1,80
+1372,2015,National,Male,Lymphoma,4,80
+1373,2015,National,Male,Leukaemia,1,80
+1374,2015,National,Male,Gallbladder and extrahepatic ducts,1,80
+1375,2015,National,Male,Colorectum,2,80
+1376,2015,National,Male,Stomach,1,85
+1377,2015,National,Male,Other Cancer,1,85
+1378,2015,National,Male,Liver and intrahepatic bile ducts,2,85
+1379,2015,National,Male,Colorectum,1,85
+1380,2016,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,0
+1381,2016,Expatriate,Female,Lymphoid Leukaemia,1,5
+1382,2016,Expatriate,Female,Myeloid Leukaemia,1,20
+1383,2016,Expatriate,Female,Ovary,1,30
+1384,2016,Expatriate,Female,"Other And Ill-Defined Sites In The Lip, Oral Cavity And Pharynx",1,30
+1385,2016,Expatriate,Female,Stomach,1,35
+1386,2016,Expatriate,Female,Pancreas,1,35
+1387,2016,Expatriate,Female,Leukaemia Of Unspecified Cell Type,1,35
+1388,2016,Expatriate,Female,Colon,3,35
+1389,2016,Expatriate,Female,Breast,2,35
+1390,2016,Expatriate,Female,Pancreas,1,40
+1391,2016,Expatriate,Female,Cervix Uteri,1,40
+1392,2016,Expatriate,Female,Breast,1,40
+1393,2016,Expatriate,Female,Brain,2,40
+1394,2016,Expatriate,Female,Meninges,1,45
+1395,2016,Expatriate,Female,Corpus Uteri,1,45
+1396,2016,Expatriate,Female,Colon,1,45
+1397,2016,Expatriate,Female,Cervix Uteri,3,45
+1398,2016,Expatriate,Female,Breast,6,45
+1399,2016,Expatriate,Female,Bone And Articular Cartilage Of Other And Unspecified Sites,1,45
+1400,2016,Expatriate,Female,Stomach,1,50
+1401,2016,Expatriate,Female,Pancreas,1,50
+1402,2016,Expatriate,Female,Other And Unspecified Parts Of Biliary Tract,1,50
+1403,2016,Expatriate,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,50
+1404,2016,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,50
+1405,2016,Expatriate,Female,Colon,1,50
+1406,2016,Expatriate,Female,Breast,7,50
+1407,2016,Expatriate,Female,Brain,2,50
+1408,2016,Expatriate,Female,"Uterus, Part Unspecified",1,55
+1409,2016,Expatriate,Female,Thyroid Gland,1,55
+1410,2016,Expatriate,Female,Stomach,1,55
+1411,2016,Expatriate,Female,Piriform Sinus,1,55
+1412,2016,Expatriate,Female,Pancreas,1,55
+1413,2016,Expatriate,Female,Ovary,2,55
+1414,2016,Expatriate,Female,"Other And Ill-Defined Sites In The Lip, Oral Cavity And Pharynx",1,55
+1415,2016,Expatriate,Female,Corpus Uteri,1,55
+1416,2016,Expatriate,Female,Colon,1,55
+1417,2016,Expatriate,Female,Cervix Uteri,1,55
+1418,2016,Expatriate,Female,Bronchus And Lung,1,55
+1419,2016,Expatriate,Female,Breast,3,55
+1420,2016,Expatriate,Female,Stomach,1,60
+1421,2016,Expatriate,Female,Pancreas,1,60
+1422,2016,Expatriate,Female,Ovary,1,60
+1423,2016,Expatriate,Female,Other Connective And Soft Tissue,1,60
+1424,2016,Expatriate,Female,Liver And Intrahepatic Bile Ducts,2,60
+1425,2016,Expatriate,Female,Leukaemia Of Unspecified Cell Type,1,60
+1426,2016,Expatriate,Female,Cervix Uteri,1,60
+1427,2016,Expatriate,Female,Breast,5,60
+1428,2016,Expatriate,Female,Stomach,1,65
+1429,2016,Expatriate,Female,Pancreas,2,65
+1430,2016,Expatriate,Female,Ovary,2,65
+1431,2016,Expatriate,Female,Oesophagus,1,65
+1432,2016,Expatriate,Female,Liver And Intrahepatic Bile Ducts,2,65
+1433,2016,Expatriate,Female,Hodgkin'S Disease,1,65
+1434,2016,Expatriate,Female,Gallbladder,1,65
+1435,2016,Expatriate,Female,Colon,1,65
+1436,2016,Expatriate,Female,Cervix Uteri,2,65
+1437,2016,Expatriate,Female,Breast,4,65
+1438,2016,Expatriate,Female,"Uterus, Part Unspecified",1,70
+1439,2016,Expatriate,Female,Ureter,1,70
+1440,2016,Expatriate,Female,Secondary Other Sites,1,70
+1441,2016,Expatriate,Female,Ovary,1,70
+1442,2016,Expatriate,Female,Other Connective And Soft Tissue,1,70
+1443,2016,Expatriate,Female,Other And Unspecified Types Of Non-Hodgkin'S Lymphoma,1,70
+1444,2016,Expatriate,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,70
+1445,2016,Expatriate,Female,Cervix Uteri,1,70
+1446,2016,Expatriate,Female,Breast,2,70
+1447,2016,Expatriate,Female,Thyroid Gland,1,75
+1448,2016,Expatriate,Female,"Spinal Cord, Cranial Nerves And Other Parts Of Central Nervous System",1,75
+1449,2016,Expatriate,Female,Pancreas,1,75
+1450,2016,Expatriate,Female,Oesophagus,1,75
+1451,2016,Expatriate,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,75
+1452,2016,Expatriate,Female,Liver And Intrahepatic Bile Ducts,2,75
+1453,2016,Expatriate,Female,Diffuse Non-Hodgkin'S Lymphoma,1,75
+1454,2016,Expatriate,Female,Bronchus And Lung,2,75
+1455,2016,Expatriate,Female,Breast,2,75
+1456,2016,Expatriate,Female,Bladder,1,75
+1457,2016,Expatriate,Female,"Uterus, Part Unspecified",1,80
+1458,2016,Expatriate,Female,Pancreas,1,80
+1459,2016,Expatriate,Female,Lymphoid Leukaemia,1,80
+1460,2016,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,80
+1461,2016,Expatriate,Female,Leukaemia Of Unspecified Cell Type,1,80
+1462,2016,Expatriate,Female,Bronchus And Lung,2,80
+1463,2016,Expatriate,Female,Bone And Articular Cartilage Of Other And Unspecified Sites,1,80
+1464,2016,Expatriate,Female,Secondary Respiratory And Digestive Organs,1,85
+1465,2016,Expatriate,Female,Rectum,1,85
+1466,2016,Expatriate,Female,Ovary,1,85
+1467,2016,Expatriate,Female,Breast,2,85
+1468,2016,Expatriate,Male,Myeloid Leukaemia,1,0
+1469,2016,Expatriate,Male,Myeloid Leukaemia,1,5
+1470,2016,Expatriate,Male,Lymphoid Leukaemia,1,5
+1471,2016,Expatriate,Male,Leukaemia Of Unspecified Cell Type,1,5
+1472,2016,Expatriate,Male,Other Connective And Soft Tissue,1,10
+1473,2016,Expatriate,Male,Diffuse Non-Hodgkin'S Lymphoma,1,10
+1474,2016,Expatriate,Male,Brain,1,15
+1475,2016,Expatriate,Male,Lymphoid Leukaemia,1,20
+1476,2016,Expatriate,Male,Leukaemia Of Unspecified Cell Type,1,20
+1477,2016,Expatriate,Male,Bone And Articular Cartilage Of Other And Unspecified Sites,1,20
+1478,2016,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,25
+1479,2016,Expatriate,Male,Rectum,1,30
+1480,2016,Expatriate,Male,Pancreas,1,30
+1481,2016,Expatriate,Male,Myeloid Leukaemia,1,30
+1482,2016,Expatriate,Male,Leukaemia Of Unspecified Cell Type,4,30
+1483,2016,Expatriate,Male,Brain,1,30
+1484,2016,Expatriate,Male,Stomach,2,35
+1485,2016,Expatriate,Male,Other And Unspecified Parts Of Mouth,1,35
+1486,2016,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,35
+1487,2016,Expatriate,Male,Hodgkin'S Disease,1,35
+1488,2016,Expatriate,Male,Diffuse Non-Hodgkin'S Lymphoma,1,35
+1489,2016,Expatriate,Male,Brain,1,35
+1490,2016,Expatriate,Male,Stomach,1,40
+1491,2016,Expatriate,Male,Rectum,1,40
+1492,2016,Expatriate,Male,Lymphoid Leukaemia,1,40
+1493,2016,Expatriate,Male,Diffuse Non-Hodgkin'S Lymphoma,1,40
+1494,2016,Expatriate,Male,Colon,1,40
+1495,2016,Expatriate,Male,Brain,2,40
+1496,2016,Expatriate,Male,Pancreas,1,45
+1497,2016,Expatriate,Male,Other Connective And Soft Tissue,1,45
+1498,2016,Expatriate,Male,Other And Ill-Defined Sites In The Respiratory System And Intrathoracic Organs,1,45
+1499,2016,Expatriate,Male,Oropharynx,1,45
+1500,2016,Expatriate,Male,Colon,1,45
+1501,2016,Expatriate,Male,Bronchus And Lung,1,45
+1502,2016,Expatriate,Male,Brain,2,45
+1503,2016,Expatriate,Male,Stomach,1,50
+1504,2016,Expatriate,Male,Secondary Respiratory And Digestive Organs,1,50
+1505,2016,Expatriate,Male,Nasopharynx,1,50
+1506,2016,Expatriate,Male,Malignant Melanoma Of Skin,1,50
+1507,2016,Expatriate,Male,Lymphoid Leukaemia,1,50
+1508,2016,Expatriate,Male,Colon,2,50
+1509,2016,Expatriate,Male,Bronchus And Lung,1,50
+1510,2016,Expatriate,Male,Brain,1,50
+1511,2016,Expatriate,Male,Thyroid Gland,1,55
+1512,2016,Expatriate,Male,Stomach,2,55
+1513,2016,Expatriate,Male,Pancreas,4,55
+1514,2016,Expatriate,Male,Other Connective And Soft Tissue,1,55
+1515,2016,Expatriate,Male,Nasopharynx,1,55
+1516,2016,Expatriate,Male,Myeloid Leukaemia,2,55
+1517,2016,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,2,55
+1518,2016,Expatriate,Male,Lymphoid Leukaemia,1,55
+1519,2016,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,55
+1520,2016,Expatriate,Male,Leukaemia Of Unspecified Cell Type,1,55
+1521,2016,Expatriate,Male,Colon,1,55
+1522,2016,Expatriate,Male,Bronchus And Lung,3,55
+1523,2016,Expatriate,Male,Accessory Sinuses,1,55
+1524,2016,Expatriate,Male,Stomach,1,60
+1525,2016,Expatriate,Male,Prostate,1,60
+1526,2016,Expatriate,Male,Pancreas,2,60
+1527,2016,Expatriate,Male,Other And Unspecified Major Salivary Glands,1,60
+1528,2016,Expatriate,Male,Malignant Neoplasm Without Specification Of Site,1,60
+1529,2016,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,60
+1530,2016,Expatriate,Male,Colon,1,60
+1531,2016,Expatriate,Male,Bronchus And Lung,8,60
+1532,2016,Expatriate,Male,Bladder,1,60
+1533,2016,Expatriate,Male,Stomach,2,65
+1534,2016,Expatriate,Male,Renal Pelvis,1,65
+1535,2016,Expatriate,Male,Prostate,1,65
+1536,2016,Expatriate,Male,Pancreas,3,65
+1537,2016,Expatriate,Male,Other Leukaemias Of Specified Cell Type,1,65
+1538,2016,Expatriate,Male,Other And Ill-Defined Sites In The Respiratory System And Intrathoracic Organs,1,65
+1539,2016,Expatriate,Male,Myeloid Leukaemia,2,65
+1540,2016,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,2,65
+1541,2016,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,65
+1542,2016,Expatriate,Male,"Heart, Mediastinum And Pleura",1,65
+1543,2016,Expatriate,Male,Colon,2,65
+1544,2016,Expatriate,Male,Bronchus And Lung,6,65
+1545,2016,Expatriate,Male,Brain,1,65
+1546,2016,Expatriate,Male,Bladder,1,65
+1547,2016,Expatriate,Male,Secondary Respiratory And Digestive Organs,1,70
+1548,2016,Expatriate,Male,Rectosigmoid Junction,1,70
+1549,2016,Expatriate,Male,Prostate,3,70
+1550,2016,Expatriate,Male,Pancreas,1,70
+1551,2016,Expatriate,Male,Liver And Intrahepatic Bile Ducts,4,70
+1552,2016,Expatriate,Male,Bronchus And Lung,1,70
+1553,2016,Expatriate,Male,Bladder,1,70
+1554,2016,Expatriate,Male,Stomach,1,75
+1555,2016,Expatriate,Male,Pancreas,1,75
+1556,2016,Expatriate,Male,Other And Ill-Defined Sites,1,75
+1557,2016,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,75
+1558,2016,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,75
+1559,2016,Expatriate,Male,Larynx,1,75
+1560,2016,Expatriate,Male,Bronchus And Lung,3,75
+1561,2016,Expatriate,Male,Prostate,1,80
+1562,2016,Expatriate,Male,Pancreas,1,80
+1563,2016,Expatriate,Male,Leukaemia Of Unspecified Cell Type,1,80
+1564,2016,Expatriate,Male,Bronchus And Lung,1,80
+1565,2016,Expatriate,Male,Stomach,1,85
+1566,2016,Expatriate,Male,Myeloid Leukaemia,1,85
+1567,2016,National,Female,Other Connective And Soft Tissue,1,0
+1568,2016,National,Female,Myeloid Leukaemia,1,10
+1569,2016,National,Female,Stomach,1,20
+1570,2016,National,Female,Breast,1,25
+1571,2016,National,Female,Stomach,1,30
+1572,2016,National,Female,Retroperitoneum And Peritoneum,1,35
+1573,2016,National,Female,Pancreas,1,35
+1574,2016,National,Female,Other Connective And Soft Tissue,1,35
+1575,2016,National,Female,"Other And Ill-Defined Sites In The Lip, Oral Cavity And Pharynx",1,35
+1576,2016,National,Female,Myeloid Leukaemia,1,35
+1577,2016,National,Female,Breast,4,35
+1578,2016,National,Female,Pancreas,1,40
+1579,2016,National,Female,Colon,1,40
+1580,2016,National,Female,Retroperitoneum And Peritoneum,1,45
+1581,2016,National,Female,Breast,1,45
+1582,2016,National,Female,"Uterus, Part Unspecified",1,50
+1583,2016,National,Female,Stomach,1,50
+1584,2016,National,Female,Ovary,1,50
+1585,2016,National,Female,Lymphoid Leukaemia,1,50
+1586,2016,National,Female,Liver And Intrahepatic Bile Ducts,2,50
+1587,2016,National,Female,Colon,1,50
+1588,2016,National,Female,Cervix Uteri,2,50
+1589,2016,National,Female,Bronchus And Lung,1,50
+1590,2016,National,Female,Breast,1,50
+1591,2016,National,Female,Brain,1,50
+1592,2016,National,Female,Ovary,1,55
+1593,2016,National,Female,Myeloid Leukaemia,1,55
+1594,2016,National,Female,"Kidney, Except Renal Pelvis",1,55
+1595,2016,National,Female,Colon,1,55
+1596,2016,National,Female,Breast,2,55
+1597,2016,National,Female,Brain,1,55
+1598,2016,National,Female,"Uterus, Part Unspecified",1,60
+1599,2016,National,Female,Pancreas,1,60
+1600,2016,National,Female,Lymphoid Leukaemia,1,60
+1601,2016,National,Female,Breast,4,60
+1602,2016,National,Female,Myeloid Leukaemia,1,65
+1603,2016,National,Female,Malignant Neoplasm Without Specification Of Site,1,65
+1604,2016,National,Female,Liver And Intrahepatic Bile Ducts,1,65
+1605,2016,National,Female,Corpus Uteri,1,65
+1606,2016,National,Female,Cervix Uteri,1,65
+1607,2016,National,Female,Breast,1,65
+1608,2016,National,Female,Pancreas,1,70
+1609,2016,National,Female,Other And Ill-Defined Digestive Organs,1,70
+1610,2016,National,Female,Malignant Neoplasm Without Specification Of Site,1,70
+1611,2016,National,Female,Lymphoid Leukaemia,1,70
+1612,2016,National,Female,Bronchus And Lung,1,70
+1613,2016,National,Female,Breast,1,70
+1614,2016,National,Female,Brain,1,70
+1615,2016,National,Female,"Uterus, Part Unspecified",1,75
+1616,2016,National,Female,Pancreas,1,75
+1617,2016,National,Female,Other And Ill-Defined Sites,1,75
+1618,2016,National,Female,Other And Ill-Defined Digestive Organs,1,75
+1619,2016,National,Female,Liver And Intrahepatic Bile Ducts,1,75
+1620,2016,National,Female,Colon,1,75
+1621,2016,National,Female,Breast,2,75
+1622,2016,National,Female,Liver And Intrahepatic Bile Ducts,1,80
+1623,2016,National,Female,Cervix Uteri,1,80
+1624,2016,National,Female,Secondary Respiratory And Digestive Organs,1,85
+1625,2016,National,Female,Pancreas,1,85
+1626,2016,National,Female,Ovary,1,85
+1627,2016,National,Female,Other And Unspecified Types Of Non-Hodgkin'S Lymphoma,1,85
+1628,2016,National,Female,Oesophagus,1,85
+1629,2016,National,Female,Liver And Intrahepatic Bile Ducts,1,85
+1630,2016,National,Female,Colon,1,85
+1631,2016,National,Male,Lymphoid Leukaemia,1,0
+1632,2016,National,Male,Secondary Other Sites,1,5
+1633,2016,National,Male,Liver And Intrahepatic Bile Ducts,2,5
+1634,2016,National,Male,Myeloid Leukaemia,1,10
+1635,2016,National,Male,Leukaemia Of Unspecified Cell Type,1,10
+1636,2016,National,Male,Brain,1,10
+1637,2016,National,Male,Leukaemia Of Unspecified Cell Type,1,20
+1638,2016,National,Male,Stomach,1,30
+1639,2016,National,Male,Stomach,1,35
+1640,2016,National,Male,"Spinal Cord, Cranial Nerves And Other Parts Of Central Nervous System",1,35
+1641,2016,National,Male,Colon,1,35
+1642,2016,National,Male,Pancreas,1,40
+1643,2016,National,Male,Malignant Neoplasm Without Specification Of Site,1,40
+1644,2016,National,Male,Small Intestine,1,45
+1645,2016,National,Male,Bronchus And Lung,1,45
+1646,2016,National,Male,Pancreas,1,50
+1647,2016,National,Male,Liver And Intrahepatic Bile Ducts,1,50
+1648,2016,National,Male,Colon,1,50
+1649,2016,National,Male,Stomach,2,55
+1650,2016,National,Male,Pancreas,3,55
+1651,2016,National,Male,Colon,1,55
+1652,2016,National,Male,Bronchus And Lung,1,55
+1653,2016,National,Male,Prostate,1,60
+1654,2016,National,Male,Nasopharynx,1,60
+1655,2016,National,Male,Hodgkin'S Disease,1,60
+1656,2016,National,Male,Colon,1,60
+1657,2016,National,Male,Bronchus And Lung,1,60
+1658,2016,National,Male,Brain,1,60
+1659,2016,National,Male,Rectum,1,65
+1660,2016,National,Male,Prostate,1,65
+1661,2016,National,Male,Pancreas,2,65
+1662,2016,National,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,65
+1663,2016,National,Male,Liver And Intrahepatic Bile Ducts,1,65
+1664,2016,National,Male,Follicular [Nodular] Non-Hodgkin'S Lymphoma,1,65
+1665,2016,National,Male,Colon,1,65
+1666,2016,National,Male,Bronchus And Lung,2,65
+1667,2016,National,Male,Rectum,1,70
+1668,2016,National,Male,Pancreas,2,70
+1669,2016,National,Male,Other And Ill-Defined Digestive Organs,1,70
+1670,2016,National,Male,Oesophagus,1,70
+1671,2016,National,Male,Myeloid Leukaemia,1,70
+1672,2016,National,Male,"Kidney, Except Renal Pelvis",1,70
+1673,2016,National,Male,Colon,1,70
+1674,2016,National,Male,Bronchus And Lung,3,70
+1675,2016,National,Male,Stomach,1,75
+1676,2016,National,Male,"Spinal Cord, Cranial Nerves And Other Parts Of Central Nervous System",1,75
+1677,2016,National,Male,Secondary Other Sites,1,75
+1678,2016,National,Male,Prostate,2,75
+1679,2016,National,Male,Pancreas,1,75
+1680,2016,National,Male,"Other And Ill-Defined Sites In The Lip, Oral Cavity And Pharynx",1,75
+1681,2016,National,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,75
+1682,2016,National,Male,Malignant Neoplasms Of Independent (Primary) Multiple Sites,1,75
+1683,2016,National,Male,Liver And Intrahepatic Bile Ducts,1,75
+1684,2016,National,Male,Hodgkin'S Disease,1,75
+1685,2016,National,Male,Colon,3,75
+1686,2016,National,Male,Bladder,1,75
+1687,2016,National,Male,Pancreas,1,80
+1688,2016,National,Male,Other And Unspecified Parts Of Mouth,1,80
+1689,2016,National,Male,Myeloid Leukaemia,1,80
+1690,2016,National,Male,Liver And Intrahepatic Bile Ducts,1,80
+1691,2016,National,Male,Bronchus And Lung,2,80
+1692,2016,National,Male,Liver And Intrahepatic Bile Ducts,1,85
+1693,2016,National,Male,Hodgkin'S Disease,1,85
+1694,2016,National,Male,Gallbladder,1,85
+1695,2017,Expatriate,Female,Eye And Adnexa,1,0
+1696,2017,Expatriate,Female,Brain,1,0
+1697,2017,Expatriate,Female,Breast,1,20
+1698,2017,Expatriate,Female,Stomach,1,25
+1699,2017,Expatriate,Female,Rectosigmoid Junction,1,25
+1700,2017,Expatriate,Female,"Heart, Mediastinum And Pleura",1,25
+1701,2017,Expatriate,Female,Bone And Articular Cartilage Of Other And Unspecified Sites,1,25
+1702,2017,Expatriate,Female,Stomach,1,30
+1703,2017,Expatriate,Female,Retroperitoneum And Peritoneum,1,30
+1704,2017,Expatriate,Female,Lymphoid Leukaemia,1,30
+1705,2017,Expatriate,Female,Cervix Uteri,2,30
+1706,2017,Expatriate,Female,Breast,2,30
+1707,2017,Expatriate,Female,Bone And Articular Cartilage Of Limbs,1,30
+1708,2017,Expatriate,Female,Ovary,1,35
+1709,2017,Expatriate,Female,Leukaemia Of Unspecified Cell Type,1,35
+1710,2017,Expatriate,Female,Bronchus And Lung,1,35
+1711,2017,Expatriate,Female,Breast,1,35
+1712,2017,Expatriate,Female,Pancreas,1,40
+1713,2017,Expatriate,Female,Diffuse Non-Hodgkin'S Lymphoma,1,40
+1714,2017,Expatriate,Female,Cervix Uteri,2,40
+1715,2017,Expatriate,Female,Bronchus And Lung,1,40
+1716,2017,Expatriate,Female,Breast,3,40
+1717,2017,Expatriate,Female,Other Connective And Soft Tissue,1,45
+1718,2017,Expatriate,Female,"Other And Unspecified Malignant Neoplasms Of Lymphoid, Haematopoietic And Related Tissue",1,45
+1719,2017,Expatriate,Female,Myeloid Leukaemia,1,45
+1720,2017,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,45
+1721,2017,Expatriate,Female,Follicular [Nodular] Non-Hodgkin'S Lymphoma,1,45
+1722,2017,Expatriate,Female,Cervix Uteri,1,45
+1723,2017,Expatriate,Female,Breast,5,45
+1724,2017,Expatriate,Female,Brain,2,45
+1725,2017,Expatriate,Female,"Uterus, Part Unspecified",1,50
+1726,2017,Expatriate,Female,Secondary Respiratory And Digestive Organs,1,50
+1727,2017,Expatriate,Female,Retroperitoneum And Peritoneum,1,50
+1728,2017,Expatriate,Female,Ovary,2,50
+1729,2017,Expatriate,Female,Other Connective And Soft Tissue,1,50
+1730,2017,Expatriate,Female,Malignant Neoplasm Without Specification Of Site,1,50
+1731,2017,Expatriate,Female,"Kidney, Except Renal Pelvis",1,50
+1732,2017,Expatriate,Female,Eye And Adnexa,1,50
+1733,2017,Expatriate,Female,Colon,1,50
+1734,2017,Expatriate,Female,Cervix Uteri,1,50
+1735,2017,Expatriate,Female,Breast,8,50
+1736,2017,Expatriate,Female,"Uterus, Part Unspecified",1,55
+1737,2017,Expatriate,Female,Stomach,1,55
+1738,2017,Expatriate,Female,Ovary,3,55
+1739,2017,Expatriate,Female,Myeloid Leukaemia,2,55
+1740,2017,Expatriate,Female,Lymphoid Leukaemia,1,55
+1741,2017,Expatriate,Female,Liver And Intrahepatic Bile Ducts,2,55
+1742,2017,Expatriate,Female,Gallbladder,1,55
+1743,2017,Expatriate,Female,Breast,6,55
+1744,2017,Expatriate,Female,Stomach,1,60
+1745,2017,Expatriate,Female,Pancreas,1,60
+1746,2017,Expatriate,Female,Oesophagus,1,60
+1747,2017,Expatriate,Female,Malignant Neoplasm Without Specification Of Site,1,60
+1748,2017,Expatriate,Female,Lymphoid Leukaemia,1,60
+1749,2017,Expatriate,Female,"Kidney, Except Renal Pelvis",1,60
+1750,2017,Expatriate,Female,Gallbladder,1,60
+1751,2017,Expatriate,Female,Corpus Uteri,3,60
+1752,2017,Expatriate,Female,Breast,5,60
+1753,2017,Expatriate,Female,Brain,1,60
+1754,2017,Expatriate,Female,Secondary Respiratory And Digestive Organs,1,65
+1755,2017,Expatriate,Female,Pancreas,3,65
+1756,2017,Expatriate,Female,Ovary,1,65
+1757,2017,Expatriate,Female,Other And Unspecified Types Of Non-Hodgkin'S Lymphoma,1,65
+1758,2017,Expatriate,Female,Malignant Melanoma Of Skin,1,65
+1759,2017,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,65
+1760,2017,Expatriate,Female,Corpus Uteri,1,65
+1761,2017,Expatriate,Female,Colon,3,65
+1762,2017,Expatriate,Female,Cervix Uteri,1,65
+1763,2017,Expatriate,Female,Bronchus And Lung,1,65
+1764,2017,Expatriate,Female,Breast,1,65
+1765,2017,Expatriate,Female,Brain,1,65
+1766,2017,Expatriate,Female,Pancreas,1,70
+1767,2017,Expatriate,Female,Ovary,1,70
+1768,2017,Expatriate,Female,Other And Unspecified Types Of Non-Hodgkin'S Lymphoma,1,70
+1769,2017,Expatriate,Female,Myeloid Leukaemia,1,70
+1770,2017,Expatriate,Female,Malignant Neoplasm Without Specification Of Site,1,70
+1771,2017,Expatriate,Female,Liver And Intrahepatic Bile Ducts,2,70
+1772,2017,Expatriate,Female,Gallbladder,1,70
+1773,2017,Expatriate,Female,Colon,1,70
+1774,2017,Expatriate,Female,Bronchus And Lung,2,70
+1775,2017,Expatriate,Female,Breast,4,70
+1776,2017,Expatriate,Female,Other And Unspecified Types Of Non-Hodgkin'S Lymphoma,1,75
+1777,2017,Expatriate,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,75
+1778,2017,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,75
+1779,2017,Expatriate,Female,Ovary,1,80
+1780,2017,Expatriate,Female,Nasopharynx,1,80
+1781,2017,Expatriate,Female,Hypopharynx,1,80
+1782,2017,Expatriate,Female,Colon,1,80
+1783,2017,Expatriate,Female,Bronchus And Lung,1,80
+1784,2017,Expatriate,Female,Breast,2,80
+1785,2017,Expatriate,Female,Colon,1,85
+1786,2017,Expatriate,Female,Bronchus And Lung,2,85
+1787,2017,Expatriate,Male,Brain,2,0
+1788,2017,Expatriate,Male,Adrenal Gland,1,0
+1789,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,5
+1790,2017,Expatriate,Male,Adrenal Gland,1,5
+1791,2017,Expatriate,Male,Brain,2,10
+1792,2017,Expatriate,Male,Myeloid Leukaemia,1,15
+1793,2017,Expatriate,Male,Lymphoid Leukaemia,1,15
+1794,2017,Expatriate,Male,"Other And Unspecified Malignant Neoplasms Of Lymphoid, Haematopoietic And Related Tissue",1,20
+1795,2017,Expatriate,Male,Rectum,1,25
+1796,2017,Expatriate,Male,Hodgkin'S Disease,1,25
+1797,2017,Expatriate,Male,Colon,1,25
+1798,2017,Expatriate,Male,Brain,1,25
+1799,2017,Expatriate,Male,Secondary Other Sites,1,30
+1800,2017,Expatriate,Male,Rectum,1,30
+1801,2017,Expatriate,Male,Larynx,1,30
+1802,2017,Expatriate,Male,Testis,1,35
+1803,2017,Expatriate,Male,Stomach,2,35
+1804,2017,Expatriate,Male,Secondary Respiratory And Digestive Organs,1,35
+1805,2017,Expatriate,Male,Nasopharynx,1,35
+1806,2017,Expatriate,Male,Lymphoid Leukaemia,1,35
+1807,2017,Expatriate,Male,Brain,2,35
+1808,2017,Expatriate,Male,Parotid Gland,1,40
+1809,2017,Expatriate,Male,Other And Unspecified Parts Of Mouth,1,40
+1810,2017,Expatriate,Male,Bronchus And Lung,1,40
+1811,2017,Expatriate,Male,Brain,2,40
+1812,2017,Expatriate,Male,Base Of Tongue,1,40
+1813,2017,Expatriate,Male,Stomach,2,45
+1814,2017,Expatriate,Male,Small Intestine,1,45
+1815,2017,Expatriate,Male,Rectum,1,45
+1816,2017,Expatriate,Male,Pancreas,1,45
+1817,2017,Expatriate,Male,Oesophagus,1,45
+1818,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,45
+1819,2017,Expatriate,Male,"Kidney, Except Renal Pelvis",1,45
+1820,2017,Expatriate,Male,Colon,4,45
+1821,2017,Expatriate,Male,Brain,2,45
+1822,2017,Expatriate,Male,Thyroid Gland,1,50
+1823,2017,Expatriate,Male,Stomach,3,50
+1824,2017,Expatriate,Male,Secondary Respiratory And Digestive Organs,1,50
+1825,2017,Expatriate,Male,Rectosigmoid Junction,2,50
+1826,2017,Expatriate,Male,Pancreas,3,50
+1827,2017,Expatriate,Male,Oesophagus,2,50
+1828,2017,Expatriate,Male,Myeloid Leukaemia,1,50
+1829,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,50
+1830,2017,Expatriate,Male,Gallbladder,1,50
+1831,2017,Expatriate,Male,Colon,5,50
+1832,2017,Expatriate,Male,Stomach,2,55
+1833,2017,Expatriate,Male,Rectosigmoid Junction,2,55
+1834,2017,Expatriate,Male,Prostate,1,55
+1835,2017,Expatriate,Male,Pancreas,2,55
+1836,2017,Expatriate,Male,Other And Unspecified Urinary Organs,1,55
+1837,2017,Expatriate,Male,Other And Unspecified Types Of Non-Hodgkin'S Lymphoma,1,55
+1838,2017,Expatriate,Male,Other And Unspecified Parts Of Mouth,1,55
+1839,2017,Expatriate,Male,Oropharynx,1,55
+1840,2017,Expatriate,Male,Nasopharynx,2,55
+1841,2017,Expatriate,Male,Myeloid Leukaemia,2,55
+1842,2017,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,55
+1843,2017,Expatriate,Male,Malignant Neoplasm Without Specification Of Site,1,55
+1844,2017,Expatriate,Male,Lymphoid Leukaemia,1,55
+1845,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,55
+1846,2017,Expatriate,Male,"Kidney, Except Renal Pelvis",1,55
+1847,2017,Expatriate,Male,Gallbladder,1,55
+1848,2017,Expatriate,Male,Follicular [Nodular] Non-Hodgkin'S Lymphoma,1,55
+1849,2017,Expatriate,Male,Colon,3,55
+1850,2017,Expatriate,Male,Bronchus And Lung,3,55
+1851,2017,Expatriate,Male,Brain,1,55
+1852,2017,Expatriate,Male,Thyroid Gland,1,60
+1853,2017,Expatriate,Male,Pancreas,3,60
+1854,2017,Expatriate,Male,Other And Unspecified Parts Of Biliary Tract,1,60
+1855,2017,Expatriate,Male,Other And Ill-Defined Sites In The Respiratory System And Intrathoracic Organs,1,60
+1856,2017,Expatriate,Male,Oesophagus,1,60
+1857,2017,Expatriate,Male,Myeloid Leukaemia,2,60
+1858,2017,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,60
+1859,2017,Expatriate,Male,Malignant Neoplasm Without Specification Of Site,1,60
+1860,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,4,60
+1861,2017,Expatriate,Male,Gallbladder,1,60
+1862,2017,Expatriate,Male,Floor Of Mouth,1,60
+1863,2017,Expatriate,Male,Colon,2,60
+1864,2017,Expatriate,Male,Bronchus And Lung,6,60
+1865,2017,Expatriate,Male,Brain,1,60
+1866,2017,Expatriate,Male,Bladder,1,60
+1867,2017,Expatriate,Male,Secondary Other Sites,1,65
+1868,2017,Expatriate,Male,Prostate,2,65
+1869,2017,Expatriate,Male,Pancreas,1,65
+1870,2017,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,65
+1871,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,65
+1872,2017,Expatriate,Male,Diffuse Non-Hodgkin'S Lymphoma,1,65
+1873,2017,Expatriate,Male,Colon,1,65
+1874,2017,Expatriate,Male,Bronchus And Lung,4,65
+1875,2017,Expatriate,Male,Bladder,1,65
+1876,2017,Expatriate,Male,Stomach,1,70
+1877,2017,Expatriate,Male,Small Intestine,1,70
+1878,2017,Expatriate,Male,Secondary Respiratory And Digestive Organs,1,70
+1879,2017,Expatriate,Male,Secondary Other Sites,1,70
+1880,2017,Expatriate,Male,Prostate,2,70
+1881,2017,Expatriate,Male,Penis,1,70
+1882,2017,Expatriate,Male,Pancreas,5,70
+1883,2017,Expatriate,Male,Other And Unspecified Types Of Non-Hodgkin'S Lymphoma,1,70
+1884,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,70
+1885,2017,Expatriate,Male,"Kidney, Except Renal Pelvis",1,70
+1886,2017,Expatriate,Male,Colon,2,70
+1887,2017,Expatriate,Male,Bronchus And Lung,1,70
+1888,2017,Expatriate,Male,Bladder,1,70
+1889,2017,Expatriate,Male,Secondary Respiratory And Digestive Organs,1,75
+1890,2017,Expatriate,Male,Lymphoid Leukaemia,1,75
+1891,2017,Expatriate,Male,"Heart, Mediastinum And Pleura",1,75
+1892,2017,Expatriate,Male,Gallbladder,1,75
+1893,2017,Expatriate,Male,Diffuse Non-Hodgkin'S Lymphoma,1,75
+1894,2017,Expatriate,Male,Colon,3,75
+1895,2017,Expatriate,Male,Bronchus And Lung,2,75
+1896,2017,Expatriate,Male,Rectosigmoid Junction,1,80
+1897,2017,Expatriate,Male,Other And Unspecified Parts Of Biliary Tract,1,80
+1898,2017,Expatriate,Male,Follicular [Nodular] Non-Hodgkin'S Lymphoma,1,80
+1899,2017,Expatriate,Male,Bronchus And Lung,1,80
+1900,2017,Expatriate,Male,Stomach,1,85
+1901,2017,Expatriate,Male,Rectosigmoid Junction,1,85
+1902,2017,Expatriate,Male,Prostate,2,85
+1903,2017,Expatriate,Male,Lymphoid Leukaemia,1,85
+1904,2017,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,85
+1905,2017,National,Female,Malignant Neoplasm Without Specification Of Site,1,0
+1906,2017,National,Female,Ovary,1,5
+1907,2017,National,Female,Brain,1,5
+1908,2017,National,Female,Diffuse Non-Hodgkin'S Lymphoma,1,15
+1909,2017,National,Female,Bone And Articular Cartilage Of Limbs,1,15
+1910,2017,National,Female,Other Connective And Soft Tissue,1,20
+1911,2017,National,Female,Lymphoid Leukaemia,1,20
+1912,2017,National,Female,Bone And Articular Cartilage Of Other And Unspecified Sites,1,20
+1913,2017,National,Female,Bronchus And Lung,1,30
+1914,2017,National,Female,Brain,1,30
+1915,2017,National,Female,Small Intestine,1,35
+1916,2017,National,Female,Other Connective And Soft Tissue,1,35
+1917,2017,National,Female,Liver And Intrahepatic Bile Ducts,1,35
+1918,2017,National,Female,Bronchus And Lung,1,35
+1919,2017,National,Female,Bronchus And Lung,1,40
+1920,2017,National,Female,Breast,5,40
+1921,2017,National,Female,Myeloid Leukaemia,2,45
+1922,2017,National,Female,Colon,1,45
+1923,2017,National,Female,Breast,3,45
+1924,2017,National,Female,Anus And Anal Canal,1,45
+1925,2017,National,Female,"Uterus, Part Unspecified",1,50
+1926,2017,National,Female,Secondary Respiratory And Digestive Organs,1,50
+1927,2017,National,Female,Secondary Other Sites,1,50
+1928,2017,National,Female,Pancreas,2,50
+1929,2017,National,Female,Myeloid Leukaemia,1,50
+1930,2017,National,Female,Colon,1,50
+1931,2017,National,Female,Breast,1,50
+1932,2017,National,Female,"Uterus, Part Unspecified",1,55
+1933,2017,National,Female,Stomach,2,55
+1934,2017,National,Female,Ovary,1,55
+1935,2017,National,Female,Mesothelioma,1,55
+1936,2017,National,Female,Liver And Intrahepatic Bile Ducts,1,55
+1937,2017,National,Female,Colon,1,55
+1938,2017,National,Female,Bronchus And Lung,1,55
+1939,2017,National,Female,Breast,3,55
+1940,2017,National,Female,Thyroid Gland,1,60
+1941,2017,National,Female,Ovary,2,60
+1942,2017,National,Female,Diffuse Non-Hodgkin'S Lymphoma,1,60
+1943,2017,National,Female,Colon,1,60
+1944,2017,National,Female,Cervix Uteri,1,60
+1945,2017,National,Female,Breast,2,60
+1946,2017,National,Female,"Uterus, Part Unspecified",1,65
+1947,2017,National,Female,Ovary,1,65
+1948,2017,National,Female,Colon,1,65
+1949,2017,National,Female,Breast,1,65
+1950,2017,National,Female,"Uterus, Part Unspecified",1,70
+1951,2017,National,Female,Rectosigmoid Junction,1,70
+1952,2017,National,Female,Other Leukaemias Of Specified Cell Type,2,70
+1953,2017,National,Female,"Other And Ill-Defined Sites In The Lip, Oral Cavity And Pharynx",1,70
+1954,2017,National,Female,Oesophagus,1,70
+1955,2017,National,Female,Colon,1,70
+1956,2017,National,Female,Cervix Uteri,1,70
+1957,2017,National,Female,Bronchus And Lung,1,70
+1958,2017,National,Female,Small Intestine,1,75
+1959,2017,National,Female,Ovary,1,75
+1960,2017,National,Female,Myeloid Leukaemia,1,75
+1961,2017,National,Female,Lymphoid Leukaemia,1,75
+1962,2017,National,Female,Liver And Intrahepatic Bile Ducts,2,75
+1963,2017,National,Female,Hypopharynx,1,75
+1964,2017,National,Female,Diffuse Non-Hodgkin'S Lymphoma,1,75
+1965,2017,National,Female,Bronchus And Lung,1,75
+1966,2017,National,Female,Breast,2,75
+1967,2017,National,Female,Stomach,2,80
+1968,2017,National,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,80
+1969,2017,National,Female,Gallbladder,1,80
+1970,2017,National,Female,Breast,1,80
+1971,2017,National,Female,"Uterus, Part Unspecified",1,85
+1972,2017,National,Female,Rectum,1,85
+1973,2017,National,Female,Rectosigmoid Junction,1,85
+1974,2017,National,Female,Pancreas,1,85
+1975,2017,National,Female,Liver And Intrahepatic Bile Ducts,2,85
+1976,2017,National,Female,Hodgkin'S Disease,1,85
+1977,2017,National,Female,Bronchus And Lung,1,85
+1978,2017,National,Female,Bladder,1,85
+1979,2017,National,Male,Lymphoid Leukaemia,1,5
+1980,2017,National,Male,Endocrine Gland,1,10
+1981,2017,National,Male,Peripheral Nerves And Autonomic Nervous System,1,15
+1982,2017,National,Male,Testis,1,25
+1983,2017,National,Male,Myeloid Leukaemia,1,25
+1984,2017,National,Male,Lymphoid Leukaemia,1,30
+1985,2017,National,Male,Pancreas,1,35
+1986,2017,National,Male,Oropharynx,1,35
+1987,2017,National,Male,Endocrine Gland,1,35
+1988,2017,National,Male,Stomach,1,40
+1989,2017,National,Male,Other And Unspecified Major Salivary Glands,1,40
+1990,2017,National,Male,Oropharynx,1,40
+1991,2017,National,Male,Myeloid Leukaemia,1,40
+1992,2017,National,Male,Nasopharynx,1,45
+1993,2017,National,Male,Colon,1,45
+1994,2017,National,Male,Pancreas,2,50
+1995,2017,National,Male,Other And Unspecified Parts Of Mouth,1,50
+1996,2017,National,Male,Larynx,1,50
+1997,2017,National,Male,Brain,1,50
+1998,2017,National,Male,Stomach,1,55
+1999,2017,National,Male,Prostate,1,55
+2000,2017,National,Male,Pancreas,1,55
+2001,2017,National,Male,Diffuse Non-Hodgkin'S Lymphoma,1,55
+2002,2017,National,Male,Bronchus And Lung,2,55
+2003,2017,National,Male,Stomach,1,60
+2004,2017,National,Male,Pancreas,1,60
+2005,2017,National,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,60
+2006,2017,National,Male,Colon,2,60
+2007,2017,National,Male,Bronchus And Lung,1,60
+2008,2017,National,Male,Stomach,1,65
+2009,2017,National,Male,Prostate,1,65
+2010,2017,National,Male,Pancreas,1,65
+2011,2017,National,Male,Other Malignant Neoplasms Of Skin,1,65
+2012,2017,National,Male,Nasopharynx,1,65
+2013,2017,National,Male,Myeloid Leukaemia,1,65
+2014,2017,National,Male,Liver And Intrahepatic Bile Ducts,4,65
+2015,2017,National,Male,Larynx,1,65
+2016,2017,National,Male,Hodgkin'S Disease,1,65
+2017,2017,National,Male,Colon,1,65
+2018,2017,National,Male,Bronchus And Lung,2,65
+2019,2017,National,Male,Stomach,1,70
+2020,2017,National,Male,Prostate,2,70
+2021,2017,National,Male,Pancreas,1,70
+2022,2017,National,Male,Other And Ill-Defined Sites In The Respiratory System And Intrathoracic Organs,1,70
+2023,2017,National,Male,Malignant Neoplasm Without Specification Of Site,1,70
+2024,2017,National,Male,Liver And Intrahepatic Bile Ducts,3,70
+2025,2017,National,Male,Colon,2,70
+2026,2017,National,Male,Bronchus And Lung,2,70
+2027,2017,National,Male,Breast,1,70
+2028,2017,National,Male,Anus And Anal Canal,1,70
+2029,2017,National,Male,Pancreas,2,75
+2030,2017,National,Male,Other Connective And Soft Tissue,1,75
+2031,2017,National,Male,Other And Unspecified Urinary Organs,1,75
+2032,2017,National,Male,Liver And Intrahepatic Bile Ducts,3,75
+2033,2017,National,Male,"Kidney, Except Renal Pelvis",1,75
+2034,2017,National,Male,Colon,2,75
+2035,2017,National,Male,Bronchus And Lung,2,75
+2036,2017,National,Male,Bladder,2,75
+2037,2017,National,Male,Secondary Respiratory And Digestive Organs,2,80
+2038,2017,National,Male,Prostate,1,80
+2039,2017,National,Male,Pancreas,2,80
+2040,2017,National,Male,Liver And Intrahepatic Bile Ducts,2,80
+2041,2017,National,Male,Bronchus And Lung,1,80
+2042,2017,National,Male,Brain,1,80
+2043,2017,National,Male,Bladder,1,80
+2044,2017,National,Male,Prostate,2,85
+2045,2017,National,Male,"Other And Ill-Defined Sites In The Lip, Oral Cavity And Pharynx",1,85
+2046,2017,National,Male,Liver And Intrahepatic Bile Ducts,2,85
+2047,2017,National,Male,"Kidney, Except Renal Pelvis",1,85
+2048,2017,National,Male,Endocrine Gland,1,85
+2049,2017,National,Male,Diffuse Non-Hodgkin'S Lymphoma,1,85
+2050,2017,National,Male,Brain,1,85
+2051,2018,Expatriate,Female,Brain,1,5
+2052,2018,Expatriate,Female,Lymphoid Leukaemia,1,15
+2053,2018,Expatriate,Female,Brain,2,15
+2054,2018,Expatriate,Female,Bone,1,15
+2055,2018,Expatriate,Female,Stomach,1,20
+2056,2018,Expatriate,Female,Bronchus And Lung,1,20
+2057,2018,Expatriate,Female,Ovary,1,25
+2058,2018,Expatriate,Female,Breast,2,25
+2059,2018,Expatriate,Female,Cervix Uteri,3,30
+2060,2018,Expatriate,Female,Breast,1,30
+2061,2018,Expatriate,Female,Bone,1,30
+2062,2018,Expatriate,Female,Stomach,1,35
+2063,2018,Expatriate,Female,Secondary,1,35
+2064,2018,Expatriate,Female,Pancreas,1,35
+2065,2018,Expatriate,Female,Myeloid Leukaemia,1,35
+2066,2018,Expatriate,Female,Breast,1,35
+2067,2018,Expatriate,Female,Brain,1,35
+2068,2018,Expatriate,Female,"Uterus, Part Unspecified",1,40
+2069,2018,Expatriate,Female,Secondary Other Sites,1,40
+2070,2018,Expatriate,Female,Rectosigmoid Junction,1,40
+2071,2018,Expatriate,Female,Ovary,2,40
+2072,2018,Expatriate,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,40
+2073,2018,Expatriate,Female,"Kidney, Except Renal Pelvis",1,40
+2074,2018,Expatriate,Female,Colon,1,40
+2075,2018,Expatriate,Female,Bronchus And Lung,1,40
+2076,2018,Expatriate,Female,Breast,6,40
+2077,2018,Expatriate,Female,Brain,2,40
+2078,2018,Expatriate,Female,"Uterus, Part Unspecified",1,45
+2079,2018,Expatriate,Female,Secondary,1,45
+2080,2018,Expatriate,Female,Oropharynx,1,45
+2081,2018,Expatriate,Female,Myeloid Leukaemia,1,45
+2082,2018,Expatriate,Female,Colon,1,45
+2083,2018,Expatriate,Female,Cervix Uteri,1,45
+2084,2018,Expatriate,Female,Bronchus And Lung,2,45
+2085,2018,Expatriate,Female,Breast,2,45
+2086,2018,Expatriate,Female,Stomach,3,50
+2087,2018,Expatriate,Female,Secondary,1,50
+2088,2018,Expatriate,Female,Rectum,1,50
+2089,2018,Expatriate,Female,Ovary,2,50
+2090,2018,Expatriate,Female,Myeloid Leukaemia,2,50
+2091,2018,Expatriate,Female,Lymphoid Leukaemia,1,50
+2092,2018,Expatriate,Female,Colon,4,50
+2093,2018,Expatriate,Female,Cervix Uteri,2,50
+2094,2018,Expatriate,Female,Bronchus And Lung,1,50
+2095,2018,Expatriate,Female,Breast,3,50
+2096,2018,Expatriate,Female,"Uterus, Part Unspecified",1,55
+2097,2018,Expatriate,Female,Retroperitoneum And Peritoneum,1,55
+2098,2018,Expatriate,Female,Rectum,1,55
+2099,2018,Expatriate,Female,Rectosigmoid Junction,1,55
+2100,2018,Expatriate,Female,Liver And Intrahepatic Bile Ducts,3,55
+2101,2018,Expatriate,Female,Gallbladder,1,55
+2102,2018,Expatriate,Female,Bronchus And Lung,1,55
+2103,2018,Expatriate,Female,Breast,11,55
+2104,2018,Expatriate,Female,Brain,2,55
+2105,2018,Expatriate,Female,Without Specification Of Site,1,60
+2106,2018,Expatriate,Female,Secondary Other Sites,1,60
+2107,2018,Expatriate,Female,Rectum,1,60
+2108,2018,Expatriate,Female,Ovary,1,60
+2109,2018,Expatriate,Female,Myeloid Leukaemia,1,60
+2110,2018,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,60
+2111,2018,Expatriate,Female,Connective And Soft Tissue,1,60
+2112,2018,Expatriate,Female,Colon,1,60
+2113,2018,Expatriate,Female,Cervix Uteri,3,60
+2114,2018,Expatriate,Female,Breast,3,60
+2115,2018,Expatriate,Female,Brain,1,60
+2116,2018,Expatriate,Female,Bladder,1,60
+2117,2018,Expatriate,Female,"Uterus, Part Unspecified",3,65
+2118,2018,Expatriate,Female,Tongue,1,65
+2119,2018,Expatriate,Female,Rectum,1,65
+2120,2018,Expatriate,Female,Ovary,1,65
+2121,2018,Expatriate,Female,Colon,1,65
+2122,2018,Expatriate,Female,Bronchus And Lung,2,65
+2123,2018,Expatriate,Female,Breast,9,65
+2124,2018,Expatriate,Female,Brain,2,65
+2125,2018,Expatriate,Female, Non-Hodgkin'S Lymphoma,2,65
+2126,2018,Expatriate,Female,Stomach,1,70
+2127,2018,Expatriate,Female,Pancreas,1,70
+2128,2018,Expatriate,Female,Ovary,1,70
+2129,2018,Expatriate,Female,Myeloid Leukaemia,1,70
+2130,2018,Expatriate,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,70
+2131,2018,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,70
+2132,2018,Expatriate,Female,Corpus Uteri,1,70
+2133,2018,Expatriate,Female,Colon,2,70
+2134,2018,Expatriate,Female,Breast,2,70
+2135,2018,Expatriate,Female,Skin,1,75
+2136,2018,Expatriate,Female,Ovary,1,75
+2137,2018,Expatriate,Female,Multiple Myeloma And Malignant Plasma Cell Neoplasms,2,75
+2138,2018,Expatriate,Female,Liver And Intrahepatic Bile Ducts,1,75
+2139,2018,Expatriate,Female,"Kidney, Except Renal Pelvis",1,75
+2140,2018,Expatriate,Female,Breast,1,75
+2141,2018,Expatriate,Female,Pancreas,1,80
+2142,2018,Expatriate,Female,Ovary,1,80
+2143,2018,Expatriate,Female,Oesophagus,1,80
+2144,2018,Expatriate,Female,"Kidney, Except Renal Pelvis",1,80
+2145,2018,Expatriate,Female,Bronchus And Lung,1,80
+2146,2018,Expatriate,Female,Breast,1,80
+2147,2018,Expatriate,Female,Accessory Sinuses,1,80
+2148,2018,Expatriate,Female,Secondary,1,85
+2149,2018,Expatriate,Female,Pancreas,1,85
+2150,2018,Expatriate,Female,Liver And Intrahepatic Bile Ducts,2,85
+2151,2018,Expatriate,Female,Colon,1,85
+2152,2018,Expatriate,Female,Biliary Tract,1,85
+2153,2018,Expatriate,Male,Leukaemia,1,0
+2154,2018,Expatriate,Male,Myeloid Leukaemia,1,10
+2155,2018,Expatriate,Male,Nasopharynx,1,15
+2156,2018,Expatriate,Male,Connective And Soft Tissue,1,15
+2157,2018,Expatriate,Male,Lymphoid Leukaemia,1,20
+2158,2018,Expatriate,Male,Bone,2,20
+2159,2018,Expatriate,Male,Without Specification Of Site,1,25
+2160,2018,Expatriate,Male,Lymphoid Leukaemia,1,25
+2161,2018,Expatriate,Male,Hodgkin'S Disease,1,25
+2162,2018,Expatriate,Male,Colon,1,25
+2163,2018,Expatriate,Male,Brain,2,25
+2164,2018,Expatriate,Male,Bone,1,25
+2165,2018,Expatriate,Male,Testis,1,30
+2166,2018,Expatriate,Male,Rectum,1,30
+2167,2018,Expatriate,Male,Myeloid Leukaemia,4,30
+2168,2018,Expatriate,Male,Diffuse,2,30
+2169,2018,Expatriate,Male,Connective And Soft Tissue,1,30
+2170,2018,Expatriate,Male,Brain,1,30
+2171,2018,Expatriate,Male,Pancreas,1,35
+2172,2018,Expatriate,Male,Other And Ill-Defined Sites,1,35
+2173,2018,Expatriate,Male,Oesophagus,1,35
+2174,2018,Expatriate,Male,Myeloid Leukaemia,1,35
+2175,2018,Expatriate,Male,Lymphoid Leukaemia,1,35
+2176,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,35
+2177,2018,Expatriate,Male,Leukaemia,1,35
+2178,2018,Expatriate,Male,Colon,1,35
+2179,2018,Expatriate,Male,Brain,1,35
+2180,2018,Expatriate,Male,Biliary Tract,1,35
+2181,2018,Expatriate,Male, Independent (Primary) Multiple Sites,1,35
+2182,2018,Expatriate,Male,Tongue,1,40
+2183,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,40
+2184,2018,Expatriate,Male,"Kidney, Except Renal Pelvis",2,40
+2185,2018,Expatriate,Male,Colon,1,40
+2186,2018,Expatriate,Male,Bronchus And Lung,1,40
+2187,2018,Expatriate,Male,Brain,2,40
+2188,2018,Expatriate,Male,Bone,1,40
+2189,2018,Expatriate,Male,Thyroid Gland,1,45
+2190,2018,Expatriate,Male,Prostate,1,45
+2191,2018,Expatriate,Male,Oesophagus,1,45
+2192,2018,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,45
+2193,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,1,45
+2194,2018,Expatriate,Male,Colon,3,45
+2195,2018,Expatriate,Male,Brain,1,45
+2196,2018,Expatriate,Male,Stomach,1,50
+2197,2018,Expatriate,Male,Skin,1,50
+2198,2018,Expatriate,Male,Secondary,1,50
+2199,2018,Expatriate,Male,Rectum,1,50
+2200,2018,Expatriate,Male,Other And Ill-Defined Sites,1,50
+2201,2018,Expatriate,Male,Myeloid Leukaemia,2,50
+2202,2018,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,50
+2203,2018,Expatriate,Male,Mouth,1,50
+2204,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,50
+2205,2018,Expatriate,Male,Larynx,1,50
+2206,2018,Expatriate,Male,Diffuse,1,50
+2207,2018,Expatriate,Male,Colon,1,50
+2208,2018,Expatriate,Male,Bronchus And Lung,2,50
+2209,2018,Expatriate,Male,Breast,1,50
+2210,2018,Expatriate,Male, Non-Hodgkin'S Lymphoma,1,50
+2211,2018,Expatriate,Male,Tongue,1,55
+2212,2018,Expatriate,Male,Testis,1,55
+2213,2018,Expatriate,Male,Secondary,2,55
+2214,2018,Expatriate,Male,Prostate,1,55
+2215,2018,Expatriate,Male,Pancreas,1,55
+2216,2018,Expatriate,Male,Oropharynx,1,55
+2217,2018,Expatriate,Male,Myeloid Leukaemia,2,55
+2218,2018,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,55
+2219,2018,Expatriate,Male,Mouth,1,55
+2220,2018,Expatriate,Male,Mesothelioma,1,55
+2221,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,55
+2222,2018,Expatriate,Male,"Kidney, Except Renal Pelvis",2,55
+2223,2018,Expatriate,Male,Gallbladder,1,55
+2224,2018,Expatriate,Male,Diffuse,2,55
+2225,2018,Expatriate,Male,Colon,3,55
+2226,2018,Expatriate,Male,Bronchus And Lung,3,55
+2227,2018,Expatriate,Male,Brain,1,55
+2228,2018,Expatriate,Male,Urinary Organs,1,60
+2229,2018,Expatriate,Male,Tongue,1,60
+2230,2018,Expatriate,Male,Secondary,1,60
+2231,2018,Expatriate,Male,Pancreas,1,60
+2232,2018,Expatriate,Male,Oesophagus,1,60
+2233,2018,Expatriate,Male,Myeloid Leukaemia,1,60
+2234,2018,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,60
+2235,2018,Expatriate,Male,Mouth,1,60
+2236,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,6,60
+2237,2018,Expatriate,Male,Larynx,1,60
+2238,2018,Expatriate,Male,"Kidney, Except Renal Pelvis",1,60
+2239,2018,Expatriate,Male,Colon,4,60
+2240,2018,Expatriate,Male,Bronchus And Lung,2,60
+2241,2018,Expatriate,Male,Brain,1,60
+2242,2018,Expatriate,Male,Bladder,3,60
+2243,2018,Expatriate,Male,Secondary,1,65
+2244,2018,Expatriate,Male,Prostate,1,65
+2245,2018,Expatriate,Male,Penis,1,65
+2246,2018,Expatriate,Male,Pancreas,5,65
+2247,2018,Expatriate,Male,Oesophagus,1,65
+2248,2018,Expatriate,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,65
+2249,2018,Expatriate,Male,Lymphoid Leukaemia,1,65
+2250,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,65
+2251,2018,Expatriate,Male,Leukaemia,1,65
+2252,2018,Expatriate,Male,"Kidney, Except Renal Pelvis",2,65
+2253,2018,Expatriate,Male,Gallbladder,1,65
+2254,2018,Expatriate,Male,Diffuse,1,65
+2255,2018,Expatriate,Male,Colon,1,65
+2256,2018,Expatriate,Male,Bronchus And Lung,6,65
+2257,2018,Expatriate,Male,Brain,1,65
+2258,2018,Expatriate,Male,Bladder,2,65
+2259,2018,Expatriate,Male,Anus And Anal Canal,1,65
+2260,2018,Expatriate,Male,Stomach,1,70
+2261,2018,Expatriate,Male,Secondary Other Sites,1,70
+2262,2018,Expatriate,Male,Secondary,1,70
+2263,2018,Expatriate,Male,Prostate,4,70
+2264,2018,Expatriate,Male,Pancreas,1,70
+2265,2018,Expatriate,Male,Myeloid Leukaemia,1,70
+2266,2018,Expatriate,Male,Monocytic Leukaemia,1,70
+2267,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,4,70
+2268,2018,Expatriate,Male,Follicular-Non-Hodgkin'S Lymphoma,1,70
+2269,2018,Expatriate,Male,Diffuse,1,70
+2270,2018,Expatriate,Male,Connective And Soft Tissue,1,70
+2271,2018,Expatriate,Male,Colon,2,70
+2272,2018,Expatriate,Male,Bronchus And Lung,3,70
+2273,2018,Expatriate,Male,Bladder,1,70
+2274,2018,Expatriate,Male,Accessory Sinuses,1,70
+2275,2018,Expatriate,Male,Ureter,1,75
+2276,2018,Expatriate,Male,Rectum,1,75
+2277,2018,Expatriate,Male,Prostate,1,75
+2278,2018,Expatriate,Male,Other And Ill-Defined Sites,1,75
+2279,2018,Expatriate,Male,Oesophagus,1,75
+2280,2018,Expatriate,Male,Myeloid Leukaemia,1,75
+2281,2018,Expatriate,Male,Lymphoid Leukaemia,1,75
+2282,2018,Expatriate,Male,Bronchus And Lung,3,75
+2283,2018,Expatriate,Male,Rectum,1,80
+2284,2018,Expatriate,Male,Prostate,1,80
+2285,2018,Expatriate,Male,Lymphoid Leukaemia,1,80
+2286,2018,Expatriate,Male,Liver And Intrahepatic Bile Ducts,2,80
+2287,2018,Expatriate,Male,Connective And Soft Tissue,1,80
+2288,2018,Expatriate,Male,Colon,1,80
+2289,2018,Expatriate,Male,Prostate,1,85
+2290,2018,Expatriate,Male,Pancreas,2,85
+2291,2018,Expatriate,Male,Oesophagus,1,85
+2292,2018,Expatriate,Male,Bronchus And Lung,1,85
+2293,2018,Expatriate,Male,Bladder,1,85
+2294,2018,National,Female,Lymphoid Leukaemia,1,0
+2295,2018,National,Female,Connective And Soft Tissue,1,0
+2296,2018,National,Female,Brain,1,0
+2297,2018,National,Female,Myeloid Leukaemia,1,10
+2298,2018,National,Female,Bone,1,15
+2299,2018,National,Female,Breast,2,35
+2300,2018,National,Female,Tongue,1,40
+2301,2018,National,Female,Ovary,1,40
+2302,2018,National,Female,Colon,1,40
+2303,2018,National,Female,Breast,2,40
+2304,2018,National,Female,Anus And Anal Canal,1,40
+2305,2018,National,Female,Rectosigmoid Junction,1,45
+2306,2018,National,Female,Parotid Gland,1,45
+2307,2018,National,Female,Pancreas,1,45
+2308,2018,National,Female,Breast,3,45
+2309,2018,National,Female,Brain,1,45
+2310,2018,National,Female,Stomach,1,50
+2311,2018,National,Female,Breast,1,50
+2312,2018,National,Female,Brain,1,50
+2313,2018,National,Female,Pancreas,1,55
+2314,2018,National,Female,Myeloid Leukaemia,2,55
+2315,2018,National,Female,Gallbladder,1,55
+2316,2018,National,Female,Colon,2,55
+2317,2018,National,Female,Bronchus And Lung,1,55
+2318,2018,National,Female,Stomach,1,60
+2319,2018,National,Female,Pancreas,2,60
+2320,2018,National,Female,Other And Ill-Defined Sites,1,60
+2321,2018,National,Female,Diffuse,1,60
+2322,2018,National,Female,Colon,1,60
+2323,2018,National,Female,Cervix Uteri,1,60
+2324,2018,National,Female,Breast,2,60
+2325,2018,National,Female,Salivary Glands,1,65
+2326,2018,National,Female,Pancreas,1,65
+2327,2018,National,Female,Diffuse,1,65
+2328,2018,National,Female,Colon,1,65
+2329,2018,National,Female,Bronchus And Lung,1,65
+2330,2018,National,Female,Breast,2,65
+2331,2018,National,Female,Brain,1,65
+2332,2018,National,Female,Thyroid Gland,1,70
+2333,2018,National,Female,Stomach,1,70
+2334,2018,National,Female,Skin,1,70
+2335,2018,National,Female,Rectum,1,70
+2336,2018,National,Female,Liver And Intrahepatic Bile Ducts,1,70
+2337,2018,National,Female,Hodgkin'S Disease,1,70
+2338,2018,National,Female,Colon,3,70
+2339,2018,National,Female,Breast,1,70
+2340,2018,National,Female,Pancreas,1,75
+2341,2018,National,Female,Ovary,3,75
+2342,2018,National,Female,Liver And Intrahepatic Bile Ducts,1,75
+2343,2018,National,Female,Diffuse,1,75
+2344,2018,National,Female,Colon,1,75
+2345,2018,National,Female,Rectosigmoid Junction,1,80
+2346,2018,National,Female,Ovary,2,80
+2347,2018,National,Female,Bronchus And Lung,1,80
+2348,2018,National,Female,Biliary Tract,1,80
+2349,2018,National,Female,Accessory Sinuses,1,80
+2350,2018,National,Female,Ovary,1,85
+2351,2018,National,Female,Mouth,1,85
+2352,2018,National,Female,Gallbladder,1,85
+2353,2018,National,Female,Diffuse,1,85
+2354,2018,National,Female,Breast,3,85
+2355,2018,National,Female,Brain,1,85
+2356,2018,National,Male,Liver And Intrahepatic Bile Ducts,2,0
+2357,2018,National,Male,Secondary,1,5
+2358,2018,National,Male,Endocrine Gland,1,20
+2359,2018,National,Male,Colon,1,25
+2360,2018,National,Male,Pancreas,1,30
+2361,2018,National,Male,Liver And Intrahepatic Bile Ducts,1,30
+2362,2018,National,Male,Bronchus And Lung,1,30
+2363,2018,National,Male,Brain,1,30
+2364,2018,National,Male,Stomach,1,35
+2365,2018,National,Male,Liver And Intrahepatic Bile Ducts,1,35
+2366,2018,National,Male,Brain,1,35
+2367,2018,National,Male,Oesophagus,1,40
+2368,2018,National,Male,Larynx,1,40
+2369,2018,National,Male,"Kidney, Except Renal Pelvis",1,40
+2370,2018,National,Male,Colon,1,40
+2371,2018,National,Male,Bronchus And Lung,1,40
+2372,2018,National,Male,Oesophagus,1,50
+2373,2018,National,Male,Liver And Intrahepatic Bile Ducts,1,50
+2374,2018,National,Male,Bronchus And Lung,1,50
+2375,2018,National,Male,Secondary Other Sites,1,55
+2376,2018,National,Male,Rectosigmoid Junction,1,55
+2377,2018,National,Male,Pancreas,2,55
+2378,2018,National,Male,Myeloid Leukaemia,1,55
+2379,2018,National,Male,"Kidney, Except Renal Pelvis",1,55
+2380,2018,National,Male,Brain,1,55
+2381,2018,National,Male, Non-Hodgkin'S Lymphoma,1,55
+2382,2018,National,Male, Independent (Primary) Multiple Sites,1,55
+2383,2018,National,Male,Stomach,1,60
+2384,2018,National,Male,Prostate,1,60
+2385,2018,National,Male,Pancreas,1,60
+2386,2018,National,Male,Myeloid Leukaemia,2,60
+2387,2018,National,Male,Liver And Intrahepatic Bile Ducts,5,60
+2388,2018,National,Male,Colon,1,60
+2389,2018,National,Male,Bronchus And Lung,2,60
+2390,2018,National,Male,Bladder,1,60
+2391,2018,National,Male,Stomach,1,65
+2392,2018,National,Male,Skin,1,65
+2393,2018,National,Male,Rectum,1,65
+2394,2018,National,Male,Prostate,3,65
+2395,2018,National,Male,Pancreas,1,65
+2396,2018,National,Male,Liver And Intrahepatic Bile Ducts,2,65
+2397,2018,National,Male,"Kidney, Except Renal Pelvis",1,65
+2398,2018,National,Male,Colon,1,65
+2399,2018,National,Male,Bronchus And Lung,3,65
+2400,2018,National,Male,Rectum,1,70
+2401,2018,National,Male,Pancreas,2,70
+2402,2018,National,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,70
+2403,2018,National,Male,Liver And Intrahepatic Bile Ducts,2,70
+2404,2018,National,Male,Colon,2,70
+2405,2018,National,Male,Bronchus And Lung,2,70
+2406,2018,National,Male,Breast,1,70
+2407,2018,National,Male,Brain,1,70
+2408,2018,National,Male,Bladder,2,70
+2409,2018,National,Male,Stomach,2,75
+2410,2018,National,Male,Prostate,1,75
+2411,2018,National,Male,Myeloid Leukaemia,1,75
+2412,2018,National,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,2,75
+2413,2018,National,Male,Lymphoid Leukaemia,1,75
+2414,2018,National,Male,Colon,1,75
+2415,2018,National,Male,Bronchus And Lung,3,75
+2416,2018,National,Male,Brain,1,75
+2417,2018,National,Male, Non-Hodgkin'S Lymphoma,2,75
+2418,2018,National,Male,Tongue,1,80
+2419,2018,National,Male,Other And Ill-Defined Sites,1,80
+2420,2018,National,Male,Myeloid Leukaemia,1,80
+2421,2018,National,Male,Liver And Intrahepatic Bile Ducts,3,80
+2422,2018,National,Male,Colon,1,80
+2423,2018,National,Male,Bronchus And Lung,1,80
+2424,2018,National,Male,Bladder,1,80
+2425,2018,National,Male,Prostate,2,85
+2426,2018,National,Male,Oesophagus,1,85
+2427,2018,National,Male,Multiple Myeloma And Malignant Plasma Cell Neoplasms,1,85
+2428,2018,National,Male,Bronchus And Lung,4,85
+2429,2018,National,Male,Brain,1,85
+2430,2018,National,Male,Bladder,1,85

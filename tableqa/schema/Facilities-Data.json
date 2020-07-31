@@ -1,0 +1,61 @@
+{
+    "name": "facilities",
+    "columns":
+    [
+        {
+        "name": "index",
+        "type": "Integer"
+        },
+        {
+        "name": "Year",
+        "type": "Year",
+        "query": "which years"
+        },
+        {
+        "name": "Sector",
+        "type": "String",
+        "query": "what sector"
+        },
+        {
+        "name": "License",
+        "type": "String",
+        "query": "which license"
+        },
+        {
+        "name": "TYPE_FACILITY",
+        "type": "String",
+        "keywords": ["facility type","type of facility"],
+        "query": "what type of facility"
+        },
+        {
+        "name": "FACILITY_SUBTYPE",
+        "keywords": ["facility subtype","subtype of facility"],
+        "type": "FuzzyString",
+        "query": "what facility subtype"
+        },
+        {
+        "name": "Facility_Type_Group",
+        "type": "FuzzyString",
+        "keywords": ["type group of facility"],
+        "query": "which type group of facility"
+        },
+        {
+        "name": "Facility_License_Issue_Year",
+        "type": "Integer",
+        "keywords": ["year of issue","licensed year","year of license issue"],
+        "query": "what year of issue"
+        },
+        {
+        "name": "Facility_Name",
+        "type": "FuzzyString",
+        "keywords": ["name of facility"],
+        "query": "which name of facility"
+        },
+        {
+        "name": "Facility_Region",
+        "type": "String",
+        "keywords": ["area of facility","facility area","region of facility"],
+        "query": "which name of facility"
+        }
+    ]
+}

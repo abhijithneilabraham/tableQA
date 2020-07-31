@@ -1,0 +1,62 @@
+{
+    "name": "Episodes",
+    "columns":
+    [
+        {
+        "name": "index",
+        "type": "Integer"
+        },
+        {
+        "name": "Year",
+        "type": "Year",
+        "query": "which years"
+        },
+        {
+        "name": "Sector",
+        "type": "String",
+        "query": "what sector"
+        },
+        {
+        "name": "Facility_Region",
+        "type": "String",
+        "query": "which facility region"
+        },
+        {
+        "name": "Facility_Type_Group",
+        "keywords": ["facility type","type of facility"],
+        "type": "FuzzyString",
+        "query": "what type of facility"
+        },
+        {
+        "name": "Facility_Reporting_Name",
+        "type": "FuzzyString",
+        "keywords": ["facility name","facility centre","centre of facility"],
+        "query": "which facility"
+        },
+        {
+        "name": "National_or_Expatriate",
+        "type": "String",
+        "keywords": ["nationality"],
+        "query": "which nationality"
+        },
+        {
+        "name": "Inpatient_or_Outpatient",
+        "type": "String",
+        "keywords": ["status of patient","patient status"],
+        "query": "what is status of patient"
+        },
+        {
+        "name": "ER_Status",
+        "type": "String",
+        "keywords": ["status of ER"],
+        "query": "what is status of er"
+        },
+        {
+        "name": "Episodes_Count",
+        "type": "Integer",
+        "keywords": ["count of episodes","number of episodes"],
+        "query": "how much number of episodes",
+        "priority":"True"
+        }
+    ]
+}

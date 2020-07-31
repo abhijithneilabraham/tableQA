@@ -1,0 +1,586 @@
+﻿Year,Country ,Category,Values
+2011,USA,Under Five Mortality,8.0
+2011,UK,Under Five Mortality,5.0
+2011,UAE,Under Five Mortality,7.0
+2011,Singapore,Under Five Mortality,3.0
+2011,Saudi Arabia,Under Five Mortality,21.0
+2011,Oman,Under Five Mortality,12.0
+2011,Kuwait,Under Five Mortality,13.0
+2011,Germany,Under Five Mortality,4.0
+2011,Bahrain,Under Five Mortality,12.0
+2011,Abu Dhabi,Under Five Mortality,8.7
+2011,Abu Dhabi,Road Traffic Mortality,14.1
+2011,USA,Physicians,26.7
+2011,UK,Physicians,27.4
+2011,UAE,Physicians,19.3
+2011,Singapore,Physicians,18.3
+2011,Saudi Arabia,Physicians,9.4
+2011,Oman,Physicians,19.0
+2011,Kuwait,Physicians,17.9
+2011,Germany,Physicians,35.3
+2011,Bahrain,Physicians,14.4
+2011,Abu Dhabi,Physicians,20.4
+2011,USA,Nurses,98.2
+2011,UK,Nurses,103.0
+2011,UAE,Nurses,40.9
+2011,Singapore,Nurses,59.0
+2011,Saudi Arabia,Nurses,21.0
+2011,Oman,Nurses,41.1
+2011,Kuwait,Nurses,45.5
+2011,Germany,Nurses,108.2
+2011,Bahrain,Nurses,37.3
+2011,Abu Dhabi,Nurses,43.6
+2011,USA,Neonatal Mortality,4.0
+2011,UK,Neonatal Mortality,3.0
+2011,UAE,Neonatal Mortality,4.0
+2011,Singapore,Neonatal Mortality,1.0
+2011,Saudi Arabia,Neonatal Mortality,11.0
+2011,Oman,Neonatal Mortality,6.0
+2011,Kuwait,Neonatal Mortality,7.0
+2011,Germany,Neonatal Mortality,2.0
+2011,Bahrain,Neonatal Mortality,6.0
+2011,Abu Dhabi,Neonatal Mortality,4.0
+2011,USA,Male Life Expectancy,76.0
+2011,UK,Male Life Expectancy,78.0
+2011,UAE,Male Life Expectancy,77.0
+2011,Singapore,Male Life Expectancy,79.0
+2011,Saudi Arabia,Male Life Expectancy,69.0
+2011,Oman,Male Life Expectancy,72.0
+2011,Kuwait,Male Life Expectancy,78.0
+2011,Germany,Male Life Expectancy,78.0
+2011,Bahrain,Male Life Expectancy,73.0
+2011,Abu Dhabi,Male Life Expectancy,74.9
+2011,USA,Infant Mortality,7.0
+2011,UK,Infant Mortality,5.0
+2011,UAE,Infant Mortality,7.0
+2011,Singapore,Infant Mortality,2.0
+2011,Saudi Arabia,Infant Mortality,18.0
+2011,Oman,Infant Mortality,9.0
+2011,Kuwait,Infant Mortality,11.0
+2011,Germany,Infant Mortality,3.0
+2011,Bahrain,Infant Mortality,9.0
+2011,Abu Dhabi,Infant Mortality,6.4
+2011,USA,Hospital Beds,3.1
+2011,UK,Hospital Beds,3.4
+2011,UAE,Hospital Beds,1.9
+2011,Singapore,Hospital Beds,3.1
+2011,Saudi Arabia,Hospital Beds,2.2
+2011,Oman,Hospital Beds,1.9
+2011,Kuwait,Hospital Beds,1.8
+2011,Germany,Hospital Beds,8.2
+2011,Bahrain,Hospital Beds,1.9
+2011,Abu Dhabi,Hospital Beds,2.5
+2011,USA,Female Life Expectancy,81.0
+2011,UK,Female Life Expectancy,82.0
+2011,UAE,Female Life Expectancy,79.0
+2011,Singapore,Female Life Expectancy,84.0
+2011,Saudi Arabia,Female Life Expectancy,75.0
+2011,Oman,Female Life Expectancy,77.0
+2011,Kuwait,Female Life Expectancy,79.0
+2011,Germany,Female Life Expectancy,83.0
+2011,Bahrain,Female Life Expectancy,76.0
+2011,Abu Dhabi,Female Life Expectancy,77.0
+2012,USA,Under Five Mortality,8.0
+2012,UK,Under Five Mortality,5.0
+2012,UAE,Under Five Mortality,7.0
+2012,Singapore,Under Five Mortality,3.0
+2012,Saudi Arabia,Under Five Mortality,18.0
+2012,Oman,Under Five Mortality,9.0
+2012,Kuwait,Under Five Mortality,11.0
+2012,Germany,Under Five Mortality,4.0
+2012,Bahrain,Under Five Mortality,10.0
+2012,Abu Dhabi,Under Five Mortality,8.2
+2012,Abu Dhabi,Road Traffic Mortality,11.7
+2012,USA,Physicians,24.2
+2012,UK,Physicians,27.4
+2012,UAE,Physicians,19.3
+2012,Singapore,Physicians,18.3
+2012,Saudi Arabia,Physicians,9.4
+2012,Oman,Physicians,19.0
+2012,Kuwait,Physicians,17.9
+2012,Germany,Physicians,36.0
+2012,Bahrain,Physicians,14.4
+2012,Abu Dhabi,Physicians,9.6
+2012,USA,Nurses,98.2
+2012,UK,Nurses,101.3
+2012,UAE,Nurses,40.9
+2012,Singapore,Nurses,59.0
+2012,Saudi Arabia,Nurses,21.0
+2012,Oman,Nurses,41.1
+2012,Kuwait,Nurses,45.5
+2012,Germany,Nurses,111.0
+2012,Bahrain,Nurses,37.3
+2012,Abu Dhabi,Nurses,26.2
+2012,USA,Neonatal Mortality,4.0
+2012,UK,Neonatal Mortality,3.0
+2012,UAE,Neonatal Mortality,4.0
+2012,Singapore,Neonatal Mortality,1.0
+2012,Saudi Arabia,Neonatal Mortality,10.0
+2012,Oman,Neonatal Mortality,5.0
+2012,Kuwait,Neonatal Mortality,6.0
+2012,Germany,Neonatal Mortality,2.0
+2012,Bahrain,Neonatal Mortality,4.0
+2012,Abu Dhabi,Neonatal Mortality,3.9
+2012,USA,Male Life Expectancy,76.0
+2012,UK,Male Life Expectancy,78.0
+2012,UAE,Male Life Expectancy,77.0
+2012,Singapore,Male Life Expectancy,79.0
+2012,Saudi Arabia,Male Life Expectancy,69.0
+2012,Oman,Male Life Expectancy,72.0
+2012,Kuwait,Male Life Expectancy,78.0
+2012,Germany,Male Life Expectancy,78.0
+2012,Bahrain,Male Life Expectancy,73.0
+2012,Abu Dhabi,Male Life Expectancy,77.1
+2012,USA,Infant Mortality,7.0
+2012,UK,Infant Mortality,5.0
+2012,UAE,Infant Mortality,6.0
+2012,Singapore,Infant Mortality,2.0
+2012,Saudi Arabia,Infant Mortality,15.0
+2012,Oman,Infant Mortality,8.0
+2012,Kuwait,Infant Mortality,10.0
+2012,Germany,Infant Mortality,3.0
+2012,Bahrain,Infant Mortality,9.0
+2012,Abu Dhabi,Infant Mortality,6.3
+2012,USA,Hospital Beds,3.0
+2012,UK,Hospital Beds,3.3
+2012,UAE,Hospital Beds,1.9
+2012,Singapore,Hospital Beds,3.1
+2012,Saudi Arabia,Hospital Beds,2.2
+2012,Oman,Hospital Beds,1.8
+2012,Kuwait,Hospital Beds,2.0
+2012,Germany,Hospital Beds,8.2
+2012,Bahrain,Hospital Beds,1.8
+2012,Abu Dhabi,Hospital Beds,2.7
+2012,USA,Female Life Expectancy,81.0
+2012,UK,Female Life Expectancy,82.0
+2012,UAE,Female Life Expectancy,80.0
+2012,Singapore,Female Life Expectancy,84.0
+2012,Saudi Arabia,Female Life Expectancy,75.0
+2012,Oman,Female Life Expectancy,77.0
+2012,Kuwait,Female Life Expectancy,79.0
+2012,Germany,Female Life Expectancy,83.0
+2012,Bahrain,Female Life Expectancy,76.0
+2012,Abu Dhabi,Female Life Expectancy,78.2
+2013,USA,Under Five Mortality,8.0
+2013,UK,Under Five Mortality,5.0
+2013,UAE,Under Five Mortality,7.0
+2013,Singapore,Under Five Mortality,3.0
+2013,Saudi Arabia,Under Five Mortality,9.0
+2013,Oman,Under Five Mortality,9.0
+2013,Kuwait,Under Five Mortality,11.0
+2013,Germany,Under Five Mortality,4.0
+2013,Bahrain,Under Five Mortality,10.0
+2013,Abu Dhabi,Under Five Mortality,8.0
+2013,Abu Dhabi,Road Traffic Mortality,13.4
+2013,USA,Physicians,24.2
+2013,UK,Physicians,27.7
+2013,UAE,Physicians,19.3
+2013,Singapore,Physicians,19.2
+2013,Saudi Arabia,Physicians,9.4
+2013,Oman,Physicians,20.5
+2013,Kuwait,Physicians,17.9
+2013,Germany,Physicians,36.9
+2013,Bahrain,Physicians,14.9
+2013,Abu Dhabi,Physicians,25.1
+2013,USA,Nurses,98.2
+2013,UK,Nurses,94.7
+2013,UAE,Nurses,40.9
+2013,Singapore,Nurses,63.9
+2013,Saudi Arabia,Nurses,21.0
+2013,Oman,Nurses,44.9
+2013,Kuwait,Nurses,45.5
+2013,Germany,Nurses,113.8
+2013,Bahrain,Nurses,38.6
+2013,Abu Dhabi,Nurses,52.1
+2013,USA,Neonatal Mortality,4.0
+2013,UK,Neonatal Mortality,3.0
+2013,UAE,Neonatal Mortality,4.0
+2013,Singapore,Neonatal Mortality,1.0
+2013,Saudi Arabia,Neonatal Mortality,5.0
+2013,Oman,Neonatal Mortality,5.0
+2013,Kuwait,Neonatal Mortality,5.0
+2013,Germany,Neonatal Mortality,2.0
+2013,Bahrain,Neonatal Mortality,4.0
+2013,Abu Dhabi,Neonatal Mortality,4.3
+2013,USA,Male Life Expectancy,76.0
+2013,UK,Male Life Expectancy,79.0
+2013,UAE,Male Life Expectancy,75.0
+2013,Singapore,Male Life Expectancy,80.0
+2013,Saudi Arabia,Male Life Expectancy,74.0
+2013,Oman,Male Life Expectancy,70.0
+2013,Kuwait,Male Life Expectancy,80.0
+2013,Germany,Male Life Expectancy,78.0
+2013,Bahrain,Male Life Expectancy,78.0
+2013,Abu Dhabi,Male Life Expectancy,75.2
+2013,USA,Infant Mortality,6.0
+2013,UK,Infant Mortality,4.0
+2013,UAE,Infant Mortality,6.0
+2013,Singapore,Infant Mortality,2.0
+2013,Saudi Arabia,Infant Mortality,8.0
+2013,Oman,Infant Mortality,7.0
+2013,Kuwait,Infant Mortality,9.0
+2013,Germany,Infant Mortality,3.0
+2013,Bahrain,Infant Mortality,9.0
+2013,Abu Dhabi,Infant Mortality,6.3
+2013,USA,Hospital Beds,3.0
+2013,UK,Hospital Beds,3.0
+2013,UAE,Hospital Beds,1.9
+2013,Singapore,Hospital Beds,2.7
+2013,Saudi Arabia,Hospital Beds,2.2
+2013,Oman,Hospital Beds,1.8
+2013,Kuwait,Hospital Beds,2.0
+2013,Germany,Hospital Beds,8.2
+2013,Bahrain,Hospital Beds,1.8
+2013,Abu Dhabi,Hospital Beds,2.3
+2013,USA,Female Life Expectancy,81.0
+2013,UK,Female Life Expectancy,82.0
+2013,UAE,Female Life Expectancy,77.0
+2013,Singapore,Female Life Expectancy,85.0
+2013,Saudi Arabia,Female Life Expectancy,77.0
+2013,Oman,Female Life Expectancy,76.0
+2013,Kuwait,Female Life Expectancy,80.0
+2013,Germany,Female Life Expectancy,83.0
+2013,Bahrain,Female Life Expectancy,80.0
+2013,Abu Dhabi,Female Life Expectancy,78.7
+2014,USA,Under Five Mortality,7.0
+2014,UK,Under Five Mortality,5.0
+2014,UAE,Under Five Mortality,8.0
+2014,Singapore,Under Five Mortality,3.0
+2014,Saudi Arabia,Under Five Mortality,9.0
+2014,Oman,Under Five Mortality,12.0
+2014,Kuwait,Under Five Mortality,11.0
+2014,Germany,Under Five Mortality,4.0
+2014,Bahrain,Under Five Mortality,10.0
+2014,Abu Dhabi,Under Five Mortality,9.7
+2014,Abu Dhabi,Road Traffic Mortality,11.9
+2014,USA,Physicians,24.5
+2014,UK,Physicians,27.9
+2014,UAE,Physicians,19.3
+2014,Singapore,Physicians,19.2
+2014,Saudi Arabia,Physicians,7.7
+2014,Oman,Physicians,22.2
+2014,Kuwait,Physicians,17.9
+2014,Germany,Physicians,38.1
+2014,Bahrain,Physicians,9.1
+2014,Abu Dhabi,Physicians,80.5
+2014,USA,Nurses,98.2
+2014,UK,Nurses,88.3
+2014,UAE,Nurses,40.9
+2014,Singapore,Nurses,63.9
+2014,Saudi Arabia,Nurses,23.4
+2014,Oman,Nurses,50.0
+2014,Kuwait,Nurses,45.5
+2014,Germany,Nurses,114.9
+2014,Bahrain,Nurses,24.1
+2014,Abu Dhabi,Nurses,177.4
+2014,USA,Neonatal Mortality,4.0
+2014,UK,Neonatal Mortality,3.0
+2014,UAE,Neonatal Mortality,5.0
+2014,Singapore,Neonatal Mortality,1.0
+2014,Saudi Arabia,Neonatal Mortality,5.0
+2014,Oman,Neonatal Mortality,7.0
+2014,Kuwait,Neonatal Mortality,6.0
+2014,Germany,Neonatal Mortality,2.0
+2014,Bahrain,Neonatal Mortality,4.0
+2014,Abu Dhabi,Neonatal Mortality,5.0
+2014,USA,Male Life Expectancy,76.0
+2014,UK,Male Life Expectancy,79.0
+2014,UAE,Male Life Expectancy,76.0
+2014,Singapore,Male Life Expectancy,80.0
+2014,Saudi Arabia,Male Life Expectancy,74.0
+2014,Oman,Male Life Expectancy,74.0
+2014,Kuwait,Male Life Expectancy,78.0
+2014,Germany,Male Life Expectancy,78.0
+2014,Bahrain,Male Life Expectancy,76.0
+2014,Abu Dhabi,Male Life Expectancy,75.2
+2014,USA,Infant Mortality,6.0
+2014,UK,Infant Mortality,4.0
+2014,UAE,Infant Mortality,7.0
+2014,Singapore,Infant Mortality,2.0
+2014,Saudi Arabia,Infant Mortality,7.0
+2014,Oman,Infant Mortality,10.0
+2014,Kuwait,Infant Mortality,10.0
+2014,Germany,Infant Mortality,3.0
+2014,Bahrain,Infant Mortality,8.0
+2014,Abu Dhabi,Infant Mortality,7.7
+2014,USA,Hospital Beds,2.9
+2014,UK,Hospital Beds,2.9
+2014,UAE,Hospital Beds,1.1
+2014,Singapore,Hospital Beds,2.0
+2014,Saudi Arabia,Hospital Beds,2.1
+2014,Oman,Hospital Beds,1.7
+2014,Kuwait,Hospital Beds,2.2
+2014,Germany,Hospital Beds,8.2
+2014,Bahrain,Hospital Beds,2.1
+2014,Abu Dhabi,Hospital Beds,5.0
+2014,USA,Female Life Expectancy,81.0
+2014,UK,Female Life Expectancy,83.0
+2014,UAE,Female Life Expectancy,78.0
+2014,Singapore,Female Life Expectancy,85.0
+2014,Saudi Arabia,Female Life Expectancy,78.0
+2014,Oman,Female Life Expectancy,78.0
+2014,Kuwait,Female Life Expectancy,79.0
+2014,Germany,Female Life Expectancy,83.0
+2014,Bahrain,Female Life Expectancy,78.0
+2014,Abu Dhabi,Female Life Expectancy,78.7
+2015,USA,Under Five Mortality,6.9
+2015,UK,Under Five Mortality,4.6
+2015,UAE,Under Five Mortality,8.2
+2015,Singapore,Under Five Mortality,2.8
+2015,Saudi Arabia,Under Five Mortality,15.5
+2015,Oman,Under Five Mortality,11.4
+2015,Kuwait,Under Five Mortality,9.5
+2015,Germany,Under Five Mortality,3.9
+2015,Bahrain,Under Five Mortality,6.1
+2015,Abu Dhabi,Under Five Mortality,9.1
+2015,Abu Dhabi,Road Traffic Mortality,9.9
+2015,USA,Physicians,24.5
+2015,UK,Physicians,28.1
+2015,UAE,Physicians,25.3
+2015,Singapore,Physicians,19.5
+2015,Saudi Arabia,Physicians,24.9
+2015,Oman,Physicians,24.3
+2015,Kuwait,Physicians,17.9
+2015,Germany,Physicians,38.9
+2015,Bahrain,Physicians,9.2
+2015,Abu Dhabi,Physicians,79.3
+2015,USA,Nurses,98.2
+2015,UK,Nurses,88.0
+2015,UAE,Nurses,31.6
+2015,Singapore,Nurses,57.6
+2015,Saudi Arabia,Nurses,48.7
+2015,Oman,Nurses,53.8
+2015,Kuwait,Nurses,45.5
+2015,Germany,Nurses,114.9
+2015,Bahrain,Nurses,23.7
+2015,Abu Dhabi,Nurses,203.8
+2015,USA,Neonatal Mortality,4.0
+2015,UK,Neonatal Mortality,2.8
+2015,UAE,Neonatal Mortality,4.8
+2015,Singapore,Neonatal Mortality,1.1
+2015,Saudi Arabia,Neonatal Mortality,8.8
+2015,Oman,Neonatal Mortality,6.6
+2015,Kuwait,Neonatal Mortality,4.7
+2015,Germany,Neonatal Mortality,2.2
+2015,Bahrain,Neonatal Mortality,2.3
+2015,Abu Dhabi,Neonatal Mortality,5.2
+2015,USA,Male Life Expectancy,76.0
+2015,UK,Male Life Expectancy,79.0
+2015,UAE,Male Life Expectancy,76.0
+2015,Singapore,Male Life Expectancy,81.0
+2015,Saudi Arabia,Male Life Expectancy,74.0
+2015,Oman,Male Life Expectancy,74.0
+2015,Kuwait,Male Life Expectancy,78.0
+2015,Germany,Male Life Expectancy,79.0
+2015,Bahrain,Male Life Expectancy,76.0
+2015,Abu Dhabi,Male Life Expectancy,75.2
+2015,USA,Infant Mortality,5.9
+2015,UK,Infant Mortality,3.9
+2015,UAE,Infant Mortality,7.0
+2015,Singapore,Infant Mortality,2.2
+2015,Saudi Arabia,Infant Mortality,13.4
+2015,Oman,Infant Mortality,9.8
+2015,Kuwait,Infant Mortality,8.1
+2015,Germany,Infant Mortality,3.2
+2015,Bahrain,Infant Mortality,5.2
+2015,Abu Dhabi,Infant Mortality,7.2
+2015,USA,Hospital Beds,2.9
+2015,UK,Hospital Beds,2.9
+2015,UAE,Hospital Beds,1.1
+2015,Singapore,Hospital Beds,2.0
+2015,Saudi Arabia,Hospital Beds,2.1
+2015,Oman,Hospital Beds,1.7
+2015,Kuwait,Hospital Beds,2.2
+2015,Germany,Hospital Beds,8.2
+2015,Bahrain,Hospital Beds,2.1
+2015,Abu Dhabi,Hospital Beds,5.3
+2015,USA,Female Life Expectancy,81.0
+2015,UK,Female Life Expectancy,83.0
+2015,UAE,Female Life Expectancy,78.0
+2015,Singapore,Female Life Expectancy,85.0
+2015,Saudi Arabia,Female Life Expectancy,78.0
+2015,Oman,Female Life Expectancy,79.0
+2015,Kuwait,Female Life Expectancy,79.0
+2015,Germany,Female Life Expectancy,83.0
+2015,Bahrain,Female Life Expectancy,78.0
+2015,Abu Dhabi,Female Life Expectancy,78.7
+2016,USA,Under Five Mortality,6.5
+2016,UK,Under Five Mortality,4.2
+2016,UAE,Under Five Mortality,6.8
+2016,Singapore,Under Five Mortality,2.7
+2016,Saudi Arabia,Under Five Mortality,14.5
+2016,Oman,Under Five Mortality,11.6
+2016,Kuwait,Under Five Mortality,8.6
+2016,Germany,Under Five Mortality,3.7
+2016,Bahrain,Under Five Mortality,6.2
+2016,Abu Dhabi,Under Five Mortality,8.8
+2016,USA,Road Traffic Mortality,10.6
+2016,UK,Road Traffic Mortality,2.9
+2016,UAE,Road Traffic Mortality,10.9
+2016,Singapore,Road Traffic Mortality,3.6
+2016,Saudi Arabia,Road Traffic Mortality,27.4
+2016,Oman,Road Traffic Mortality,25.4
+2016,Kuwait,Road Traffic Mortality,18.7
+2016,Germany,Road Traffic Mortality,4.3
+2016,Bahrain,Road Traffic Mortality,8.0
+2016,Abu Dhabi,Road Traffic Mortality,11.6
+2016,USA,Physicians,24.5
+2016,UK,Physicians,28.1
+2016,UAE,Physicians,25.3
+2016,Singapore,Physicians,19.5
+2016,Saudi Arabia,Physicians,24.9
+2016,Oman,Physicians,24.3
+2016,Kuwait,Physicians,17.9
+2016,Germany,Physicians,38.9
+2016,Bahrain,Physicians,9.2
+2016,Abu Dhabi,Physicians,87.2
+2016,USA,Nurses,98.2
+2016,UK,Nurses,88.0
+2016,UAE,Nurses,31.6
+2016,Singapore,Nurses,57.6
+2016,Saudi Arabia,Nurses,48.7
+2016,Oman,Nurses,53.8
+2016,Kuwait,Nurses,45.5
+2016,Germany,Nurses,114.9
+2016,Bahrain,Nurses,23.7
+2016,Abu Dhabi,Nurses,241.9
+2016,USA,Neonatal Mortality,3.6
+2016,UK,Neonatal Mortality,2.4
+2016,UAE,Neonatal Mortality,3.5
+2016,Singapore,Neonatal Mortality,1.0
+2016,Saudi Arabia,Neonatal Mortality,7.9
+2016,Oman,Neonatal Mortality,5.2
+2016,Kuwait,Neonatal Mortality,3.2
+2016,Germany,Neonatal Mortality,2.1
+2016,Bahrain,Neonatal Mortality,1.1
+2016,Abu Dhabi,Neonatal Mortality,4.8
+2016,USA,Male Life Expectancy,76.9
+2016,UK,Male Life Expectancy,79.4
+2016,UAE,Male Life Expectancy,76.4
+2016,Singapore,Male Life Expectancy,80.0
+2016,Saudi Arabia,Male Life Expectancy,73.2
+2016,Oman,Male Life Expectancy,75.0
+2016,Kuwait,Male Life Expectancy,73.7
+2016,Germany,Male Life Expectancy,78.7
+2016,Bahrain,Male Life Expectancy,76.2
+2016,Abu Dhabi,Male Life Expectancy,76.0
+2016,USA,Infant Mortality,5.9
+2016,UK,Infant Mortality,3.9
+2016,UAE,Infant Mortality,7.0
+2016,Singapore,Infant Mortality,2.2
+2016,Saudi Arabia,Infant Mortality,13.4
+2016,Oman,Infant Mortality,9.8
+2016,Kuwait,Infant Mortality,8.1
+2016,Germany,Infant Mortality,3.2
+2016,Bahrain,Infant Mortality,5.2
+2016,Abu Dhabi,Infant Mortality,7.0
+2016,USA,Hospital Beds,2.9
+2016,UK,Hospital Beds,2.9
+2016,UAE,Hospital Beds,1.1
+2016,Singapore,Hospital Beds,2.0
+2016,Saudi Arabia,Hospital Beds,2.1
+2016,Oman,Hospital Beds,1.7
+2016,Kuwait,Hospital Beds,2.2
+2016,Germany,Hospital Beds,8.2
+2016,Bahrain,Hospital Beds,2.1
+2016,Abu Dhabi,Hospital Beds,5.7
+2016,USA,Female Life Expectancy,81.6
+2016,UK,Female Life Expectancy,83.0
+2016,UAE,Female Life Expectancy,78.6
+2016,Singapore,Female Life Expectancy,86.1
+2016,Saudi Arabia,Female Life Expectancy,76.0
+2016,Oman,Female Life Expectancy,79.2
+2016,Kuwait,Female Life Expectancy,76.0
+2016,Germany,Female Life Expectancy,83.4
+2016,Bahrain,Female Life Expectancy,77.9
+2016,Abu Dhabi,Female Life Expectancy,79.8
+2017,USA,Under Five Mortality,6.5
+2017,UK,Under Five Mortality,4.2
+2017,UAE,Under Five Mortality,6.8
+2017,Singapore,Under Five Mortality,2.7
+2017,Saudi Arabia,Under Five Mortality,14.5
+2017,Oman,Under Five Mortality,11.6
+2017,Kuwait,Under Five Mortality,8.6
+2017,Germany,Under Five Mortality,3.7
+2017,Bahrain,Under Five Mortality,6.2
+2017,Abu Dhabi,Under Five Mortality,8.2
+2017,USA,Road Traffic Mortality,10.6
+2017,UK,Road Traffic Mortality,2.9
+2017,UAE,Road Traffic Mortality,10.9
+2017,Singapore,Road Traffic Mortality,3.6
+2017,Saudi Arabia,Road Traffic Mortality,27.4
+2017,Oman,Road Traffic Mortality,25.4
+2017,Kuwait,Road Traffic Mortality,18.7
+2017,Germany,Road Traffic Mortality,4.3
+2017,Bahrain,Road Traffic Mortality,8.0
+2017,Abu Dhabi,Road Traffic Mortality,9.1
+2017,USA,Physicians,24.5
+2017,UK,Physicians,28.1
+2017,UAE,Physicians,25.3
+2017,Singapore,Physicians,19.5
+2017,Saudi Arabia,Physicians,24.9
+2017,Oman,Physicians,24.3
+2017,Kuwait,Physicians,17.9
+2017,Germany,Physicians,38.9
+2017,Bahrain,Physicians,9.2
+2017,Abu Dhabi,Physicians,97.9
+2017,USA,Nurses,98.2
+2017,UK,Nurses,88.0
+2017,UAE,Nurses,31.6
+2017,Singapore,Nurses,57.6
+2017,Saudi Arabia,Nurses,48.7
+2017,Oman,Nurses,53.8
+2017,Kuwait,Nurses,45.5
+2017,Germany,Nurses,114.9
+2017,Bahrain,Nurses,23.7
+2017,Abu Dhabi,Nurses,285.9
+2017,USA,Neonatal Mortality,3.6
+2017,UK,Neonatal Mortality,2.4
+2017,UAE,Neonatal Mortality,3.5
+2017,Singapore,Neonatal Mortality,1.0
+2017,Saudi Arabia,Neonatal Mortality,7.9
+2017,Oman,Neonatal Mortality,5.2
+2017,Kuwait,Neonatal Mortality,3.2
+2017,Germany,Neonatal Mortality,2.1
+2017,Bahrain,Neonatal Mortality,1.1
+2017,Abu Dhabi,Neonatal Mortality,5.0
+2017,USA,Male Life Expectancy,76.9
+2017,UK,Male Life Expectancy,79.4
+2017,UAE,Male Life Expectancy,76.4
+2017,Singapore,Male Life Expectancy,80.0
+2017,Saudi Arabia,Male Life Expectancy,73.2
+2017,Oman,Male Life Expectancy,75.0
+2017,Kuwait,Male Life Expectancy,73.7
+2017,Germany,Male Life Expectancy,78.7
+2017,Bahrain,Male Life Expectancy,76.2
+2017,Abu Dhabi,Male Life Expectancy,76.0
+2017,USA,Infant Mortality,5.9
+2017,UK,Infant Mortality,3.9
+2017,UAE,Infant Mortality,7.0
+2017,Singapore,Infant Mortality,2.2
+2017,Saudi Arabia,Infant Mortality,13.4
+2017,Oman,Infant Mortality,9.8
+2017,Kuwait,Infant Mortality,8.1
+2017,Germany,Infant Mortality,3.2
+2017,Bahrain,Infant Mortality,5.2
+2017,Abu Dhabi,Infant Mortality,6.8
+2017,USA,Hospital Beds,2.9
+2017,UK,Hospital Beds,2.9
+2017,UAE,Hospital Beds,1.1
+2017,Singapore,Hospital Beds,2.0
+2017,Saudi Arabia,Hospital Beds,2.1
+2017,Oman,Hospital Beds,1.7
+2017,Kuwait,Hospital Beds,2.2
+2017,Germany,Hospital Beds,8.2
+2017,Bahrain,Hospital Beds,2.1
+2017,Abu Dhabi,Hospital Beds,6.4
+2017,USA,Female Life Expectancy,81.6
+2017,UK,Female Life Expectancy,83.0
+2017,UAE,Female Life Expectancy,78.6
+2017,Singapore,Female Life Expectancy,86.1
+2017,Saudi Arabia,Female Life Expectancy,76.0
+2017,Oman,Female Life Expectancy,79.2
+2017,Kuwait,Female Life Expectancy,76.0
+2017,Germany,Female Life Expectancy,83.4
+2017,Bahrain,Female Life Expectancy,77.9
+2017,Abu Dhabi,Female Life Expectancy,79.8

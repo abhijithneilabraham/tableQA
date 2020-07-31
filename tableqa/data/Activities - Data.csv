@@ -1,0 +1,2091 @@
+﻿Year,Activity Type,Activity Type Chapter,% Value per Year
+2011,CPT,Urinary System,0.78%
+2011,CPT,Respiratory System,1.01%
+2011,CPT,Radiology,3.02%
+2011,CPT,Radiologic Guidance,0.00%
+2011,CPT,Radiation Oncology,0.46%
+2011,CPT,Pathology & Laboratory,32.83%
+2011,CPT,Operating Microscope,0.00%
+2011,CPT,Nuclear Medicine,1.15%
+2011,CPT,Nervous System,0.19%
+2011,CPT,N/A,0.05%
+2011,CPT,Musculoskeletal,1.61%
+2011,CPT,Mediastinum & Diaphragm,0.00%
+2011,CPT,Maternity Care & Delivery,1.93%
+2011,CPT,Male Genital System,0.14%
+2011,CPT,Integumentary,0.99%
+2011,CPT,Hemic & Lymphatic Systems,0.01%
+2011,CPT,General,0.02%
+2011,CPT,Female Genital System,0.31%
+2011,CPT,Eye & Ocular Adnexa,0.82%
+2011,CPT,Evaluation & Management,5.70%
+2011,CPT,Endocrine System,0.04%
+2011,CPT,Digestive System,1.81%
+2011,CPT,Diagnostic Ultrasound,3.81%
+2011,CPT,Cardiovascular System,0.49%
+2011,CPT,Breast Mammography,0.05%
+2011,CPT,Bone/Joint Studies,0.06%
+2011,CPT,Auditory System,0.28%
+2011,CPT,Anesthesia,0.02%
+2011,Dental,Unclassified Treatments,0.00%
+2011,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2011,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2011,Dental,Surgical Incisions,0.00%
+2011,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.00%
+2011,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.00%
+2011,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.12%
+2011,Dental,"Restorative Services, Other",0.00%
+2011,Dental,"Restorative Procedures, Overdentures",0.00%
+2011,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",0.35%
+2011,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.02%
+2011,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.04%
+2011,Dental,"Restorations, Amalgam",0.01%
+2011,Dental,Restoration,0.03%
+2011,Dental,Repairs,0.00%
+2011,Dental,"Removals, (Extractions), Surgical",0.07%
+2011,Dental,"Removals, (Extractions), Erupted Teeth",0.06%
+2011,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2011,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2011,Dental,"Radiographs, Specialty Use Only",0.00%
+2011,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.06%
+2011,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.07%
+2011,Dental,Professional Services,0.07%
+2011,Dental,"Preventive Services, Other",0.06%
+2011,Dental,"Pontics, Bridge",0.03%
+2011,Dental,Polishing,0.09%
+2011,Dental,Permanent Dentition,0.05%
+2011,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.05%
+2011,Dental,"Periodontal Services, Non Surgical",0.00%
+2011,Dental,"Periodontal Services, Miscellaneous",0.00%
+2011,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.01%
+2011,Dental,Periapical Services,0.00%
+2011,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2011,Dental,"Oral Surgery Procedures, Other",0.09%
+2011,Dental,Mixed Dentition,0.00%
+2011,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.03%
+2011,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2011,Dental,Master Cast Techniques,0.00%
+2011,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.03%
+2011,Dental,"Fractures, Treatment Of",0.00%
+2011,Dental,"Fixed Prosthetics, Other Services",0.00%
+2011,Dental,Fixed Bridge Retainers,0.05%
+2011,Dental,"Examination And Diagnosis, Clinical Oral",0.13%
+2011,Dental,"Endodontic, Procedures, Miscellaneous",0.01%
+2011,Dental,"Drugs/Medication, Dispensing",0.00%
+2011,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2011,Dental,"Dentures, Repairs/Additions",0.00%
+2011,Dental,"Dentures, Partial, Cast With Acrylic Base",0.00%
+2011,Dental,"Dentures, Partial, Acrylic",0.01%
+2011,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.00%
+2011,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2011,Dental,"Crowns, Single Units
+(Only)",0.16%
+2011,Dental,Bleaching Vital,0.00%
+2011,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.02%
+2011,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.01%
+2011,Dental,Appliances,0.00%
+2011,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.00%
+2011,Dental,Anaesthesia,0.04%
+2011,DRG,Newborns & Other Neonates,3.04%
+2011,DRG,Mental Diseases & Disorders,0.08%
+2011,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.06%
+2011,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.21%
+2011,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.05%
+2011,DRG,Diseases & Disorders Of The Urinary Tract,0.24%
+2011,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.24%
+2011,DRG,Diseases & Disorders Of The Respiratory System,3.55%
+2011,DRG,Diseases & Disorders Of The Nervous System,0.37%
+2011,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.13%
+2011,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,0.57%
+2011,DRG,Diseases & Disorders Of The Male Reproductive System,0.07%
+2011,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.17%
+2011,DRG,Diseases & Disorders Of The Female Reproductive System,0.29%
+2011,DRG,Diseases & Disorders Of The Eye,0.05%
+2011,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.19%
+2011,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.28%
+2011,DRG,Diseases & Disorders Of The Digestive System,0.67%
+2011,DRG,Diseases & Disorders Of The Circulatory System,0.87%
+2011,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.11%
+2011,DRG,Childbirth,0.81%
+2011,DRG,Alcohol/Drug Abuse & Dependence,0.03%
+2011,Drug,Various,0.05%
+2011,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.09%
+2011,Drug,Sensory organs,0.26%
+2011,Drug,Respiratory system,0.89%
+2011,Drug,Nervous system,0.51%
+2011,Drug,N/A,0.14%
+2011,Drug,Musculo-skeletal system,0.69%
+2011,Drug,Genito-urinary system and sex hormones,0.19%
+2011,Drug,Dermatologicals,0.32%
+2011,Drug,Cardiovascular system,2.57%
+2011,Drug,Blood and blood forming organs,0.95%
+2011,Drug,"Antiparasitic products, insecticides and repellents",0.02%
+2011,Drug,Antineoplastic and immunomodulating agents,1.88%
+2011,Drug,Antiinfectives for systemic use,2.24%
+2011,Drug,Alimentary tract and metabolism,4.08%
+2011,HCPCS,Vision Services,0.01%
+2011,HCPCS,Transport Services Including Ambulance,0.09%
+2011,HCPCS,Temporary Procedures/Professional Services,0.01%
+2011,HCPCS,Temporary National Codes Established Medicaid,0.03%
+2011,HCPCS,Temporary National Codes Established by Private Payers,0.02%
+2011,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.02%
+2011,HCPCS,Temporary Codes Assigned by CMS,0.07%
+2011,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.00%
+2011,HCPCS,Prosthetics,0.02%
+2011,HCPCS,Orthotics,0.00%
+2011,HCPCS,Medical and Surgical Supplies,1.23%
+2011,HCPCS,Laboratory Services,0.13%
+2011,HCPCS,Hearing Services,0.06%
+2011,HCPCS,Gradient Compression Stockings,0.00%
+2011,HCPCS,Enteral and Parenteral Therapy,0.04%
+2011,HCPCS,Durable Medical Equipment,0.13%
+2011,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2011,HCPCS,Dental Procedures,0.01%
+2011,HCPCS,CMS Hospital Outpatient Payment System,0.38%
+2011,HCPCS,"Administrative, Miscellaneous and Investigational",0.04%
+2011,HCPCS,0,0.01%
+2011,Service,Undefined services,0.00%
+2011,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2011,Service,Special Care Baby Unit (SCBU),0.00%
+2011,Service,Short Stay Room - Hourly Rate,0.00%
+2011,Service,Short Stay  Room - Daily Rate,0.00%
+2011,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2011,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2011,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2011,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.00%
+2011,Service,Room and Board: Ward,0.04%
+2011,Service,Room and Board:  VIP Room,0.03%
+2011,Service,Room and Board:  Suite,0.01%
+2011,Service,Room and Board: Shared Room,0.36%
+2011,Service,Room and Board: Royal Suite,0.00%
+2011,Service,Room and Board: Private Room Standard Suite,0.00%
+2011,Service,Room and Board: Isolation Room,0.01%
+2011,Service,Room and Board: First Class Room,1.81%
+2011,Service,Recovery Room  - Hourly Rate,0.00%
+2011,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.04%
+2011,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.02%
+2011,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.08%
+2011,Service,Perdiem - Treatment or Observation Room - NOT inclusive of Laboratory and Radiology,0.31%
+2011,Service,Perdiem - Short Stay,0.19%
+2011,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.06%
+2011,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.00%
+2011,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2011,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.06%
+2011,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.03%
+2011,Service,Perdiem - Non- Medical Escort accommodation - Daily Rate,0.02%
+2011,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.05%
+2011,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.02%
+2011,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.04%
+2011,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.27%
+2011,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.01%
+2011,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.07%
+2011,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,1.94%
+2011,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.27%
+2011,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.50%
+2011,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.03%
+2011,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.01%
+2011,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2011,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.70%
+2011,Service,Perdiem - Haemodialysis  (HD),0.84%
+2011,Service,Perdiem - Day Stay (Day Care) Room  - NOT inclusive of Laboratory and Radiology,0.11%
+2011,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.00%
+2011,Service,Perdiem - Day Stay (Day care) - Inclusive.,0.09%
+2011,Service,Perdiem - Companion Accommodation,0.00%
+2011,Service,Paediatric intensive care Unit (PICU),0.00%
+2011,Service,Outlier Payment,1.11%
+2011,Service,Operating Room Services - Minor Surgery,0.00%
+2011,Service,Operating Room Services - General Classification,0.09%
+2011,Service,Operating Room Services - First Hour,0.01%
+2011,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2011,Service,Nursery - General Classification,0.00%
+2011,Service,Neonatal Intensive Care Unit (NICU),0.00%
+2011,Service,Intensive Care Unit (ICU),0.01%
+2011,Service,Delivery Room,0.00%
+2011,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2011,Service,Coronary Care Unit (CCU),0.00%
+2011,Service,Consultation - Specialist - Follow Up within one week,0.00%
+2011,Service,Consultation - Specialist,0.98%
+2011,Service,Consultation - GP - Follow Up within one week,0.00%
+2011,Service,Consultation - GP,0.51%
+2011,Service,Consultation - Consultant - Follow Up within one week,0.00%
+2011,Service,Consultation - Consultant,0.51%
+2011,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.04%
+2011,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2011,Service,Catheterization Lab,0.00%
+2012,CPT,Urinary System,0.49%
+2012,CPT,Respiratory System,0.62%
+2012,CPT,Radiology,2.77%
+2012,CPT,Radiologic Guidance,0.00%
+2012,CPT,Radiation Oncology,0.18%
+2012,CPT,Pathology & Laboratory,19.70%
+2012,CPT,Operating Microscope,0.00%
+2012,CPT,Nuclear Medicine,0.36%
+2012,CPT,Nervous System,0.07%
+2012,CPT,N/A,0.06%
+2012,CPT,Musculoskeletal,1.15%
+2012,CPT,Mediastinum & Diaphragm,0.00%
+2012,CPT,Maternity Care & Delivery,0.32%
+2012,CPT,Male Genital System,0.12%
+2012,CPT,Integumentary,0.74%
+2012,CPT,Hemic & Lymphatic Systems,0.01%
+2012,CPT,General,0.02%
+2012,CPT,Female Genital System,0.15%
+2012,CPT,Eye & Ocular Adnexa,0.63%
+2012,CPT,Evaluation & Management,13.47%
+2012,CPT,Endocrine System,0.01%
+2012,CPT,Digestive System,0.82%
+2012,CPT,Diagnostic Ultrasound,3.14%
+2012,CPT,Cardiovascular System,0.21%
+2012,CPT,Breast Mammography,0.05%
+2012,CPT,Bone/Joint Studies,0.04%
+2012,CPT,Auditory System,0.18%
+2012,CPT,Anesthesia,0.02%
+2012,Dental,Unclassified Treatments,0.01%
+2012,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2012,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2012,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2012,Dental,Surgical Incisions,0.00%
+2012,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.01%
+2012,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.00%
+2012,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.29%
+2012,Dental,"Restorative Services, Other",0.01%
+2012,Dental,"Restorative Procedures, Overdentures",0.00%
+2012,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",0.93%
+2012,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.04%
+2012,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.07%
+2012,Dental,"Restorations, Foil, Gold",0.00%
+2012,Dental,"Restorations, Amalgam",0.02%
+2012,Dental,Restoration,0.07%
+2012,Dental,Repairs,0.00%
+2012,Dental,"Removals, (Extractions), Surgical",0.10%
+2012,Dental,"Removals, (Extractions), Erupted Teeth",0.15%
+2012,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2012,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2012,Dental,"Radiographs, Specialty Use Only",0.00%
+2012,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.17%
+2012,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.12%
+2012,Dental,Professional Services,0.38%
+2012,Dental,Primary Dentition,0.00%
+2012,Dental,"Preventive Services, Other",0.08%
+2012,Dental,"Pontics, Bridge",0.09%
+2012,Dental,Polishing,0.19%
+2012,Dental,Permanent Dentition,0.29%
+2012,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.10%
+2012,Dental,"Periodontal Services, Non Surgical",0.00%
+2012,Dental,"Periodontal Services, Miscellaneous",0.00%
+2012,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.01%
+2012,Dental,Periapical Services,0.00%
+2012,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2012,Dental,"Oral Surgery Procedures, Other",0.24%
+2012,Dental,Mixed Dentition,0.01%
+2012,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.07%
+2012,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2012,Dental,Master Cast Techniques,0.00%
+2012,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.01%
+2012,Dental,"Fractures, Treatment Of",0.00%
+2012,Dental,"Fixed Prosthetics, Other Services",0.01%
+2012,Dental,Fixed Bridge Retainers,0.14%
+2012,Dental,"Examination And Diagnosis, Clinical Oral",0.37%
+2012,Dental,"Endodontic, Procedures, Miscellaneous",0.02%
+2012,Dental,"Drugs/Medication, Dispensing",0.00%
+2012,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2012,Dental,"Dentures, Repairs/Additions",0.00%
+2012,Dental,"Dentures, Partial, Cast With Acrylic Base",0.01%
+2012,Dental,"Dentures, Partial, Acrylic",0.02%
+2012,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2012,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2012,Dental,"Crowns, Single Units
+(Only)",0.45%
+2012,Dental,Bleaching Vital,0.01%
+2012,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.08%
+2012,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.02%
+2012,Dental,Appliances,0.01%
+2012,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.00%
+2012,Dental,Anaesthesia,0.02%
+2012,DRG,Newborns & Other Neonates,4.22%
+2012,DRG,Mental Diseases & Disorders,0.15%
+2012,DRG,Medical Ambulatory Visits,0.00%
+2012,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.10%
+2012,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.50%
+2012,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.08%
+2012,DRG,Diseases & Disorders Of The Urinary Tract,0.54%
+2012,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.45%
+2012,DRG,Diseases & Disorders Of The Respiratory System,2.92%
+2012,DRG,Diseases & Disorders Of The Nervous System,0.80%
+2012,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.21%
+2012,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.24%
+2012,DRG,Diseases & Disorders Of The Male Reproductive System,0.12%
+2012,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.44%
+2012,DRG,Diseases & Disorders Of The Female Reproductive System,0.68%
+2012,DRG,Diseases & Disorders Of The Eye,0.06%
+2012,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.47%
+2012,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.58%
+2012,DRG,Diseases & Disorders Of The Digestive System,1.62%
+2012,DRG,Diseases & Disorders Of The Circulatory System,2.00%
+2012,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.24%
+2012,DRG,Childbirth,2.83%
+2012,DRG,Alcohol/Drug Abuse & Dependence,0.04%
+2012,Drug,Various,0.14%
+2012,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.28%
+2012,Drug,Sensory organs,0.43%
+2012,Drug,Respiratory system,1.66%
+2012,Drug,Nervous system,0.84%
+2012,Drug,N/A,1.15%
+2012,Drug,Musculo-skeletal system,1.08%
+2012,Drug,Genito-urinary system and sex hormones,0.43%
+2012,Drug,Dermatologicals,0.47%
+2012,Drug,Cardiovascular system,3.06%
+2012,Drug,Blood and blood forming organs,1.12%
+2012,Drug,"Antiparasitic products, insecticides and repellents",0.05%
+2012,Drug,Antineoplastic and immunomodulating agents,2.17%
+2012,Drug,Antiinfectives for systemic use,2.50%
+2012,Drug,Alimentary tract and metabolism,5.20%
+2012,HCPCS,Vision Services,0.01%
+2012,HCPCS,Transport Services Including Ambulance,0.32%
+2012,HCPCS,Temporary Procedures/Professional Services,0.00%
+2012,HCPCS,Temporary National Codes Established Medicaid,0.06%
+2012,HCPCS,Temporary National Codes Established by Private Payers,0.01%
+2012,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.05%
+2012,HCPCS,Temporary Codes Assigned by CMS,0.04%
+2012,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.02%
+2012,HCPCS,Prosthetics,0.03%
+2012,HCPCS,Orthotics,0.06%
+2012,HCPCS,N/A,0.00%
+2012,HCPCS,Medical and Surgical Supplies,0.94%
+2012,HCPCS,Laboratory Services,0.01%
+2012,HCPCS,Hearing Services,0.20%
+2012,HCPCS,Gradient Compression Stockings,0.00%
+2012,HCPCS,Enteral and Parenteral Therapy,0.16%
+2012,HCPCS,Durable Medical Equipment,0.61%
+2012,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2012,HCPCS,Dental Procedures,0.00%
+2012,HCPCS,CMS Hospital Outpatient Payment System,0.07%
+2012,HCPCS,"Administrative, Miscellaneous and Investigational",0.06%
+2012,HCPCS,0,0.00%
+2012,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2012,Service,Special Care Baby Unit (SCBU),0.00%
+2012,Service,Short Stay Room - Hourly Rate,0.00%
+2012,Service,Short Stay  Room - Daily Rate,0.00%
+2012,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2012,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2012,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - Royal Suite,0.00%
+2012,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2012,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.03%
+2012,Service,Room and Board: Ward,0.01%
+2012,Service,Room and Board:  VIP Room,0.00%
+2012,Service,Room and Board:  Suite,0.00%
+2012,Service,Room and Board: Shared Room,0.02%
+2012,Service,Room and Board: Royal Suite,0.00%
+2012,Service,Room and Board: Isolation Room,0.00%
+2012,Service,Room and Board: First Class Room,0.15%
+2012,Service,Recovery Room  - Hourly Rate,0.00%
+2012,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.01%
+2012,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.02%
+2012,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.19%
+2012,Service,Perdiem - Treatment or Observation Room - NOT inclusive of Laboratory and Radiology,0.18%
+2012,Service,Perdiem - Short Stay,0.27%
+2012,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2012,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2012,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.01%
+2012,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.00%
+2012,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2012,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2012,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.01%
+2012,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2012,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2012,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.00%
+2012,Service,Perdiem - Non- Medical Escort accommodation - Daily Rate,0.00%
+2012,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.01%
+2012,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.00%
+2012,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.01%
+2012,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.03%
+2012,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 4 to 8),0.00%
+2012,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2012,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.38%
+2012,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,2.74%
+2012,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.22%
+2012,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.35%
+2012,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.00%
+2012,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.00%
+2012,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2012,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.11%
+2012,Service,Perdiem - Haemodialysis  (HD),0.78%
+2012,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.19%
+2012,Service,Perdiem - Day Stay (Day Care) Room  - NOT inclusive of Laboratory and Radiology,0.10%
+2012,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.02%
+2012,Service,Perdiem - Day Stay (Day care) - Inclusive.,0.15%
+2012,Service,Perdiem - Companion Accommodation,0.00%
+2012,Service,Paediatric intensive care Unit (PICU),0.00%
+2012,Service,Outlier Payment,0.34%
+2012,Service,Operating Room Services - Minor Surgery,0.00%
+2012,Service,Operating Room Services - General Classification,0.02%
+2012,Service,Operating Room Services - First Hour,0.02%
+2012,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2012,Service,Nursery - General Classification,0.00%
+2012,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2012,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2012,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.00%
+2012,Service,Neonatal Intensive Care Unit (NICU),0.01%
+2012,Service,Intensive Care Unit (ICU),0.00%
+2012,Service,Emergency Room - Hourly Rate,0.00%
+2012,Service,Delivery Room,0.00%
+2012,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2012,Service,Coronary Care Unit (CCU),0.00%
+2012,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.02%
+2012,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2012,Service,Catheterization Lab,0.00%
+2013,CPT,Urinary System,0.32%
+2013,CPT,Respiratory System,0.55%
+2013,CPT,Radiology,2.22%
+2013,CPT,Radiologic Guidance,0.00%
+2013,CPT,Radiation Oncology,0.11%
+2013,CPT,Pathology & Laboratory,16.47%
+2013,CPT,Operating Microscope,0.00%
+2013,CPT,Nuclear Medicine,0.32%
+2013,CPT,Nervous System,0.05%
+2013,CPT,N/A,0.03%
+2013,CPT,Musculoskeletal,0.56%
+2013,CPT,Mediastinum & Diaphragm,0.00%
+2013,CPT,Maternity Care & Delivery,0.10%
+2013,CPT,Male Genital System,0.10%
+2013,CPT,Integumentary,0.56%
+2013,CPT,Hemic & Lymphatic Systems,0.00%
+2013,CPT,General,0.01%
+2013,CPT,Female Genital System,0.12%
+2013,CPT,Eye & Ocular Adnexa,0.68%
+2013,CPT,Evaluation & Management,14.98%
+2013,CPT,Endocrine System,0.00%
+2013,CPT,Digestive System,0.48%
+2013,CPT,Diagnostic Ultrasound,2.90%
+2013,CPT,Cardiovascular System,0.13%
+2013,CPT,Breast Mammography,0.04%
+2013,CPT,Bone/Joint Studies,0.04%
+2013,CPT,Auditory System,0.15%
+2013,CPT,Anesthesia,0.01%
+2013,Dental,Unclassified Treatments,0.01%
+2013,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2013,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2013,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2013,Dental,Surgical Incisions,0.00%
+2013,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.00%
+2013,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.00%
+2013,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.29%
+2013,Dental,"Restorative Services, Other",0.00%
+2013,Dental,"Restorative Procedures, Overdentures",0.00%
+2013,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",0.88%
+2013,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.03%
+2013,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.09%
+2013,Dental,"Restorations, Foil, Gold",0.00%
+2013,Dental,"Restorations, Amalgam",0.01%
+2013,Dental,Restoration,0.06%
+2013,Dental,Repairs,0.00%
+2013,Dental,"Removals, (Extractions), Surgical",0.10%
+2013,Dental,"Removals, (Extractions), Erupted Teeth",0.14%
+2013,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2013,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2013,Dental,"Radiographs, Specialty Use Only",0.00%
+2013,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.16%
+2013,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.11%
+2013,Dental,Professional Services,0.34%
+2013,Dental,Primary Dentition,0.00%
+2013,Dental,"Preventive Services, Other",0.07%
+2013,Dental,"Pontics, Bridge",0.08%
+2013,Dental,Polishing,0.20%
+2013,Dental,Permanent Dentition,0.32%
+2013,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.08%
+2013,Dental,"Periodontal Services, Non Surgical",0.00%
+2013,Dental,"Periodontal Services, Miscellaneous",0.00%
+2013,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.01%
+2013,Dental,Periapical Services,0.00%
+2013,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2013,Dental,"Oral Surgery Procedures, Other",0.23%
+2013,Dental,Mixed Dentition,0.01%
+2013,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.05%
+2013,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2013,Dental,Master Cast Techniques,0.00%
+2013,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.01%
+2013,Dental,"Fractures, Treatment Of",0.00%
+2013,Dental,"Fixed Prosthetics, Other Services",0.02%
+2013,Dental,Fixed Bridge Retainers,0.12%
+2013,Dental,"Examination And Diagnosis, Clinical Oral",0.35%
+2013,Dental,"Endodontic, Procedures, Miscellaneous",0.01%
+2013,Dental,"Drugs/Medication, Dispensing",0.00%
+2013,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2013,Dental,"Dentures, Repairs/Additions",0.00%
+2013,Dental,"Dentures, Partial, Cast With Acrylic Base",0.00%
+2013,Dental,"Dentures, Partial, Acrylic",0.02%
+2013,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2013,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2013,Dental,"Crowns, Single Units
+(Only)",0.44%
+2013,Dental,Case Presentation/ Treatment Planning,0.00%
+2013,Dental,Bleaching Vital,0.04%
+2013,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.08%
+2013,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.02%
+2013,Dental,Appliances,0.01%
+2013,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.00%
+2013,Dental,Anaesthesia,0.01%
+2013,DRG,Newborns & Other Neonates,4.21%
+2013,DRG,Mental Diseases & Disorders,0.20%
+2013,DRG,Medical Ambulatory Visits,0.00%
+2013,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.10%
+2013,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.55%
+2013,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.07%
+2013,DRG,Diseases & Disorders Of The Urinary Tract,0.52%
+2013,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.65%
+2013,DRG,Diseases & Disorders Of The Respiratory System,2.83%
+2013,DRG,Diseases & Disorders Of The Nervous System,0.84%
+2013,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.23%
+2013,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.28%
+2013,DRG,Diseases & Disorders Of The Male Reproductive System,0.11%
+2013,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.52%
+2013,DRG,Diseases & Disorders Of The Female Reproductive System,0.64%
+2013,DRG,Diseases & Disorders Of The Eye,0.05%
+2013,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.42%
+2013,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.62%
+2013,DRG,Diseases & Disorders Of The Digestive System,1.57%
+2013,DRG,Diseases & Disorders Of The Circulatory System,2.15%
+2013,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.24%
+2013,DRG,Childbirth,2.68%
+2013,DRG,Alcohol/Drug Abuse & Dependence,0.04%
+2013,Drug,Various,0.24%
+2013,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.30%
+2013,Drug,Sensory organs,0.34%
+2013,Drug,Respiratory system,1.48%
+2013,Drug,Nervous system,0.91%
+2013,Drug,N/A,3.10%
+2013,Drug,Musculo-skeletal system,0.85%
+2013,Drug,Genito-urinary system and sex hormones,0.39%
+2013,Drug,Dermatologicals,0.42%
+2013,Drug,Cardiovascular system,2.59%
+2013,Drug,Blood and blood forming organs,2.31%
+2013,Drug,"Antiparasitic products, insecticides and repellents",0.03%
+2013,Drug,Antineoplastic and immunomodulating agents,3.54%
+2013,Drug,Antiinfectives for systemic use,2.05%
+2013,Drug,Alimentary tract and metabolism,4.73%
+2013,HCPCS,Vision Services,0.03%
+2013,HCPCS,Transport Services Including Ambulance,0.76%
+2013,HCPCS,Temporary Procedures/Professional Services,0.00%
+2013,HCPCS,Temporary National Codes Established Medicaid,0.06%
+2013,HCPCS,Temporary National Codes Established by Private Payers,0.01%
+2013,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.01%
+2013,HCPCS,Temporary Codes Assigned by CMS,0.03%
+2013,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.02%
+2013,HCPCS,Prosthetics,0.05%
+2013,HCPCS,Orthotics,0.12%
+2013,HCPCS,Medical and Surgical Supplies,1.04%
+2013,HCPCS,Laboratory Services,0.01%
+2013,HCPCS,Hearing Services,0.25%
+2013,HCPCS,Gradient Compression Stockings,0.00%
+2013,HCPCS,Enteral and Parenteral Therapy,0.24%
+2013,HCPCS,Durable Medical Equipment,0.66%
+2013,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2013,HCPCS,CMS Hospital Outpatient Payment System,0.29%
+2013,HCPCS,Chemotherapy Drugs,0.00%
+2013,HCPCS,"Administrative, Miscellaneous and Investigational",0.06%
+2013,N/A,N/A,0.00%
+2013,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2013,Service,Special Care Baby Unit (SCBU),0.00%
+2013,Service,Short Stay Room - Hourly Rate,0.00%
+2013,Service,Short Stay  Room - Daily Rate,0.00%
+2013,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2013,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2013,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - Royal Suite,0.00%
+2013,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2013,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.00%
+2013,Service,Room and Board: Ward,0.00%
+2013,Service,Room and Board:  VIP Room,0.00%
+2013,Service,Room and Board:  Suite,0.00%
+2013,Service,Room and Board: Shared Room,0.00%
+2013,Service,Room and Board: Royal Suite,0.00%
+2013,Service,Room and Board: Isolation Room,0.00%
+2013,Service,Room and Board: First Class Room,0.01%
+2013,Service,Recovery Room  - Hourly Rate,0.00%
+2013,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.01%
+2013,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.01%
+2013,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.02%
+2013,Service,Perdiem - Short Stay,0.42%
+2013,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2013,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2013,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.00%
+2013,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.01%
+2013,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2013,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2013,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.01%
+2013,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2013,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2013,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.00%
+2013,Service,Perdiem - Non- Medical Escort accommodation - Daily Rate,0.00%
+2013,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.06%
+2013,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.01%
+2013,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.01%
+2013,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.02%
+2013,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 9 and more),0.00%
+2013,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 4 to 8),0.00%
+2013,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2013,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.43%
+2013,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,1.78%
+2013,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.45%
+2013,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.08%
+2013,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.01%
+2013,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.00%
+2013,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2013,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.04%
+2013,Service,Perdiem - Haemodialysis  (HD),1.80%
+2013,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.87%
+2013,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.07%
+2013,Service,Perdiem - Continuous  Ambulatory Peritoneal Dialysis (CAPD).,0.00%
+2013,Service,Perdiem - Companion Accommodation,0.00%
+2013,Service,Perdiem - Automated Peritoneal Dialysis (APD).,0.02%
+2013,Service,Paediatric intensive care Unit (PICU),0.00%
+2013,Service,Outlier Payment,0.92%
+2013,Service,Operating Room Services - Minor Surgery,0.00%
+2013,Service,Operating Room Services - General Classification,0.00%
+2013,Service,Operating Room Services - First Hour,0.01%
+2013,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2013,Service,Nursery - General Classification,0.00%
+2013,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2013,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2013,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.01%
+2013,Service,Neonatal Intensive Care Unit (NICU),0.01%
+2013,Service,Intensive Care Unit (ICU),0.01%
+2013,Service,Emergency Room - Hourly Rate,0.00%
+2013,Service,Delivery Room,0.00%
+2013,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2013,Service,Coronary Care Unit (CCU),0.00%
+2013,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.03%
+2013,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2013,Service,Catheterization Lab,0.00%
+2014,CPT,Urinary System,0.34%
+2014,CPT,Respiratory System,0.63%
+2014,CPT,Radiology,2.56%
+2014,CPT,Radiologic Guidance,0.00%
+2014,CPT,Radiation Oncology,0.22%
+2014,CPT,Pathology & Laboratory,17.93%
+2014,CPT,Operating Microscope,0.00%
+2014,CPT,Nuclear Medicine,0.36%
+2014,CPT,Nervous System,0.05%
+2014,CPT,N/A,0.03%
+2014,CPT,Musculoskeletal,0.59%
+2014,CPT,Mediastinum & Diaphragm,0.00%
+2014,CPT,Maternity Care & Delivery,0.12%
+2014,CPT,Male Genital System,0.10%
+2014,CPT,Integumentary,0.61%
+2014,CPT,Hemic & Lymphatic Systems,0.00%
+2014,CPT,General,0.01%
+2014,CPT,Female Genital System,0.14%
+2014,CPT,Eye & Ocular Adnexa,0.67%
+2014,CPT,Evaluation & Management,14.92%
+2014,CPT,Endocrine System,0.00%
+2014,CPT,Digestive System,0.51%
+2014,CPT,Diagnostic Ultrasound,3.10%
+2014,CPT,Cardiovascular System,0.11%
+2014,CPT,Breast Mammography,0.06%
+2014,CPT,Bone/Joint Studies,0.04%
+2014,CPT,Auditory System,0.16%
+2014,CPT,Anesthesia,0.00%
+2014,Dental,Unclassified Treatments,0.01%
+2014,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2014,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2014,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2014,Dental,Surgical Incisions,0.01%
+2014,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.01%
+2014,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.01%
+2014,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.31%
+2014,Dental,"Restorative Services, Other",0.00%
+2014,Dental,"Restorative Procedures, Overdentures",0.00%
+2014,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",0.93%
+2014,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.04%
+2014,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.11%
+2014,Dental,"Restorations, Amalgam",0.01%
+2014,Dental,Restoration,0.07%
+2014,Dental,Repairs,0.00%
+2014,Dental,"Removals, (Extractions), Surgical",0.11%
+2014,Dental,"Removals, (Extractions), Erupted Teeth",0.16%
+2014,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2014,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2014,Dental,"Radiographs, Specialty Use Only",0.00%
+2014,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.17%
+2014,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.11%
+2014,Dental,"Prosthesis, Maxillofacial",0.00%
+2014,Dental,Professional Services,0.37%
+2014,Dental,Primary Dentition,0.00%
+2014,Dental,"Preventive Services, Other",0.08%
+2014,Dental,"Pontics, Bridge",0.08%
+2014,Dental,Polishing,0.21%
+2014,Dental,Permanent Dentition,0.36%
+2014,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.11%
+2014,Dental,"Periodontal Services, Non Surgical",0.00%
+2014,Dental,"Periodontal Services, Miscellaneous",0.00%
+2014,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.01%
+2014,Dental,Periapical Services,0.00%
+2014,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2014,Dental,"Oral Surgery Procedures, Other",0.25%
+2014,Dental,N/A,0.00%
+2014,Dental,Mixed Dentition,0.01%
+2014,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.06%
+2014,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2014,Dental,Master Cast Techniques,0.00%
+2014,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.00%
+2014,Dental,"Fractures, Treatment Of",0.00%
+2014,Dental,"Fixed Prosthetics, Other Services",0.01%
+2014,Dental,Fixed Bridge Retainers,0.12%
+2014,Dental,"Examination And Diagnosis, Clinical Oral",0.36%
+2014,Dental,"Endodontic, Procedures, Miscellaneous",0.01%
+2014,Dental,"Drugs/Medication, Dispensing",0.00%
+2014,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2014,Dental,"Dentures, Repairs/Additions",0.00%
+2014,Dental,"Dentures, Partial, Cast With Acrylic Base",0.00%
+2014,Dental,"Dentures, Partial, Acrylic",0.02%
+2014,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2014,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2014,Dental,"Crowns, Single Units
+(Only)",0.56%
+2014,Dental,Case Presentation/ Treatment Planning,0.00%
+2014,Dental,Bleaching Vital,0.07%
+2014,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.08%
+2014,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.02%
+2014,Dental,Appliances,0.01%
+2014,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.00%
+2014,Dental,Anaesthesia,0.01%
+2014,DRG,Newborns & Other Neonates,3.52%
+2014,DRG,Mental Diseases & Disorders,0.18%
+2014,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.09%
+2014,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.44%
+2014,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.07%
+2014,DRG,Diseases & Disorders Of The Urinary Tract,0.55%
+2014,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.50%
+2014,DRG,Diseases & Disorders Of The Respiratory System,2.69%
+2014,DRG,Diseases & Disorders Of The Nervous System,0.77%
+2014,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.24%
+2014,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.25%
+2014,DRG,Diseases & Disorders Of The Male Reproductive System,0.10%
+2014,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.50%
+2014,DRG,Diseases & Disorders Of The Female Reproductive System,0.62%
+2014,DRG,Diseases & Disorders Of The Eye,0.04%
+2014,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.37%
+2014,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.51%
+2014,DRG,Diseases & Disorders Of The Digestive System,1.45%
+2014,DRG,Diseases & Disorders Of The Circulatory System,2.13%
+2014,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.24%
+2014,DRG,Childbirth,2.60%
+2014,DRG,Alcohol/Drug Abuse & Dependence,0.04%
+2014,Drug,Various,0.22%
+2014,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.27%
+2014,Drug,Sensory organs,0.19%
+2014,Drug,Respiratory system,1.38%
+2014,Drug,Nervous system,0.72%
+2014,Drug,N/A,4.83%
+2014,Drug,Musculo-skeletal system,0.73%
+2014,Drug,Genito-urinary system and sex hormones,0.37%
+2014,Drug,Dermatologicals,0.41%
+2014,Drug,Cardiovascular system,2.22%
+2014,Drug,Blood and blood forming organs,1.82%
+2014,Drug,"Antiparasitic products, insecticides and repellents",0.03%
+2014,Drug,Antineoplastic and immunomodulating agents,2.49%
+2014,Drug,Antiinfectives for systemic use,1.90%
+2014,Drug,Alimentary tract and metabolism,3.71%
+2014,HCPCS,Vision Services,0.02%
+2014,HCPCS,Transport Services Including Ambulance,1.50%
+2014,HCPCS,Temporary Procedures/Professional Services,0.00%
+2014,HCPCS,Temporary National Codes Established Medicaid,0.09%
+2014,HCPCS,Temporary National Codes Established by Private Payers,0.02%
+2014,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.03%
+2014,HCPCS,Temporary Codes Assigned by CMS,0.02%
+2014,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.02%
+2014,HCPCS,Prosthetics,0.05%
+2014,HCPCS,Orthotics,0.14%
+2014,HCPCS,Medical and Surgical Supplies,0.84%
+2014,HCPCS,Laboratory Services,0.00%
+2014,HCPCS,Helmets,0.00%
+2014,HCPCS,Hearing Services,0.30%
+2014,HCPCS,Gradient Compression Stockings,0.00%
+2014,HCPCS,Enteral and Parenteral Therapy,0.23%
+2014,HCPCS,Durable Medical Equipment,0.65%
+2014,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2014,HCPCS,CMS Hospital Outpatient Payment System,0.23%
+2014,HCPCS,Chemotherapy Drugs,0.00%
+2014,HCPCS,"Administrative, Miscellaneous and Investigational",0.08%
+2014,N/A,N/A,0.00%
+2014,Service,Tele-consultation resulting in Self Care,0.00%
+2014,Service,Tele-consultation resulting in Referral,0.00%
+2014,Service,Tele-consultation resulting in Emergency Management,0.00%
+2014,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2014,Service,Special Care Baby Unit (SCBU),0.00%
+2014,Service,Short Stay Room - Hourly Rate,0.00%
+2014,Service,Short Stay  Room - Daily Rate,0.00%
+2014,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2014,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2014,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - Royal Suite,0.00%
+2014,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2014,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.00%
+2014,Service,Room and Board: Ward,0.00%
+2014,Service,Room and Board:  VIP Room,0.00%
+2014,Service,Room and Board:  Suite,0.00%
+2014,Service,Room and Board: Shared Room,0.00%
+2014,Service,Room and Board: Royal Suite,0.00%
+2014,Service,Room and Board: Isolation Room,0.00%
+2014,Service,Room and Board: First Class Room,0.00%
+2014,Service,Recovery Room  - Hourly Rate,0.00%
+2014,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.03%
+2014,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.02%
+2014,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.03%
+2014,Service,Perdiem - Short Stay,0.52%
+2014,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2014,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2014,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.00%
+2014,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.01%
+2014,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2014,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2014,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.04%
+2014,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2014,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2014,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.01%
+2014,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.05%
+2014,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.01%
+2014,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.02%
+2014,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.04%
+2014,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 9 and more),0.00%
+2014,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 4 to 8),0.00%
+2014,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2014,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.35%
+2014,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,2.46%
+2014,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.37%
+2014,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.16%
+2014,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.01%
+2014,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.00%
+2014,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2014,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.04%
+2014,Service,Perdiem - Haemodialysis  (HD),1.59%
+2014,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.82%
+2014,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.07%
+2014,Service,Perdiem - Continuous  Ambulatory Peritoneal Dialysis (CAPD).,0.00%
+2014,Service,Perdiem - Companion Accommodation,0.00%
+2014,Service,Perdiem - Automated Peritoneal Dialysis (APD).,0.02%
+2014,Service,Paediatric intensive care Unit (PICU),0.00%
+2014,Service,Outlier Payment,0.68%
+2014,Service,Operating Room Services - Minor Surgery,0.00%
+2014,Service,Operating Room Services - General Classification,0.00%
+2014,Service,Operating Room Services - First Hour,0.00%
+2014,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2014,Service,Nursery - General Classification,0.00%
+2014,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2014,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2014,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.01%
+2014,Service,Neonatal Intensive Care Unit (NICU),0.00%
+2014,Service,Intensive Care Unit (ICU),0.00%
+2014,Service,Emergency Room - Hourly Rate,0.00%
+2014,Service,"Educational services rendered by Clinician (Physician or Non-Physician) to patient opting out of the  Comprehensive Screening, new or established patient; 10-15 minutes.",0.00%
+2014,Service,DRG Add-on Payment for High Cost Consumables,0.01%
+2014,Service,Delivery Room,0.00%
+2014,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2014,Service,Coronary Care Unit (CCU),0.00%
+2014,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.03%
+2014,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2014,Service,Catheterization Lab,0.00%
+2015,CPT,Urinary System,0.35%
+2015,CPT,Respiratory System,0.69%
+2015,CPT,Radiology,2.70%
+2015,CPT,Radiologic Guidance,0.00%
+2015,CPT,Radiation Oncology,0.24%
+2015,CPT,Pathology & Laboratory,19.81%
+2015,CPT,Operating Microscope,0.00%
+2015,CPT,Nuclear Medicine,0.37%
+2015,CPT,Nervous System,0.05%
+2015,CPT,N/A,0.04%
+2015,CPT,Musculoskeletal,0.60%
+2015,CPT,Mediastinum & Diaphragm,0.00%
+2015,CPT,Maternity Care & Delivery,0.13%
+2015,CPT,Male Genital System,0.10%
+2015,CPT,Integumentary,0.62%
+2015,CPT,Hemic & Lymphatic Systems,0.00%
+2015,CPT,General,0.01%
+2015,CPT,Female Genital System,0.17%
+2015,CPT,Eye & Ocular Adnexa,0.70%
+2015,CPT,Evaluation & Management,14.90%
+2015,CPT,Endocrine System,0.00%
+2015,CPT,Digestive System,0.54%
+2015,CPT,Diagnostic Ultrasound,3.12%
+2015,CPT,Cardiovascular System,0.12%
+2015,CPT,Breast Mammography,0.06%
+2015,CPT,Bone/Joint Studies,0.04%
+2015,CPT,Auditory System,0.17%
+2015,CPT,Anesthesia,0.00%
+2015,Dental,Unclassified Treatments,0.01%
+2015,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2015,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2015,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2015,Dental,Surgical Incisions,0.00%
+2015,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.01%
+2015,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.01%
+2015,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.29%
+2015,Dental,"Restorative Services, Other",0.00%
+2015,Dental,"Restorative Procedures, Overdentures",0.00%
+2015,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",0.95%
+2015,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.04%
+2015,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.13%
+2015,Dental,"Restorations, Foil, Gold",0.00%
+2015,Dental,"Restorations, Amalgam",0.01%
+2015,Dental,Restoration,0.07%
+2015,Dental,Repairs,0.00%
+2015,Dental,"Removals, (Extractions), Surgical",0.11%
+2015,Dental,"Removals, (Extractions), Erupted Teeth",0.15%
+2015,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2015,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2015,Dental,"Radiographs, Specialty Use Only",0.00%
+2015,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.18%
+2015,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.10%
+2015,Dental,Professional Services,0.44%
+2015,Dental,Primary Dentition,0.00%
+2015,Dental,"Preventive Services, Other",0.07%
+2015,Dental,"Pontics, Bridge",0.08%
+2015,Dental,Polishing,0.22%
+2015,Dental,Permanent Dentition,0.43%
+2015,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.11%
+2015,Dental,"Periodontal Services, Non Surgical",0.00%
+2015,Dental,"Periodontal Services, Miscellaneous",0.00%
+2015,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.01%
+2015,Dental,Periapical Services,0.00%
+2015,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2015,Dental,"Oral Surgery Procedures, Other",0.28%
+2015,Dental,Mixed Dentition,0.01%
+2015,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.07%
+2015,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2015,Dental,Master Cast Techniques,0.00%
+2015,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.00%
+2015,Dental,"Fractures, Treatment Of",0.00%
+2015,Dental,"Fixed Prosthetics, Other Services",0.02%
+2015,Dental,Fixed Bridge Retainers,0.13%
+2015,Dental,"Examination And Diagnosis, Clinical Oral",0.36%
+2015,Dental,"Endodontic, Procedures, Miscellaneous",0.01%
+2015,Dental,"Drugs/Medication, Dispensing",0.00%
+2015,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2015,Dental,"Dentures, Repairs/Additions",0.00%
+2015,Dental,"Dentures, Partial, Cast With Acrylic Base",0.01%
+2015,Dental,"Dentures, Partial, Acrylic",0.02%
+2015,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2015,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2015,Dental,"Crowns, Single Units
+(Only)",0.58%
+2015,Dental,Bleaching Vital,0.11%
+2015,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.09%
+2015,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.03%
+2015,Dental,Appliances,0.01%
+2015,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.00%
+2015,Dental,Anaesthesia,0.02%
+2015,DRG,Newborns & Other Neonates,2.65%
+2015,DRG,Mental Diseases & Disorders,0.17%
+2015,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.09%
+2015,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.42%
+2015,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.05%
+2015,DRG,Diseases & Disorders Of The Urinary Tract,0.61%
+2015,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.36%
+2015,DRG,Diseases & Disorders Of The Respiratory System,2.83%
+2015,DRG,Diseases & Disorders Of The Nervous System,0.74%
+2015,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.26%
+2015,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.32%
+2015,DRG,Diseases & Disorders Of The Male Reproductive System,0.10%
+2015,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.50%
+2015,DRG,Diseases & Disorders Of The Female Reproductive System,0.64%
+2015,DRG,Diseases & Disorders Of The Eye,0.04%
+2015,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.37%
+2015,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.52%
+2015,DRG,Diseases & Disorders Of The Digestive System,1.47%
+2015,DRG,Diseases & Disorders Of The Circulatory System,2.31%
+2015,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.24%
+2015,DRG,Childbirth,2.53%
+2015,DRG,Alcohol/Drug Abuse & Dependence,0.03%
+2015,Drug,Various,0.16%
+2015,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.27%
+2015,Drug,Sensory organs,0.19%
+2015,Drug,Respiratory system,1.19%
+2015,Drug,Nervous system,0.68%
+2015,Drug,N/A,5.92%
+2015,Drug,Musculo-skeletal system,0.60%
+2015,Drug,Genito-urinary system and sex hormones,0.39%
+2015,Drug,Dermatologicals,0.38%
+2015,Drug,Cardiovascular system,2.02%
+2015,Drug,Blood and blood forming organs,1.17%
+2015,Drug,"Antiparasitic products, insecticides and repellents",0.03%
+2015,Drug,Antineoplastic and immunomodulating agents,1.94%
+2015,Drug,Antiinfectives for systemic use,1.55%
+2015,Drug,Alimentary tract and metabolism,3.00%
+2015,HCPCS,Vision Services,0.02%
+2015,HCPCS,Transport Services Including Ambulance,2.21%
+2015,HCPCS,Temporary Procedures/Professional Services,0.00%
+2015,HCPCS,Temporary National Codes Established Medicaid,0.08%
+2015,HCPCS,Temporary National Codes Established by Private Payers,0.02%
+2015,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.03%
+2015,HCPCS,Temporary Codes Assigned by CMS,0.02%
+2015,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.02%
+2015,HCPCS,Prosthetics,0.05%
+2015,HCPCS,Orthotics,0.22%
+2015,HCPCS,Medical and Surgical Supplies,0.81%
+2015,HCPCS,Laboratory Services,0.00%
+2015,HCPCS,Hearing Services,0.20%
+2015,HCPCS,Gradient Compression Stockings,0.00%
+2015,HCPCS,Enteral and Parenteral Therapy,0.18%
+2015,HCPCS,Durable Medical Equipment,0.45%
+2015,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2015,HCPCS,CMS Hospital Outpatient Payment System,0.29%
+2015,HCPCS,Chemotherapy Drugs,0.00%
+2015,HCPCS,Behavioural Health and/or Substance Abuse Treatment Services,0.00%
+2015,HCPCS,"Administrative, Miscellaneous and Investigational",0.08%
+2015,N/A,N/A,0.00%
+2015,Service,Tele-consultation resulting in Self Care,0.00%
+2015,Service,Tele-consultation resulting in Referral,0.00%
+2015,Service,Tele-consultation resulting in Emergency Management,0.00%
+2015,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2015,Service,Special Care Baby Unit (SCBU),0.00%
+2015,Service,Short Stay Room - Hourly Rate,0.00%
+2015,Service,Short Stay  Room - Daily Rate,0.00%
+2015,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2015,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2015,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - Royal Suite,0.00%
+2015,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2015,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.01%
+2015,Service,Room and Board: Ward,0.00%
+2015,Service,Room and Board:  VIP Room,0.00%
+2015,Service,Room and Board:  Suite,0.03%
+2015,Service,Room and Board: Shared Room,0.00%
+2015,Service,Room and Board: Royal Suite,0.00%
+2015,Service,Room and Board: Isolation Room,0.00%
+2015,Service,Room and Board: First Class Room,0.00%
+2015,Service,Recovery Room  - Hourly Rate,0.00%
+2015,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.02%
+2015,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.01%
+2015,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.03%
+2015,Service,Perdiem - Short Stay,0.56%
+2015,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2015,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2015,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.00%
+2015,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.01%
+2015,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2015,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2015,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.04%
+2015,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2015,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2015,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.00%
+2015,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.02%
+2015,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.01%
+2015,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.01%
+2015,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.03%
+2015,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 4 to 8),0.00%
+2015,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2015,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.35%
+2015,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,1.90%
+2015,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.39%
+2015,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.09%
+2015,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.01%
+2015,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.00%
+2015,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2015,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.03%
+2015,Service,Perdiem - Haemodialysis  (HD),1.41%
+2015,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.77%
+2015,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.06%
+2015,Service,Perdiem - Continuous  Ambulatory Peritoneal Dialysis (CAPD).,0.00%
+2015,Service,Perdiem - Companion Accommodation,0.00%
+2015,Service,Perdiem - Automated Peritoneal Dialysis (APD).,0.02%
+2015,Service,Per Diem-  Bundled Base Payment of home care  (Level 3- Intensive)                                                                                                                              * -A bundled payment that includes all medical services and tra,0.00%
+2015,Service,Paediatric intensive care Unit (PICU),0.00%
+2015,Service,Outlier Payment,0.81%
+2015,Service,Operating Room Services - Minor Surgery,0.00%
+2015,Service,Operating Room Services - General Classification,0.00%
+2015,Service,Operating Room Services - First Hour,0.00%
+2015,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2015,Service,Nursery - General Classification,0.00%
+2015,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2015,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2015,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.02%
+2015,Service,Neonatal Intensive Care Unit (NICU),0.00%
+2015,Service,Intensive Care Unit (ICU),0.00%
+2015,Service,Emergency Room - Hourly Rate,0.00%
+2015,Service,DRG Add-on Payment for High Cost Consumables,0.12%
+2015,Service,Delivery Room,0.00%
+2015,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2015,Service,Coronary Care Unit (CCU),0.00%
+2015,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.03%
+2015,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2015,Service,Catheterization Lab,0.00%
+2016,CPT,Urinary System,0.36%
+2016,CPT,Respiratory System,0.59%
+2016,CPT,Radiology,2.69%
+2016,CPT,Radiologic Guidance,0.01%
+2016,CPT,Radiation Oncology,0.23%
+2016,CPT,Pathology & Laboratory,19.69%
+2016,CPT,Operating Microscope,0.00%
+2016,CPT,Nuclear Medicine,0.42%
+2016,CPT,Nervous System,0.06%
+2016,CPT,N/A,0.04%
+2016,CPT,Musculoskeletal,0.58%
+2016,CPT,Mediastinum & Diaphragm,0.00%
+2016,CPT,Maternity Care & Delivery,0.12%
+2016,CPT,Male Genital System,0.10%
+2016,CPT,Integumentary,0.59%
+2016,CPT,Hemic & Lymphatic Systems,0.00%
+2016,CPT,General,0.01%
+2016,CPT,Female Genital System,0.16%
+2016,CPT,Eye & Ocular Adnexa,0.75%
+2016,CPT,Evaluation & Management,14.34%
+2016,CPT,Endocrine System,0.00%
+2016,CPT,Digestive System,0.59%
+2016,CPT,Diagnostic Ultrasound,2.89%
+2016,CPT,Cardiovascular System,0.15%
+2016,CPT,Breast Mammography,0.07%
+2016,CPT,Bone/Joint Studies,0.04%
+2016,CPT,Auditory System,0.16%
+2016,CPT,Anesthesia,0.00%
+2016,Dental,Unclassified Treatments,0.01%
+2016,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2016,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2016,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2016,Dental,Surgical Incisions,0.00%
+2016,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.01%
+2016,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.01%
+2016,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.32%
+2016,Dental,"Restorative Services, Other",0.01%
+2016,Dental,"Restorative Procedures, Overdentures",0.00%
+2016,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",1.05%
+2016,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.06%
+2016,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.16%
+2016,Dental,"Restorations, Foil, Gold",0.00%
+2016,Dental,"Restorations, Amalgam",0.01%
+2016,Dental,Restoration,0.07%
+2016,Dental,Repairs,0.00%
+2016,Dental,"Removals, (Extractions), Surgical",0.12%
+2016,Dental,"Removals, (Extractions), Erupted Teeth",0.16%
+2016,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2016,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2016,Dental,"Radiographs, Specialty Use Only",0.00%
+2016,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.21%
+2016,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.11%
+2016,Dental,"Prosthondics, Removable, Fabricated In Conjunction With A Denturist",0.00%
+2016,Dental,"Prosthesis, Maxillofacial",0.00%
+2016,Dental,Professional Services,0.52%
+2016,Dental,Primary Dentition,0.00%
+2016,Dental,"Preventive Services, Other",0.07%
+2016,Dental,"Pontics, Bridge",0.10%
+2016,Dental,Polishing,0.25%
+2016,Dental,Permanent Dentition,0.47%
+2016,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.14%
+2016,Dental,"Periodontal Services, Non Surgical",0.00%
+2016,Dental,"Periodontal Services, Miscellaneous",0.01%
+2016,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.02%
+2016,Dental,Periapical Services,0.00%
+2016,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2016,Dental,"Oral Surgery Procedures, Other",0.34%
+2016,Dental,Mixed Dentition,0.01%
+2016,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.08%
+2016,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2016,Dental,Master Cast Techniques,0.00%
+2016,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.00%
+2016,Dental,"Frequent Preventative Services Billed On A Time Unit Basis. Services Covered Under This Code Are: Polishing, Scaling, Root Planing, Nutritional Counselling, Oral Hygiene Instruction/Plaque Control And Application Of An Antimicrobial Agent
+***Provinces Usi",0.00%
+2016,Dental,"Fractures, Treatment Of",0.00%
+2016,Dental,"Fixed Prosthetics, Other Services",0.02%
+2016,Dental,Fixed Bridge Retainers,0.17%
+2016,Dental,"Examination And Diagnosis, Clinical Oral",0.41%
+2016,Dental,"Endodontic, Procedures, Miscellaneous",0.01%
+2016,Dental,"Drugs/Medication, Dispensing",0.00%
+2016,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2016,Dental,"Dentures, Repairs/Additions",0.00%
+2016,Dental,"Dentures, Partial, Cast With Acrylic Base",0.01%
+2016,Dental,"Dentures, Partial, Acrylic",0.02%
+2016,Dental,"Dentures, Partial  (Fabricated In Conjunction With A Denturist)",0.00%
+2016,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2016,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2016,Dental,"Crowns, Single Units
+(Only)",0.70%
+2016,Dental,Bleaching Vital,0.13%
+2016,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.11%
+2016,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.03%
+2016,Dental,Appliances,0.01%
+2016,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.00%
+2016,Dental,Anaesthesia,0.03%
+2016,DRG,Newborns & Other Neonates,2.63%
+2016,DRG,Mental Diseases & Disorders,0.16%
+2016,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.08%
+2016,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.46%
+2016,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.06%
+2016,DRG,Diseases & Disorders Of The Urinary Tract,0.62%
+2016,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.38%
+2016,DRG,Diseases & Disorders Of The Respiratory System,2.96%
+2016,DRG,Diseases & Disorders Of The Nervous System,0.83%
+2016,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.25%
+2016,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.44%
+2016,DRG,Diseases & Disorders Of The Male Reproductive System,0.11%
+2016,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.49%
+2016,DRG,Diseases & Disorders Of The Female Reproductive System,0.66%
+2016,DRG,Diseases & Disorders Of The Eye,0.04%
+2016,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.38%
+2016,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.60%
+2016,DRG,Diseases & Disorders Of The Digestive System,1.56%
+2016,DRG,Diseases & Disorders Of The Circulatory System,2.45%
+2016,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.25%
+2016,DRG,Childbirth,2.34%
+2016,DRG,Alcohol/Drug Abuse & Dependence,0.03%
+2016,Drug,Various,0.12%
+2016,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.27%
+2016,Drug,Sensory organs,0.20%
+2016,Drug,Respiratory system,1.05%
+2016,Drug,Nervous system,0.54%
+2016,Drug,N/A,6.90%
+2016,Drug,Musculo-skeletal system,0.49%
+2016,Drug,Genito-urinary system and sex hormones,0.41%
+2016,Drug,Dermatologicals,0.38%
+2016,Drug,Cardiovascular system,1.71%
+2016,Drug,Blood and blood forming organs,0.83%
+2016,Drug,"Antiparasitic products, insecticides and repellents",0.03%
+2016,Drug,Antineoplastic and immunomodulating agents,1.52%
+2016,Drug,Antiinfectives for systemic use,1.29%
+2016,Drug,Alimentary tract and metabolism,2.57%
+2016,HCPCS,Vision Services,0.03%
+2016,HCPCS,Transport Services Including Ambulance,1.63%
+2016,HCPCS,Temporary Procedures/Professional Services,0.00%
+2016,HCPCS,Temporary National Codes Established Medicaid,0.08%
+2016,HCPCS,Temporary National Codes Established by Private Payers,0.02%
+2016,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.02%
+2016,HCPCS,Temporary Codes Assigned by CMS,0.02%
+2016,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.02%
+2016,HCPCS,Prosthetics,0.06%
+2016,HCPCS,Other Medical Services,0.00%
+2016,HCPCS,Orthotics,0.25%
+2016,HCPCS,Medical and Surgical Supplies,0.87%
+2016,HCPCS,Laboratory Services,0.00%
+2016,HCPCS,Hearing Services,0.23%
+2016,HCPCS,Gradient Compression Stockings,0.00%
+2016,HCPCS,Enteral and Parenteral Therapy,0.19%
+2016,HCPCS,Durable Medical Equipment,0.38%
+2016,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2016,HCPCS,CMS Hospital Outpatient Payment System,0.28%
+2016,HCPCS,Chemotherapy Drugs,0.00%
+2016,HCPCS,Behavioural Health and/or Substance Abuse Treatment Services,0.00%
+2016,HCPCS,"Administrative, Miscellaneous and Investigational",0.09%
+2016,HCPCS,0,0.00%
+2016,N/A,N/A,0.00%
+2016,Service,Tele-consultation resulting in Self Care,0.00%
+2016,Service,Tele-consultation resulting in Referral,0.00%
+2016,Service,Tele-consultation resulting in Emergency Management,0.00%
+2016,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2016,Service,Special Care Baby Unit (SCBU),0.00%
+2016,Service,Short Stay Room - Hourly Rate,0.00%
+2016,Service,Short Stay  Room - Daily Rate,0.00%
+2016,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2016,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2016,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2016,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.01%
+2016,Service,Room and Board: Ward,0.00%
+2016,Service,Room and Board:  VIP Room,0.00%
+2016,Service,Room and Board:  Suite,0.02%
+2016,Service,Room and Board: Shared Room,0.00%
+2016,Service,Room and Board: Royal Suite,0.00%
+2016,Service,Room and Board: Isolation Room,0.00%
+2016,Service,Room and Board: First Class Room,0.00%
+2016,Service,Recovery Room  - Hourly Rate,0.00%
+2016,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.02%
+2016,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.01%
+2016,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.03%
+2016,Service,Perdiem - Short Stay,0.41%
+2016,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2016,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2016,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.00%
+2016,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.02%
+2016,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2016,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2016,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.03%
+2016,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2016,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2016,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.00%
+2016,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.02%
+2016,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.01%
+2016,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.02%
+2016,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.03%
+2016,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 9 and more),0.00%
+2016,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 4 to 8),0.00%
+2016,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2016,Service,Perdiem - Medical Escort accommodation  - Daily Rate,0.00%
+2016,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.21%
+2016,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,1.96%
+2016,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.24%
+2016,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.05%
+2016,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.01%
+2016,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.00%
+2016,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2016,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.04%
+2016,Service,Perdiem - Haemodialysis  (HD),1.41%
+2016,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.74%
+2016,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.06%
+2016,Service,Perdiem - Continuous  Ambulatory Peritoneal Dialysis (CAPD).,0.00%
+2016,Service,Perdiem - Companion Accommodation,0.00%
+2016,Service,Perdiem - Automated Peritoneal Dialysis (APD).,0.01%
+2016,Service,Per Diem- Bundled Base Payment of home care  (Level 4- Complex )                                                                                                                     *-A bundled payment that includes all medical services and transportation,0.04%
+2016,Service,Per Diem-  Bundled Base Payment of home care  (Level 3- Intensive)                                                                                                                              * -A bundled payment that includes all medical services and tra,0.52%
+2016,Service,Per Diem- Bundled Base Payment of home care  (Level 2- Intermediate )                                                                                                           * -A bundled payment that includes all medical services and transportation - Su,0.95%
+2016,Service,Per Diem- Bundled Base Payment of home care (Level 1- SIMPLE )                                                                                                                    * -A bundled payment that includes all medical services and transportation -,0.14%
+2016,Service,Paediatric intensive care Unit (PICU),0.00%
+2016,Service,Outlier Payment,0.76%
+2016,Service,Operating Room Services - Minor Surgery,0.00%
+2016,Service,Operating Room Services - General Classification,0.00%
+2016,Service,Operating Room Services - First Hour,0.00%
+2016,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2016,Service,Nursery - General Classification,0.00%
+2016,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2016,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2016,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.03%
+2016,Service,Neonatal Intensive Care Unit (NICU),0.00%
+2016,Service,Intensive Care Unit (ICU),0.00%
+2016,Service,Emergency Room - Hourly Rate,0.00%
+2016,Service,DRG Add-on Payment for High Cost Consumables,0.17%
+2016,Service,Delivery Room,0.00%
+2016,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2016,Service,Coronary Care Unit (CCU),0.00%
+2016,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.06%
+2016,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2016,Service,Catheterization Lab,0.00%
+2017,CPT,Urinary System,0.33%
+2017,CPT,Respiratory System,0.56%
+2017,CPT,Radiology,2.47%
+2017,CPT,Radiologic Guidance,0.00%
+2017,CPT,Radiation Oncology,0.22%
+2017,CPT,Pathology & Laboratory,17.93%
+2017,CPT,Operating Microscope,0.00%
+2017,CPT,Nuclear Medicine,0.28%
+2017,CPT,Nervous System,0.06%
+2017,CPT,N/A,0.03%
+2017,CPT,Musculoskeletal,0.54%
+2017,CPT,Mediastinum & Diaphragm,0.00%
+2017,CPT,Maternity Care & Delivery,0.11%
+2017,CPT,Male Genital System,0.10%
+2017,CPT,Integumentary,0.57%
+2017,CPT,Hemic & Lymphatic Systems,0.01%
+2017,CPT,General,0.01%
+2017,CPT,Female Genital System,0.17%
+2017,CPT,Eye & Ocular Adnexa,0.80%
+2017,CPT,Evaluation & Management,12.94%
+2017,CPT,Endocrine System,0.00%
+2017,CPT,Digestive System,0.61%
+2017,CPT,Diagnostic Ultrasound,2.68%
+2017,CPT,Cardiovascular System,0.15%
+2017,CPT,Breast Mammography,0.06%
+2017,CPT,Bone/Joint Studies,0.04%
+2017,CPT,Auditory System,0.14%
+2017,CPT,Anesthesia,0.00%
+2017,Dental,Unclassified Treatments,0.01%
+2017,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2017,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2017,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2017,Dental,Surgical Incisions,0.01%
+2017,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.01%
+2017,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.01%
+2017,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.43%
+2017,Dental,"Restorative Services, Other",0.01%
+2017,Dental,"Restorative Procedures, Overdentures",0.00%
+2017,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",1.30%
+2017,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.08%
+2017,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.28%
+2017,Dental,"Restorations, Foil, Gold",0.00%
+2017,Dental,"Restorations, Amalgam",0.00%
+2017,Dental,Restoration,0.09%
+2017,Dental,Repairs,0.00%
+2017,Dental,"Removals, (Extractions), Surgical",0.14%
+2017,Dental,"Removals, (Extractions), Erupted Teeth",0.19%
+2017,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2017,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2017,Dental,"Radiographs, Specialty Use Only",0.00%
+2017,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.31%
+2017,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.13%
+2017,Dental,"Prosthondics, Removable, Fabricated In Conjunction With A Denturist",0.00%
+2017,Dental,Professional Services,0.57%
+2017,Dental,Primary Dentition,0.00%
+2017,Dental,"Preventive Services, Other",0.06%
+2017,Dental,"Pontics, Bridge",0.21%
+2017,Dental,Polishing,0.31%
+2017,Dental,Permanent Dentition,0.58%
+2017,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.26%
+2017,Dental,"Periodontal Services, Non Surgical",0.00%
+2017,Dental,"Periodontal Services, Miscellaneous",0.01%
+2017,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.02%
+2017,Dental,Periapical Services,0.00%
+2017,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2017,Dental,"Oral Surgery Procedures, Other",0.79%
+2017,Dental,Mixed Dentition,0.01%
+2017,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.14%
+2017,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2017,Dental,Master Cast Techniques,0.00%
+2017,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.00%
+2017,Dental,"Fractures, Treatment Of",0.00%
+2017,Dental,"Fixed Prosthetics, Other Services",0.03%
+2017,Dental,Fixed Bridge Retainers,0.32%
+2017,Dental,"Examination And Diagnosis, Clinical Oral",0.50%
+2017,Dental,"Endodontic, Procedures, Miscellaneous",0.02%
+2017,Dental,"Drugs/Medication, Dispensing",0.00%
+2017,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2017,Dental,"Dentures, Repairs/Additions",0.00%
+2017,Dental,"Dentures, Partial, Cast With Acrylic Base",0.00%
+2017,Dental,"Dentures, Partial, Acrylic",0.03%
+2017,Dental,"Dentures, Partial  (Fabricated In Conjunction With A Denturist)",0.00%
+2017,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2017,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2017,Dental,"Crowns, Single Units
+(Only)",1.35%
+2017,Dental,Bleaching Vital,0.04%
+2017,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.12%
+2017,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.04%
+2017,Dental,Appliances,0.01%
+2017,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.01%
+2017,Dental,Anaesthesia,0.03%
+2017,DRG,Newborns & Other Neonates,2.41%
+2017,DRG,N/A,0.01%
+2017,DRG,Mental Diseases & Disorders,0.14%
+2017,DRG,Medical Ambulatory Visits,0.00%
+2017,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.08%
+2017,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.53%
+2017,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.05%
+2017,DRG,Diseases & Disorders Of The Urinary Tract,0.56%
+2017,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.33%
+2017,DRG,Diseases & Disorders Of The Respiratory System,3.11%
+2017,DRG,Diseases & Disorders Of The Nervous System,0.78%
+2017,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.27%
+2017,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.29%
+2017,DRG,Diseases & Disorders Of The Male Reproductive System,0.09%
+2017,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.47%
+2017,DRG,Diseases & Disorders Of The Female Reproductive System,0.63%
+2017,DRG,Diseases & Disorders Of The Eye,0.03%
+2017,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.35%
+2017,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.69%
+2017,DRG,Diseases & Disorders Of The Digestive System,1.59%
+2017,DRG,Diseases & Disorders Of The Circulatory System,2.38%
+2017,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.21%
+2017,DRG,Childbirth,2.13%
+2017,DRG,Alcohol/Drug Abuse & Dependence,0.03%
+2017,Drug,Various,0.06%
+2017,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.29%
+2017,Drug,Sensory organs,0.19%
+2017,Drug,Respiratory system,0.91%
+2017,Drug,Nervous system,0.49%
+2017,Drug,N/A,7.79%
+2017,Drug,Musculo-skeletal system,0.43%
+2017,Drug,Genito-urinary system and sex hormones,0.43%
+2017,Drug,Dermatologicals,0.40%
+2017,Drug,Cardiovascular system,1.40%
+2017,Drug,Blood and blood forming organs,0.67%
+2017,Drug,"Antiparasitic products, insecticides and repellents",0.03%
+2017,Drug,Antineoplastic and immunomodulating agents,1.32%
+2017,Drug,Antiinfectives for systemic use,1.10%
+2017,Drug,Alimentary tract and metabolism,2.20%
+2017,HCPCS,Vision Services,0.03%
+2017,HCPCS,Transport Services Including Ambulance,0.13%
+2017,HCPCS,Temporary Procedures/Professional Services,0.00%
+2017,HCPCS,Temporary National Codes Established Medicaid,0.09%
+2017,HCPCS,Temporary National Codes Established by Private Payers,0.02%
+2017,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.01%
+2017,HCPCS,Temporary Codes Assigned by CMS,0.02%
+2017,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.03%
+2017,HCPCS,Prosthetics,0.08%
+2017,HCPCS,Orthotics,0.24%
+2017,HCPCS,Medical and Surgical Supplies,0.90%
+2017,HCPCS,Laboratory Services,0.00%
+2017,HCPCS,Helmets,0.00%
+2017,HCPCS,Hearing Services,0.31%
+2017,HCPCS,Gradient Compression Stockings,0.01%
+2017,HCPCS,Enteral and Parenteral Therapy,0.21%
+2017,HCPCS,Durable Medical Equipment,0.41%
+2017,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2017,HCPCS,CMS Hospital Outpatient Payment System,0.27%
+2017,HCPCS,Chemotherapy Drugs,0.00%
+2017,HCPCS,Behavioural Health and/or Substance Abuse Treatment Services,0.00%
+2017,HCPCS,"Administrative, Miscellaneous and Investigational",0.14%
+2017,N/A,N/A,0.00%
+2017,Service,Tele-consultation resulting in Self Care,0.00%
+2017,Service,Tele-consultation resulting in Referral,0.00%
+2017,Service,Tele-consultation resulting in Emergency Management,0.00%
+2017,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2017,Service,Special Care Baby Unit (SCBU),0.00%
+2017,Service,Short Stay Room - Hourly Rate,0.00%
+2017,Service,Short Stay  Room - Daily Rate,0.00%
+2017,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2017,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2017,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2017,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.01%
+2017,Service,Room and Board: Ward,0.00%
+2017,Service,Room and Board:  VIP Room,0.01%
+2017,Service,Room and Board:  Suite,0.03%
+2017,Service,Room and Board: Shared Room,0.00%
+2017,Service,Room and Board: Royal Suite,0.00%
+2017,Service,Room and Board: Isolation Room,0.00%
+2017,Service,Room and Board: First Class Room,0.00%
+2017,Service,Recovery Room  - Hourly Rate,0.00%
+2017,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.02%
+2017,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.01%
+2017,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.03%
+2017,Service,Perdiem - Short Stay,0.42%
+2017,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2017,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2017,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.00%
+2017,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.00%
+2017,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2017,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2017,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.02%
+2017,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2017,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2017,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.00%
+2017,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.01%
+2017,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.01%
+2017,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.01%
+2017,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.03%
+2017,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 9 and more),0.00%
+2017,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 4 to 8),0.00%
+2017,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2017,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.38%
+2017,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,2.51%
+2017,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.44%
+2017,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.07%
+2017,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.01%
+2017,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.00%
+2017,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2017,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.04%
+2017,Service,Perdiem - Haemodialysis  (HD),1.44%
+2017,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.75%
+2017,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.05%
+2017,Service,Perdiem - Continuous  Ambulatory Peritoneal Dialysis (CAPD).,0.00%
+2017,Service,Perdiem - Companion Accommodation,0.00%
+2017,Service,Perdiem - Automated Peritoneal Dialysis (APD).,0.02%
+2017,Service,Per Diem- Bundled Base Payment of home care  (Level 4- Complex )                                                                                                                     *-A bundled payment that includes all medical services and transportation,0.13%
+2017,Service,Per Diem-  Bundled Base Payment of home care  (Level 3- Intensive)                                                                                                                              * -A bundled payment that includes all medical services and tra,1.30%
+2017,Service,Per Diem- Bundled Base Payment of home care  (Level 2- Intermediate )                                                                                                           * -A bundled payment that includes all medical services and transportation - Su,2.63%
+2017,Service,Per Diem- Bundled Base Payment of home care (Level 1- SIMPLE )                                                                                                                    * -A bundled payment that includes all medical services and transportation -,0.44%
+2017,Service,Paediatric intensive care Unit (PICU),0.00%
+2017,Service,Outlier Payment,0.69%
+2017,Service,Operating Room Services - Minor Surgery,0.00%
+2017,Service,Operating Room Services - General Classification,0.00%
+2017,Service,Operating Room Services - First Hour,0.00%
+2017,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2017,Service,Nursery - General Classification,0.00%
+2017,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2017,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2017,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.02%
+2017,Service,Neonatal Intensive Care Unit (NICU),0.00%
+2017,Service,Intensive Care Unit (ICU),0.00%
+2017,Service,Emergency Room - Hourly Rate,0.00%
+2017,Service,DRG Add-on Payment for High Cost Consumables,0.20%
+2017,Service,Delivery Room,0.00%
+2017,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2017,Service,Coronary Care Unit (CCU),0.00%
+2017,Service,Consultation - Specialist,0.00%
+2017,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.07%
+2017,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2017,Service,Catheterization Lab,0.00%
+2018,CPT,Urinary System,0.29%
+2018,CPT,Respiratory System,0.54%
+2018,CPT,Radiology,2.39%
+2018,CPT,Radiologic Guidance,0.00%
+2018,CPT,Radiation Oncology,0.23%
+2018,CPT,Pathology & Laboratory,17.88%
+2018,CPT,Operating Microscope,0.00%
+2018,CPT,Nuclear Medicine,0.24%
+2018,CPT,Nervous System,0.07%
+2018,CPT,N/A,0.01%
+2018,CPT,Musculoskeletal,0.51%
+2018,CPT,Mediastinum & Diaphragm,0.00%
+2018,CPT,Maternity Care & Delivery,0.10%
+2018,CPT,Male Genital System,0.10%
+2018,CPT,Integumentary,0.57%
+2018,CPT,Hemic & Lymphatic Systems,0.01%
+2018,CPT,General,0.01%
+2018,CPT,Female Genital System,0.19%
+2018,CPT,Eye & Ocular Adnexa,0.82%
+2018,CPT,Evaluation & Management,12.32%
+2018,CPT,Endocrine System,0.00%
+2018,CPT,Digestive System,0.56%
+2018,CPT,Diagnostic Ultrasound,2.64%
+2018,CPT,Cardiovascular System,0.16%
+2018,CPT,Breast Mammography,0.06%
+2018,CPT,Bone/Joint Studies,0.04%
+2018,CPT,Auditory System,0.14%
+2018,CPT,Anesthesia,0.00%
+2018,Dental,Unclassified Treatments,0.01%
+2018,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2018,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2018,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2018,Dental,Surgical Incisions,0.00%
+2018,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.01%
+2018,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.01%
+2018,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.37%
+2018,Dental,"Restorative Services, Other",0.01%
+2018,Dental,"Restorative Procedures, Overdentures",0.00%
+2018,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",1.16%
+2018,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.08%
+2018,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.17%
+2018,Dental,"Restorations, Amalgam",0.00%
+2018,Dental,Restoration,0.08%
+2018,Dental,Repairs,0.00%
+2018,Dental,"Removals, (Extractions), Surgical",0.11%
+2018,Dental,"Removals, (Extractions), Erupted Teeth",0.16%
+2018,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2018,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2018,Dental,"Radiographs, Specialty Use Only",0.00%
+2018,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.29%
+2018,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.11%
+2018,Dental,Professional Services,0.63%
+2018,Dental,Primary Dentition,0.00%
+2018,Dental,"Preventive Services, Other",0.06%
+2018,Dental,"Pontics, Bridge",0.17%
+2018,Dental,Polishing,0.27%
+2018,Dental,Permanent Dentition,0.48%
+2018,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.25%
+2018,Dental,"Periodontal Services, Non Surgical",0.00%
+2018,Dental,"Periodontal Services, Miscellaneous",0.01%
+2018,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.02%
+2018,Dental,Periapical Services,0.00%
+2018,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2018,Dental,"Oral Surgery Procedures, Other",0.74%
+2018,Dental,Mixed Dentition,0.01%
+2018,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.18%
+2018,Dental,"Maxillofacial Deformities, Treatment Of",0.00%
+2018,Dental,Master Cast Techniques,0.00%
+2018,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.00%
+2018,Dental,"Frequent Preventative Services Billed On A Time Unit Basis. Services Covered Under This Code Are: Polishing, Scaling, Root Planing, Nutritional Counselling, Oral Hygiene Instruction/Plaque Control And Application Of An Antimicrobial Agent
+***Provinces Usi",0.00%
+2018,Dental,"Fractures, Treatment Of",0.00%
+2018,Dental,"Fixed Prosthetics, Other Services",0.04%
+2018,Dental,Fixed Bridge Retainers,0.27%
+2018,Dental,"Examination And Diagnosis, Clinical Oral",0.42%
+2018,Dental,"Endodontic, Procedures, Miscellaneous",0.02%
+2018,Dental,"Drugs/Medication, Dispensing",0.00%
+2018,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2018,Dental,"Dentures, Repairs/Additions",0.00%
+2018,Dental,"Dentures, Partial, Cast With Acrylic Base",0.00%
+2018,Dental,"Dentures, Partial, Acrylic",0.02%
+2018,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2018,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2018,Dental,"Crowns, Single Units
+(Only)",1.01%
+2018,Dental,Case Presentation/ Treatment Planning,0.00%
+2018,Dental,Bleaching Vital,0.05%
+2018,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.10%
+2018,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.04%
+2018,Dental,Appliances,0.01%
+2018,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.01%
+2018,Dental,Anaesthesia,0.04%
+2018,DRG,Newborns & Other Neonates,2.29%
+2018,DRG,N/A,0.00%
+2018,DRG,Mental Diseases & Disorders,0.13%
+2018,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.10%
+2018,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.69%
+2018,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.05%
+2018,DRG,Diseases & Disorders Of The Urinary Tract,0.61%
+2018,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.33%
+2018,DRG,Diseases & Disorders Of The Respiratory System,3.25%
+2018,DRG,Diseases & Disorders Of The Nervous System,0.86%
+2018,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.27%
+2018,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.30%
+2018,DRG,Diseases & Disorders Of The Male Reproductive System,0.10%
+2018,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.50%
+2018,DRG,Diseases & Disorders Of The Female Reproductive System,0.60%
+2018,DRG,Diseases & Disorders Of The Eye,0.03%
+2018,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.33%
+2018,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.69%
+2018,DRG,Diseases & Disorders Of The Digestive System,1.60%
+2018,DRG,Diseases & Disorders Of The Circulatory System,2.33%
+2018,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.21%
+2018,DRG,Childbirth,1.97%
+2018,DRG,Alcohol/Drug Abuse & Dependence,0.03%
+2018,Drug,Various,0.05%
+2018,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.26%
+2018,Drug,Sensory organs,0.19%
+2018,Drug,Respiratory system,0.83%
+2018,Drug,Nervous system,0.69%
+2018,Drug,N/A,8.82%
+2018,Drug,Musculo-skeletal system,0.38%
+2018,Drug,Genito-urinary system and sex hormones,0.44%
+2018,Drug,Dermatologicals,0.46%
+2018,Drug,Cardiovascular system,1.14%
+2018,Drug,Blood and blood forming organs,0.61%
+2018,Drug,"Antiparasitic products, insecticides and repellents",0.02%
+2018,Drug,Antineoplastic and immunomodulating agents,1.26%
+2018,Drug,Antiinfectives for systemic use,0.93%
+2018,Drug,Alimentary tract and metabolism,1.80%
+2018,HCPCS,Vision Services,0.04%
+2018,HCPCS,Transport Services Including Ambulance,0.15%
+2018,HCPCS,Temporary Procedures/Professional Services,0.00%
+2018,HCPCS,Temporary National Codes Established Medicaid,0.08%
+2018,HCPCS,Temporary National Codes Established by Private Payers,0.02%
+2018,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.05%
+2018,HCPCS,Temporary Codes Assigned by CMS,0.02%
+2018,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.03%
+2018,HCPCS,Prosthetics,0.06%
+2018,HCPCS,Orthotics,0.22%
+2018,HCPCS,Medical and Surgical Supplies,0.90%
+2018,HCPCS,Laboratory Services,0.01%
+2018,HCPCS,Helmets,0.00%
+2018,HCPCS,Hearing Services,0.19%
+2018,HCPCS,Gradient Compression Stockings,0.02%
+2018,HCPCS,Enteral and Parenteral Therapy,0.20%
+2018,HCPCS,Durable Medical Equipment,0.39%
+2018,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2018,HCPCS,CMS Hospital Outpatient Payment System,0.25%
+2018,HCPCS,Chemotherapy Drugs,0.00%
+2018,HCPCS,Behavioural Health and/or Substance Abuse Treatment Services,0.00%
+2018,HCPCS,"Administrative, Miscellaneous and Investigational",0.27%
+2018,N/A,N/A,0.03%
+2018,Service,Tele-consultation resulting in Self Care,0.01%
+2018,Service,Tele-consultation resulting in Referral,0.02%
+2018,Service,Tele-consultation resulting in Prescription,0.00%
+2018,Service,Tele-consultation resulting in Emergency Management,0.00%
+2018,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2018,Service,Special Care Baby Unit (SCBU),0.00%
+2018,Service,Short Stay Room - Hourly Rate,0.00%
+2018,Service,Short Stay  Room - Daily Rate,0.00%
+2018,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2018,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2018,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2018,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.01%
+2018,Service,Room and Board: Ward,0.00%
+2018,Service,Room and Board:  VIP Room,0.00%
+2018,Service,Room and Board:  Suite,0.04%
+2018,Service,Room and Board: Shared Room,0.00%
+2018,Service,Room and Board: Royal Suite,0.00%
+2018,Service,Room and Board: Isolation Room,0.00%
+2018,Service,Room and Board: First Class Room,0.00%
+2018,Service,Recovery Room  - Hourly Rate,0.00%
+2018,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.03%
+2018,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.02%
+2018,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.04%
+2018,Service,Perdiem - Treatment or Observation Room - NOT inclusive of Laboratory and Radiology,0.00%
+2018,Service,Perdiem - Short Stay,0.43%
+2018,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2018,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2018,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.00%
+2018,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.00%
+2018,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2018,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2018,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.02%
+2018,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2018,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2018,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.00%
+2018,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.01%
+2018,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.01%
+2018,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.01%
+2018,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.02%
+2018,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 9 and more),0.00%
+2018,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 4 to 8),0.00%
+2018,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2018,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.43%
+2018,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,4.03%
+2018,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.40%
+2018,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.08%
+2018,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.01%
+2018,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.01%
+2018,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2018,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.05%
+2018,Service,Perdiem - Haemodialysis  (HD),1.46%
+2018,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.74%
+2018,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.05%
+2018,Service,Perdiem - Continuous  Ambulatory Peritoneal Dialysis (CAPD).,0.00%
+2018,Service,Perdiem - Companion Accommodation,0.00%
+2018,Service,Perdiem - Automated Peritoneal Dialysis (APD).,0.01%
+2018,Service,Per Diem- Bundled Base Payment of home care  (Level 4- Complex )                                                                                                                     *-A bundled payment that includes all medical services and transportation,0.03%
+2018,Service,Per Diem-  Bundled Base Payment of home care  (Level 3- Intensive)                                                                                                                              * -A bundled payment that includes all medical services and tra,1.32%
+2018,Service,Per Diem- Bundled Base Payment of home care  (Level 2- Intermediate )                                                                                                           * -A bundled payment that includes all medical services and transportation - Su,2.71%
+2018,Service,Per Diem- Bundled Base Payment of home care (Level 1- SIMPLE )                                                                                                                    * -A bundled payment that includes all medical services and transportation -,0.56%
+2018,Service,Paediatric intensive care Unit (PICU),0.00%
+2018,Service,Outlier Payment,0.69%
+2018,Service,Operating Room Services - Minor Surgery,0.00%
+2018,Service,Operating Room Services - General Classification,0.00%
+2018,Service,Operating Room Services - First Hour,0.00%
+2018,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2018,Service,Nursery - General Classification,0.00%
+2018,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2018,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2018,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.02%
+2018,Service,Neonatal Intensive Care Unit (NICU),0.00%
+2018,Service,Intensive Care Unit (ICU),0.00%
+2018,Service,Emergency Room - Hourly Rate,0.00%
+2018,Service,DRG Add-on Payment for High Cost Consumables,0.17%
+2018,Service,Delivery Room,0.00%
+2018,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2018,Service,Coronary Care Unit (CCU),0.00%
+2018,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.07%
+2018,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2018,Service,Catheterization Lab,0.00%
+2019,CPT,Urinary System,0.28%
+2019,CPT,Respiratory System,0.57%
+2019,CPT,Radiology,2.42%
+2019,CPT,Radiologic Guidance,0.00%
+2019,CPT,Radiation Oncology,0.21%
+2019,CPT,Pathology & Laboratory,17.66%
+2019,CPT,Operating Microscope,0.00%
+2019,CPT,Nuclear Medicine,0.18%
+2019,CPT,Nervous System,0.08%
+2019,CPT,N/A,0.02%
+2019,CPT,Musculoskeletal,0.52%
+2019,CPT,Mediastinum & Diaphragm,0.00%
+2019,CPT,Maternity Care & Delivery,0.10%
+2019,CPT,Male Genital System,0.09%
+2019,CPT,Integumentary,0.60%
+2019,CPT,Hemic & Lymphatic Systems,0.01%
+2019,CPT,General,0.01%
+2019,CPT,Female Genital System,0.21%
+2019,CPT,Eye & Ocular Adnexa,0.67%
+2019,CPT,Evaluation & Management,12.34%
+2019,CPT,Endocrine System,0.00%
+2019,CPT,Digestive System,0.58%
+2019,CPT,Diagnostic Ultrasound,2.35%
+2019,CPT,Cardiovascular System,0.16%
+2019,CPT,Breast Mammography,0.07%
+2019,CPT,Bone/Joint Studies,0.05%
+2019,CPT,Auditory System,0.14%
+2019,CPT,Anesthesia,0.00%
+2019,Dental,Unclassified Treatments,0.01%
+2019,Dental,Test/Analysis/Laboratory Procedures/Interpretation And/Or Reports,0.00%
+2019,Dental,"Temporomandibular Joint Dysfunctions, Treatment Of",0.00%
+2019,Dental,"Template, Surgical (Includes Diagnostic Wax-Up.  Also Used To Locate And Orient Osseo-Integrated Implants)",0.00%
+2019,Dental,Surgical Incisions,0.01%
+2019,Dental,"Surgical Excisions (Not In Conjunction With Tooth Removal, Including Biopsy)",0.01%
+2019,Dental,"Space Maintainers
+(Includes The Design, Separation, Fabrication, Insertion And Where Applicable Initial Cementation And Removal)",0.01%
+2019,Dental,"Root Canal Therapy
+To Include: Treatment Plan, Clinical Procedures (I.E. Pulpectomy, Biomechanical Preparation, Chemotherapeutic Treatment And Obturation), With Appropriate Radiographs And Excluding Final Restoration.",0.36%
+2019,Dental,"Restorative Services, Other",0.01%
+2019,Dental,"Restorative Procedures, Overdentures",0.00%
+2019,Dental,"Restorations, Tooth Coloured/Plastic With/Without Silver Filings",1.20%
+2019,Dental,"Restorations, Pre-Fabricated, Full Coverage",0.10%
+2019,Dental,"Restorations, Inlays, Onlays, Pins And Posts",0.11%
+2019,Dental,"Restorations, Amalgam",0.00%
+2019,Dental,Restoration,0.08%
+2019,Dental,Repairs,0.00%
+2019,Dental,"Removals, (Extractions), Surgical",0.11%
+2019,Dental,"Removals, (Extractions), Erupted Teeth",0.16%
+2019,Dental,"Remodelling And Recontouring Oral Tissues In Preparation For Removable Prostheses (To Include Codes 73110, 73120, 73140, 73150, 73160, 73170, 73180)",0.00%
+2019,Dental,"Recontouring Of Retainer/Pontics,
+(Of Existing Bridgework)",0.00%
+2019,Dental,"Radiographs, Specialty Use Only",0.00%
+2019,Dental,Radiographs (Including Radiographic Examination And Diagnosis And Interpretation),0.29%
+2019,Dental,"Pulp Chamber, Treatment Of, (Excluding Final Restoration)",0.11%
+2019,Dental,"Prosthondics, Removable, Fabricated In Conjunction With A Denturist",0.00%
+2019,Dental,"Prosthesis, Maxillofacial",0.00%
+2019,Dental,Professional Visits,0.00%
+2019,Dental,Professional Services,0.67%
+2019,Dental,Primary Dentition,0.00%
+2019,Dental,"Preventive Services, Other",0.09%
+2019,Dental,"Pontics, Bridge",0.15%
+2019,Dental,Polishing,0.25%
+2019,Dental,Permanent Dentition,0.46%
+2019,Dental,"Periodontal Services, Surgical (Includes Local Anaesthetic, Suturing And The Placement And Removal Of Initial Surgical Dressing. A Surgical Site Is An Area That Lends Itself To One Or More Procedures. It Is Considered To Include A Full Quadrant, Sextant O",0.30%
+2019,Dental,"Periodontal Services, Non Surgical",0.00%
+2019,Dental,"Periodontal Services, Miscellaneous",0.01%
+2019,Dental,"Periodontal Procedures, Adjunctive (When Per Joint Is Designated, The Corresponding Tooth Code Is Represented By The Mesial Of The Tooth Involved, Except At The Midline, Where The Tooth To The Right Of The Joint Is Utilized.)",0.02%
+2019,Dental,Periapical Services,0.00%
+2019,Dental,"Orthodontic Services, Miscellaneous",0.01%
+2019,Dental,"Oral Surgery Procedures, Other",0.72%
+2019,Dental,N/A,0.00%
+2019,Dental,Mixed Dentition,0.01%
+2019,Dental,"Mesostructures
+(A Separate Component Positioned Between The Head Of An Implant And The Final Restoration, Retained By Either A Cemented Post Or Screw)",0.18%
+2019,Dental,"Maxillofacial Deformities, Treatment Of",0.01%
+2019,Dental,Master Cast Techniques,0.00%
+2019,Dental,"Laboratory And Expense Procedures (This Code Is Used In Conjunction With The ""+ L"" And ""+ E"" Designation Following Specific Codes In The Guide. The Addition Of These Codes Are To Facilitate Computer Or Manual Input For Third Party Claims Processing, Perso",0.00%
+2019,Dental,"Frequent Preventative Services Billed On A Time Unit Basis. Services Covered Under This Code Are: Polishing, Scaling, Root Planing, Nutritional Counselling, Oral Hygiene Instruction/Plaque Control And Application Of An Antimicrobial Agent
+***Provinces Usi",0.00%
+2019,Dental,"Fractures, Treatment Of",0.00%
+2019,Dental,"Fixed Prosthetics, Other Services",0.04%
+2019,Dental,Fixed Bridge Retainers,0.24%
+2019,Dental,"Examination And Diagnosis, Clinical Oral",0.41%
+2019,Dental,"Endodontic, Procedures, Miscellaneous",0.01%
+2019,Dental,"Drugs/Medication, Dispensing",0.00%
+2019,Dental,"Dentures, Replication, Relining And Rebasing",0.00%
+2019,Dental,"Dentures, Repairs/Additions",0.00%
+2019,Dental,"Dentures, Partial, Cast With Acrylic Base",0.00%
+2019,Dental,"Dentures, Partial, Acrylic",0.02%
+2019,Dental,"Dentures, Complete (Includes: Impressions, Initial And Final Jaw Relation Records, Try-In Evaluation And Check Records, Insertion And Adjustments, Including Three Months Post Insertion Care.)",0.01%
+2019,Dental,"Dentures, Adjustments
+(After Three Months Insertion Or By Other Than The Dentist Providing Prosthesis.)",0.00%
+2019,Dental,"Crowns, Single Units
+(Only)",0.94%
+2019,Dental,Case Presentation/ Treatment Planning,0.00%
+2019,Dental,Bleaching Vital,0.06%
+2019,Dental,"Appliances, Retention, Orthodontic Retaining Appliances",0.11%
+2019,Dental,"Appliances, Active, For Tooth Guidance Or Minor Tooth Movement",0.04%
+2019,Dental,Appliances,0.02%
+2019,Dental,"Anatomic Modifications (Reshaping, Recontouring, Or Occlusal Modifications Of A Natural Tooth Or Teeth, Single Or Multiple Restorations, Or The Inter-Articulation Of The Teeth)",0.00%
+2019,Dental,Anaesthesia,0.05%
+2019,DRG,Newborns & Other Neonates,2.11%
+2019,DRG,N/A,0.00%
+2019,DRG,Mental Diseases & Disorders,0.12%
+2019,DRG,Medical Ambulatory Visits,0.00%
+2019,DRG,"Injuries, Poisonings & Toxic Effects Of Drugs",0.10%
+2019,DRG,Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites,0.85%
+2019,DRG,Factors Influencing Health Status & Other Contacts With Health Services,0.05%
+2019,DRG,Diseases & Disorders Of The Urinary Tract,0.61%
+2019,DRG,"Diseases & Disorders Of The Skin, Subcutaneous Tissue & Breast",0.32%
+2019,DRG,Diseases & Disorders Of The Respiratory System,3.21%
+2019,DRG,Diseases & Disorders Of The Nervous System,0.84%
+2019,DRG,Diseases & Disorders Of The Myeloproliferative System & Poorly Differentiated Neoplasms,0.26%
+2019,DRG,Diseases & Disorders Of The Musculoskeletal System & Connective Tissue,1.31%
+2019,DRG,Diseases & Disorders Of The Male Reproductive System,0.09%
+2019,DRG,Diseases & Disorders Of The Hepatobiliary System & Pancreas,0.51%
+2019,DRG,Diseases & Disorders Of The Female Reproductive System,0.58%
+2019,DRG,Diseases & Disorders Of The Eye,0.03%
+2019,DRG,"Diseases & Disorders Of The Endocrine, Nutritional & Metabolic Systems",0.36%
+2019,DRG,"Diseases & Disorders Of The Ear, Nose, Mouth & Throat",0.68%
+2019,DRG,Diseases & Disorders Of The Digestive System,1.67%
+2019,DRG,Diseases & Disorders Of The Circulatory System,2.12%
+2019,DRG,"Diseases & Disorders Of Blood, Blood Forming Organs, Immunological System",0.21%
+2019,DRG,Childbirth,1.87%
+2019,DRG,Alcohol/Drug Abuse & Dependence,0.03%
+2019,Drug,Various,0.03%
+2019,Drug,"Systemic hormonal preparations, excluding sex hormones and insulins",0.29%
+2019,Drug,Sensory organs,0.19%
+2019,Drug,Respiratory system,0.82%
+2019,Drug,Nervous system,0.49%
+2019,Drug,N/A,10.47%
+2019,Drug,Musculo-skeletal system,0.37%
+2019,Drug,Genito-urinary system and sex hormones,0.41%
+2019,Drug,Dermatologicals,0.37%
+2019,Drug,Cardiovascular system,1.06%
+2019,Drug,Blood and blood forming organs,0.56%
+2019,Drug,"Antiparasitic products, insecticides and repellents",0.02%
+2019,Drug,Antineoplastic and immunomodulating agents,1.25%
+2019,Drug,Antiinfectives for systemic use,0.87%
+2019,Drug,Alimentary tract and metabolism,1.68%
+2019,HCPCS,Vision Services,0.05%
+2019,HCPCS,Transport Services Including Ambulance,0.18%
+2019,HCPCS,Temporary Procedures/Professional Services,0.00%
+2019,HCPCS,Temporary National Codes Established Medicaid,0.06%
+2019,HCPCS,Temporary National Codes Established by Private Payers,0.02%
+2019,HCPCS,Temporary Codes assigned to DME Regional Carriers,0.01%
+2019,HCPCS,Temporary Codes Assigned by CMS,0.01%
+2019,HCPCS,"Respiratory Durable Medical Equipment, Inexpensive and Routinely Purchased",0.02%
+2019,HCPCS,Prosthetics,0.06%
+2019,HCPCS,Orthotics,0.24%
+2019,HCPCS,Medical and Surgical Supplies,0.80%
+2019,HCPCS,Laboratory Services,0.03%
+2019,HCPCS,Helmets,0.00%
+2019,HCPCS,Hearing Services,0.21%
+2019,HCPCS,Gradient Compression Stockings,0.02%
+2019,HCPCS,Enteral and Parenteral Therapy,0.20%
+2019,HCPCS,Durable Medical Equipment,0.27%
+2019,HCPCS,Drugs Other Than Chemotherapy,0.00%
+2019,HCPCS,CMS Hospital Outpatient Payment System,0.26%
+2019,HCPCS,Chemotherapy Drugs,0.00%
+2019,HCPCS,Behavioural Health and/or Substance Abuse Treatment Services,0.00%
+2019,HCPCS,"Administrative, Miscellaneous and Investigational",0.28%
+2019,N/A,N/A,0.51%
+2019,Service,Tele-consultation resulting in Self Care,0.00%
+2019,Service,Tele-consultation resulting in Referral,0.00%
+2019,Service,Tele-consultation resulting in Emergency Management,0.00%
+2019,Service,Special Care Unit (SCU) or Adult Special-Care Unit (ASCU),0.00%
+2019,Service,Special Care Baby Unit (SCBU),0.00%
+2019,Service,Short Stay Room - Hourly Rate,0.00%
+2019,Service,Short Stay  Room - Daily Rate,0.00%
+2019,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - VIP Room,0.00%
+2019,Service,Room Rate difference - Daily Rate  (Day 1 and more ) - Suite,0.00%
+2019,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - Royal Suite,0.00%
+2019,Service,Room Rate difference - Daily Rate  (Day 1 and more  ) - Isolation Room,0.00%
+2019,Service,Room Rate difference - Daily Rate   (Day 1 and more  ) - First Class Room,0.00%
+2019,Service,Room and Board: Ward,0.00%
+2019,Service,Room and Board:  VIP Room,0.00%
+2019,Service,Room and Board:  Suite,0.08%
+2019,Service,Room and Board: Shared Room,0.00%
+2019,Service,Room and Board: Royal Suite,0.00%
+2019,Service,Room and Board: Isolation Room,0.00%
+2019,Service,Room and Board: First Class Room,0.00%
+2019,Service,Recovery Room  - Hourly Rate,0.00%
+2019,Service,Perdiem  - Ward or Shared Room - Daily Rate  (Day 8 and more),0.02%
+2019,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 4 to 8),0.01%
+2019,Service,Perdiem  - Ward or Shared Room - Daily Rate (Day 1 to 3),0.03%
+2019,Service,Perdiem - Short Stay,0.42%
+2019,Service,Perdiem - SCU - Daily Rate (Day 9 and more),0.00%
+2019,Service,Perdiem - SCU - Daily Rate (Day 4 to 8),0.00%
+2019,Service,Perdiem - SCU - Daily Rate (Day 1 to 3),0.00%
+2019,Service,Perdiem - SCBU  - Daily Rate  (Day 9 and more),0.00%
+2019,Service,Perdiem - SCBU  - Daily Rate (Day 4 to 8),0.00%
+2019,Service,Perdiem - SCBU  - Daily Rate (Day 1 to 3),0.00%
+2019,Service,Perdiem - PICU - Daily Rate  (Day 22 and more),0.01%
+2019,Service,Perdiem - PICU - Daily Rate (Day 15 to 21),0.00%
+2019,Service,Perdiem - PICU - Daily Rate (Day 8 to 14),0.00%
+2019,Service,Perdiem - PICU - Daily Rate (Day 1 to 7),0.01%
+2019,Service,Perdiem - NICU - Daily Rate (Day 22 and more),0.01%
+2019,Service,Perdiem - NICU - Daily Rate (Day 15 to 21),0.01%
+2019,Service,Perdiem - NICU - Daily Rate (Day 8 to 14),0.01%
+2019,Service,Perdiem - NICU - Daily Rate (Day 1 to 7),0.02%
+2019,Service,Perdiem - New-born Nursery  -  Daily Rate (Day 1 to 3),0.00%
+2019,Service,Perdiem - Long Term Stay - Daily Rate - Simple Cases,0.43%
+2019,Service,Perdiem - Long Term Stay - Daily Rate - Severe Cases,4.32%
+2019,Service,Perdiem - Long Term Stay - Daily Rate - Intermediate Cases,0.32%
+2019,Service,Perdiem - Long Term Stay - Daily Rate - Intensive Cases,0.08%
+2019,Service,Perdiem - ICU/CCU - Daily Rate (Day 22 and more),0.00%
+2019,Service,Perdiem - ICU/CCU - Daily Rate (Day 15 to 21),0.00%
+2019,Service,Perdiem - ICU/CCU - Daily Rate (Day 8 to 14),0.01%
+2019,Service,Perdiem - ICU/CCU - Daily Rate (Day 1 to 7),0.04%
+2019,Service,Perdiem - Haemodialysis  (HD),1.51%
+2019,Service,Perdiem - Day Stay (Day care) Surgical Case - Inclusive.,0.76%
+2019,Service,Perdiem - Day Stay (Day care) Medical Case - Inclusive.,0.06%
+2019,Service,Perdiem - Continuous  Ambulatory Peritoneal Dialysis (CAPD).,0.01%
+2019,Service,Perdiem - Companion Accommodation,0.00%
+2019,Service,Perdiem - Automated Peritoneal Dialysis (APD).,0.06%
+2019,Service,Per Diem- Bundled Base Payment of home care  (Level 4- Complex )                                                                                                                     *-A bundled payment that includes all medical services and transportation,0.00%
+2019,Service,Per Diem-  Bundled Base Payment of home care  (Level 3- Intensive)                                                                                                                              * -A bundled payment that includes all medical services and tra,1.24%
+2019,Service,Per Diem- Bundled Base Payment of home care  (Level 2- Intermediate )                                                                                                           * -A bundled payment that includes all medical services and transportation - Su,2.39%
+2019,Service,Per Diem- Bundled Base Payment of home care (Level 1- SIMPLE )                                                                                                                    * -A bundled payment that includes all medical services and transportation -,0.55%
+2019,Service,Paediatric intensive care Unit (PICU),0.00%
+2019,Service,Outlier Payment,0.52%
+2019,Service,Operating Room Services - Minor Surgery,0.00%
+2019,Service,Operating Room Services - General Classification,0.00%
+2019,Service,Operating Room Services - First Hour,0.00%
+2019,Service,Operating Room Services - Every Additional 1/2 hr.,0.00%
+2019,Service,Nursery - General Classification,0.00%
+2019,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.",0.00%
+2019,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: between 16 sq inches / 100 sq centimeters  and 48 sq inches / 300 sq centimeters .",0.00%
+2019,Service,"Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.",0.02%
+2019,Service,Neonatal Intensive Care Unit (NICU),0.00%
+2019,Service,Intensive Care Unit (ICU),0.00%
+2019,Service,Emergency Room - Hourly Rate,0.00%
+2019,Service,"Educational services rendered by Clinician (Physician or Non-Physician) to patient opting out of the  Comprehensive Screening, new or established patient; 10-15 minutes.",0.00%
+2019,Service,DRG Add-on Payment for High Cost Consumables,0.16%
+2019,Service,Delivery Room,0.00%
+2019,Service,Day Stay (Day care) Room - Daily Rate,0.00%
+2019,Service,Coronary Care Unit (CCU),0.00%
+2019,Service,"Comprehensive screening evaluation and management by clinician of an individual, including an age and gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic procedures, new or established patient; 30-40 minut",0.08%
+2019,Service,"Comprehensive screening by a non-physician clinician of an individual, including vital signs, an age and gender appropriate history, coordination for ordering of laboratory/diagnostic procedures and questionnaire filling, new or established patient; 30-40",0.00%
+2019,Service,Catheterization Lab,0.00%

@@ -1,0 +1,33 @@
+{
+    "name": "Blood_Banks",
+    "keywords":["Blood Banks"],
+    "columns":
+    [
+        {
+        "name": "index",
+        "type": "Integer"
+        },
+        {
+        "name": "Year",
+        "type": "Year",
+        "query": "which years"
+        },
+        {
+        "name": "Blood_Bank_Center",
+        "type": "FuzzyString",
+        "query": "which center"
+        },
+        {
+        "name": "Unit_Type",
+        "keywords": ["Blood Group", "Blood Type"],
+        "type": "FuzzyString",
+        "query": "which blood group"
+        },
+        {
+        "name": "Units_Count",
+        "keywords": ["Unit Count", "count of units"],
+        "type": "Integer",
+        "query": "how many units"
+        }
+    ]
+}
