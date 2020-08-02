@@ -18,12 +18,12 @@ def get_table(df):
     return table
 
 def get_response(question):
-    messages = []
+
     try:
         csv = csv_select(question)
         if csv is None:
-            messages.append({'type': 'text', 'text': "Sorry, didn't quite catch that."})
-            return messages
+            print("Sorry,didn't catch that")
+    
         schema = get_schema_for_csv(csv)
         question, valmap = clause_arrange(csv, question)
         if question[0] == ',':
@@ -32,7 +32,7 @@ def get_response(question):
         sql_query=get_sql_query(question)
         for k, v in valmap.items():
             sql_query = sql_query.replace(k, v)
-        print(sql_query)
+       
         return sql_query
     except Exception as e:
             print(e)

@@ -287,7 +287,6 @@ def slot_fill(csv, q):
         if val is not None:
             ret.append((s[0], s[1], val, s[3]))
 
-    print("slot fill array:",ret)
     return ret
 
 
@@ -389,14 +388,13 @@ def clause_arrange(csv,q):
             if "priority" in col.keys() and flag:
                 question=clause.adapt(q,inttype=True,priority=True)
                 
+                
             else:
                 
                 question=clause.adapt(q,inttype=True)
 
     else:
         question=clause.adapt(q)
-    print("question is",question)
-    print("unknown slot is",unknown_slot)
     question=question.format(unknown_slot,schema["name"].lower())
     
     valmap = {}
