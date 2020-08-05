@@ -9,14 +9,12 @@ valuesfile = 'values.json'
 
 
 def index():
-    drop_db()
     del_vocab()
     values = {}
     for csv in get_csvs():
         df = get_dataframe(csv)
         schema = get_schema_for_csv(csv)
         if schema is not None:
-            csv2sql(df, schema, dumpfile)
             csv_keyword_vocab(csv,schema)
             for col in schema['columns']:
                 if col['type'] == "FuzzyString":

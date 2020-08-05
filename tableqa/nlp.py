@@ -1,7 +1,7 @@
 import nltk
 from nltk.corpus import stopwords
-from ln2sql import Ln2sql
-from ln2sql.thesaurus import Thesaurus
+# from ln2sql import Ln2sql
+# from ln2sql.thesaurus import Thesaurus
 from data_utils import get_csvs, get_schema_for_csv,kwd_checker
 import os
 from config import db_name
@@ -169,46 +169,6 @@ def get_keywords():
             
     return ret
 
-_ln2sql = None
-_tokens = set()
-def _load():
-    global _ln2sql
-    global _tokens
-    thesaurus = Thesaurus()
-    for k, v in get_keywords().items():
-        uk = _underscore(k)
-        thesaurus.add_synonyms_to_a_word(k, v + [uk])
-        _tokens.add(uk)
-        _tokens.update(v)
-    _ln2sql = Ln2sql(os.path.abspath(dumpfile), 'lang_store/english.csv', thesaurus=thesaurus)
-    _tokens = list(_tokens)
-    _tokens = [t.split('_') for t in _tokens]
-    _tokens.sort(key = lambda x: -len(x))
-    
-_load()
-
-
-def tokenize(X):
-    out = []
-    inp = nltk.word_tokenize(X)
-    while(inp):
-        flag = False
-        for t in _tokens:
-            cand = inp[:len(t)]
-            if cand == t:
-                out.append('_'.join(cand))
-                inp = inp[len(t):]
-                flag = True
-                break
-        if not flag:
-            out.append(inp.pop(0))
-    return out
-
-
-def get_sql_query(query):
-    query  = tokenize(query)
-    query = ' '.join([t.replace(' ', '_') for t in query])
-    return _ln2sql.get_query(query)
 
 
 valuesfile = "values.json"
@@ -237,7 +197,6 @@ def slot_fill(csv, q):
         # TODO
         return issubclass(column_types.get(typ), column_types.Number)
     slots = []
-    numeric_slots = []
     mappings = {}
     for col in schema['columns']:
         colname = col['name']
@@ -368,7 +327,7 @@ def unknown_slot_extractor(schema,sf_columns,ex_kwd):
 
 def clause_arrange(csv,q):
     sf=slot_fill(csv, q)
-    sub_clause=",where {} is {}"
+    sub_clause=''' WHERE {} = '{}' '''
     schema=get_schema_for_csv(csv)
     
     sf_columns=[i[0] for i in sf]
@@ -379,6 +338,7 @@ def clause_arrange(csv,q):
     unknown_slot,flag=unknown_slot_extractor(schema,sf_columns,ex_kwd)
     clause=Clause()
     question=""
+
     
     
     
@@ -388,9 +348,7 @@ def clause_arrange(csv,q):
             if "priority" in col.keys() and flag:
                 question=clause.adapt(q,inttype=True,priority=True)
                 
-                
-            else:
-                
+            else:   
                 question=clause.adapt(q,inttype=True)
 
     else:
@@ -400,18 +358,28 @@ def clause_arrange(csv,q):
     valmap = {}
     def get_key(val):
         return f"val_{len(valmap)}"
-
-    for s in sf:
+    print(sf)
+    for i,s in enumerate(sf):
         col,val=s[0],s[2]
         typ = column_types.get(s[1])
+        if i>0:
+            sub_clause=''' AND {} = '{}' '''
         if issubclass(typ, column_types.Number):
             val=cond_map(val)
+            
         if issubclass(typ, column_types.String):
             k = get_key(val)
             valmap[k] = val
         else:
             k = val
-        subq=sub_clause.format(col, k)
+
+        if k.isdigit():  
+            subq=sub_clause.format(col, k).replace("'","")
+            
+        else:
+            subq=sub_clause.format(col, k)
+        
+        
         question+=subq            
 
     
