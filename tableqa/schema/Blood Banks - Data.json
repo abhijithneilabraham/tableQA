@@ -9,25 +9,25 @@
         },
         {
         "name": "Year",
-        "type": "Year",
-        "query": "which years"
+        "type": "Year"
+
         },
         {
         "name": "Blood_Bank_Center",
-        "type": "FuzzyString",
-        "query": "which center"
+        "type": "FuzzyString"
+
         },
         {
         "name": "Unit_Type",
         "keywords": ["Blood Group", "Blood Type"],
-        "type": "FuzzyString",
-        "query": "which blood group"
+        "type": "FuzzyString"
+
         },
         {
         "name": "Units_Count",
         "keywords": ["Unit Count", "count of units"],
-        "type": "Integer",
-        "query": "how many units"
+        "type": "Integer"
+
         }
     ]
 }

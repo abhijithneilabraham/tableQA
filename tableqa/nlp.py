@@ -201,12 +201,22 @@ def slot_fill(csv, q):
     mappings = {}
     for col in schema['columns']:
         colname = col['name']
+        if 'keywords' in col.keys():
+            keyword=col['keywords'][0]
+        else:
+            keyword=colname
         if colname == 'index':
             continue
         coltype = col['type']
         if coltype == "Categorical":
             mappings[colname] = col["mapping"]
-        val, score = qa(q, col['query'], return_score=True)
+
+        if _is_numeric(coltype):
+            colquery="number of {}".format(keyword)
+        else:
+            colquery="which {}".format(keyword)
+        print("colquery {}".format(colquery))
+        val, score = qa(q, colquery, return_score=True)
         vt =  nltk.word_tokenize(val)
         start_idx = _find(nltk.word_tokenize(q), vt)
         end_idx = start_idx + len(vt) - 1
@@ -334,18 +344,12 @@ def clause_arrange(csv,q):
     schema=get_schema_for_csv(csv)
     
     sf_columns=[i[0] for i in sf]
-   
-
 
     ex_kwd=kword_extractor(q)
     unknown_slot,flag=unknown_slot_extractor(schema,sf_columns,ex_kwd)
     clause=Clause()
     question=""
 
-    
-    
-    
-    
     if flag: 
         for col in schema["columns"]:
             if "priority" in col.keys() and flag:

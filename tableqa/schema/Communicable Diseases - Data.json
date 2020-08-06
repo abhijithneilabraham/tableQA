@@ -9,8 +9,8 @@
         },
         {
         "name": "Year",
-        "type": "Year",
-        "query": "which years"
+        "type": "Year"
+
         },
         {
         "name": "Nationality",
@@ -18,25 +18,24 @@
         "mapping":{
             "National": ["national", "nationals", "citizen", "citizens", "emarati", "emaratis"],
             "Expatriate": ["expatriate", "foreigner", "foreigners", "immigrant", "immgrants", "foreign"]
-        },
-        "query": "what nationality"
+        }
+
         },
         {
         "name": "Disease",
         "keywords": ["illness","sickness"],
-        "type": "FuzzyString",
-        "query": "which gender"
+        "type": "FuzzyString"
+
         },
         {
         "name": "age",
-        "type": "Age",
-        "query": "what age"
+        "type": "Age"
+
         },
         {
         "name": "Cases",
         "keywords": ["number of cases","occurances","total cases"],
         "type": "Integer",
-        "query": "number of Cases",
         "priority":"True"
         }
     ]

@@ -21,7 +21,8 @@ def get_schema_for_csv(csv_path):
     try:
         with open(os.path.join('schema', csv_path[len(data_dir) + 1:-4]) + '.json', 'r') as f:
             return json.load(f)
-    except:
+    except Exception as e:
+        print(e)
         return None
 
 
@@ -97,8 +98,6 @@ def del_vocab():
 
 
     
-    
-
 
 
 

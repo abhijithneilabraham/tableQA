@@ -9,13 +9,13 @@
         },
         {
         "name": "Year",
-        "type": "Year",
-        "query": "which years"
+        "type": "Year"
+
         },
         {
         "name": "value",
-        "type": "Decimal",
-        "query": "how much value"
+        "type": "Decimal"
+
         }
 
     ]

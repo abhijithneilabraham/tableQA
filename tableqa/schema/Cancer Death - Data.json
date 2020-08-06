@@ -8,8 +8,8 @@
         },
         {
         "name": "Year",
-        "type": "Year",
-        "query": "which years"
+        "type": "Year"
+
         },
         {
         "name": "Nationality",
@@ -17,31 +17,30 @@
         "mapping":{
             "National": ["national", "nationals", "citizen", "citizens", "emarati", "emaratis"],
             "Expatriate": ["expatriate", "foreigner", "foreigners", "immigrant", "immgrants", "foreign"]
-        },
-        "query": "what nationality"
+        }
+
         },
         {
         "name": "Gender",
-        "keywords": ["sex"],
-        "type": "Gender",
-        "query": "which gender"
+        "type": "Gender"
+
         },
         {
         "name": "age",
-        "type": "Age",
-        "query": "what age"
+        "type": "Age"
+
         },
         {
         "name": "Cancer_site",
-        "keywords": ["cancer location","type of cancer"],
-        "type": "FuzzyString",
-        "query": "what type of cancer"
+        "keywords": ["type of cancer","cancer location"],
+        "type": "FuzzyString"
+
         },
         {
         "name": "Death_Count",
         "type": "Integer",
         "keywords": ["died","death","dead"],
-        "query": "number of deaths",
+
         "priority":"True"
         }
     ]

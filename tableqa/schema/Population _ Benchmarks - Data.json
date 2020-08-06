@@ -9,24 +9,23 @@
         },
         {
         "name": "Year",
-        "type": "Year",
-        "query": "which years"
+        "type": "Year"
         },
         {
         "name": "Country",
         "keywords":["nation"],
-        "type": "String",
-        "query": "which Country"
+        "type": "String"
+
         },
         {
         "name": "Category",
-        "type": "FuzzyString",
-        "query": "which category"
+        "type": "FuzzyString"
+
         },
         {
         "name": "Values",
-        "type": "Decimal",
-        "query": "how much value"
+        "type": "Decimal"
+
         }
     ]
 }
