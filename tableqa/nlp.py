@@ -13,7 +13,8 @@ from rake_nltk import Rake
 import column_types
 import json
 from clauses import Clause
-
+from conditionmaps import conditions
+import re
 from nltk.stem import WordNetLemmatizer 
 
 qa_model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
@@ -277,15 +278,15 @@ def validate_slots(cols, query, return_indices=False):
     return scores
 
 def cond_map(s):
-    with open('conditionmaps.json') as f:
-        data = json.load(f)
-        conds=[i for i in s.split() if not i.isdigit()]
+    data=conditions
+    
+    conds=[i for i in s.split() if not i.isdigit()]
 
-        for cond in conds:
-            for k,v in data.items():
-                  if cond in v:
-                      s=s.replace(cond,k)
-        return s
+    for cond in conds:
+        for k,v in data.items():
+              if cond in v:
+                  s=s.replace(cond,k)
+    return s
    
 
 def kword_extractor(q):
@@ -363,7 +364,7 @@ def clause_arrange(csv,q):
         col,val=s[0],s[2]
         typ = column_types.get(s[1])
         if i>0:
-            sub_clause=''' AND {} = '{}' '''
+            sub_clause='''AND {} = '{}' '''
         if issubclass(typ, column_types.Number):
             val=cond_map(val)
             
@@ -372,10 +373,14 @@ def clause_arrange(csv,q):
             valmap[k] = val
         else:
             k = val
-
-        if k.isdigit():  
+        
+        if k.isdigit() :  
             subq=sub_clause.format(col, k).replace("'","")
-            
+        if any(i in conditions.keys() for i in k):
+            pattern=["'","="]
+            subq=sub_clause.format(col, k)
+            for i in pattern:
+                subq=subq.replace(i,"")
         else:
             subq=sub_clause.format(col, k)
         
