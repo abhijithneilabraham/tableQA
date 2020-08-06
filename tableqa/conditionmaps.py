@@ -8,7 +8,7 @@ Created on Thu Aug  6 16:24:35 2020
 
 
 conditions={
-  "<":["below","lower","lesser","smaller"],
-  ">":["above","higher","greater","bigger"]
+  "<":["below","low","less","small"],
+  ">":["above","high","great","big"]
 }
 

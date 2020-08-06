@@ -14,7 +14,7 @@
         {
         "name": "Sector",
         "type": "String",
-        "query": "what sector"
+        "query": "which sector"
         },
         {
         "name": "Facility_Region",

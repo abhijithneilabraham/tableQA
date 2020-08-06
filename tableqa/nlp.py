@@ -280,13 +280,15 @@ def validate_slots(cols, query, return_indices=False):
 def cond_map(s):
     data=conditions
     
-    conds=[i for i in s.split() if not i.isdigit()]
-
+    conds=[lem(i,pos='a') for i in s.split() if not i.isdigit()]
+    
     for cond in conds:
         for k,v in data.items():
               if cond in v:
-                  s=s.replace(cond,k)
+                  num=s.split()[-1]
+                  s=f'{k} {num}'
     return s
+
    
 
 def kword_extractor(q):
