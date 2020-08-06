@@ -12,5 +12,3 @@ conditions={
   ">":["above","higher","greater","bigger"]
 }
 
-import re
-print(re.sub("'"+"<","","'> 20'"))

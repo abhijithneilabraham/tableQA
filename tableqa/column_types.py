@@ -184,8 +184,8 @@ class Categorical(String):
 class Gender(Categorical):
     def __init__(self):
         mapping = {
-            "male": ["male", "males", "man", "men", "boys"],
-            "female": ["female", "females", "woman", "women", "girls"]
+            "Male": ["male", "males", "man", "men", "boys"],
+            "Female": ["female", "females", "woman", "women", "girls"]
         }
         super(Gender, self).__init__(mapping)
 
