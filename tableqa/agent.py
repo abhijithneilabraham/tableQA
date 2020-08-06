@@ -22,8 +22,6 @@ def get_response(question):
             print("Sorry,didn't catch that")    
         schema = get_schema_for_csv(csv)
         question, valmap = clause_arrange(csv, question)
-        if question[0] == ',':
-            question = "Select None from " + schema['name'].lower().replace('_', ' ') + ' ' + question[1:]
         print(question)
         sql_query=question
         for k, v in valmap.items():

@@ -4,7 +4,6 @@ from nltk.corpus import stopwords
 # from ln2sql.thesaurus import Thesaurus
 from data_utils import get_csvs, get_schema_for_csv,kwd_checker
 import os
-from config import db_name
 from transformers import TFBertForQuestionAnswering, BertTokenizer
 from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
 import tensorflow as tf
@@ -130,7 +129,7 @@ stop_words = stopwords.words('english')
 stop_words.append('whose')
 
 
-dumpfile = db_name+'.sql'
+
 
 
 def _norm(x):
@@ -340,7 +339,7 @@ def unknown_slot_extractor(schema,sf_columns,ex_kwd):
 
 def clause_arrange(csv,q):
     sf=slot_fill(csv, q)
-    sub_clause=''' WHERE {} = '{}' '''
+    sub_clause=''' WHERE {} = "{}" '''
     schema=get_schema_for_csv(csv)
     
     sf_columns=[i[0] for i in sf]
@@ -370,7 +369,7 @@ def clause_arrange(csv,q):
         col,val=s[0],s[2]
         typ = column_types.get(s[1])
         if i>0:
-            sub_clause='''AND {} = '{}' '''
+            sub_clause='''AND {} = "{}" '''
         if issubclass(typ, column_types.Number):
             val=cond_map(val)
             
@@ -380,13 +379,11 @@ def clause_arrange(csv,q):
         else:
             k = val
         
-        if k.isdigit() :  
-            subq=sub_clause.format(col, k).replace("'","")
+
         if any(i in conditions.keys() for i in k):
-            pattern=["'","="]
+            
             subq=sub_clause.format(col, k)
-            for i in pattern:
-                subq=subq.replace(i,"")
+            subq=subq.replace('=','')
         else:
             subq=sub_clause.format(col, k)
         
