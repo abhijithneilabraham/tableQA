@@ -1,10 +1,10 @@
 from nlp import clause_arrange,csv_select
-from data_utils import get_dataframe,get_csvs, get_schema_for_csv
+from data_utils import get_dataframe,get_csvs, get_schema_for_csv,create_vocab
 import os
 import json
 import pandas as pd
 import column_types
-  
+
 filepath = os.path.dirname(__file__)
 def get_table(df):
     df = df.astype(str)[:1000]
@@ -16,6 +16,7 @@ def get_table(df):
 
 def get_response(question):
     try:
+        create_vocab()
         csv = csv_select(question)
         if csv is None:
             print("Sorry,didn't catch that")    

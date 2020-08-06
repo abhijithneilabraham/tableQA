@@ -8,6 +8,7 @@ import sys
 data_dir = 'cleaned_data'
 schema_dir = 'schema'
 vocabfile='vocab.json'
+valuesfile = 'values.json'
 def get_csvs():
     ret = []
     for r, _, files in os.walk(data_dir):
@@ -91,17 +92,34 @@ def kwd_checker(csv,vocab):
         
     
          
+
+
+    
+def create_vocab():
+    del_vocab()
+    values = {}
+    for csv in get_csvs():
+        df = get_dataframe(csv)
+        schema = get_schema_for_csv(csv)
+        if schema is not None:
+            csv_keyword_vocab(csv,schema)
+            for col in schema['columns']:
+                if col['type'] == "FuzzyString":
+                    colname = col['name']
+                    if colname not in values:
+                        values[colname] = []
+                    vals = values[colname]
+                    vals += list(set([x for x in df[colname] if isinstance(x, str)]))
+    with open(valuesfile, 'w') as f:
+        json.dump(values, f)
+    
+
+
+    
 def del_vocab():
     if os.path.isfile(vocabfile):
         os.remove(vocabfile)
 
-
-
-    
-
-
-
-    
 
          
     
