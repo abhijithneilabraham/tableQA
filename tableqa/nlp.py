@@ -202,6 +202,7 @@ def slot_fill(csv, q):
         colname = col['name']
         if 'keywords' in col.keys():
             keyword=col['keywords'][0]
+            q=q.replace(colname,keyword)
         else:
             keyword=colname
         if colname == 'index':
@@ -214,7 +215,7 @@ def slot_fill(csv, q):
             colquery="number of {}".format(keyword)
         else:
             colquery="which {}".format(keyword)
-        print("colquery {}".format(colquery))
+        
         val, score = qa(q, colquery, return_score=True)
         vt =  nltk.word_tokenize(val)
         start_idx = _find(nltk.word_tokenize(q), vt)
@@ -359,6 +360,8 @@ def clause_arrange(csv,q):
 
     else:
         question=clause.adapt(q)
+    if unknown_slot is None:
+        unknown_slot='*'
     question=question.format(unknown_slot,schema["name"].lower())
     
     valmap = {}
