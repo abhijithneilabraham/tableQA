@@ -1,5 +1,5 @@
 # tableQA
-Tool for querying natural language on tabular data like csvs,excel sheet,etc.Takes input of a csv+schema and returns an sql query.
+Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 
 ## Quickstart
 
