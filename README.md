@@ -1,6 +1,11 @@
 # tableQA
-Tool for querying natural language on tabular data like csvs,excel sheet,etc.
+Tool for querying natural language on tabular data like csvs,excel sheet,etc.   
 
+
+### Configuration:
+      Point the 'data_dir' and 'schema_dir' variables in config.py to path consisting of csv files and respective schemas.   
+
+      
 ## Quickstart
 
 
