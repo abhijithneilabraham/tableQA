@@ -4,9 +4,10 @@ import pandas as pd
 import nltk
 from nltk.corpus import stopwords
 import sys
+from config import data_dir,schema_dir
 
-data_dir = 'cleaned_data'
-schema_dir = 'schema'
+data_dir = data_dir
+schema_dir = schema_dir
 vocabfile='vocab.json'
 valuesfile = 'values.json'
 def get_csvs():

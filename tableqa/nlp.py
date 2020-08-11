@@ -1,20 +1,17 @@
 import nltk
 from nltk.corpus import stopwords
-# from ln2sql import Ln2sql
-# from ln2sql.thesaurus import Thesaurus
 from data_utils import get_csvs, get_schema_for_csv,kwd_checker
 import os
 from transformers import TFBertForQuestionAnswering, BertTokenizer
 from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
 import tensorflow as tf
-import numpy as np
 from rake_nltk import Rake
 import column_types
 import json
 from clauses import Clause
 from conditionmaps import conditions
-import re
 from nltk.stem import WordNetLemmatizer 
+from config import data_dir
 
 qa_model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 qa_tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
@@ -408,12 +405,12 @@ def csv_select(q):
     for csv, v in vocab.items():
         kwds2 = [lem(i) for i in v]
         count = len([k for k in kwds2 if k in kwds])
-        schema=get_schema_for_csv(os.path.join('cleaned_data',csv))
+        schema=get_schema_for_csv(os.path.join(data_dir,csv))
         name=schema["name"]
         priority=name.lower().split('_')
         check_kwd=kwd_checker(csv, vocab)
         if len(set(priority) & set(kwds))>0 and not any(i in priority for i in check_kwd):
-            return os.path.join('cleaned_data',csv)
+            return os.path.join(data_dir,csv)
         if count>maxcount:
             maxcount=count
             selected_csv=csv
@@ -421,6 +418,6 @@ def csv_select(q):
     
     if not maxcount:
         return None
-    return os.path.join('cleaned_data',selected_csv)
+    return os.path.join(data_dir,selected_csv)
 
 
