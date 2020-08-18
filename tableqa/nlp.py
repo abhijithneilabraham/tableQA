@@ -384,6 +384,7 @@ def clause_arrange(csv,q):
             
             subq=sub_clause.format(col, k)
             subq=subq.replace('=','')
+            subq=subq.replace('"','')
         else:
             subq=sub_clause.format(col, k)
         

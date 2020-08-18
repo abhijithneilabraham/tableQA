@@ -5,34 +5,28 @@ Created on Wed Jul  8 18:47:53 2020
 
 @author: abhijithneilabraham
 """
+from tensorflow.keras.models import load_model
+from sentence_transformers import SentenceTransformer
+from numpy import asarray
+
 
 class Clause:
     def __init__(self):
-        self.clauses={
-                      ("find","search for","what","get me","which","show"):'''SELECT {} FROM {}''',
-                      ("how many","number of","who all","how much","sum of","total"):'''SELECT COUNT({}) FROM {}''',
-                      ("instances","count"):'''SELECT COUNT({}) FROM {}''',
-                      ("max","maximum","highest","biggest","most"):'''SELECT MAX({}) FROM {}''',
-                      ("min","minimum","lowest","smallest","least"):'''SELECT MIN({}) FROM {}''',
-                      ("average","mean of"):'''SELECT AVG({}) FROM {}'''
-                      }
-        self.int_clauses={v[0]:v[1] for i,v in enumerate(self.clauses.items()) if i>2}
-    def adapt(self,q,inttype=False,priority=False):
-        clauses=self.clauses
-        int_clauses=self.int_clauses
+        self.bert_model = SentenceTransformer('bert-base-nli-mean-tokens')
+        self.model=load_model("Question_Classifier.h5")
+        self.types={0:'SELECT {} FROM {}', 1:'SELECT MAX({}) FROM {}', 2:'SELECT MIN({}) FROM {}', 3:'SELECT COUNT({}) FROM {}', 4:'SELECT SUM({}) FROM {}', 5:'SELECT AVG({}) FROM {}'}
 
-        for i,tup in enumerate(clauses.items()):
-            clause=tup[0]
-            if any(i in q for i in clause):
-                if priority and inttype  and "how many" in clause:
-                    return '''SELECT SUM({}) FROM {}'''
-                elif "which" in clause and inttype:
-                    for clause2 in int_clauses:
-                        if any(i in q for i in clause2):
-                            return int_clauses[clause2]
-                    return clauses[clause]
-                else:
-                    return clauses[clause]
+    def adapt(self,q,inttype=False,priority=False):
+        emb=asarray(self.bert_model.encode(q))
+        self.clause=self.types[self.model.predict_classes(emb)[0]]
+        
+        if priority and inttype  and "COUNT" in self.clause:
+            self.clause= '''SELECT SUM({}) FROM {}'''
+        return self.clause
+    
+    
+
+
                 
                 
 
