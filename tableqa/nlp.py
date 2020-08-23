@@ -1,6 +1,6 @@
 import nltk
 from nltk.corpus import stopwords
-from data_utils import get_csvs, get_schema_for_csv,kwd_checker
+from data_utils import data_utils
 import os
 from transformers import TFBertForQuestionAnswering, BertTokenizer
 from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
@@ -11,13 +11,11 @@ import json
 from clauses import Clause
 from conditionmaps import conditions
 from nltk.stem import WordNetLemmatizer 
-from config import data_dir
 
 qa_model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 qa_tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 rerank_model = TFAutoModelForSequenceClassification.from_pretrained('bert-large-cased-whole-word-masking')
 rerank_tokenizer = AutoTokenizer.from_pretrained('bert-large-cased-whole-word-masking')
-
 lemmatizer = WordNetLemmatizer()
 lem=lemmatizer.lemmatize
 stop_words = set(stopwords.words('english'))
@@ -140,32 +138,6 @@ def _underscore(x):
     return _norm(x).replace(' ', '_')
 
 
-def get_keywords():
-    ret = {}
-    for csv in get_csvs():
-        schema = get_schema_for_csv(csv)
-        if schema is not None:
-            name = schema['name']
-            if 'keywords' in schema:        
-                if name in ret:
-                    ret[name] += list(map(_underscore, schema['keywords']))
-                else: 
-                    ret[name] = list(map(_underscore, schema['keywords']))
-            else:
-                ret[name]=[name]
-            cols = schema['columns']
-            for col in cols:
-                colname = col['name']
-                if 'keywords' in col:
-                    if colname in ret:
-                        ret[colname] += list(map(_underscore, col['keywords']))
-                    else:
-                        ret[colname] = list(map(_underscore, col['keywords']))
-                else:
-                    ret[colname]=[colname]
-            
-    return ret
-
 
 
 valuesfile = "values.json"
@@ -186,239 +158,246 @@ def _find(lst, sublst):
 
 def _window_overlap(s1, e1, s2, e2):
     return s2 <= e1 if s1 <s2 else s1 <= e2
-
-def slot_fill(csv, q):
-    # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
-    schema = get_schema_for_csv(csv)
-    def _is_numeric(typ):
-        # TODO
-        return issubclass(column_types.get(typ), column_types.Number)
-    slots = []
-    mappings = {}
-    for col in schema['columns']:
-        colname = col['name']
-        if 'keywords' in col.keys():
-            keyword=col['keywords'][0]
-            q=q.replace(colname,keyword)
-        else:
-            keyword=colname
-        if colname == 'index':
-            continue
-        coltype = col['type']
-        if coltype == "Categorical":
-            mappings[colname] = col["mapping"]
-
-        if _is_numeric(coltype):
-            colquery="number of {}".format(keyword)
-        else:
-            colquery="which {}".format(keyword)
+class Nlp:
+    def __init__(self,data_dir,schema_dir):
+        self.data_dir=data_dir
+        self.schema_dir=schema_dir
+        self.data_process=data_utils(data_dir, schema_dir)
         
-        val, score = qa(q, colquery, return_score=True)
-        vt =  nltk.word_tokenize(val)
-        start_idx = _find(nltk.word_tokenize(q), vt)
-        end_idx = start_idx + len(vt) - 1
-        print("filling slots:",colname, val, score)
-        slots.append((colname, coltype, val, score, start_idx, end_idx))
-    slots.sort(key=lambda x: -x[3])
-    windows = []
-    slots_filtered = []
-    for s in slots:
-        if s[-2] < 0:
-            continue
-        win = s[-2:]
-        flag = False
-        for win2 in windows:
-            if _window_overlap(*(win + win2)):
-                flag = True
-                break
-        if flag:
-            continue
-        windows.append(win)
-        slots_filtered.append(s[:-2])
-    slots = slots_filtered
-
-    ret = []
-    for s in slots:
-        if s[1] == "FuzzyString":
-            vals = values[s[0]]
-            fs = column_types.FuzzyString(vals, exclude=s[0].split('_'))
-            val = fs.adapt(s[2])
-        elif s[1] == "Categorical":
-            cat = column_types.Categorical(mappings[s[0]])
-            val = cat.adapt(s[2])
-        elif _is_numeric(s[1]):
-
-            val = column_types.get(s[1])().adapt(s[2], context=q, allowed_kws=[s[0]])
-        else:
-            val = column_types.get(s[1])().adapt(s[2])
-        if val is not None:
-            ret.append((s[0], s[1], val, s[3]))
-
-    return ret
-
-
-def validate_slots(cols, query, return_indices=False):
-    assert cols
-    if isinstance(cols, str):
-        cols = [cols]
-    max_seq_len = 64
-    filter_cols = True
-    inputs = [rerank_tokenizer.encode_plus(query, choice, add_special_tokens=True)
-                for choice in cols]
-    max_len = min(max(len(t['input_ids']) for t in inputs), max_seq_len)
-    input_ids = [t['input_ids'][:max_len] +
-                    [0] * (max_len - len(t['input_ids'][:max_len])) for t in inputs]
-    attention_mask = [[1] * len(t['input_ids'][:max_len]) +
-                        [0] * (max_len - len(t['input_ids'][:max_len])) for t in inputs]
-    token_type_ids = [t['token_type_ids'][:max_len] +
-                    [0] * (max_len - len(t['token_type_ids'][:max_len])) for t in inputs]
-    input_ids = tf.constant(input_ids)
-    attention_mask = tf.constant(attention_mask)
-    token_type_ids = tf.constant(token_type_ids)
-    logits = rerank_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)[0]
-    scores = []
-    for logit in logits:
-        neg_logit = logit[0]
-        score = logit[1]
-        if score > neg_logit or not filter_cols:
-            scores.append(score - neg_logit)
-    return scores
-
-def cond_map(s):
-    data=conditions
-    
-    conds=[lem(i,pos='a') for i in s.split() if not i.isdigit()]
-    
-    for cond in conds:
-        for k,v in data.items():
-              if cond in v:
-                  num=s.split()[-1]
-                  s=f'{k} {num}'
-    return s
-
-   
-
-def kword_extractor(q):
-    ret=[]
-    for t in nltk.word_tokenize(q):
-        if t.lower() not in stop_words:
-            kwd=lem(t.lower())
-            ret.append(kwd)
-    return ret               
-
-def unknown_slot_extractor(schema,sf_columns,ex_kwd):
-    maxcount=0
-    unknown_slot=None
-    flag=False
-    
-    for col in schema["columns"]:
-        if col["name"] not in sf_columns:
-            col_kwds=[]    
-            if '_' in col["name"]:
-                col_kwds.extend(col["name"].split("_"))
-            else:
-                col_kwds.append(col["name"])
+    def slot_fill(self,csv, q):
+        # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
+        schema = self.data_process.get_schema_for_csv(csv)
+        def _is_numeric(typ):
+            # TODO
+            return issubclass(column_types.get(typ), column_types.Number)
+        slots = []
+        mappings = {}
+        for col in schema['columns']:
+            colname = col['name']
             if 'keywords' in col.keys():
-                col_kwds.extend(col["keywords"])
-                
-            col_kwds=[lem(i.lower()) for i in col_kwds]
-        
-            count=len(set(col_kwds) & set(ex_kwd))
+                keyword=col['keywords'][0]
+                q=q.replace(colname,keyword)
+            else:
+                keyword=colname
+            if colname == 'index':
+                continue
+            coltype = col['type']
+            if coltype == "Categorical":
+                mappings[colname] = col["mapping"]
+    
+            if _is_numeric(coltype):
+                colquery="number of {}".format(keyword)
+            else:
+                colquery="which {}".format(keyword)
             
+            val, score = qa(q, colquery, return_score=True)
+            vt =  nltk.word_tokenize(val)
+            start_idx = _find(nltk.word_tokenize(q), vt)
+            end_idx = start_idx + len(vt) - 1
+            print("filling slots:",colname, val, score)
+            slots.append((colname, coltype, val, score, start_idx, end_idx))
+        slots.sort(key=lambda x: -x[3])
+        windows = []
+        slots_filtered = []
+        for s in slots:
+            if s[-2] < 0:
+                continue
+            win = s[-2:]
+            flag = False
+            for win2 in windows:
+                if _window_overlap(*(win + win2)):
+                    flag = True
+                    break
+            if flag:
+                continue
+            windows.append(win)
+            slots_filtered.append(s[:-2])
+        slots = slots_filtered
+    
+        ret = []
+        for s in slots:
+            if s[1] == "FuzzyString":
+                vals = values[s[0]]
+                fs = column_types.FuzzyString(vals, exclude=s[0].split('_'))
+                val = fs.adapt(s[2])
+            elif s[1] == "Categorical":
+                cat = column_types.Categorical(mappings[s[0]])
+                val = cat.adapt(s[2])
+            elif _is_numeric(s[1]):
+    
+                val = column_types.get(s[1])().adapt(s[2], context=q, allowed_kws=[s[0]])
+            else:
+                val = column_types.get(s[1])().adapt(s[2])
+            if val is not None:
+                ret.append((s[0], s[1], val, s[3]))
+    
+        return ret
+    
+    
+    def validate_slots(self,cols, query, return_indices=False):
+        assert cols
+        if isinstance(cols, str):
+            cols = [cols]
+        max_seq_len = 64
+        filter_cols = True
+        inputs = [rerank_tokenizer.encode_plus(query, choice, add_special_tokens=True)
+                    for choice in cols]
+        max_len = min(max(len(t['input_ids']) for t in inputs), max_seq_len)
+        input_ids = [t['input_ids'][:max_len] +
+                        [0] * (max_len - len(t['input_ids'][:max_len])) for t in inputs]
+        attention_mask = [[1] * len(t['input_ids'][:max_len]) +
+                            [0] * (max_len - len(t['input_ids'][:max_len])) for t in inputs]
+        token_type_ids = [t['token_type_ids'][:max_len] +
+                        [0] * (max_len - len(t['token_type_ids'][:max_len])) for t in inputs]
+        input_ids = tf.constant(input_ids)
+        attention_mask = tf.constant(attention_mask)
+        token_type_ids = tf.constant(token_type_ids)
+        logits = rerank_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)[0]
+        scores = []
+        for logit in logits:
+            neg_logit = logit[0]
+            score = logit[1]
+            if score > neg_logit or not filter_cols:
+                scores.append(score - neg_logit)
+        return scores
+    
+    def cond_map(self,s):
+        data=conditions
+        
+        conds=[lem(i,pos='a') for i in s.split() if not i.isdigit()]
+        
+        for cond in conds:
+            for k,v in data.items():
+                  if cond in v:
+                      num=s.split()[-1]
+                      s=f'{k} {num}'
+        return s
+    
+       
+    
+    def kword_extractor(self,q):
+        ret=[]
+        for t in nltk.word_tokenize(q):
+            if t.lower() not in stop_words:
+                kwd=lem(t.lower())
+                ret.append(kwd)
+        return ret               
+    
+    def unknown_slot_extractor(self,schema,sf_columns,ex_kwd):
+        maxcount=0
+        unknown_slot=None
+        flag=False
+        
+        for col in schema["columns"]:
+            if col["name"] not in sf_columns:
+                col_kwds=[]    
+                if '_' in col["name"]:
+                    col_kwds.extend(col["name"].split("_"))
+                else:
+                    col_kwds.append(col["name"])
+                if 'keywords' in col.keys():
+                    col_kwds.extend(col["keywords"])
+                    
+                col_kwds=[lem(i.lower()) for i in col_kwds]
+            
+                count=len(set(col_kwds) & set(ex_kwd))
+                
+                if count>maxcount:
+                    maxcount=count
+                    unknown_slot=col["name"]
+                   
+                    flag=True  if col["type"] in ["Year","Integer","Decimal","Age"] else False
+                    
+        return unknown_slot,flag
+    
+
+
+            
+    def csv_select(self,q):
+        maxcount=0
+        kwds=self.kword_extractor(q)
+         
+        with open('vocab.json') as f:
+            vocab = json.load(f)
+        for csv, v in vocab.items():
+            kwds2 = [lem(i) for i in v]
+            count = len([k for k in kwds2 if k in kwds])
+            schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
+            name=schema["name"]
+            priority=name.lower().split('_')
+            check_kwd=self.data_process.kwd_checker(csv, vocab)
+            if len(set(priority) & set(kwds))>0 and not any(i in priority for i in check_kwd):
+                return os.path.join(self.data_dir,csv)
             if count>maxcount:
                 maxcount=count
-                unknown_slot=col["name"]
-               
-                flag=True  if col["type"] in ["Year","Integer","Decimal","Age"] else False
-                
-    return unknown_slot,flag
-
-
-
-def clause_arrange(csv,q):
-    sf=slot_fill(csv, q)
-    sub_clause=''' WHERE {} = "{}" '''
-    schema=get_schema_for_csv(csv)
+                selected_csv=csv
     
-    sf_columns=[i[0] for i in sf]
-
-    ex_kwd=kword_extractor(q)
-    unknown_slot,flag=unknown_slot_extractor(schema,sf_columns,ex_kwd)
-    clause=Clause()
-    question=""
-
-    if flag: 
-        for col in schema["columns"]:
-            if "priority" in col.keys() and flag:
-                question=clause.adapt(q,inttype=True,priority=True)
-                
-            else:   
-                question=clause.adapt(q,inttype=True)
-
-    else:
-        question=clause.adapt(q)
-    if unknown_slot is None:
-        unknown_slot='*'
-    question=question.format(unknown_slot,schema["name"].lower())
+        
+        if not maxcount:
+            return None
+        return os.path.join(self.data_dir,selected_csv)
+    def get_sql_query(self,csv,q):
+        sf=self.slot_fill(csv, q)
+        sub_clause=''' WHERE {} = "{}" '''
+        schema=self.data_process.get_schema_for_csv(csv)
+        
+        sf_columns=[i[0] for i in sf]
     
-    valmap = {}
-    def get_key(val):
-        return f"val_{len(valmap)}"
-    print(sf)
-    for i,s in enumerate(sf):
-        col,val=s[0],s[2]
-        typ = column_types.get(s[1])
-        if i>0:
-            sub_clause='''AND {} = "{}" '''
-        if issubclass(typ, column_types.Number):
-            val=cond_map(val)
-            
-        if issubclass(typ, column_types.String):
-            k = get_key(val)
-            valmap[k] = val
+        ex_kwd=self.kword_extractor(q)
+        unknown_slot,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)
+        clause=Clause()
+        question=""
+    
+        if flag: 
+            for col in schema["columns"]:
+                if "priority" in col.keys() and flag:
+                    question=clause.adapt(q,inttype=True,priority=True)
+                    
+                else:   
+                    question=clause.adapt(q,inttype=True)
+    
         else:
-            k = val
+            question=clause.adapt(q)
+        if unknown_slot is None:
+            unknown_slot='*'
+        question=question.format(unknown_slot,schema["name"].lower())
         
-
-        if any(i in conditions.keys() for i in k):
+        valmap = {}
+        def get_key(val):
+            return f"val_{len(valmap)}"
+        print(sf)
+        for i,s in enumerate(sf):
+            col,val=s[0],s[2]
+            typ = column_types.get(s[1])
+            if i>0:
+                sub_clause='''AND {} = "{}" '''
+            if issubclass(typ, column_types.Number):
+                val=self.cond_map(val)
+                
+            if issubclass(typ, column_types.String):
+                k = get_key(val)
+                valmap[k] = val
+            else:
+                k = val
             
-            subq=sub_clause.format(col, k)
-            subq=subq.replace('=','')
-            subq=subq.replace('"','')
-        else:
-            subq=sub_clause.format(col, k)
+    
+            if any(i in conditions.keys() for i in k):
+                
+                subq=sub_clause.format(col, k)
+                subq=subq.replace('=','')
+                subq=subq.replace('"','')
+            else:
+                subq=sub_clause.format(col, k)
+            
+            
+            question+=subq            
+    
         
-        
-        question+=subq            
+        return question, valmap
+    
+    
+    
+   
 
     
-    return question, valmap
-
-
-
-
-with open('vocab.json') as f:
-    vocab = json.load(f)
     
-def csv_select(q):
-    maxcount=0
-    kwds=kword_extractor(q)
-    for csv, v in vocab.items():
-        kwds2 = [lem(i) for i in v]
-        count = len([k for k in kwds2 if k in kwds])
-        schema=get_schema_for_csv(os.path.join(data_dir,csv))
-        name=schema["name"]
-        priority=name.lower().split('_')
-        check_kwd=kwd_checker(csv, vocab)
-        if len(set(priority) & set(kwds))>0 and not any(i in priority for i in check_kwd):
-            return os.path.join(data_dir,csv)
-        if count>maxcount:
-            maxcount=count
-            selected_csv=csv
-
-    
-    if not maxcount:
-        return None
-    return os.path.join(data_dir,selected_csv)
-
-
