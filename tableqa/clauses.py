@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul  8 18:47:53 2020
 
-@author: abhijithneilabraham
-"""
 from tensorflow.keras.models import load_model
 from sentence_transformers import SentenceTransformer
 from numpy import asarray
