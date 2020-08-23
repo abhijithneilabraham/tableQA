@@ -1,4 +1,4 @@
-from nlp import NLP
+from nlp import Nlp
 from data_utils import data_utils
 import os
 
@@ -13,7 +13,7 @@ class Agent:
         try:
             data_process=data_utils(self.data_dir,self.schema_dir)
             data_process.create_vocab()
-            nlp=NLP(self.data_dir,self.schema_dir)
+            nlp=Nlp(self.data_dir,self.schema_dir)
             csv = nlp.csv_select(question)
             if csv is None:
                 print("Sorry,didn't catch that")    
