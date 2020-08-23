@@ -181,14 +181,6 @@ class Categorical(String):
         return mx[0]
 
 
-class Gender(Categorical):
-    def __init__(self):
-        mapping = {
-            "Male": ["male", "males", "man", "men", "boys"],
-            "Female": ["female", "females", "woman", "women", "girls"]
-        }
-        super(Gender, self).__init__(mapping)
-
 
 def get(name):
     return globals()[name]

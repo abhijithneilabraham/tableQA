@@ -5,3 +5,4 @@ transformers[tf-cpu]
 rake_nltk
 nltk
 sqlalchemy
+sentence_transformers

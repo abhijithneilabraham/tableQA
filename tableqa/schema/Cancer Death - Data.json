@@ -22,8 +22,11 @@
         },
         {
         "name": "Gender",
-        "type": "Gender"
-
+        "type": "Categorical",
+        "mapping" : {
+         "Male": ["male", "males", "man", "men", "boys"],
+         "Female": ["female", "females", "woman", "women", "girls"]
+                    }
         },
         {
         "name": "age",
