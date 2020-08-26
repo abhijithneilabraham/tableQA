@@ -163,6 +163,7 @@ class Nlp:
         self.data_dir=data_dir
         self.schema_dir=schema_dir
         self.data_process=data_utils(data_dir, schema_dir)
+        self.vocabfile=self.data_process.vocabfile
         
     def slot_fill(self,csv, q):
         # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
@@ -317,7 +318,7 @@ class Nlp:
         maxcount=0
         kwds=self.kword_extractor(q)
          
-        with open('vocab.json') as f:
+        with open(self.vocabfile) as f:
             vocab = json.load(f)
         for csv, v in vocab.items():
             kwds2 = [lem(i) for i in v]
@@ -350,12 +351,9 @@ class Nlp:
     
         if flag: 
             for col in schema["columns"]:
-                if "priority" in col.keys() and flag:
-                    question=clause.adapt(q,inttype=True,priority=True)
-                    
-                else:   
-                    question=clause.adapt(q,inttype=True)
-    
+                if "priority" in col.keys() :
+
+                    question=clause.adapt(q,inttype=True,priority=True)                          
         else:
             question=clause.adapt(q)
         if unknown_slot is None:
@@ -365,7 +363,7 @@ class Nlp:
         valmap = {}
         def get_key(val):
             return f"val_{len(valmap)}"
-        print(sf)
+        print("entities and scores:",sf)
         for i,s in enumerate(sf):
             col,val=s[0],s[2]
             typ = column_types.get(s[1])

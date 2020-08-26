@@ -3,30 +3,12 @@
     "columns":
     [
         {
-        "name": "index",
-        "type": "Integer"
-        },
-        {
-        "name": "Year",
-        "type": "Year"
-
-        },
-        {
-        "name": "Activity_Type",
-        "type": "FuzzyString"
-
-        },
-        {
         "name": "Activity_Type_Chapter",
-        "keywords": ["Type Chapter", "Chapter"],
-        "type": "FuzzyString"
-
+        "keywords": ["Type Chapter", "Chapter"]
         },
         {
         "name": "Percentage_Value_per_Year",
-        "keywords": ["Percentage Value", "percent value", "Value per Year", "Percentage Value per Year", "Percentage per Year"],
-        "type": "Decimal"
-
+        "keywords": ["Percentage Value", "percent value", "Value per Year", "Percentage Value per Year", "Percentage per Year"]
         }
     ]
 }
