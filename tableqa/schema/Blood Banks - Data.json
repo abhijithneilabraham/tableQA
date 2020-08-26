@@ -4,29 +4,12 @@
     "columns":
     [
         {
-        "name": "index",
-        "type": "Integer"
-        },
-        {
-        "name": "Year",
-        "type": "Year"
-
-        },
-        {
-        "name": "Blood_Bank_Center",
-        "type": "FuzzyString"
-
-        },
-        {
         "name": "Unit_Type",
-        "keywords": ["Blood Group", "Blood Type"],
-        "type": "FuzzyString"
-
+        "keywords": ["Blood Group", "Blood Type"]
         },
         {
         "name": "Units_Count",
-        "keywords": ["Unit Count", "count of units"],
-        "type": "Integer"
+        "keywords": ["Unit Count", "count of units"]
 
         }
     ]

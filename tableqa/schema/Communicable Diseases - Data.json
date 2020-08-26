@@ -4,17 +4,7 @@
     "columns":
     [
         {
-        "name": "index",
-        "type": "Integer"
-        },
-        {
-        "name": "Year",
-        "type": "Year"
-
-        },
-        {
         "name": "Nationality",
-        "type": "Categorical",
         "mapping":{
             "National": ["national", "nationals", "citizen", "citizens", "emarati", "emaratis"],
             "Expatriate": ["expatriate", "foreigner", "foreigners", "immigrant", "immgrants", "foreign"]
@@ -23,19 +13,11 @@
         },
         {
         "name": "Disease",
-        "keywords": ["illness","sickness"],
-        "type": "FuzzyString"
-
-        },
-        {
-        "name": "age",
-        "type": "Age"
-
+        "keywords": ["illness","sickness"]
         },
         {
         "name": "Cases",
         "keywords": ["number of cases","occurances","total cases"],
-        "type": "Integer",
         "priority":"True"
         }
     ]

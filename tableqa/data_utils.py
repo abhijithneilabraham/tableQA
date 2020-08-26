@@ -20,17 +20,62 @@ class data_utils:
         return ret
     
     
-    def get_schema_for_csv(self,csv_path):
-        try:
-            with open(os.path.join(self.schema_dir, csv_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
-                return json.load(f)
-        except Exception as e:
-            print(e)
-            return None
-    
-    
+
     def get_dataframe(self,csv_path):
         return pd.read_csv(csv_path)
+    
+    def get_schema_for_csv(self,csv_path):
+        schema={}
+        
+        data=self.get_dataframe(csv_path)
+        columns=data.columns.tolist()
+        if "unnamed" in columns[0].lower():
+            columns[0]="index"
+        data.columns=columns   
+        try:
+            with open(os.path.join(self.schema_dir, csv_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
+                schema=json.load(f)
+                if "columns" not in schema.keys():
+                    schema["columns"]=[]
+                
+        except Exception as e:
+            schema={}
+            schema["name"]=os.path.splitext(os.path.basename(csv_path))[0]
+            schema["columns"]=[]
+            for column in columns:
+                schema["columns"].append({"name":column})
+                
+        finally:
+            types=data.dtypes.apply(lambda x:x.name).to_dict()
+            
+            for k,v in types.items():
+                if 'int' in v:
+                    types[k]="Integer"
+                if 'float' in v:
+                    types[k]="Decimal"
+                if "age" in k.lower():
+                        types[k]="Age"
+                if "year" in k.lower():
+                        types[k]="Year"        
+                if 'object' in v:
+                    for col in schema["columns"]:
+                        if "mapping" in col:
+                            types[col["name"]]="Categorical"
+                        else:
+                            types[k]="FuzzyString"
+                            
+                collist=[]          
+                for col in schema["columns"]:
+                    collist.append(col["name"])
+                    col["type"]=types[col["name"]]
+                
+                for column in columns:
+                    if column not in collist:
+                        schema["columns"].append({"name":column,"type":types[column]})
+    
+        
+            return schema
+            
     
     def write_columns(self,txt_path,df):
         for colname in df.columns:

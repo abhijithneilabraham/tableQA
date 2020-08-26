@@ -3,47 +3,26 @@
     "columns":
     [
         {
-        "name": "index",
-        "type": "Integer"
-        },
-        {
-        "name": "Year",
-        "type": "Year"
-
-        },
-        {
         "name": "Nationality",
-        "type": "Categorical",
         "mapping":{
             "National": ["national", "nationals", "citizen", "citizens", "emarati", "emaratis"],
             "Expatriate": ["expatriate", "foreigner", "foreigners", "immigrant", "immgrants", "foreign"]
         }
-
         },
         {
         "name": "Gender",
-        "type": "Categorical",
         "mapping" : {
          "Male": ["male", "males", "man", "men", "boys"],
          "Female": ["female", "females", "woman", "women", "girls"]
                     }
         },
         {
-        "name": "age",
-        "type": "Age"
-
-        },
-        {
         "name": "Cancer_site",
-        "keywords": ["type of cancer","cancer location"],
-        "type": "FuzzyString"
-
+        "keywords": ["type of cancer","cancer location"]
         },
         {
         "name": "Death_Count",
-        "type": "Integer",
         "keywords": ["died","death","dead"],
-
         "priority":"True"
         }
     ]
