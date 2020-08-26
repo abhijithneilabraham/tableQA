@@ -340,25 +340,27 @@ class Nlp:
     def get_sql_query(self,csv,q):
         sf=self.slot_fill(csv, q)
         sub_clause=''' WHERE {} = "{}" '''
-        schema=self.data_process.get_schema_for_csv(csv)
-        
+        schema=self.data_process.get_schema_for_csv(csv)     
         sf_columns=[i[0] for i in sf]
-    
         ex_kwd=self.kword_extractor(q)
         unknown_slot,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)
+        
         clause=Clause()
         question=""
     
         if flag: 
             for col in schema["columns"]:
                 if "priority" in col.keys() :
-
-                    question=clause.adapt(q,inttype=True,priority=True)                          
+                    question=clause.adapt(q,inttype=True,priority=True) 
+                else:
+                    question=clause.adapt(q)
         else:
             question=clause.adapt(q)
+        print(question,"base")
         if unknown_slot is None:
             unknown_slot='*'
         question=question.format(unknown_slot,schema["name"].lower())
+        print(question)
         
         valmap = {}
         def get_key(val):

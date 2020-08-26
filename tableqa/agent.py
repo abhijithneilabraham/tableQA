@@ -4,11 +4,13 @@ import os
 
 filepath = os.path.dirname(__file__)
 class Agent:
-    def __init__(self,data_dir,schema_dir):
+    def __init__(self,data_dir,*args,**kwargs):
         self.data_dir=data_dir
-        self.schema_dir=schema_dir
-        
-    
+        if args:
+            self.schema_dir=args[0]
+        else:
+            self.schema_dir=None
+
     def get_response(self,question):
         try:
             data_process=data_utils(self.data_dir,self.schema_dir)
@@ -26,4 +28,4 @@ class Agent:
             return sql_query
         except Exception as e:
                 print(e)
-          
+

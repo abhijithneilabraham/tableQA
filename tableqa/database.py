@@ -8,11 +8,14 @@ from nlp import Nlp
 from agent import Agent
 
 class Database:
-    def __init__(self,data_dir,schema_dir):
+    def __init__(self,data_dir,*args,**kwargs):
+        if args:
+            self.schema_dir=args[0]
+        else:
+            self.schema_dir=None
         self.data_dir=data_dir
-        self.schema_dir=schema_dir
-        self.nlp=Nlp(data_dir,schema_dir)
-        self.data_process=data_utils(data_dir, schema_dir)
+        self.data_process=data_utils(data_dir, self.schema_dir)
+        self.nlp=Nlp(data_dir,self.schema_dir)
     def Query_Sqlite(self,question):
         engine = create_engine('sqlite://', echo=False)
         csv=self.nlp.csv_select(question)
