@@ -26,9 +26,8 @@ class data_utils:
     
     def get_schema_for_csv(self,csv_path):
         schema={}
-        
         data=self.get_dataframe(csv_path)
-        columns=data.columns.tolist()
+        columns=data.columns.tolist()    
         if "unnamed" in columns[0].lower():
             columns[0]="index"
         data.columns=columns   
@@ -41,6 +40,7 @@ class data_utils:
         except Exception as e:
             schema={}
             schema["name"]=os.path.splitext(os.path.basename(csv_path))[0]
+            schema["name"]='_'.join([i for i in schema["name"].lower().split() if i.isalnum()])
             schema["columns"]=[]
             for column in columns:
                 schema["columns"].append({"name":column})
