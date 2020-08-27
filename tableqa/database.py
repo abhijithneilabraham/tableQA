@@ -20,8 +20,7 @@ class Database:
         engine = create_engine('sqlite://', echo=False)
         csv=self.nlp.csv_select(question)
         data_frame=self.data_process.get_dataframe(csv).astype(str)
-        schema=self.data_process.get_schema_for_csv(csv)
-    
+        schema=self.data_process.get_schema_for_csv(csv)   
         data_frame = data_frame.fillna(data_frame.mean())
         sql_schema = {}
         for col in schema['columns']:
@@ -37,7 +36,8 @@ class Database:
             sql_schema[colname] = coltype
         data_frame.to_sql(schema['name'].lower(), con=engine, if_exists='replace', dtype=sql_schema)
         agent=Agent(self.data_dir,self.schema_dir)
-        query=agent.get_response(question)      
+        query=agent.get_response(question)   
+        print("sql query: {}".format(query))
         return engine.execute(query).fetchall()
 
 

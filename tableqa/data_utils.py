@@ -3,7 +3,10 @@ import json
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
-import sys
+from nltk.corpus import wordnet 
+from nltk.stem import PorterStemmer 
+ps = PorterStemmer().stem 
+syns = wordnet.synsets
 class data_utils:
     def __init__(self,data_dir,schema_dir):
         self.data_dir = data_dir
@@ -20,12 +23,10 @@ class data_utils:
         return ret
     
     
-
     def get_dataframe(self,csv_path):
         return pd.read_csv(csv_path)
     
     def get_schema_for_csv(self,csv_path):
-        schema={}
         data=self.get_dataframe(csv_path)
         columns=data.columns.tolist()    
         if "unnamed" in columns[0].lower():
@@ -36,11 +37,25 @@ class data_utils:
                 schema=json.load(f)
                 if "columns" not in schema.keys():
                     schema["columns"]=[]
+                if "keywords" not in schema.keys():
+                    schema_keywords=[]
+                    for name in schema["name"].split("_"):
+                        schema_syns=syns(ps(name))
+                        schema_keywords.extend(list(set([i.lemmas()[0].name().lower() for i in  schema_syns])))
+            
+                if schema_keywords:
+                    schema["keywords"]=schema_keywords
                 
         except Exception as e:
             schema={}
             schema["name"]=os.path.splitext(os.path.basename(csv_path))[0]
             schema["name"]='_'.join([i for i in schema["name"].lower().split() if i.isalnum()])
+            schema_keywords=[]
+            for name in schema["name"].split("_"):
+                schema_syns=syns(ps(name))
+                schema_keywords.extend(list(set([i.lemmas()[0].name().lower() for i in  schema_syns])))
+            if schema_keywords:
+                schema["keywords"]=schema_keywords
             schema["columns"]=[]
             for column in columns:
                 schema["columns"].append({"name":column})

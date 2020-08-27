@@ -20,6 +20,14 @@ lemmatizer = WordNetLemmatizer()
 lem=lemmatizer.lemmatize
 stop_words = set(stopwords.words('english'))
 
+def _nltk_downloader():
+    try:
+        nltk.download('wordnet',quiet=True)
+        nltk.download('averaged_perceptron_tagger',quiet=True)
+    except LookupError as e:
+        print(e)
+        
+_nltk_downloader()
 
 def extract_keywords_from_doc(doc, phrases=True, return_scores=False):
     if phrases:
@@ -356,11 +364,9 @@ class Nlp:
                     question=clause.adapt(q)
         else:
             question=clause.adapt(q)
-        print(question,"base")
         if unknown_slot is None:
             unknown_slot='*'
         question=question.format(unknown_slot,schema["name"].lower())
-        print(question)
         
         valmap = {}
         def get_key(val):
