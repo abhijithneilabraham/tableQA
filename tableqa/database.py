@@ -1,11 +1,12 @@
 
 
 from sqlalchemy import create_engine,types
-import column_types
 import ast
+from agent import Agent
+import column_types
 from data_utils import data_utils
 from nlp import Nlp
-from agent import Agent
+
 
 class Database:
     def __init__(self,data_dir,*args,**kwargs):

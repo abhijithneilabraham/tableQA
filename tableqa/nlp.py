@@ -18,13 +18,7 @@ rerank_tokenizer = AutoTokenizer.from_pretrained('bert-large-cased-whole-word-ma
 
 
 
-
 import nltk
-try:
-    nltk.download('wordnet',quiet=True)
-    nltk.download('averaged_perceptron_tagger',quiet=True)
-except LookupError as e:
-    print(e)
 from nltk.stem import WordNetLemmatizer 
 from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
