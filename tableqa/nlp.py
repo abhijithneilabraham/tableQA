@@ -1,5 +1,4 @@
-import nltk
-from nltk.corpus import stopwords
+
 from data_utils import data_utils
 import os
 from transformers import TFBertForQuestionAnswering, BertTokenizer
@@ -10,24 +9,30 @@ import column_types
 import json
 from clauses import Clause
 from conditionmaps import conditions
-from nltk.stem import WordNetLemmatizer 
+
 
 qa_model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 qa_tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 rerank_model = TFAutoModelForSequenceClassification.from_pretrained('bert-large-cased-whole-word-masking')
 rerank_tokenizer = AutoTokenizer.from_pretrained('bert-large-cased-whole-word-masking')
+
+
+
+
+import nltk
+try:
+    nltk.download('wordnet',quiet=True)
+    nltk.download('averaged_perceptron_tagger',quiet=True)
+except LookupError as e:
+    print(e)
+from nltk.stem import WordNetLemmatizer 
+from nltk.corpus import stopwords
+stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 lem=lemmatizer.lemmatize
-stop_words = set(stopwords.words('english'))
 
-def _nltk_downloader():
-    try:
-        nltk.download('wordnet',quiet=True)
-        nltk.download('averaged_perceptron_tagger',quiet=True)
-    except LookupError as e:
-        print(e)
-        
-_nltk_downloader()
+
+
 
 def extract_keywords_from_doc(doc, phrases=True, return_scores=False):
     if phrases:
