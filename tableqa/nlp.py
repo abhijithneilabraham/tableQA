@@ -171,10 +171,33 @@ class Nlp:
         self.schema_dir=schema_dir
         self.data_process=data_utils(data_dir, schema_dir)
         self.vocabfile=self.data_process.vocabfile
-        
+            
+    def csv_select(self,q):
+        maxcount=0
+        kwds=self.kword_extractor(q)
+         
+        with open(self.vocabfile) as f:
+            vocab = json.load(f)
+        for csv, v in vocab.items():
+            kwds2 = [lem(i) for i in v]
+            count = len([k for k in kwds2 if k in kwds])
+            self.schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
+            schema=self.schema
+            name=schema["name"]
+            priority=name.lower().split('_')
+            check_kwd=self.data_process.kwd_checker(csv, vocab)
+            if len(set(priority) & set(kwds))>0 and not any(i in priority for i in check_kwd):
+                return os.path.join(self.data_dir,csv)
+            if count>maxcount:
+                maxcount=count
+                selected_csv=csv            
+        if not maxcount:
+            return None
+        return os.path.join(self.data_dir,selected_csv)        
+    
     def slot_fill(self,csv, q):
         # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
-        schema = self.data_process.get_schema_for_csv(csv)
+        schema = self.schema
         def _is_numeric(typ):
             # TODO
             return issubclass(column_types.get(typ), column_types.Number)
@@ -319,35 +342,10 @@ class Nlp:
         return unknown_slot,flag
     
 
-
-            
-    def csv_select(self,q):
-        maxcount=0
-        kwds=self.kword_extractor(q)
-         
-        with open(self.vocabfile) as f:
-            vocab = json.load(f)
-        for csv, v in vocab.items():
-            kwds2 = [lem(i) for i in v]
-            count = len([k for k in kwds2 if k in kwds])
-            schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
-            name=schema["name"]
-            priority=name.lower().split('_')
-            check_kwd=self.data_process.kwd_checker(csv, vocab)
-            if len(set(priority) & set(kwds))>0 and not any(i in priority for i in check_kwd):
-                return os.path.join(self.data_dir,csv)
-            if count>maxcount:
-                maxcount=count
-                selected_csv=csv
-    
-        
-        if not maxcount:
-            return None
-        return os.path.join(self.data_dir,selected_csv)
     def get_sql_query(self,csv,q):
         sf=self.slot_fill(csv, q)
         sub_clause=''' WHERE {} = "{}" '''
-        schema=self.data_process.get_schema_for_csv(csv)     
+        schema=self.schema   
         sf_columns=[i[0] for i in sf]
         ex_kwd=self.kword_extractor(q)
         unknown_slot,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)

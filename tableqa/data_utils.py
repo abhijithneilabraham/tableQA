@@ -86,9 +86,7 @@ class data_utils:
                 
                 for column in columns:
                     if column not in collist:
-                        schema["columns"].append({"name":column,"type":types[column]})
-    
-        
+                        schema["columns"].append({"name":column,"type":types[column],"keywords":[" ".join(column.lower().split('_'))]})
             return schema
             
     
