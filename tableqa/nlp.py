@@ -181,8 +181,7 @@ class Nlp:
         for csv, v in vocab.items():
             kwds2 = [lem(i) for i in v]
             count = len([k for k in kwds2 if k in kwds])
-            self.schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
-            schema=self.schema
+            schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
             name=schema["name"]
             priority=name.lower().split('_')
             check_kwd=self.data_process.kwd_checker(csv, vocab)
@@ -197,7 +196,7 @@ class Nlp:
     
     def slot_fill(self,csv, q):
         # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
-        schema = self.schema
+        schema = self.data_process.get_schema_for_csv(csv)
         def _is_numeric(typ):
             # TODO
             return issubclass(column_types.get(typ), column_types.Number)
@@ -345,7 +344,7 @@ class Nlp:
     def get_sql_query(self,csv,q):
         sf=self.slot_fill(csv, q)
         sub_clause=''' WHERE {} = "{}" '''
-        schema=self.schema   
+        schema=self.data_process.get_schema_for_csv(csv)   
         sf_columns=[i[0] for i in sf]
         ex_kwd=self.kword_extractor(q)
         unknown_slot,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)
@@ -357,6 +356,7 @@ class Nlp:
             for col in schema["columns"]:
                 if "priority" in col.keys() :
                     question=clause.adapt(q,inttype=True,priority=True) 
+                    break
                 else:
                     question=clause.adapt(q)
         else:

@@ -32,7 +32,6 @@ class Agent:
             if csv is None:
                 print("Sorry,didn't catch that")    
             question, valmap = nlp.get_sql_query(csv, question)
-
             sql_query=question
             for k, v in valmap.items():
                 sql_query = sql_query.replace(k, v)

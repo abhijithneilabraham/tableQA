@@ -35,10 +35,10 @@ class data_utils:
         try:
             with open(os.path.join(self.schema_dir, csv_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
                 schema=json.load(f)
+                schema_keywords=[]
                 if "columns" not in schema.keys():
                     schema["columns"]=[]
                 if "keywords" not in schema.keys():
-                    schema_keywords=[]
                     for name in schema["name"].split("_"):
                         schema_syns=syns(ps(name))
                         schema_keywords.extend(list(set([i.lemmas()[0].name().lower() for i in  schema_syns])))
