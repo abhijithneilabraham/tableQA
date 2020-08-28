@@ -354,8 +354,9 @@ class Nlp:
     
         if flag: 
             for col in schema["columns"]:
-                if "priority" in col.keys() :
+                if "priority" in col.keys() and unknown_slot in col["name"]:
                     question=clause.adapt(q,inttype=True,priority=True) 
+                    
                     break
                 else:
                     question=clause.adapt(q)
