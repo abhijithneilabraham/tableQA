@@ -13,9 +13,6 @@ from conditionmaps import conditions
 
 qa_model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 qa_tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
-rerank_model = TFAutoModelForSequenceClassification.from_pretrained('bert-large-cased-whole-word-masking')
-rerank_tokenizer = AutoTokenizer.from_pretrained('bert-large-cased-whole-word-masking')
-
 
 
 import nltk
@@ -263,33 +260,6 @@ class Nlp:
     
         return ret
     
-    
-    def validate_slots(self,cols, query, return_indices=False):
-        assert cols
-        if isinstance(cols, str):
-            cols = [cols]
-        max_seq_len = 64
-        filter_cols = True
-        inputs = [rerank_tokenizer.encode_plus(query, choice, add_special_tokens=True)
-                    for choice in cols]
-        max_len = min(max(len(t['input_ids']) for t in inputs), max_seq_len)
-        input_ids = [t['input_ids'][:max_len] +
-                        [0] * (max_len - len(t['input_ids'][:max_len])) for t in inputs]
-        attention_mask = [[1] * len(t['input_ids'][:max_len]) +
-                            [0] * (max_len - len(t['input_ids'][:max_len])) for t in inputs]
-        token_type_ids = [t['token_type_ids'][:max_len] +
-                        [0] * (max_len - len(t['token_type_ids'][:max_len])) for t in inputs]
-        input_ids = tf.constant(input_ids)
-        attention_mask = tf.constant(attention_mask)
-        token_type_ids = tf.constant(token_type_ids)
-        logits = rerank_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)[0]
-        scores = []
-        for logit in logits:
-            neg_logit = logit[0]
-            score = logit[1]
-            if score > neg_logit or not filter_cols:
-                scores.append(score - neg_logit)
-        return scores
     
     def cond_map(self,s):
         data=conditions
