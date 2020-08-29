@@ -144,10 +144,7 @@ def _underscore(x):
 
 
 
-valuesfile = "values.json"
 
-with open(valuesfile, 'r') as f:
-    values = json.load(f)
 
 def _find(lst, sublst):
     for i in range(len(lst)):
@@ -168,6 +165,11 @@ class Nlp:
         self.schema_dir=schema_dir
         self.data_process=data_utils(data_dir, schema_dir)
         self.vocabfile=self.data_process.vocabfile
+        valuesfile = "values.json"
+        self.data_process.create_values()
+
+        with open(valuesfile, 'r') as f:
+            self.values = json.load(f)
             
     def csv_select(self,q):
         maxcount=0
@@ -240,11 +242,11 @@ class Nlp:
             windows.append(win)
             slots_filtered.append(s[:-2])
         slots = slots_filtered
-    
+        
         ret = []
         for s in slots:
             if s[1] == "FuzzyString":
-                vals = values[s[0]]
+                vals = self.values[s[0]]
                 fs = column_types.FuzzyString(vals, exclude=s[0].split('_'))
                 val = fs.adapt(s[2])
             elif s[1] == "Categorical":
