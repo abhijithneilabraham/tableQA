@@ -3,7 +3,7 @@ Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 
 #### Features    
 * Supports detection from multiple csvs 
-* Support FuzzyString implementation. i.e, incomplete csv values in query can be automatically detected and filled.
+* Support FuzzyString implementation. i.e, incomplete csv values in query can be automatically detected and filled in the query.
 * Open-Domain, No training required.
 * Add manual schema for customized experience
 * Auto-generate schemas in case schema not provided
