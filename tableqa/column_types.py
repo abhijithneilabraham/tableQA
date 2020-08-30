@@ -122,12 +122,12 @@ class Year(Integer):
         # TODO
         x = x.lower()
         curr = datetime.datetime.now().year
-        if x == "last year" or x == "previous year":
-            return curr - 1
-        elif x == "next year":
-            return curr + 1
-        elif x == "current year" or x == "this year":
-            return curr
+        if  "last year" in x or "previous year" in x:
+            return "in {}".format(curr - 1)
+        elif "next year" in x:
+            return "in {}".format(curr + 1)
+        elif "current year" in x or "this year" in x:
+            return "in {}".format(curr)
         else:
             allowed = [
                 "than",

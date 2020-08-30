@@ -56,10 +56,28 @@ class data_utils:
                 schema_keywords.extend(list(set([i.lemmas()[0].name().lower() for i in  schema_syns])))
             if schema_keywords:
                 schema["keywords"]=schema_keywords
+                
+            categorical_maps={i:list(set(data[i].dropna())) for i in data.columns if len(list(set(data[i].dropna())))==2}
+            cat_kwd_maps={i:0 for i in categorical_maps}
+            for k,v in categorical_maps.items():
+                cat1syn,cat2syn=syns(ps(v[0])),syns(ps(v[1]))
+                cat1=list(set([i.lemmas()[0].name().lower() for i in  cat1syn]))
+                cat2=list(set([i.lemmas()[0].name().lower() for i in  cat2syn]))
+                if not cat1:
+                    cat1=[v[0]]
+                if not cat2:
+                    cat2=[v[1]]
+                mapped_column={v[0]:cat1,v[1]:cat2}
+                cat_kwd_maps[k]=mapped_column
+                
             schema["columns"]=[]
             for column in columns:
-                schema["columns"].append({"name":column})
                 
+                if column in categorical_maps:
+                    schema["columns"].append({"name":column,"mapping":cat_kwd_maps[column]})
+                else:
+                    schema["columns"].append({"name":column})
+                    
         finally:
             types=data.dtypes.apply(lambda x:x.name).to_dict()
             
