@@ -47,7 +47,8 @@ Example:
 ```
 from agent import Agent
 agent=Agent("cleaned_data","schema") #specify the data and schema directories.
-print(agent.get_response("How many people died of stomach cancer in 2011")) #returns an sql query
+print(agent.get_response("How many people died of stomach cancer in 2011")) 
+#sql query: SELECT SUM(Death_Count) FROM cancer_death WHERE Cancer_site = "Stomach" AND Year = "2011" 
 ```
 
 
@@ -58,5 +59,6 @@ from database import Database
 database=Database("cleaned_data","schema")
 response=database.Query_Sqlite("how many people died of stomach cancer in 2011")
 print("Response ={}".format(response)) #returns the result of the sql query after feeding the csv to the database
+#Response =[(22,)]
 ```
 

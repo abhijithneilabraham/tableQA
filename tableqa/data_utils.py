@@ -159,7 +159,7 @@ class data_utils:
     
     
         
-    def create_vocab(self):
+    def create_values(self):
         self.del_vocab()
         values = {}
         for csv in self.get_csvs():
