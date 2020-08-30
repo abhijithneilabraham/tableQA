@@ -48,8 +48,10 @@ class data_utils:
                 
         except Exception as e:
             schema={}
-            schema["name"]=os.path.splitext(os.path.basename(csv_path))[0]
-            schema["name"]='_'.join([i for i in schema["name"].lower().split() if i.isalnum()])
+            csvname=os.path.splitext(os.path.basename(csv_path))[0]
+            schema["name"]='_'.join([i for i in csvname.lower().split() if i.isalnum()])
+            if not schema["name"]:
+                schema["name"]=csvname
             schema_keywords=[]
             for name in schema["name"].split("_"):
                 schema_syns=syns(ps(name))
