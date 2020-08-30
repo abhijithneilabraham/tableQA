@@ -7,6 +7,7 @@ from nltk.corpus import wordnet
 from nltk.stem import PorterStemmer 
 ps = PorterStemmer().stem 
 syns = wordnet.synsets
+stop_words = list(set(stopwords.words('english')))
 class data_utils:
     def __init__(self,data_dir,schema_dir):
         self.data_dir = data_dir
@@ -41,9 +42,10 @@ class data_utils:
                 if "keywords" not in schema.keys():
                     for name in schema["name"].split("_"):
                         schema_syns=syns(ps(name))
-                        schema_keywords.extend(list(set([i.lemmas()[0].name().lower() for i in  schema_syns])))
+                        schema_keywords.extend(list(set([i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns])))
             
                 if schema_keywords:
+                    schema_keywords=[i for i in schema_keywords if i not in stop_words]
                     schema["keywords"]=schema_keywords
                 
         except Exception as e:
@@ -63,8 +65,9 @@ class data_utils:
             schema_keywords=[]
             for name in schema["name"].split("_"):
                 schema_syns=syns(ps(name))
-                schema_keywords.extend(list(set([i.lemmas()[0].name().lower() for i in  schema_syns])))
+                schema_keywords.extend(list(set([i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns])))
             if schema_keywords:
+                schema_keywords=[i for i in schema_keywords if i not in stop_words]
                 schema["keywords"]=schema_keywords
                 
             categorical_maps={i:list(set(data[i].dropna())) for i in data.columns if len(list(set(data[i].dropna())))==2}
