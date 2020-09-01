@@ -25,7 +25,6 @@ class Agent:
         self.data_process=data_utils(self.data_dir, self.schema_dir)
     def get_response(self,question):
         nlp=Nlp(self.data_dir,self.schema_dir)
-        self.data_process.create_values()
         csv = nlp.csv_select(question)
         if csv is None:
             print("Sorry,didn't catch that")    

@@ -12,8 +12,8 @@ class data_utils:
     def __init__(self,data_dir,schema_dir):
         self.data_dir = data_dir
         self.schema_dir = schema_dir
-        self.vocabfile='vocab.json'
-        self.valuesfile = 'values.json'
+        self.vocabfile=os.path.join(os.path.abspath(os.path.dirname(__file__)),"vocab.json")
+        self.valuesfile = os.path.join(os.path.abspath(os.path.dirname(__file__)),"values.json")
     
     def get_csvs(self):
         ret = []
