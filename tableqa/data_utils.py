@@ -206,6 +206,7 @@ class data_utils:
                         vals = values[colname]
                         vals += list(set([x for x in df[colname] if isinstance(x, str)]))
         with open(self.valuesfile, 'w') as f:
+            print("dumping values at ",self.valuesfile)
             json.dump(values, f)
         
     
