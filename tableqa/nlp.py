@@ -172,6 +172,10 @@ class Nlp:
             self.values = json.load(f)
             
     def csv_select(self,q):
+        self.data_process.create_values()
+
+        with open(self.valuesfile, 'r') as f:
+            self.values = json.load(f)
         maxcount=0
         kwds=self.kword_extractor(q)
          
