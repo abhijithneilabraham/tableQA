@@ -2,10 +2,10 @@
 
 from sqlalchemy import create_engine,types
 import ast
-from agent import Agent
-import column_types
-from data_utils import data_utils
-from nlp import Nlp
+from .agent import Agent
+from .column_types import *
+from .data_utils import data_utils
+from .nlp import Nlp
 
 
 class Database:

@@ -1,18 +1,18 @@
 
-from data_utils import data_utils
 import os
 from transformers import TFBertForQuestionAnswering, BertTokenizer
 from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
 import tensorflow as tf
 from rake_nltk import Rake
-import column_types
 import json
-from clauses import Clause
-from conditionmaps import conditions
+from .clauses import Clause
+from .conditionmaps import conditions
+from .column_types import *
+from .data_utils import data_utils
 
 
 qa_model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
-qa_tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
+qa_tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad',padding=True)
 
 
 import nltk

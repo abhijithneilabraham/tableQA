@@ -1,7 +1,7 @@
 responder
 graphql-core==2.2.1
 graphene==2.1.8
-transformers[tf-cpu]
+transformers[tf-cpu]==3.0.2
 rake_nltk
 nltk
 sqlalchemy
