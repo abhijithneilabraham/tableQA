@@ -167,6 +167,8 @@ class data_utils:
         else:
             json_object = json.dumps(mapped_kwds) 
             with open(self.vocabfile, "w") as file: 
+                print(csvname,schema)
+                print("dumping vocab at",self.vocabfile)
                 file.write(json_object)
         
     
@@ -196,17 +198,15 @@ class data_utils:
         for csv in self.get_csvs():
             df = self.get_dataframe(csv)
             schema = self.get_schema_for_csv(csv)
-            if schema is not None:
-                self.csv_keyword_vocab(csv,schema)
-                for col in schema['columns']:
-                    if col['type'] == "FuzzyString":
-                        colname = col['name']
-                        if colname not in values:
-                            values[colname] = []
-                        vals = values[colname]
-                        vals += list(set([x for x in df[colname] if isinstance(x, str)]))
+            self.csv_keyword_vocab(csv,schema)
+            for col in schema['columns']:
+                if col['type'] == "FuzzyString":
+                    colname = col['name']
+                    if colname not in values:
+                        values[colname] = []
+                    vals = values[colname]
+                    vals += list(set([x for x in df[colname] if isinstance(x, str)]))
         with open(self.valuesfile, 'w') as f:
-            print("dumping values at ",self.valuesfile)
             json.dump(values, f)
         
     
