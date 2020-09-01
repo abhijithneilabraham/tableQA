@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-install_requires = ['responder', 'graphql-core==2.2.1', 'graphene==2.1.8', 'transformers[tf-cpu]==3.0.2', 'rake_nltk', 'nltk','sqlalchemy','sentence_transformers==0.3.0']
+install_requires = ['responder', 'graphql-core==2.3', 'graphene==2.1.8', 'transformers[tf-cpu]==3.0.2', 'rake_nltk', 'nltk','sqlalchemy','sentence_transformers==0.3.0']
 
 setuptools.setup(
     name="tableqa-abhijithneilabraham", # Replace with your own username
