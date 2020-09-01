@@ -164,11 +164,11 @@ class Nlp:
         self.data_dir=data_dir
         self.schema_dir=schema_dir
         self.data_process=data_utils(data_dir, schema_dir)
-        self.vocabfile=self.data_process.vocabfile
-        valuesfile = os.path.join(os.path.abspath(os.path.dirname(__file__)),"values.json")
+        self.vocabfile=os.path.join(os.path.abspath(os.path.dirname(__file__)),"vocab.json")
+        self.valuesfile = os.path.join(os.path.abspath(os.path.dirname(__file__)),"values.json")
         self.data_process.create_values()
 
-        with open(valuesfile, 'r') as f:
+        with open(self.valuesfile, 'r') as f:
             self.values = json.load(f)
             
     def csv_select(self,q):
