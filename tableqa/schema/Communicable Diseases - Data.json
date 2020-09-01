@@ -18,7 +18,7 @@
         {
         "name": "Cases",
         "keywords": ["number of cases","occurances","total cases"],
-        "priority":"True"
+        "summable":"True"
         }
     ]
 }

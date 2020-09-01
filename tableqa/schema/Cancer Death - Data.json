@@ -23,7 +23,7 @@
         {
         "name": "Death_Count",
         "keywords": ["died","death","dead"],
-        "priority":"True"
+        "summable":"True"
         }
     ]
 }
