@@ -175,10 +175,10 @@ class Nlp:
 
             
     def csv_select(self,q):
-        maxcount=0
         kwds=self.kword_extractor(q)
         with open(self.vocabfile,'r') as f:
             vocab = json.load(f)
+        maxcount=0
         for csv, v in vocab.items():
             kwds2 = [lem(i) for i in v]
             count = len([k for k in kwds2 if k in kwds])
