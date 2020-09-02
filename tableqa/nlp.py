@@ -164,16 +164,18 @@ class Nlp:
         self.data_dir=data_dir
         self.schema_dir=schema_dir
         self.data_process=data_utils(data_dir, schema_dir)
-        self.data_process.create_values()
+        
         self.vocabfile=self.data_process.vocabfile
         self.valuesfile =self.data_process.valuesfile
         
         
+
+            
+    def csv_select(self,q):
+        self.data_process.create_values()
         with open(self.valuesfile, 'r') as f:
             self.values = json.load(f)
         
-            
-    def csv_select(self,q):
         maxcount=0
         kwds=self.kword_extractor(q)
         print(self.vocabfile,self.valuesfile)
