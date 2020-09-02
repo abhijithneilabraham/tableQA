@@ -192,7 +192,9 @@ class Nlp:
                 maxcount=count
                 selected_csv=csv            
         if not maxcount:
+            print("not maxcount")
             return None
+        print(os.path.join(self.data_dir,selected_csv))
         return os.path.join(self.data_dir,selected_csv)        
     
     def slot_fill(self,csv, q):
