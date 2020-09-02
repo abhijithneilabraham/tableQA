@@ -11,10 +11,8 @@ def _nltk_downloader():
         print(e)
 _nltk_downloader()
 
-filepath = os.path.dirname(__file__)
 
 from .nlp import Nlp
-from .data_utils import data_utils
 class Agent:
     def __init__(self,data_dir,*args,**kwargs):
         self.data_dir=data_dir
@@ -22,7 +20,6 @@ class Agent:
             self.schema_dir=args[0]
         else:
             self.schema_dir=None
-        self.data_process=data_utils(self.data_dir, self.schema_dir)
     def get_response(self,question):
         nlp=Nlp(self.data_dir,self.schema_dir)
         csv = nlp.csv_select(question)
