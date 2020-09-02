@@ -182,6 +182,7 @@ class Nlp:
         for csv, v in vocab.items():
             kwds2 = [lem(i) for i in v]
             count = len([k for k in kwds2 if k in kwds])
+            print(count,csv,q)
             schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
             name=schema["name"]
             summable=name.lower().split('_')
