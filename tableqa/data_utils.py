@@ -160,9 +160,17 @@ class data_utils:
         vocab=[i.lower() for i in vocab if i.lower() not in stop_words]
         vocab=list(set(vocab))
         mapped_kwds={os.path.basename(csvname):vocab}
-        json_object = json.dumps(mapped_kwds) 
-        with open(self.vocabfile, "w") as file: 
-            file.write(json_object)
+        if os.path.exists(self.vocabfile):
+    
+            with open(self.vocabfile, "r+") as file: 
+                data=json.load(file)
+                data.update(mapped_kwds)
+                file.seek(0)
+                json.dump(data, file)
+        else:
+            json_object = json.dumps(mapped_kwds) 
+            with open(self.vocabfile, "w") as file: 
+                file.write(json_object)
         
     
     def kwd_checker(self,csv,vocab):
