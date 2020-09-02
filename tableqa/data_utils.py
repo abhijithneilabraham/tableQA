@@ -26,7 +26,6 @@ class data_utils:
     
     def get_dataframe(self,csv_path):
         try:
-            print("loading csv",csv_path)
             return pd.read_csv(csv_path)
         except:
             print("could not load ",csv_path)
