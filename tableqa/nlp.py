@@ -168,14 +168,13 @@ class Nlp:
         self.vocabfile=self.data_process.vocabfile
         self.valuesfile =self.data_process.valuesfile
         
-        
-
-            
-    def csv_select(self,q):
         self.data_process.create_values()
         with open(self.valuesfile, 'r') as f:
             self.values = json.load(f)
         
+
+            
+    def csv_select(self,q):
         maxcount=0
         kwds=self.kword_extractor(q)
         print(self.vocabfile,self.valuesfile)
