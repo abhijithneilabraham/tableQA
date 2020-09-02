@@ -1,4 +1,4 @@
-include tableqa/Question_Classifier.h5
+include tableqa/Question_Classifier_Bert.h5
 prune tableqa/cleaned_data
 prune tableqa/schema
 prune tableqa/data
