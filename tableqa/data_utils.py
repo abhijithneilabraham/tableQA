@@ -158,6 +158,7 @@ class data_utils:
         vocab=list(set(vocab))
         mapped_kwds={os.path.basename(csvname):vocab}
         json_object = json.dumps(mapped_kwds) 
+        print(json_object)
         with open(self.vocabfile, "w") as file: 
             print(csvname,schema)
             print("dumping vocab at",self.vocabfile)
@@ -191,6 +192,7 @@ class data_utils:
             df = self.get_dataframe(csv)
             schema = self.get_schema_for_csv(csv)
             self.csv_keyword_vocab(csv,schema)
+            print("creating vocab")
             for col in schema['columns']:
                 if col['type'] == "FuzzyString":
                     colname = col['name']

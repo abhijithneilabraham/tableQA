@@ -171,11 +171,12 @@ class Nlp:
 
         with open(self.valuesfile, 'r') as f:
             self.values = json.load(f)
+        
             
     def csv_select(self,q):
         maxcount=0
         kwds=self.kword_extractor(q)
-         
+        print("values",self.values)
         with open(self.vocabfile,'r') as f:
             vocab = json.load(f)
         for csv, v in vocab.items():
