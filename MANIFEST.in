@@ -1,1 +1,5 @@
 include tableqa/Question_Classifier.h5
+prune tableqa/cleaned_data
+prune tableqa/schema
+prune tableqa/data
+exclude tableqa/wikidata.csv

@@ -3,7 +3,7 @@
 from sqlalchemy import create_engine,types
 import ast
 from .agent import Agent
-from .column_types import *
+from .column_types import get
 from .data_utils import data_utils
 from .nlp import Nlp
 
@@ -30,7 +30,7 @@ class Database:
         for col in schema['columns']:
             colname = col['name']
             coltype = col['type']
-            coltype = column_types.get(coltype).sql_type
+            coltype = get(coltype).sql_type
             if '(' in coltype:
                 coltype, arg = coltype.split('(')
                 arg ='(' + arg[:-1] + ',)'

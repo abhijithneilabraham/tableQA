@@ -12,8 +12,8 @@ class data_utils:
     def __init__(self,data_dir,schema_dir):
         self.data_dir = data_dir
         self.schema_dir = schema_dir
-        self.vocabfile='vocab.json'
-        self.valuesfile = 'values.json'
+        self.vocabfile=os.path.join(os.path.abspath(os.getcwd()),"vocab.json")
+        self.valuesfile = os.path.join(os.path.abspath(os.getcwd()),"values.json")
     
     def get_csvs(self):
         ret = []
@@ -157,17 +157,9 @@ class data_utils:
         vocab=[i.lower() for i in vocab if i.lower() not in stop_words]
         vocab=list(set(vocab))
         mapped_kwds={os.path.basename(csvname):vocab}
-        if os.path.exists(self.vocabfile):
-    
-            with open(self.vocabfile, "r+") as file: 
-                data=json.load(file)
-                data.update(mapped_kwds)
-                file.seek(0)
-                json.dump(data, file)
-        else:
-            json_object = json.dumps(mapped_kwds) 
-            with open(self.vocabfile, "w") as file: 
-                file.write(json_object)
+        json_object = json.dumps(mapped_kwds) 
+        with open(self.vocabfile, "w") as file: 
+            file.write(json_object)
         
     
     def kwd_checker(self,csv,vocab):
@@ -196,15 +188,14 @@ class data_utils:
         for csv in self.get_csvs():
             df = self.get_dataframe(csv)
             schema = self.get_schema_for_csv(csv)
-            if schema is not None:
-                self.csv_keyword_vocab(csv,schema)
-                for col in schema['columns']:
-                    if col['type'] == "FuzzyString":
-                        colname = col['name']
-                        if colname not in values:
-                            values[colname] = []
-                        vals = values[colname]
-                        vals += list(set([x for x in df[colname] if isinstance(x, str)]))
+            self.csv_keyword_vocab(csv,schema)
+            for col in schema['columns']:
+                if col['type'] == "FuzzyString":
+                    colname = col['name']
+                    if colname not in values:
+                        values[colname] = []
+                    vals = values[colname]
+                    vals += list(set([x for x in df[colname] if isinstance(x, str)]))
         with open(self.valuesfile, 'w') as f:
             json.dump(values, f)
         
