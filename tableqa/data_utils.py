@@ -26,6 +26,7 @@ class data_utils:
     
     def get_dataframe(self,csv_path):
         return pd.read_csv(csv_path)
+       
     
     def get_schema_for_csv(self,csv_path):
         data=self.get_dataframe(csv_path)
