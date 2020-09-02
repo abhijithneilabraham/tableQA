@@ -20,6 +20,7 @@ class data_utils:
         for r, _, files in os.walk(self.data_dir):
             for f in files:
                 if f.lower().endswith('.csv'):
+                    print("csvs",f)
                     ret.append(os.path.join(r, f))
         return ret
     
@@ -201,7 +202,6 @@ class data_utils:
                     vals = values[colname]
                     vals += list(set([x for x in df[colname] if isinstance(x, str)]))
         with open(self.valuesfile, 'w') as f:
-            print("dumping values here")
             json.dump(values, f)
         
     
