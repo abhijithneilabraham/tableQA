@@ -178,7 +178,6 @@ class Nlp:
         kwds=self.kword_extractor(q)
         with open(self.vocabfile,'r') as f:
             vocab = json.load(f)
-        print("vocab",vocab)
         maxcount=0
         for csv, v in vocab.items():
             kwds2 = [lem(i) for i in v]
@@ -193,9 +192,7 @@ class Nlp:
                 maxcount=count
                 selected_csv=csv            
         if not maxcount:
-            print("not maxcount")
             return None
-        print(os.path.join(self.data_dir,selected_csv))
         return os.path.join(self.data_dir,selected_csv)        
     
     def slot_fill(self,csv, q):
