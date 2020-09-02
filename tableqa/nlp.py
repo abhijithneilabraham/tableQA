@@ -7,7 +7,7 @@ from rake_nltk import Rake
 import json
 from .clauses import Clause
 from .conditionmaps import conditions
-from .column_types import *
+from .column_types import get,Number,FuzzyString,Categorical,String
 from .data_utils import data_utils
 
 
@@ -177,8 +177,6 @@ class Nlp:
     def csv_select(self,q):
         maxcount=0
         kwds=self.kword_extractor(q)
-        print(self.vocabfile,self.valuesfile)
-        print("values",self.values)
         with open(self.vocabfile,'r') as f:
             vocab = json.load(f)
         for csv, v in vocab.items():
@@ -202,7 +200,7 @@ class Nlp:
         schema = self.data_process.get_schema_for_csv(csv)
         def _is_numeric(typ):
             # TODO
-            return issubclass(column_types.get(typ), column_types.Number)
+            return issubclass(get(typ), Number)
         slots = []
         mappings = {}
         for col in schema['columns']:
@@ -251,16 +249,16 @@ class Nlp:
         for s in slots:
             if s[1] == "FuzzyString":
                 vals = self.values[s[0]]
-                fs = column_types.FuzzyString(vals, exclude=s[0].split('_'))
+                fs = FuzzyString(vals, exclude=s[0].split('_'))
                 val = fs.adapt(s[2])
             elif s[1] == "Categorical":
-                cat = column_types.Categorical(mappings[s[0]])
+                cat = Categorical(mappings[s[0]])
                 val = cat.adapt(s[2])
             elif _is_numeric(s[1]):
     
-                val = column_types.get(s[1])().adapt(s[2], context=q, allowed_kws=[s[0]])
+                val = get(s[1])().adapt(s[2], context=q, allowed_kws=[s[0]])
             else:
-                val = column_types.get(s[1])().adapt(s[2])
+                val = get(s[1])().adapt(s[2])
             if val is not None:
                 ret.append((s[0], s[1], val, s[3]))
     
@@ -348,13 +346,13 @@ class Nlp:
         print("entities and scores:",sf)
         for i,s in enumerate(sf):
             col,val=s[0],s[2]
-            typ = column_types.get(s[1])
+            typ = get(s[1])
             if i>0:
                 sub_clause='''AND {} = "{}" '''
-            if issubclass(typ, column_types.Number):
+            if issubclass(typ,Number):
                 val=self.cond_map(val)
                 
-            if issubclass(typ, column_types.String):
+            if issubclass(typ, String):
                 k = get_key(val)
                 valmap[k] = val
             else:

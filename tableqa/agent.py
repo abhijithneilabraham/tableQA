@@ -7,9 +7,11 @@ def _nltk_downloader():
     try:
         nltk.download('wordnet',quiet=True)
         nltk.download('averaged_perceptron_tagger',quiet=True)
+        nltk.download('stopwords',quiet=True)
+        nltk.download('punkt',quiet=True)
     except LookupError as e:
         print(e)
-_nltk_downloader()
+
 
 
 from .nlp import Nlp
@@ -20,6 +22,7 @@ class Agent:
             self.schema_dir=args[0]
         else:
             self.schema_dir=None
+        _nltk_downloader()
     def get_response(self,question):
         nlp=Nlp(self.data_dir,self.schema_dir)
         csv = nlp.csv_select(question)
