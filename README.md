@@ -9,7 +9,11 @@ Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 * Auto-generate schemas in case schema not provided
 
 
-### Configuration:   
+### Configuration:
+
+##### install via pip:   
+
+```pip install tableqa```
 
 ##### installing from source:   
 
