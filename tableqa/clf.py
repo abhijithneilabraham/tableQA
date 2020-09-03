@@ -9,10 +9,10 @@ from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout, Lambda, Fla
 from tensorflow.keras.models import Sequential, load_model, model_from_config
 from tensorflow.keras.layers import Dense, Flatten, LSTM, Conv1D, MaxPooling1D, Dropout, Activation
 import tensorflow as tf
-from transformers import BertTokenizer, TFBertModel
+from transformers import DistilBertTokenizer, TFDistilBertModel
 
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-bert_model = TFBertModel.from_pretrained('bert-base-uncased')
+tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+bert_model = TFDistilBertModel.from_pretrained('distilbert-base-uncased')
 np.random.seed(7)
 
 def get_keras_model():
@@ -26,7 +26,6 @@ def get_keras_model():
     return model
 
 data=pd.read_csv("wikidata.csv",usecols=["questions","types"])
-
 categories=data["types"]
 #print(categories.tolist().count(0))
 
@@ -51,7 +50,7 @@ y_test=asarray(y_test,dtype="float32")
 
 model = get_keras_model()
 print(train_embeddings.shape)
-model.fit(train_embeddings, y_train, epochs=100,validation_data=(test_embeddings,y_test))
+model.fit(train_embeddings, y_train, epochs=200,validation_data=(test_embeddings,y_test))
 
 model.save("Question_Classifier_Bert.h5")
 
