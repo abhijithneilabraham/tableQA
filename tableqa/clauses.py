@@ -11,7 +11,7 @@ class Clause:
         self.types={0:'SELECT {} FROM {}', 1:'SELECT MAX({}) FROM {}', 2:'SELECT MIN({}) FROM {}', 3:'SELECT COUNT({}) FROM {}', 4:'SELECT SUM({}) FROM {}', 5:'SELECT AVG({}) FROM {}'}
 
     def adapt(self,q,inttype=False,summable=False):
-        emb=asarray(self.bert_model.encode(q))
+        emb=self.bert_model.encode(q)
         self.clause=self.types[self.model.predict_classes(emb)[0]]
         
         if summable and inttype  and "COUNT" in self.clause:
