@@ -12,6 +12,7 @@ class Clause:
 
     def adapt(self,q,inttype=False,summable=False):
         emb=self.bert_model.encode(q)[0]
+        print(emb.shape)
         self.clause=self.types[self.model.predict_classes(emb)[0]]        
         if summable and inttype  and "COUNT" in self.clause:
             self.clause= '''SELECT SUM({}) FROM {}'''
