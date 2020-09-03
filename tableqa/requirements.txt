@@ -5,4 +5,3 @@ transformers[tf-cpu]==3.0.2
 rake_nltk
 nltk
 sqlalchemy
-sentence_transformers==0.3.0
