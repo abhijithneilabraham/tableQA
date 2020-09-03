@@ -1,7 +1,6 @@
 
 import os
 from transformers import TFBertForQuestionAnswering, BertTokenizer
-from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
 import tensorflow as tf
 from rake_nltk import Rake
 import json
