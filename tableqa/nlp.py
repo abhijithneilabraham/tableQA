@@ -183,9 +183,9 @@ class Nlp:
             count = len([k for k in kwds2 if k in kwds])
             schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
             name=schema["name"]
-            summable=name.lower().split('_')
+            priority=name.lower().split('_')
             check_kwd=self.data_process.kwd_checker(csv, vocab)
-            if len(set(summable) & set(kwds))>0 and not any(i in summable for i in check_kwd):
+            if len(set(priority) & set(kwds))>0 and not any(i in priority for i in check_kwd):
                 return os.path.join(self.data_dir,csv)
             if count>maxcount:
                 maxcount=count
