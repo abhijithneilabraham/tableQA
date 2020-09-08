@@ -1,3 +1,4 @@
+import nltk
 def _nltk_downloader():
     try:
         nltk.download('wordnet',quiet=True)
