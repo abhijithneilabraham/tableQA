@@ -9,6 +9,4 @@ install:
 
 
 script:
-  - python -m nltk.downloader all
   - PYTHONPATH=$PWD:$PYTHONPATH py.test tests/
-
