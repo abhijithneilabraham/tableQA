@@ -6,6 +6,7 @@ matrix:
 
 install:
   - pip install -e .[tests]
+  - pip install pandas
 
 script:
   - PYTHONPATH=$PWD:$PYTHONPATH py.test tests/
