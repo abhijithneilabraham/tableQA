@@ -1,0 +1,29 @@
+{
+    "name": "Cancer_Death",
+    "columns":
+    [
+        {
+        "name": "Nationality",
+        "mapping":{
+            "National": ["national", "nationals", "citizen", "citizens", "emarati", "emaratis"],
+            "Expatriate": ["expatriate", "foreigner", "foreigners", "immigrant", "immgrants", "foreign"]
+        }
+        },
+        {
+        "name": "Gender",
+        "mapping" : {
+         "Male": ["male", "males", "man", "men", "boys"],
+         "Female": ["female", "females", "woman", "women", "girls"]
+                    }
+        },
+        {
+        "name": "Cancer_site",
+        "keywords": ["type of cancer","cancer location"]
+        },
+        {
+        "name": "Death_Count",
+        "keywords": ["died","death","dead"],
+        "summable":"True"
+        }
+    ]
+}

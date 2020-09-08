@@ -1,0 +1,15 @@
+district,fatalities,no_of_camps,actual_rainfall_in_mm,normal_rainfall_in_mm,no_of_landslides,full_damaged_houses
+Thiruvananthapuram,11,94,373.8,142,0,111
+Kollam,5,168,644.1,258.7,2,95
+Pathanamthitta,3,4352,764.9,352.7,8,741
+Alappuzha,43,2126,608.2,343.1,0,2075
+Kottayam,14,788,619.2,386,29,76
+Idukki,54,363,1478.9,527.3,143,1166
+Ernakulam,58,1582,648.3,401.3,0,615
+Thrissur,72,1513,734.7,440.1,26,2889
+Palakkad,20,165,848.8,333.8,20,1118
+Malappuram,30,213,913.7,395.3,30,500
+Kozhikode,16,399,836,500.9,9,107
+Wayanad,6,451,1053.5,592.9,47,702
+Kannur,6,37,665.3,540.9,17,121
+Kasaragode,1,2,636.9,636.3,0,3

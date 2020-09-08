@@ -1,0 +1,24 @@
+{
+    "name": "communicable_diseases",
+    "keywords":["Communicable diseases","Diseases"],
+    "columns":
+    [
+        {
+        "name": "Nationality",
+        "mapping":{
+            "National": ["national", "nationals", "citizen", "citizens", "emarati", "emaratis"],
+            "Expatriate": ["expatriate", "foreigner", "foreigners", "immigrant", "immgrants", "foreign"]
+        }
+
+        },
+        {
+        "name": "Disease",
+        "keywords": ["illness","sickness"]
+        },
+        {
+        "name": "Cases",
+        "keywords": ["number of cases","occurances","total cases"],
+        "summable":"True"
+        }
+    ]
+}
