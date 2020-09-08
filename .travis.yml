@@ -7,4 +7,5 @@ matrix:
 install:
   - pip install -e .[tests]
 
-script: tableqa/tests/*.py
+script:
+  - PYTHONPATH=$PWD:$PYTHONPATH py.test tests/
