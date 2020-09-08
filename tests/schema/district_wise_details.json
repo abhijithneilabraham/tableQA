@@ -1,0 +1,35 @@
+{
+  "name" :"disrict_wise_details",
+  "keywords" :["district level information " , "district wise details"],
+  "columns" : [
+    {
+      "name" : "district",
+      "keyword" : ["Areas","district","districts","regions"]
+    },
+    {
+      "name" : "fatalities",
+      "keyword":["fatalities","death","casuality","loss"]
+    },
+    {
+      "name":"no_of_camps",
+      "keyword":["number of camps" , "total camps" , "rehabilitation centers"]
+    },
+    {
+      "name":"actual_rainfall_in_mm",
+      "keyword":["actual measure of rain","actual rain level","actual rainfall"]
+    },
+    {
+      "name":"normal_rainfall_in_mm",
+      "keyword" :["normal measure of rain","normal rain level","normal rainfall"]
+    },
+    {
+      "name":"no_of_landslides",
+      "keyword":["landslides occured","landslides","count of landslides","number of landslides"]
+    },
+    {
+      "name":"full_damaged_houses",
+      "keyword":["houses destroyed","damaged houses","homes damaged"]
+    }
+  ]
+
+}
