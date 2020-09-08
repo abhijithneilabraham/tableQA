@@ -7,4 +7,4 @@ matrix:
 install:
   - pip install -e .[tests]
 
-script: pytest
+script: tableqa/tests/*.py
