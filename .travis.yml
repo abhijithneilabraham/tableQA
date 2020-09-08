@@ -7,6 +7,8 @@ matrix:
 install:
   - pip install -e .[tests]
 
-
+notifications:
+  email: false
+  
 script:
   - PYTHONPATH=$PWD:$PYTHONPATH py.test tests/
