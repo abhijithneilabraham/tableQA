@@ -1,7 +1,9 @@
 from tableqa.agent import Agent
 import pytest
 import os
-currpath=os.path.abspath(os.getcwd())
+
+currpath=os.path.abspath(os.path.dirname(__file__))
+
 def test_Agent():
     agent=Agent(os.path.join(currpath,"cleaned_data"))
     qmaps={'how many nuclear medicine activities in 2012':'SELECT COUNT(Activity_Type) FROM activities_data WHERE Activity_Type_Chapter = "Nuclear Medicine" AND Year = "2012" ',
