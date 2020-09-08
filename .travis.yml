@@ -1,0 +1,11 @@
+language: python
+
+matrix:
+    include:
+        - python: 3.6
+
+install:
+  - pip install -e .[tests]
+
+script:
+  - PYTHONPATH=$PWD:$PYTHONPATH py.test tests/
