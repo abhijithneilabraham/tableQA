@@ -1,5 +1,7 @@
 # tableQA
-Tool for querying natural language on tabular data like csvs,excel sheet,etc.   
+Tool for querying natural language on tabular data like csvs,excel sheet,etc.
+
+[![Build Status](https://travis-ci.com/abhijithneilabraham/tableQA.svg?branch=master)](https://travis-ci.com/abhijithneilabraham/tableQA)
 
 #### Features    
 * Supports detection from multiple csvs 
