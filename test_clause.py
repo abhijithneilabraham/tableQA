@@ -1,7 +1,7 @@
 from tableqa.clauses import Clause
 import pytest
 
-def test_Clause():
+def test_clause():
     clause=Clause()
     types={"SELECT {} FROM {}":["which are the activities in 2011","find who died of stomach cancer"],
            "SELECT MAX({}) FROM {}":["find the highest gdp value","when was the most number of cases reported","what was the maximum age of stomach cancer patients"],
