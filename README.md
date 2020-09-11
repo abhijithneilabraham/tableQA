@@ -48,7 +48,7 @@ print("Response ={}".format(response)) #returns the result of the sql query afte
 
 #### Adding Manual schema
 
-include the directory containing the schemas of the respective csvs, with the same filename. Refer [cleaned_data](tableqa/cleaned_data)  and [cleaned_data](tableqa/schema) for examples.
+include the directory containing the schemas of the respective csvs, with the same filename. Refer [cleaned_data](tableqa/cleaned_data)  and [schema](tableqa/schema) for examples.
 
 ##### Schema Format:
 ```
