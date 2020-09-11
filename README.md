@@ -33,15 +33,13 @@ Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 
 ```
 from tableqa.agent import Agent
-agent=Agent(data_dir) #specify the absolute path of the data directory of csv files.
-print(agent.get_response("Your question here")) #returns an sql query
+agent=Agent(data_dir) #specify the absolute path of the data directory.
+print(agent.get_query("Your question here")) #returns an sql query
 ```
 
-#### Do Sample query on sqlite database
+#### Do Sample query on database
 ```
-from tableqa.database import Database
-database=Database(data_dir)
-response=database.Query_Sqlite("Your question here")
+response=agent.query_db("Your question here")  
 print("Response ={}".format(response)) #returns the result of the sql query after feeding the csv to the database
 ```
 
@@ -89,18 +87,16 @@ Example (with manual schema):
 ##### SQL query
 ```
 from tableqa.agent import Agent
-agent=Agent(data_dir,schema_dir)
-print(agent.get_response("How many people died of stomach cancer in 2011"))
-#sql query: SELECT SUM(Death_Count) FROM cancer_death WHERE Cancer_site = "Stomach" AND Year = "2011"
+agent=Agent(data_dir,schema_dir) 
+print(agent.get_query("How many people died of stomach cancer in 2011")) 
+#sql query: SELECT SUM(Death_Count) FROM cancer_death WHERE Cancer_site = "Stomach" AND Year = "2011" 
 ```
 
 
 ##### Database query
 
 ```
-from tableqa.database import Database
-database=Database(data_dir,schema_dir)
-response=database.Query_Sqlite("how many people died of stomach cancer in 2011")
+response=agent.query_db("how many people died of stomach cancer in 2011")
 print("Response ={}".format(response)) #returns the result of the sql query after feeding the csv to the database
 #Response =[(22,)]
 ```
