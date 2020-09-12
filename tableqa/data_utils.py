@@ -56,6 +56,9 @@ class data_utils:
                 schema["name"]=self.rename(schema["name"])
                 if "columns" not in schema.keys():
                     schema["columns"]=[]
+                else:
+                    for col in schema["columns"]:
+                        col["name"]=self.rename(col["name"])
                 if "keywords" not in schema.keys():
                     for name in schema["name"].split("_"):
                         schema_syns=syns(ps(name))
@@ -125,6 +128,7 @@ class data_utils:
                     col["type"]=types[col["name"]]
                 
                 for column in columns:
+                    column=self.rename(column)
                     if column not in collist:
                         schema["columns"].append({"name":column,"type":types[column],"keywords":[" ".join(column.lower().split('_'))]})
             return schema
