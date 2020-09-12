@@ -7,7 +7,7 @@ install_requires = ['responder', 'graphql-core==2.3', 'graphene==2.1.8', 'transf
 
 setuptools.setup(
     name="tableqa", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Abhijith Neil Abraham, Fariz Rahman",
     author_email="abhijithneilabrahampk@gmail.com,farizrahman4u@gmail.com",
     description="Tool for querying natural language on tabular data",
@@ -17,11 +17,6 @@ setuptools.setup(
     url="https://github.com/abhijithneilabraham/tableQA",
     install_requires=install_requires,
     packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GPL-3.0 License",
-        "Operating System :: OS Independent",
-    ],
     python_requires='>=3.6',
     include_package_data=True
 )

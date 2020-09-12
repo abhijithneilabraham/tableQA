@@ -1,5 +1,5 @@
 {
-    "name": "Cancer_Death",
+    "name": "Cancer Death",
     "columns":
     [
         {
@@ -17,11 +17,11 @@
                     }
         },
         {
-        "name": "Cancer_site",
+        "name": "Cancer site",
         "keywords": ["type of cancer","cancer location"]
         },
         {
-        "name": "Death_Count",
+        "name": "Death Count",
         "keywords": ["died","death","dead"],
         "summable":"True"
         }
