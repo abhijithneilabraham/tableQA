@@ -4,11 +4,11 @@
     "columns":
     [
         {
-        "name": "Unit_Type",
+        "name": "Unit Type",
         "keywords": ["Blood Group", "Blood Type"]
         },
         {
-        "name": "Units_Count",
+        "name": "Units Count",
         "keywords": ["Unit Count", "count of units"]
 
         }
