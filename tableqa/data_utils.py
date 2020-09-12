@@ -24,13 +24,28 @@ class data_utils:
         return ret
     
     
+
+    def rename(self,name):
+        renamed=""
+        for i in name.lower():
+            if i.isalnum():
+                renamed+=i
+            else:
+                if not renamed[-1]=="_":
+                    renamed+="_"
+        return renamed
     def get_dataframe(self,csv_path):
-        return pd.read_csv(csv_path)
-       
-    
+        data= pd.read_csv(csv_path)
+        columns=data.columns.tolist()
+        columns=[self.rename(i) for i in columns]
+        data.columns=columns
+        return data
+        
+            
     def get_schema_for_csv(self,csv_path):
         data=self.get_dataframe(csv_path)
-        columns=data.columns.tolist()    
+        columns=data.columns.tolist() 
+        columns=[self.rename(i) for i in columns]
         if "unnamed" in columns[0].lower():
             columns[0]="index"
         data.columns=columns   
@@ -38,6 +53,7 @@ class data_utils:
             with open(os.path.join(self.schema_dir, csv_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
                 schema=json.load(f)
                 schema_keywords=[]
+                schema["name"]=self.rename(schema["name"])
                 if "columns" not in schema.keys():
                     schema["columns"]=[]
                 if "keywords" not in schema.keys():
@@ -52,15 +68,7 @@ class data_utils:
         except Exception as e:
             schema={}
             csvname=os.path.splitext(os.path.basename(csv_path))[0]
-            schemaname=""
-            for i in csvname.lower():
-                if i.isalnum():
-                    schemaname+=i
-                else:
-                    if not schemaname[-1]=="_":
-                        schemaname+="_"
-                
-                    
+            schemaname=self.rename(csvname)
             schema["name"]=schemaname
                 
             schema_keywords=[]
@@ -86,15 +94,14 @@ class data_utils:
                 
             schema["columns"]=[]
             for column in columns:
-                
                 if column in categorical_maps:
                     schema["columns"].append({"name":column,"mapping":cat_kwd_maps[column]})
                 else:
                     schema["columns"].append({"name":column})
                     
         finally:
-            types=data.dtypes.apply(lambda x:x.name).to_dict()
             
+            types=data.dtypes.apply(lambda x:self.rename(x.name)).to_dict()
             for k,v in types.items():
                 if 'int' in v:
                     types[k]="Integer"
@@ -113,6 +120,7 @@ class data_utils:
                             
                 collist=[]          
                 for col in schema["columns"]:
+                    col["name"]=self.rename(col["name"])
                     collist.append(col["name"])
                     col["type"]=types[col["name"]]
                 
