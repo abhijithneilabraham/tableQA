@@ -29,13 +29,13 @@ import tensorflow_hub as hub
 embed = hub.load('https://tfhub.dev/google/universal-sentence-encoder/4')
 
 
-def get_universal_sentence_encoder(x):
+def get_embeddings(x):
     embeddings = embed(x)
     return asarray(embeddings)
 
 
-train_encodings = get_universal_sentence_encoder(x_train.to_list())
-test_encodings = get_universal_sentence_encoder(x_test.tolist())
+train_encodings = get_embeddings(x_train.to_list())
+test_encodings = get_embeddings(x_test.tolist())
 
 y_train = asarray(y_train, dtype="float32")
 y_test = asarray(y_test, dtype="float32")
