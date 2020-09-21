@@ -2,6 +2,17 @@
 
 from .nlp import Nlp
 from .database import Database
+import os, sys
+
+class Hide_logs:
+    def __enter__(self):
+        self._original_stdout = sys.stdout
+        sys.stdout = open(os.devnull, 'w')
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        sys.stdout.close()
+        sys.stdout = self._original_stdout
+
 
 class Agent:
     """
@@ -35,12 +46,13 @@ class Agent:
         if csv is None:
             print("Sorry,didn't catch that")  
         else:
-            question, valmap = nlp.get_sql_query(csv, question)
-            sql_query=question
-            for k, v in valmap.items():
-                sql_query = sql_query.replace(k, v)
-            print('SQL query:',sql_query)
-            return sql_query
+            with Hide_logs():
+                question, valmap = nlp.get_sql_query(csv, question)
+                sql_query=question
+                for k, v in valmap.items():
+                    sql_query = sql_query.replace(k, v)
+                print('SQL query:',sql_query)
+                return sql_query
         
     def query_db(self,question):
         """
@@ -52,10 +64,11 @@ class Agent:
         
         Returns a  `list` of 'tuple` of query outputs from Database.
         """
-        query=self.get_query(question)
-        database=Database(self.data_dir,self.schema_dir) 
-        create_db=getattr(database, self.db_type)
-        engine=create_db(question)
-        return engine.execute(query).fetchall()
+        with Hide_logs():
+            query=self.get_query(question)
+            database=Database(self.data_dir,self.schema_dir)
+            create_db=getattr(database, self.db_type)
+            engine=create_db(question)
+            return engine.execute(query).fetchall()
  
 
