@@ -29,18 +29,14 @@ class Agent:
             sql_query = sql_query.replace(k, v)
         return sql_query
 
-    def get_db(self, question):
-        query = self.get_query(question)
-        database = Database(self.data_dir, self.schema_dir)
-        create_db = getattr(database, self.db_type)
-        engine = create_db(question)
-        return engine.execute(query).fetchall()
+        
 
     def get_query(self, question, verbose=False):
         """
         # Arguments
 
         question: `str`,containing input utterance.
+        verbose: `boolean`, Default False
 
         # Returns
 
@@ -65,18 +61,16 @@ class Agent:
         # Arguments
 
         question: `str`,containing input utterance.
+        verbose: `boolean`, Default False
 
         # Returns
 
         Returns a  `list` of 'tuple` of query outputs from Database.
         """
-
-        if verbose:
-            response = self.get_db(question)
-            return response
-        else:
-            with Hide_logs():
-                response = self.get_db(question)
-                return response
-
+        query = self.get_query(question,verbose)
+        database = Database(self.data_dir, self.schema_dir)
+        create_db = getattr(database, self.db_type)
+        engine = create_db(question)
+        return engine.execute(query).fetchall()
+       
 

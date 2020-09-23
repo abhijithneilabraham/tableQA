@@ -32,6 +32,8 @@ class data_utils:
             if i.isalnum():
                 renamed+=i
             else:
+                if not renamed:
+                    renamed='_'
                 if not renamed[-1]=="_":
                     renamed+="_"
         return renamed
