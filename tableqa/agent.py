@@ -22,6 +22,20 @@ class Agent:
         self.schema_dir=schema_dir
         self.db_type=db_type
 
+    def get_sql(self, question, nlp, csv):
+        question, valmap = nlp.get_sql_query(csv, question)
+        sql_query = question
+        for k, v in valmap.items():
+            sql_query = sql_query.replace(k, v)
+        return sql_query
+
+    def get_db(self, question):
+        query = self.get_query(question)
+        database = Database(self.data_dir, self.schema_dir)
+        create_db = getattr(database, self.db_type)
+        engine = create_db(question)
+        return engine.execute(query).fetchall()
+
     def get_query(self, question, verbose=False):
         """
         # Arguments
@@ -65,16 +79,4 @@ class Agent:
                 response = self.get_db(question)
                 return response
 
-    def get_sql(self, question, nlp, csv):
-        question, valmap = nlp.get_sql_query(csv, question)
-        sql_query = question
-        for k, v in valmap.items():
-            sql_query = sql_query.replace(k, v)
-        return sql_query
 
-    def get_db(self, question):
-        query = self.get_query(question)
-        database = Database(self.data_dir, self.schema_dir)
-        create_db = getattr(database, self.db_type)
-        engine = create_db(question)
-        return engine.execute(query).fetchall()
