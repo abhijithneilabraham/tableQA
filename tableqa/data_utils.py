@@ -4,7 +4,8 @@ import pandas as pd
 import nltk
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet 
-from nltk.stem import PorterStemmer 
+from nltk.stem import PorterStemmer
+import os, sys
 ps = PorterStemmer().stem 
 syns = wordnet.synsets
 stop_words = list(set(stopwords.words('english')))
@@ -219,13 +220,16 @@ class data_utils:
         with open(self.valuesfile, 'w') as f:
             json.dump(values, f)
         
-    
-    
 
-    
-             
-        
 
+class Hide_logs:
+    def __enter__(self):
+        self._original_stdout = sys.stdout
+        sys.stdout = open(os.devnull, 'w')
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        sys.stdout.close()
+        sys.stdout = self._original_stdout
 
 
 
