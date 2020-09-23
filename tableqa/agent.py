@@ -22,7 +22,7 @@ class Agent:
         self.schema_dir=schema_dir
         self.db_type=db_type
 
-    def get_query(self, question, verbose=True):
+    def get_query(self, question, verbose=False):
         """
         # Arguments
 
@@ -46,7 +46,7 @@ class Agent:
                     sql_query = self.get_sql(question, nlp, csv)
                     return sql_query
 
-    def query_db(self, question, verbose=True):
+    def query_db(self, question, verbose=False):
         """
         # Arguments
 
