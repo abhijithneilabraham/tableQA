@@ -2,10 +2,10 @@ import os
 import json
 import pandas as pd
 import nltk
-from nltk.corpus import stopwords
-from nltk.corpus import wordnet 
+from nltk.corpus import stopwords, wordnet 
 from nltk.stem import PorterStemmer
-import os, sys
+import os
+import sys
 ps = PorterStemmer().stem 
 syns = wordnet.synsets
 stop_words = list(set(stopwords.words('english')))
@@ -65,7 +65,7 @@ class data_utils:
                 if "keywords" not in schema.keys():
                     for name in schema["name"].split("_"):
                         schema_syns=syns(ps(name))
-                        schema_keywords.extend(list(set([i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns])))
+                        schema_keywords.extend(list(set(i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns)))
             
                 if schema_keywords:
                     schema_keywords=[i for i in schema_keywords if i not in stop_words]
@@ -80,7 +80,7 @@ class data_utils:
             schema_keywords=[]
             for name in schema["name"].split("_"):
                 schema_syns=syns(ps(name))
-                schema_keywords.extend(list(set([i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns])))
+                schema_keywords.extend(list(set(i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns)))
             if schema_keywords:
                 schema_keywords=[i for i in schema_keywords if i not in stop_words]
                 schema["keywords"]=schema_keywords
@@ -89,8 +89,8 @@ class data_utils:
             cat_kwd_maps={i:0 for i in categorical_maps}
             for k,v in categorical_maps.items():
                 cat1syn,cat2syn=syns(ps(v[0])),syns(ps(v[1]))
-                cat1=list(set([i.lemmas()[0].name().lower() for i in  cat1syn]))
-                cat2=list(set([i.lemmas()[0].name().lower() for i in  cat2syn]))
+                cat1=list(set(i.lemmas()[0].name().lower() for i in  cat1syn))
+                cat2=list(set(i.lemmas()[0].name().lower() for i in  cat2syn))
                 if not cat1:
                     cat1=[v[0]]
                 if not cat2:
@@ -218,7 +218,7 @@ class data_utils:
                     if colname not in values:
                         values[colname] = []
                     vals = values[colname]
-                    vals += list(set([x for x in df[colname] if isinstance(x, str)]))
+                    vals += list(set(x for x in df[colname] if isinstance(x, str)))
         with open(self.valuesfile, 'w') as f:
             json.dump(values, f)
         

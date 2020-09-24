@@ -144,7 +144,7 @@ class Year(Integer):
                 "between",
                 "and"]
             xt = nltk.word_tokenize(x.lower())
-            xt = [t for t in xt if t not in ['the' 'year']]
+            xt = [t for t in xt if t not in ['the','year']]
             flag = False
             for t in xt:
                 if t.isdigit():
