@@ -1,60 +1,60 @@
 
-
 import pandas as pd
-import numpy as np
 from numpy import asarray
-from nltk.tokenize import sent_tokenize
-from sentence_transformers import SentenceTransformer
 from sklearn.model_selection import train_test_split
-from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout, Lambda, Flatten
-from tensorflow.keras.models import Sequential, load_model, model_from_config
-from tensorflow.keras.layers import Dense, Flatten, LSTM, Conv1D, MaxPooling1D, Dropout, Activation
-
-np.random.seed(7)
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
+import tensorflow as tf
 
 def get_keras_model():
     """Define the model."""
     model = Sequential()
-    model.add(Dense(512, input_shape=[768,], activation='relu'))
-    model.add(Dense(128,activation='relu'))
+    model.add(Dense(128, input_shape=[512 ,], activation='relu'))
+    model.add(Dropout(0.1))
+    model.add(Dense(64 ,activation='relu' ,kernel_regularizer=tf.keras.regularizers.L1(0.01),
+                    activity_regularizer=tf.keras.regularizers.L2(0.01)))
     model.add(Dense(6, activation='softmax'))
+
     model.compile(loss = 'sparse_categorical_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
     model.summary()
     return model
 
-data=pd.read_csv("wikidata.csv",usecols=["questions","types"])
+data =pd.read_csv("wikidata.csv" ,usecols=["questions" ,"types"])
+categories =data["types"]
 
-categories=data["types"]
-#print(categories.tolist().count(0))
+x_train, x_test, y_train ,y_test =train_test_split(data["questions"], categories, shuffle=True)
+
+import tensorflow_hub as hub
+
+embed = hub.load('https://tfhub.dev/google/universal-sentence-encoder/4')
 
 
-x_train, x_test, y_train,y_test =train_test_split(data["questions"],categories)
+def get_embeddings(x):
+    embeddings = embed(x)
+    return asarray(embeddings)
 
-bert_model = SentenceTransformer('bert-base-nli-mean-tokens')
-# bert_model = SentenceTransformer('average_word_embeddings_glove.6B.300d')
 
-train_embeddings = asarray(bert_model.encode(x_train.tolist()), dtype = "float32")
-test_embeddings = asarray(bert_model.encode(x_test.tolist()), dtype = "float32")
-y_train=asarray(y_train,dtype="float32")
-y_test=asarray(y_test,dtype="float32")
+train_encodings = get_embeddings(x_train.to_list())
+test_encodings = get_embeddings(x_test.tolist())
+
+y_train = asarray(y_train, dtype="float32")
+y_test = asarray(y_test, dtype="float32")
 
 model = get_keras_model()
-model.fit(train_embeddings, y_train, epochs=100,validation_data=(test_embeddings,y_test))
-
-print('\n# Evaluate on test data')
-results = model.evaluate(test_embeddings, y_test, batch_size=128)
-print('test loss, test acc:', results)
-
-
+print(train_encodings.shape)
+model.fit(train_encodings, y_train, epochs=50, validation_split=0.2)
 
 model.save("Question_Classifier.h5")
 
-
-        
-
-    
+score, acc = model.evaluate(test_encodings, y_test)
 
 
 
-    
+
+
+
+
+
+
+
 
