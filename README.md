@@ -2,6 +2,8 @@
 Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 
 [![Build Status](https://travis-ci.com/abhijithneilabraham/tableQA.svg?branch=master)](https://travis-ci.com/abhijithneilabraham/tableQA)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Bgd3L-839NVZiP3QqWfpkYIufQIm4Rar?usp=sharing)
+
 
 #### Features    
 * Supports detection from multiple csvs

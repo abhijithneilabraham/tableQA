@@ -12,7 +12,8 @@ def test_clause():
     for key,typ in types.items():
         for q in typ:
             print(q,clause.adapt(q))
-            assert clause.adapt(q) == key 
+            if clause.adapt(q) != key:
+                raise AssertionError
 
 
 
