@@ -16,7 +16,8 @@ def test_query():
             }
     for q,sql in qmaps.items():
         res=agent.get_query(q)
-        assert res.strip() ==sql.strip()
+        if res.strip() != sql.strip():
+            raise AssertionError
         
 def test_query_schema():
     agent=Agent(os.path.join(currpath,"cleaned_data"),os.path.join(currpath,"schema"))
@@ -28,7 +29,8 @@ def test_query_schema():
             }
     for q,sql in qmaps.items():
         res=agent.get_query(q)
-        assert res.strip() ==sql.strip()
+        if res.strip() != sql.strip():
+            raise AssertionError
         
         
 if __name__ == '__main__':
