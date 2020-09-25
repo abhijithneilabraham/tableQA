@@ -288,7 +288,7 @@ class Nlp:
     
     def unknown_slot_extractor(self,schema,sf_columns,ex_kwd):
         maxcount=0
-        unknown_slot=None
+        unknown_slots={"slots":[],"main_slot":None}
         flag=False
         
         for col in schema["columns"]:
@@ -304,14 +304,15 @@ class Nlp:
                 col_kwds=[lem(i.lower()) for i in col_kwds]
             
                 count=len(set(col_kwds) & set(ex_kwd))
-                
+                if count>0:
+                    unknown_slots["slots"].append(col["name"])
                 if count>maxcount:
                     maxcount=count
-                    unknown_slot=col["name"]
+                    unknown_slots["main_slot"]=col["name"]
                    
                     flag=True  if col["type"] in ["Year","Integer","Decimal","Age"] else False
                     
-        return unknown_slot,flag
+        return unknown_slots,flag
     
 
     def get_sql_query(self,csv,q):
@@ -320,14 +321,14 @@ class Nlp:
         schema=self.data_process.get_schema_for_csv(csv)   
         sf_columns=[i[0] for i in sf]
         ex_kwd=self.kword_extractor(q)
-        unknown_slot,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)
+        unknown_slots,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)
         
         clause=Clause()
         question=""
     
         if flag: 
             for col in schema["columns"]:
-                if "summable" in col.keys() and unknown_slot in col["name"]:
+                if "summable" in col.keys() and col["name"] in unknown_slots["main_slot"]:
                     question=clause.adapt(q,inttype=True,summable=True) 
                     
                     break
@@ -335,9 +336,13 @@ class Nlp:
                     question=clause.adapt(q)
         else:
             question=clause.adapt(q)
-        if unknown_slot is None:
-            unknown_slot='*'
-        question=question.format(unknown_slot,schema["name"].lower())
+        if question not in "SELECT {} FROM {}":
+            unknown_slots=unknown_slots['main_slot']
+        else:
+           unknown_slots= ','.join(unknown_slots['slots'])
+        if unknown_slots is None:
+            unknown_slots='*'
+        question=question.format(unknown_slots,schema["name"].lower())
         
         valmap = {}
         def get_key(val):
