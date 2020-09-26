@@ -3,8 +3,18 @@
 from tableqa.agent import Agent
 import pytest
 import os
+import pandas as pd
+import json
+
+
 
 currpath=os.path.abspath(os.path.dirname(__file__))
+
+df=pd.read_csv(os.path.join(os.path.join(currpath,"cleaned_data"),'Cancer Death - Data.csv'))
+
+with open(os.path.join(os.path.join(currpath,"schema"),'Cancer Death - Data.json')) as f:
+    schema=json.load(f)
+
 
 def test_query():
     agent=Agent(os.path.join(currpath,"cleaned_data"))
@@ -31,7 +41,24 @@ def test_query_schema():
         res=agent.get_query(q)
         if res.strip() != sql.strip():
             raise AssertionError
-        
+
+
+def test_query_df():
+    agent=Agent(df)
+    q='Get me the average age of stomach cancer deaths'
+    sql='SELECT AVG(death_count) FROM dataframe WHERE cancer_site = "Stomach" '       
+    res=agent.get_query(q)
+    if res.strip() != sql.strip():
+        raise AssertionError
+
+def test_query_df_schema():
+    agent=Agent(df,schema)
+    q='how many people died of stomach cancer in 2011'
+    sql='SELECT SUM(death_count) FROM cancer_death WHERE cancer_site = "Stomach" AND year = "2011" '       
+    res=agent.get_query(q)
+    if res.strip() != sql.strip():
+        raise AssertionError
+    
         
 if __name__ == '__main__':
     pytest.main([__file__])

@@ -165,7 +165,10 @@ class Nlp:
         if isinstance(self.schema_dir,dict):
             self.schema=schema_dir
         self.data_process=data_utils(data_dir, schema_dir)
-        
+        self.valuesfile =self.data_process.valuesfile
+        self.data_process.create_values()
+        with open(self.valuesfile, 'r') as f:
+            self.values = json.load(f)
 
             
     def csv_select(self,q):
@@ -193,10 +196,7 @@ class Nlp:
     def slot_fill(self,df, q):
         # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
 
-        self.valuesfile =self.data_process.valuesfile
-        self.data_process.create_values()
-        with open(self.valuesfile, 'r') as f:
-            self.values = json.load(f)
+
         self.schema = self.data_process.get_schema_for_csv(df)
         schema=self.schema
         def _is_numeric(typ):
