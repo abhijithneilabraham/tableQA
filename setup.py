@@ -7,7 +7,7 @@ install_requires = ['responder', 'graphql-core==2.3', 'graphene==2.1.8', 'transf
 
 setuptools.setup(
     name="tableqa", # Replace with your own username
-    version="0.0.6",
+    version="0.0.8",
     author="Abhijith Neil Abraham, Fariz Rahman",
     author_email="abhijithneilabrahampk@gmail.com,farizrahman4u@gmail.com",
     description="Tool for querying natural language on tabular data",
