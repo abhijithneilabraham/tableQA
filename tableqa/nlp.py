@@ -162,27 +162,23 @@ class Nlp:
     def __init__(self,data_dir,schema_dir):
         self.data_dir=data_dir
         self.schema_dir=schema_dir
+        if isinstance(self.schema_dir,dict):
+            self.schema=schema_dir
         self.data_process=data_utils(data_dir, schema_dir)
-        
-        self.vocabfile=self.data_process.vocabfile
-        self.valuesfile =self.data_process.valuesfile
-        
-        self.data_process.create_values()
-        with open(self.valuesfile, 'r') as f:
-            self.values = json.load(f)
         
 
             
     def csv_select(self,q):
         kwds=self.kword_extractor(q)
-        with open(self.vocabfile,'r') as f:
+        vocabfile=self.data_process.vocabfile
+        with open(vocabfile,'r') as f:
             vocab = json.load(f)
         maxcount=0
         for csv, v in vocab.items():
             kwds2 = [lem(i) for i in v]
             count = len([k for k in kwds2 if k in kwds])
-            schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
-            name=schema["name"]
+            self.schema=self.data_process.get_schema_for_csv(os.path.join(self.data_dir,csv))
+            name=self.schema["name"]
             priority=name.lower().split('_')
             check_kwd=self.data_process.kwd_checker(csv, vocab)
             if len(set(priority) & set(kwds))>0 and not any(i in priority for i in check_kwd):
@@ -194,9 +190,15 @@ class Nlp:
             return None
         return os.path.join(self.data_dir,selected_csv)        
     
-    def slot_fill(self,csv, q):
+    def slot_fill(self,df, q):
         # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
-        schema = self.data_process.get_schema_for_csv(csv)
+
+        self.valuesfile =self.data_process.valuesfile
+        self.data_process.create_values()
+        with open(self.valuesfile, 'r') as f:
+            self.values = json.load(f)
+        self.schema = self.data_process.get_schema_for_csv(df)
+        schema=self.schema
         def _is_numeric(typ):
             # TODO
             return issubclass(get(typ), Number)
@@ -315,10 +317,10 @@ class Nlp:
         return unknown_slots,flag
     
 
-    def get_sql_query(self,csv,q):
-        sf=self.slot_fill(csv, q)
+    def get_sql_query(self,df,q):
+        sf=self.slot_fill(df, q)
         sub_clause=''' WHERE {} = "{}" '''
-        schema=self.data_process.get_schema_for_csv(csv)   
+        schema=self.schema  
         sf_columns=[i[0] for i in sf]
         ex_kwd=self.kword_extractor(q)
         unknown_slots,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)
