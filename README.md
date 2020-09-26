@@ -31,18 +31,19 @@ Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 ## Quickstart
 
 
-#### Getting an SQL query from csv
+#### Do sample query
 
 ```
 from tableqa.agent import Agent
 agent=Agent(df) #input your dataframe
-print(agent.get_query("Your question here")) #returns an sql query
+response=agent.query_db("Your question here")
+print(response)
 ```
 
-#### Do Sample query on database
+#### Get an SQL query from the question
 ```
-response=agent.query_db("Your question here")  
-print("Response ={}".format(response)) #returns the result of the sql query after feeding the csv to the database
+sql=agent.get_query("Your question here")  
+print(sql) #returns an sql query
 ```
 
 
@@ -86,23 +87,25 @@ print("Response ={}".format(response)) #returns the result of the sql query afte
 
 Example (with manual schema):    
 
-##### SQL query
-```
-from tableqa.agent import Agent
-agent=Agent(df,schema) #pass the dataframe and schema objects
-print(agent.get_query("How many people died of stomach cancer in 2011"))
-#sql query: SELECT SUM(Death_Count) FROM cancer_death WHERE Cancer_site = "Stomach" AND Year = "2011"
-```
+
 
 
 ##### Database query
 
 ```
+from tableqa.agent import Agent
+agent=Agent(df,schema) #pass the dataframe and schema objects
 response=agent.query_db("how many people died of stomach cancer in 2011")
-print("Response ={}".format(response)) #returns the result of the sql query after feeding the csv to the database
+print(response)
 #Response =[(22,)]
 ```
 
+##### SQL query
+```
+sql=agent.get_query("How many people died of stomach cancer in 2011")
+print(sql)
+#sql query: SELECT SUM(Death_Count) FROM cancer_death WHERE Cancer_site = "Stomach" AND Year = "2011"
+```
 
 #### Multiple CSVs
 
