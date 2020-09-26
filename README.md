@@ -35,7 +35,7 @@ Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 
 ```
 from tableqa.agent import Agent
-agent=Agent(data_dir) #specify the absolute path of the data directory.
+agent=Agent(df) #input your dataframe
 print(agent.get_query("Your question here")) #returns an sql query
 ```
 
@@ -48,7 +48,7 @@ print("Response ={}".format(response)) #returns the result of the sql query afte
 
 #### Adding Manual schema
 
-include the directory containing the schemas of the respective csvs, with the same filename. Refer [cleaned_data](tableqa/cleaned_data)  and [schema](tableqa/schema) for examples.
+
 
 ##### Schema Format:
 ```
@@ -89,9 +89,9 @@ Example (with manual schema):
 ##### SQL query
 ```
 from tableqa.agent import Agent
-agent=Agent(data_dir,schema_dir) 
-print(agent.get_query("How many people died of stomach cancer in 2011")) 
-#sql query: SELECT SUM(Death_Count) FROM cancer_death WHERE Cancer_site = "Stomach" AND Year = "2011" 
+agent=Agent(df,schema) #pass the dataframe and schema objects
+print(agent.get_query("How many people died of stomach cancer in 2011"))
+#sql query: SELECT SUM(Death_Count) FROM cancer_death WHERE Cancer_site = "Stomach" AND Year = "2011"
 ```
 
 
@@ -101,4 +101,18 @@ print(agent.get_query("How many people died of stomach cancer in 2011"))
 response=agent.query_db("how many people died of stomach cancer in 2011")
 print("Response ={}".format(response)) #returns the result of the sql query after feeding the csv to the database
 #Response =[(22,)]
+```
+
+
+#### Multiple CSVs
+
+Pass the path of the directories containing the csvs and schemas respectively. Refer [cleaned_data](tableqa/cleaned_data)  and [schema](tableqa/schema) for examples.
+
+##### Example
+
+```
+csv_path="/content/tableQA/tableqa/cleaned_data"
+schema_path="/content/tableQA/tableqa/schema"
+agent=Agent(csv_path,schema_path)
+
 ```
