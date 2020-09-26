@@ -3,6 +3,7 @@
 from .nlp import Nlp
 from .database import Database
 from .data_utils import Hide_logs
+import pandas as pd
 
 class Agent:
     """
@@ -22,8 +23,8 @@ class Agent:
         self.schema_dir=schema_dir
         self.db_type=db_type
 
-    def get_sql(self, question, nlp, csv):
-        question, valmap = nlp.get_sql_query(csv, question)
+    def get_sql(self, question, nlp, df):
+        question, valmap = nlp.get_sql_query(df, question)
         sql_query = question
         for k, v in valmap.items():
             sql_query = sql_query.replace(k, v)
@@ -43,17 +44,20 @@ class Agent:
         Returns a  `str` of generated sql query.
         """
         nlp = Nlp(self.data_dir, self.schema_dir)
-        csv = nlp.csv_select(question)
-        if csv is None:
+        if isinstance(self.data_dir,pd.DataFrame):
+            df=self.data_dir
+        else:
+            df = nlp.csv_select(question)
+        if df is None:
             print("Sorry,didn't catch that")
         else:
             if verbose:
-                sql_query = self.get_sql(question, nlp, csv)
+                sql_query = self.get_sql(question, nlp, df)
                 print('SQL query:', sql_query)
                 return sql_query
             else:
                 with Hide_logs():
-                    sql_query = self.get_sql(question, nlp, csv)
+                    sql_query = self.get_sql(question, nlp, df)
                     return sql_query
 
     def query_db(self, question, verbose=False):

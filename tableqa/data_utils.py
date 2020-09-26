@@ -6,6 +6,7 @@ from nltk.corpus import stopwords, wordnet
 from nltk.stem import PorterStemmer
 import os
 import sys
+import pathlib
 ps = PorterStemmer().stem 
 syns = wordnet.synsets
 stop_words = list(set(stopwords.words('english')))
@@ -17,7 +18,7 @@ class data_utils:
         self.valuesfile = os.path.join(os.path.abspath(os.getcwd()),"values.json")
     
     def get_csvs(self):
-        ret = []
+        ret = []     
         for r, _, files in os.walk(self.data_dir):
             for f in files:
                 if f.lower().endswith('.csv'):
@@ -45,36 +46,43 @@ class data_utils:
         return data
         
             
-    def get_schema_for_csv(self,csv_path):
-        data=self.get_dataframe(csv_path)
+    def get_schema_for_csv(self,df_path):
+        if isinstance(df_path,pd.DataFrame):
+            data=df_path
+            dfname="DataFrame"
+        else:
+            data=self.get_dataframe(df_path)
+            dfname=os.path.splitext(os.path.basename(df_path))[0]
         columns=data.columns.tolist() 
         columns=[self.rename(i) for i in columns]
         if "unnamed" in columns[0].lower():
             columns[0]="index"
         data.columns=columns   
-        try:
-            with open(os.path.join(self.schema_dir, csv_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
-                schema=json.load(f)
-                schema_keywords=[]
-                schema["name"]=self.rename(schema["name"])
-                if "columns" not in schema.keys():
-                    schema["columns"]=[]
-                else:
-                    for col in schema["columns"]:
-                        col["name"]=self.rename(col["name"])
-                if "keywords" not in schema.keys():
-                    for name in schema["name"].split("_"):
-                        schema_syns=syns(ps(name))
-                        schema_keywords.extend(list(set(i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns)))
-            
-                if schema_keywords:
-                    schema_keywords=[i for i in schema_keywords if i not in stop_words]
-                    schema["keywords"]=schema_keywords
+        try: 
+            if isinstance(self.schema_dir,dict):
+                schema=self.schema_dir
+            else:
+                with open(os.path.join(self.schema_dir, df_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
+                    schema=json.load(f)
+            schema_keywords=[]
+            schema["name"]=self.rename(schema["name"])
+            if "columns" not in schema.keys():
+                schema["columns"]=[]
+            else:
+                for col in schema["columns"]:
+                    col["name"]=self.rename(col["name"])
+            if "keywords" not in schema.keys():
+                for name in schema["name"].split("_"):
+                    schema_syns=syns(ps(name))
+                    schema_keywords.extend(list(set(i.lemmas()[0].name().lower().replace("_"," ") for i in  schema_syns)))
+        
+            if schema_keywords:
+                schema_keywords=[i for i in schema_keywords if i not in stop_words]
+                schema["keywords"]=schema_keywords
                 
         except Exception as e:
             schema={}
-            csvname=os.path.splitext(os.path.basename(csv_path))[0]
-            schemaname=self.rename(csvname)
+            schemaname=self.rename(dfname)
             schema["name"]=schemaname
                 
             schema_keywords=[]
@@ -206,19 +214,30 @@ class data_utils:
     
         
     def create_values(self):
-        self.del_vocab()
         values = {}
-        for csv in self.get_csvs():
-            df = self.get_dataframe(csv)
-            schema = self.get_schema_for_csv(csv)
-            self.csv_keyword_vocab(csv,schema)
+        self.del_vocab()
+        if isinstance(self.data_dir,pd.DataFrame):        
+            schema = self.get_schema_for_csv(self.data_dir)
             for col in schema['columns']:
-                if col['type'] == "FuzzyString":
-                    colname = col['name']
-                    if colname not in values:
-                        values[colname] = []
-                    vals = values[colname]
-                    vals += list(set(x for x in df[colname] if isinstance(x, str)))
+              if col['type'] == "FuzzyString":
+                  colname = col['name']
+                  if colname not in values:
+                      values[colname] = []
+                  vals = values[colname]
+                  vals += list(set(x for x in self.data_dir[colname] if isinstance(x, str)))
+        else:  
+            csvs=self.get_csvs()
+            for csv in csvs:
+                df = self.get_dataframe(csv)
+                schema = self.get_schema_for_csv(csv)
+                self.csv_keyword_vocab(csv,schema)
+                for col in schema['columns']:
+                    if col['type'] == "FuzzyString":
+                        colname = col['name']
+                        if colname not in values:
+                            values[colname] = []
+                        vals = values[colname]
+                        vals += list(set(x for x in df[colname] if isinstance(x, str)))
         with open(self.valuesfile, 'w') as f:
             json.dump(values, f)
         
