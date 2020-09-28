@@ -2,7 +2,7 @@
 
 
 conditions={
-  "<":["below","low","less","small","lesser","smaller","lower"],
-  ">":["above","high","great","more","big","bigger","greater","larger","higher"]
+  "<":["below","less","small","lesser","smaller","lower"],
+  ">":["above","more","bigger","greater","larger","higher"]
 }
 
