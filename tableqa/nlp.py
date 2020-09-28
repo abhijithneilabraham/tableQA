@@ -269,7 +269,7 @@ class Nlp:
     def cond_map(self,s):
         data=conditions
         
-        conds=[lem(i,pos='a') for i in s.split() if not i.isdigit()]
+        conds=[i for i in s.split() if not i.isdigit()]
         
         for cond in conds:
             for k,v in data.items():

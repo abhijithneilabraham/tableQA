@@ -53,6 +53,11 @@ class Number(ColumnType):
             "than",
             "above",
             "below",
+            "small",
+            "smaller"
+            "lesser",
+            "higher",
+            "lower",
             "from",
             "to",
             "between",
