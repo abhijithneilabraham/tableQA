@@ -119,3 +119,7 @@ schema_path="/content/tableQA/tableqa/schema"
 agent=Agent(csv_path,schema_path)
 
 ```
+
+#### Join us
+
+Join our slack workspace:[Slack](https://join.slack.com/t/newworkspace-ehh1873/shared_invite/zt-hp3i6ic7-exMal1I4ZmFMWaHAwXk8HA)
