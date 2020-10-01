@@ -321,9 +321,11 @@ class Nlp:
     
 
     def get_sql_query(self,df,q):
+
         #get sql query by adding each clauses back to back by aggregate type classification and  entity extraction from slot_fill
         sf=self.slot_fill(df, q)
         
+
         schema=self.schema  
         sf_columns=[i[0] for i in sf]
         ex_kwd=self.kword_extractor(q)
