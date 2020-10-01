@@ -172,6 +172,7 @@ class Nlp:
 
             
     def csv_select(self,q):
+        #returns a csv path from a given input of directory path containing multiple csv files.
         kwds=self.kword_extractor(q)
         vocabfile=self.data_process.vocabfile
         with open(vocabfile,'r') as f:
@@ -267,6 +268,7 @@ class Nlp:
     
     
     def cond_map(self,s):
+        #map the conditional operators for <,> etc from respective words like greater than,less than,etc
         data=conditions
         
         conds=[i for i in s.split() if not i.isdigit()]
@@ -289,6 +291,7 @@ class Nlp:
         return ret               
     
     def unknown_slot_extractor(self,schema,sf_columns,ex_kwd):
+        #extracts the key if exists from a query, whose value is not mapped with the csv
         maxcount=0
         unknown_slots={"slots":[],"main_slot":None}
         flag=False
@@ -318,8 +321,9 @@ class Nlp:
     
 
     def get_sql_query(self,df,q):
+        #get sql query by adding each clauses back to back by aggregate type classification and  entity extraction from slot_fill
         sf=self.slot_fill(df, q)
-        sub_clause=''' WHERE {} = "{}" '''
+        
         schema=self.schema  
         sf_columns=[i[0] for i in sf]
         ex_kwd=self.kword_extractor(q)
@@ -336,6 +340,7 @@ class Nlp:
                     break
                 else:
                     question=clause.adapt(q)
+                    break
         else:
             question=clause.adapt(q)
         if question not in "SELECT {} FROM {}":
@@ -350,6 +355,7 @@ class Nlp:
         def get_key(val):
             return f"val_{len(valmap)}"
         print("entities and scores:",sf)
+        sub_clause=''' WHERE {} = "{}" '''
         for i,s in enumerate(sf):
             col,val=s[0],s[2]
             typ = get(s[1])
@@ -374,7 +380,7 @@ class Nlp:
                 subq=sub_clause.format(col, k)
             
             
-            question+=subq            
+            question+=subq   #repeatedly concatenates the incoming entities in sql syntax         
     
         
         return question, valmap
