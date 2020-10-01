@@ -340,7 +340,7 @@ class Nlp:
                     break
                 else:
                     question=clause.adapt(q)
-                    break
+                    
         else:
             question=clause.adapt(q)
         if question not in "SELECT {} FROM {}":
