@@ -333,18 +333,13 @@ class Nlp:
         
         clause=Clause()
         question=""
-    
+        question=clause.adapt(q)
         if flag: 
             for col in schema["columns"]:
                 if "summable" in col.keys() and col["name"] in unknown_slots["main_slot"]:
                     question=clause.adapt(q,inttype=True,summable=True) 
                     
                     break
-                else:
-                    question=clause.adapt(q)
-                    
-        else:
-            question=clause.adapt(q)
         if question not in "SELECT {} FROM {}":
             unknown_slots=unknown_slots['main_slot']
         else:
