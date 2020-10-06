@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use("Qt5Agg")
 
 class Chart:
     """
@@ -15,15 +14,22 @@ class Chart:
         self.__REGISTERED_CHARTS['bar'] = 'bar'
         self.__REGISTERED_CHARTS['pie'] = 'pie'
 
-    def __init__(self, ctypes, query, answers):
+    def __init__(self, ctypes, query, answers, size):
         """
         # Arguments
 
         ctypes: `str` or `list` object, specify the chart types.
         query: `str`, query used to fetch output from the database.
         answers: `list`, returned values.
+        size: `tuple`, figure size.
         """
         self.registered_charts()
+
+        if not isinstance(size, tuple):
+            import warnings
+            warnings.warn('Argument `size` should be of the form tuple. Example - size=(20, 20)')
+            return 
+        self.figsize = size
 
         # fetch column names
         columns = query.split('SELECT')[-1].split('FROM')[0]
@@ -65,7 +71,7 @@ class Chart:
                 import warnings
                 warnings.warn('Cannot plot chart for a single value.')
                 break
-            plt.figure()
+            plt.figure(figsize=self.figsize)
             answer = pd.DataFrame(answer, columns=[colname])
             grouped_col = answer[colname].value_counts()
             ax = grouped_col.plot(kind='pie', startangle=0, autopct='%.2f', title=colname, fontsize=10, labels=None)
@@ -73,8 +79,6 @@ class Chart:
             ax.axis("off")
             ax.set_title('Distribution of '+colname, fontsize=15)                   # set title
             plt.legend(grouped_col.index, bbox_to_anchor=(1,0.5), loc="center right", fontsize=10, bbox_transform=plt.gcf().transFigure)
-            mng = plt.get_current_fig_manager()
-            mng.full_screen_toggle()                                                # show full screen
             plt.savefig('pie_'+str(colname).strip()+'.png', bbox_inches='tight')
 
     def bar(self, columns, answers):
@@ -96,7 +100,7 @@ class Chart:
 
             # if it is a numeric value.
             if answer[colname].astype(str).str.isnumeric().all():
-                plt.figure()
+                plt.figure(figsize=self.figsize)
                 ax = answer.hist(column=colname)
                 ax = ax[0]
                 for x in ax:
@@ -106,11 +110,9 @@ class Chart:
                     x.spines['left'].set_visible(False)
                     x.set_title('Distribution of '+colname, fontsize=15)        # set title                                           
             else:
-                plt.figure()
+                plt.figure(figsize=self.figsize)
                 grouped_col = answer[colname].value_counts()
                 ax = grouped_col.plot.bar(y=colname)
                 ax.set_xlabel(colname, labelpad=20, weight='bold', size=12)     # set column label
                 ax.set_title('Distribution of '+colname, fontsize=15)           # set title
-            mng = plt.get_current_fig_manager()
-            mng.full_screen_toggle()                                            # show full screen
             plt.savefig('bar_'+str(colname).strip()+'.png', bbox_inches='tight')

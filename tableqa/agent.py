@@ -61,13 +61,14 @@ class Agent:
                     sql_query = self.get_sql(question, nlp, df)
                     return sql_query
 
-    def query_db(self, question, verbose=False, chart=None):
+    def query_db(self, question, verbose=False, chart=None, size=(10, 10)):
         """
         # Arguments
 
         question: `str`,containing input utterance.
         verbose: `boolean`, Default False
         chart: `str`, specify type of chart. Default None.
+        size: `tuple`, figure size.
 
         # Returns
 
@@ -79,7 +80,7 @@ class Agent:
         engine = create_db(question)
         answer = engine.execute(query).fetchall()
         if chart is not None:
-            Chart(chart, query, answer)
+            Chart(chart, query, answer, size)
         return answer
        
 
