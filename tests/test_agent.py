@@ -22,7 +22,8 @@ def test_query():
             'find me the diseases having above 3000 cases':'SELECT disease FROM communicable_diseases_data WHERE cases  > 3000 ',
             'which are the activities in 2011':'SELECT activity_type,activity_type_chapter FROM activities_data WHERE year = "2011" ',
             'find the maximum number of cases':'SELECT MAX(cases) FROM communicable_diseases_data',
-            'Get me the average age of stomach cancer deaths':'SELECT AVG(death_count) FROM cancer_death_data WHERE cancer_site = "Stomach" '
+            'Get me the average age of stomach cancer deaths':'SELECT AVG(death_count) FROM cancer_death_data WHERE cancer_site = "Stomach" ',
+            'how many activities between 2011 and 2014':'SELECT COUNT(activity_type_chapter) FROM activities WHERE year  BETWEEN 2011 AND 2014 '
             }
     for q,sql in qmaps.items():
         res=agent.get_query(q)
@@ -38,7 +39,8 @@ def test_query_schema():
             'how many deaths of age below 40 had stomach cancer':'SELECT SUM(death_count) FROM cancer_death WHERE cancer_site = "Stomach" AND age  < 40 ',
             'which are the activities in 2011':'SELECT activity_type_chapter,activity_type FROM activities WHERE year = "2011" ',
             'find the maximum number of cases':'SELECT MAX(cases) FROM communicable_diseases ',
-            'Get me the average age of stomach cancer deaths':'SELECT AVG(death_count) FROM cancer_death WHERE cancer_site = "Stomach" '
+            'Get me the average age of stomach cancer deaths':'SELECT AVG(death_count) FROM cancer_death WHERE cancer_site = "Stomach" ',
+            'how many people between age 30 and 40 died of stomach cancer':'SELECT SUM(death_count) FROM cancer_death WHERE cancer_site = "Stomach" AND age  BETWEEN 30 AND 40 '
             }
     for q,sql in qmaps.items():
         res=agent.get_query(q)
