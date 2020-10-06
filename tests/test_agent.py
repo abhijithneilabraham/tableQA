@@ -23,7 +23,7 @@ def test_query():
             'which are the activities in 2011':'SELECT activity_type,activity_type_chapter FROM activities_data WHERE year = "2011" ',
             'find the maximum number of cases':'SELECT MAX(cases) FROM communicable_diseases_data',
             'Get me the average age of stomach cancer deaths':'SELECT AVG(death_count) FROM cancer_death_data WHERE cancer_site = "Stomach" ',
-            'how many activities between 2011 and 2014':'SELECT COUNT(activity_type_chapter) FROM activities WHERE year  BETWEEN 2011 AND 2014 '
+            'how many activities between 2011 and 2014':'SELECT COUNT(activity_type) FROM activities_data WHERE year  BETWEEN 2011 AND 2014'
             }
     for q,sql in qmaps.items():
         res=agent.get_query(q)
