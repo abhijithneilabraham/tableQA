@@ -22,14 +22,6 @@ class Agent:
         self.data_dir=data_dir
         self.schema_dir=schema_dir
         self.db_type=db_type
-
-    def get_sql(self, question, nlp, df):
-        question, valmap = nlp.get_sql_query(df, question)
-        sql_query = question
-        for k, v in valmap.items():
-            sql_query = sql_query.replace(k, v)
-        return sql_query
-
         
 
     def get_query(self, question, verbose=False):
@@ -52,12 +44,12 @@ class Agent:
             print("Sorry,didn't catch that")
         else:
             if verbose:
-                sql_query = self.get_sql(question, nlp, df)
+                sql_query = nlp.get_sql_query(df, question)
                 print('SQL query:', sql_query)
                 return sql_query
             else:
                 with Hide_logs():
-                    sql_query = self.get_sql(question, nlp, df)
+                    sql_query = nlp.get_sql_query(df, question)
                     return sql_query
 
     def query_db(self, question, verbose=False):

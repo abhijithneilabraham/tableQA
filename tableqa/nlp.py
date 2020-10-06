@@ -269,17 +269,22 @@ class Nlp:
     
     def cond_map(self,s):
         #map the conditional operators for <,> etc from respective words like greater than,less than,etc
-        data=conditions
+        conds=conditions
         
-        conds=[i for i in s.split() if not i.isdigit()]
-        
-        for cond in conds:
-            for k,v in data.items():
-                  if cond in v:
-                      num=s.split()[-1]
-                      s=f'{k} {num}'
+        words=[i for i in s.split() if not i.isdigit()]
+        nums=[i for i in s.split() if i.isdigit()]
+        for word in words:
+            for k,v in conds.items():
+                  if word in v:
+                      if len(nums)==1:
+                          num=nums[0]
+                          s=f'{k} {num}'
+                      else:
+                          if "BETWEEN {} AND {}" in k:
+                              k=k.format(nums[0],nums[1])
+                              s=f'{k}'
         return s
-    
+        
        
     
     def kword_extractor(self,q):
@@ -348,9 +353,7 @@ class Nlp:
             unknown_slots='*'
         question=question.format(unknown_slots,schema["name"].lower())
         
-        valmap = {}
-        def get_key(val):
-            return f"val_{len(valmap)}"
+        
         print("entities and scores:",sf)
         sub_clause=''' WHERE {} = "{}" '''
         for i,s in enumerate(sf):
@@ -360,27 +363,21 @@ class Nlp:
                 sub_clause='''AND {} = "{}" '''
             if issubclass(typ,Number):
                 val=self.cond_map(val)
-                
-            if issubclass(typ, String):
-                k = get_key(val)
-                valmap[k] = val
-            else:
-                k = val
-            
-    
-            if any(i in conditions.keys() for i in k):
-                
-                subq=sub_clause.format(col, k)
-                subq=subq.replace('=','')
-                subq=subq.replace('"','')
-            else:
-                subq=sub_clause.format(col, k)
+            subq=sub_clause.format(col, val)
+            for cond in conditions.keys():
+                if any(i in cond for i in val):
+                    subq=subq.replace('=','')
+                    subq=subq.replace('"','')
+                    break
+
+           
+
             
             
             question+=subq   #repeatedly concatenates the incoming entities in sql syntax         
     
         
-        return question, valmap
+        return question
     
     
     
