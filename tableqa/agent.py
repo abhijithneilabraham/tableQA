@@ -4,6 +4,7 @@ from .nlp import Nlp
 from .database import Database
 from .data_utils import Hide_logs
 import pandas as pd
+from .chart import Chart
 
 class Agent:
     """
@@ -60,12 +61,13 @@ class Agent:
                     sql_query = self.get_sql(question, nlp, df)
                     return sql_query
 
-    def query_db(self, question, verbose=False):
+    def query_db(self, question, verbose=False, chart=None):
         """
         # Arguments
 
         question: `str`,containing input utterance.
         verbose: `boolean`, Default False
+        chart: `str`, specify type of chart. Default None.
 
         # Returns
 
@@ -75,6 +77,9 @@ class Agent:
         database = Database(self.data_dir, self.schema_dir)
         create_db = getattr(database, self.db_type)
         engine = create_db(question)
-        return engine.execute(query).fetchall()
+        answer = engine.execute(query).fetchall()
+        if chart is not None:
+            Chart(chart, query, answer)
+        return answer
        
 
