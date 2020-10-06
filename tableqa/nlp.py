@@ -270,7 +270,7 @@ class Nlp:
     def cond_map(self,s):
         #map the conditional operators for <,> etc from respective words like greater than,less than,etc
         conds=conditions
-        
+        condflag=False
         words=[i for i in s.split() if not i.isdigit()]
         nums=[i for i in s.split() if i.isdigit()]
         for word in words:
@@ -279,11 +279,13 @@ class Nlp:
                       if len(nums)==1:
                           num=nums[0]
                           s=f'{k} {num}'
+                          condflag=True
                       else:
                           if "BETWEEN {} AND {}" in k:
                               k=k.format(nums[0],nums[1])
                               s=f'{k}'
-        return s
+                              condflag=True
+        return s,condflag
         
        
     
@@ -357,18 +359,18 @@ class Nlp:
         print("entities and scores:",sf)
         sub_clause=''' WHERE {} = "{}" '''
         for i,s in enumerate(sf):
+            condflag=False
             col,val=s[0],s[2]
             typ = get(s[1])
             if i>0:
                 sub_clause='''AND {} = "{}" '''
             if issubclass(typ,Number):
-                val=self.cond_map(val)
+                val,condflag=self.cond_map(val)
             subq=sub_clause.format(col, val)
-            for cond in conditions.keys():
-                if any(i in cond for i in val):
-                    subq=subq.replace('=','')
-                    subq=subq.replace('"','')
-                    break
+            if condflag:
+                subq=subq.replace('=','')
+                subq=subq.replace('"','')
+        
 
            
 

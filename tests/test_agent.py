@@ -27,6 +27,9 @@ def test_query():
     for q,sql in qmaps.items():
         res=agent.get_query(q)
         if res.strip() != sql.strip():
+            print("question",q)
+            print("predicted",res)
+            print("actual",sql)
             raise AssertionError
         
 def test_query_schema():
@@ -40,6 +43,9 @@ def test_query_schema():
     for q,sql in qmaps.items():
         res=agent.get_query(q)
         if res.strip() != sql.strip():
+            print("question",q)
+            print("predicted",res)
+            print("actual",sql)
             raise AssertionError
 
 
@@ -49,6 +55,9 @@ def test_query_df():
     sql='SELECT AVG(death_count) FROM dataframe WHERE cancer_site = "Stomach" '       
     res=agent.get_query(q)
     if res.strip() != sql.strip():
+        print("question",q)
+        print("predicted",res)
+        print("actual",sql)
         raise AssertionError
 
 def test_query_df_schema():
@@ -57,6 +66,9 @@ def test_query_df_schema():
     sql='SELECT SUM(death_count) FROM cancer_death WHERE cancer_site = "Stomach" AND year = "2011" '       
     res=agent.get_query(q)
     if res.strip() != sql.strip():
+        print("question",q)
+        print("predicted",res)
+        print("actual",sql)
         raise AssertionError
     
         
