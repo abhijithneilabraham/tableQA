@@ -18,3 +18,4 @@ from .column_types import *
 from .clauses import *
 from .database import *
 from .agent import *
+from .chart import *
