@@ -1,5 +1,10 @@
 # tableQA
-Tool for querying natural language on tabular data like csvs,excel sheet,etc.
+AI Tool for querying natural language on tabular data.   
+
+A tabular data can be:
+
+- Dataframes
+- CSV files
 
 [![Build Status](https://travis-ci.com/abhijithneilabraham/tableQA.svg?branch=master)](https://travis-ci.com/abhijithneilabraham/tableQA)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Bgd3L-839NVZiP3QqWfpkYIufQIm4Rar?usp=sharing)
@@ -7,7 +12,7 @@ Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 
 #### Features    
 * Supports detection from multiple csvs
-* Supports FuzzyString implementation. i.e, incomplete csv values in query can be automatically detected and filled in the query.
+* Supports FuzzyString implementation. i.e, incomplete column values in query can be automatically detected and filled in the query.
 * Open-Domain, No training required.
 * Add manual schema for customized experience
 * Auto-generate schemas in case schema not provided
@@ -123,4 +128,4 @@ agent=Agent(csv_path,schema_path)
 
 #### Join us
 
-Join our slack workspace:[Slack](https://join.slack.com/t/newworkspace-ehh1873/shared_invite/zt-hp3i6ic7-exMal1I4ZmFMWaHAwXk8HA)
+Join our workspace:[Slack](https://join.slack.com/t/newworkspace-ehh1873/shared_invite/zt-hp3i6ic7-exMal1I4ZmFMWaHAwXk8HA)
