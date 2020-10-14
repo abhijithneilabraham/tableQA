@@ -369,7 +369,7 @@ class Nlp:
             subq=sub_clause.format(col, val)
             if condflag:
                 subq=subq.replace('=','')
-                subq=subq.replace('"','')
+                subq=subq.replace("'","")
         
 
            
