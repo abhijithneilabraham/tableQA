@@ -106,7 +106,7 @@ print(response)
 #Response =[(22,)]
 ```
 
-* To use PostgreSQL, you must have postgresql installed on your local. To download postgresql, visit the [page](https://www.postgresql.org)
+* To use PostgreSQL, you must have a postgresql server installed and running on your local. To download postgresql, visit the [page](https://www.postgresql.org).
 ```
 from tableqa.agent import Agent
 agent = Agent(df, schema_file, 'postgres', username='username', password='password', database='DBname', host='localhost', port=5432, aws_db=False)
@@ -115,7 +115,7 @@ print(response)
 #Response =[(22,)]
 ```
 
-* To use MySQL, you must have mysql server installed on your local. To download mysql, visit the [page](https://www.mysql.com/downloads/)
+* To use MySQL, you must have a mysql server installed and running on your local. To download mysql, visit the [page](https://www.mysql.com/downloads/).
 ```
 from tableqa.agent import Agent
 agent = Agent(df, schema_file, 'mysql', username='username', password='password', database='DBname', host='localhost', port=5432, aws_db=False)
@@ -127,7 +127,7 @@ print(response)
 
 * To use PostgreSQL or MySQL on Amazon RDS, you must create a database on Amazon RDS. The RDS must be in public subnet with security groups allowing connections from outside of AWS. 
 
-Obtain the username, password, database, endpoint, and port from your database connection details on Amazon RDS.
+Refer to step 1 in the [document](https://aws.amazon.com/getting-started/hands-on/create-mysql-db/) to create a mysql db instance on Amazon RDS. Same steps can be followed for creating a PostgreSQL db instance by selecting PostgreSQL in the Engine tab. Obtain the username, password, database, endpoint, and port from your database connection details on Amazon RDS.
 ```
 from tableqa.agent import Agent
 agent = Agent(df, schema_file, 'postgres', username='Master username', password='Master password', database='DB name', host='Endpoint', port='Port', aws_db=True)
@@ -158,9 +158,10 @@ agent=Agent(csv_path,schema_path)
 ```
 
 * Read CSV and schema files from Amazon s3 - 
-
-1) Create an IAM user and provide it access to read files from Amazon s3 storage.
-2) Obtain the access key and secret access key for the user and pass it as an argument to the agent.
+1) [Create a bucket](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html) on Amazon s3. 
+2) [Upload objects](https://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html) to the bucket.
+3) [Create an IAM user](https://www.atensoftware.com/p90.php?q=309) and provide it access to read files from Amazon s3 storage.
+4) Obtain the access key and secret access key for the user and pass it as an argument to the agent.
 
 ```
 csv_path="s3://{bucket}/cleaned_data"
