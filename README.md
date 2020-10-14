@@ -148,8 +148,8 @@ print(sql)
 
 * Pass the absolute path of the directories containing the csvs and schemas respectively. Refer [cleaned_data](tableqa/cleaned_data)  and [schema](tableqa/schema) for examples.
 
-##### Example
-
+##### Example 
+* Read CSV and Schema from local machine-
 ```
 csv_path="/content/tableQA/tableqa/cleaned_data"
 schema_path="/content/tableQA/tableqa/schema"
