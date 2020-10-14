@@ -11,8 +11,9 @@ A tabular data can be:
 
 
 #### Features    
-* Supports detection from multiple csvs
+* Supports detection from multiple csvs (csvs can also be read from Amazon s3)
 * Supports FuzzyString implementation. i.e, incomplete column values in query can be automatically detected and filled in the query.
+* Supports Databases - SQLite, Postgresql, MySQL, Amazon RDS (Postgresql, MySQL).
 * Open-Domain, No training required.
 * Add manual schema for customized experience
 * Auto-generate schemas in case schema not provided
@@ -94,16 +95,46 @@ print(sql) #returns an sql query
 Example (with manual schema):    
 
 
-
-
 ##### Database query
 
+* Default Database - SQLite (File-based database, does not require creation of a separate connection.)
 ```
 from tableqa.agent import Agent
 agent=Agent(df,schema) #pass the dataframe and schema objects
 response=agent.query_db("how many people died of stomach cancer in 2011")
 print(response)
 #Response =[(22,)]
+```
+
+* To use PostgreSQL, you must have a postgresql server installed and running on your local. To download postgresql, visit the [page](https://www.postgresql.org).
+```
+from tableqa.agent import Agent
+agent = Agent(df, schema_file, 'postgres', username='username', password='password', database='DBname', host='localhost', port=5432, aws_db=False)
+response=agent.query_db("how many people died of stomach cancer in 2011")
+print(response)
+#Response =[(22,)]
+```
+
+* To use MySQL, you must have a mysql server installed and running on your local. To download mysql, visit the [page](https://www.mysql.com/downloads/).
+```
+from tableqa.agent import Agent
+agent = Agent(df, schema_file, 'mysql', username='username', password='password', database='DBname', host='localhost', port=5432, aws_db=False)
+response=agent.query_db("how many people died of stomach cancer in 2011")
+print(response)
+#Response =[(22,)]
+
+```
+
+* To use PostgreSQL or MySQL on Amazon RDS, you must create a database on Amazon RDS. The RDS must be in public subnet with security groups allowing connections from outside of AWS. 
+
+Refer to step 1 in the [document](https://aws.amazon.com/getting-started/hands-on/create-mysql-db/) to create a mysql db instance on Amazon RDS. Same steps can be followed for creating a PostgreSQL db instance by selecting PostgreSQL in the Engine tab. Obtain the username, password, database, endpoint, and port from your database connection details on Amazon RDS.
+```
+from tableqa.agent import Agent
+agent = Agent(df, schema_file, 'postgres', username='Master username', password='Master password', database='DB name', host='Endpoint', port='Port', aws_db=True)
+response=agent.query_db("how many people died of stomach cancer in 2011")
+print(response)
+#Response =[(22,)]
+
 ```
 
 ##### SQL query
@@ -115,7 +146,7 @@ print(sql)
 
 #### Multiple CSVs
 
-Pass the absolute path of the directories containing the csvs and schemas respectively. Refer [cleaned_data](tableqa/cleaned_data)  and [schema](tableqa/schema) for examples.
+* Pass the absolute path of the directories containing the csvs and schemas respectively. Refer [cleaned_data](tableqa/cleaned_data)  and [schema](tableqa/schema) for examples.
 
 ##### Example
 
@@ -123,6 +154,19 @@ Pass the absolute path of the directories containing the csvs and schemas respec
 csv_path="/content/tableQA/tableqa/cleaned_data"
 schema_path="/content/tableQA/tableqa/schema"
 agent=Agent(csv_path,schema_path)
+
+```
+
+* Read CSV and schema files from Amazon s3 - 
+1) [Create a bucket](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html) on Amazon s3. 
+2) [Upload objects](https://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html) to the bucket.
+3) [Create an IAM user](https://www.atensoftware.com/p90.php?q=309) and provide it access to read files from Amazon s3 storage.
+4) Obtain the access key and secret access key for the user and pass it as an argument to the agent.
+
+```
+csv_path="s3://{bucket}/cleaned_data"
+schema_path="s3://{bucket}/schema"
+agent = Agent(csv_path, schema_path, aws_s3=True, access_key_id=access_key_id, secret_access_key=secret_access_key)
 
 ```
 

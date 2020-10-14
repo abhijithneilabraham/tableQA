@@ -23,6 +23,9 @@ class Chart:
         answers: `list`, returned values.
         size: `tuple`, figure size.
         """
+        if len(answers)==0:
+            return 
+            
         self.registered_charts()
 
         if not isinstance(size, tuple):
