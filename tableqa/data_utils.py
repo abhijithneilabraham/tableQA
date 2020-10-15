@@ -7,22 +7,33 @@ from nltk.stem import PorterStemmer
 import os
 import sys
 import pathlib
+import awswrangler as wr
+import boto3
 ps = PorterStemmer().stem 
 syns = wordnet.synsets
 stop_words = list(set(stopwords.words('english')))
 class data_utils:
-    def __init__(self,data_dir,schema_dir):
+    def __init__(self,data_dir,schema_dir,aws_s3,access_key_id,secret_access_key):
         self.data_dir = data_dir
         self.schema_dir = schema_dir
+        self.aws_s3 = aws_s3
+        # Or via the Session
+        self.session = boto3.Session(
+            aws_access_key_id=access_key_id,
+            aws_secret_access_key=secret_access_key
+        )
         self.vocabfile=os.path.join(os.path.abspath(os.getcwd()),"vocab.json")
         self.valuesfile = os.path.join(os.path.abspath(os.getcwd()),"values.json")
     
     def get_csvs(self):
-        ret = []     
-        for r, _, files in os.walk(self.data_dir):
-            for f in files:
-                if f.lower().endswith('.csv'):
-                    ret.append(os.path.join(r, f))
+        if self.aws_s3:
+            ret = wr.s3.list_objects(self.data_dir, suffix='csv', boto3_session=self.session)
+        else:
+            ret = []     
+            for r, _, files in os.walk(self.data_dir):
+                for f in files:
+                    if f.lower().endswith('.csv'):
+                        ret.append(os.path.join(r, f))
         return ret
     
     
@@ -39,7 +50,10 @@ class data_utils:
                     renamed+="_"
         return renamed
     def get_dataframe(self,csv_path):
-        data= pd.read_csv(csv_path)
+        if self.aws_s3:
+            data= wr.s3.read_csv([csv_path], boto3_session=self.session)
+        else:
+            data= pd.read_csv(csv_path)
         columns=data.columns.tolist()
         columns=[self.rename(i) for i in columns]
         data.columns=columns
@@ -62,8 +76,12 @@ class data_utils:
             if isinstance(self.schema_dir,dict):
                 schema=self.schema_dir
             else:
-                with open(os.path.join(self.schema_dir, df_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
-                    schema=json.load(f)
+                if self.aws_s3:
+                    file_path = os.path.join(self.schema_dir, df_path[len(self.data_dir) + 1:-4]) + '.json'
+                    schema = wr.s3.read_json([file_path], boto3_session=self.session)
+                else:
+                    with open(os.path.join(self.schema_dir, df_path[len(self.data_dir) + 1:-4]) + '.json', 'r') as f:
+                        schema=json.load(f)
             schema_keywords=[]
             schema["name"]=self.rename(schema["name"])
             if "columns" not in schema.keys():

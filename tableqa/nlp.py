@@ -159,12 +159,13 @@ def _find(lst, sublst):
 def _window_overlap(s1, e1, s2, e2):
     return s2 <= e1 if s1 <s2 else s1 <= e2
 class Nlp:
-    def __init__(self,data_dir,schema_dir):
+    def __init__(self,data_dir,schema_dir,aws_s3, access_key_id, secret_access_key):
         self.data_dir=data_dir
         self.schema_dir=schema_dir
+        self.aws_s3=aws_s3
         if isinstance(self.schema_dir,dict):
             self.schema=schema_dir
-        self.data_process=data_utils(data_dir, schema_dir)
+        self.data_process=data_utils(data_dir, schema_dir, self.aws_s3, access_key_id, secret_access_key)
         self.valuesfile =self.data_process.valuesfile
         self.data_process.create_values()
         with open(self.valuesfile, 'r') as f:
@@ -196,8 +197,6 @@ class Nlp:
     
     def slot_fill(self,df, q):
         # example: slot_fill(get_csvs()[2], "how many emarati men of age 22 died from stomach cancer in 2012")
-
-
         self.schema = self.data_process.get_schema_for_csv(df)
         schema=self.schema
         def _is_numeric(typ):
@@ -338,6 +337,7 @@ class Nlp:
         ex_kwd=self.kword_extractor(q)
         unknown_slots,flag=self.unknown_slot_extractor(schema,sf_columns,ex_kwd)
         
+        
         clause=Clause()
         question=""
         question=clause.adapt(q)
@@ -357,19 +357,19 @@ class Nlp:
         
         
         print("entities and scores:",sf)
-        sub_clause=''' WHERE {} = "{}" '''
+        sub_clause=''' WHERE {} = '{}' '''
         for i,s in enumerate(sf):
             condflag=False
             col,val=s[0],s[2]
             typ = get(s[1])
             if i>0:
-                sub_clause='''AND {} = "{}" '''
+                sub_clause='''AND {} = '{}' '''
             if issubclass(typ,Number):
                 val,condflag=self.cond_map(val)
             subq=sub_clause.format(col, val)
             if condflag:
                 subq=subq.replace('=','')
-                subq=subq.replace('"','')
+                subq=subq.replace("'","")
         
 
            

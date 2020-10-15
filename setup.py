@@ -3,11 +3,11 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-install_requires = ['responder', 'graphql-core==2.3', 'graphene==2.1.8', 'transformers[tf-cpu]==3.0.2', 'rake_nltk', 'nltk','sqlalchemy','tensorflow_hub','pandas','matplotlib']
+install_requires = ['responder', 'graphql-core==2.3', 'graphene==2.1.8', 'numpy==1.18.0', 'transformers[tf-cpu]==3.0.2', 'rake_nltk', 'nltk','tensorflow_hub','pandas','matplotlib', 'cryptography', 'sqlalchemy_utils', 'sqlalchemy', 'awswrangler==1.7.0']
 
 setuptools.setup(
     name="tableqa", # Replace with your own username
-    version="0.0.10",
+    version="0.0.11",
     author="Abhijith Neil Abraham, Fariz Rahman",
     author_email="abhijithneilabrahampk@gmail.com,farizrahman4u@gmail.com",
     description="Tool for querying natural language on tabular data",
