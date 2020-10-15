@@ -121,9 +121,9 @@ class data_utils:
                     types[k]="Integer"
                 if 'float' in v:
                     types[k]="Decimal"
-                if "age" in k.lower():
+                if k.lower()=="age":
                         types[k]="Age"
-                if "year" in k.lower():
+                if  k.lower() =="year":
                         types[k]="Year"        
                 if 'object' in v:
                     for col in schema["columns"]:
