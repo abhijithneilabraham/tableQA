@@ -1,5 +1,5 @@
 # tableQA
-AI Tool for querying natural language on tabular data.   
+AI Tool for querying natural language on tabular data.Built using QA models from [transformers](https://huggingface.co/transformers/model_doc/bert.html#tfbertforquestionanswering).    
 
 A tabular data can be:
 
