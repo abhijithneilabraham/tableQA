@@ -1,6 +1,8 @@
 # tableQA
 AI Tool for querying natural language on tabular data.Built using QA models from [transformers](https://huggingface.co/transformers/model_doc/bert.html#tfbertforquestionanswering).    
 
+Here is a detailed [blog](https://dev.to/abhijithneilabraham/tableqa-query-your-tabular-data-with-natural-language-39o) to understand how this works.   
+
 A tabular data can be:
 
 - Dataframes
@@ -8,6 +10,7 @@ A tabular data can be:
 
 [![Build Status](https://travis-ci.com/abhijithneilabraham/tableQA.svg?branch=master)](https://travis-ci.com/abhijithneilabraham/tableQA)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Bgd3L-839NVZiP3QqWfpkYIufQIm4Rar?usp=sharing)
+
 
 
 #### Features    
