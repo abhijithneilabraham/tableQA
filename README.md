@@ -1,5 +1,5 @@
 # tableQA
-AI Tool for querying natural language on tabular data.Built using QA models from [transformers](https://huggingface.co/transformers/model_doc/bert.html#tfbertforquestionanswering).    
+AI Tool for querying natural language on tabular data.Built using QA models from [transformers](https://huggingface.co/transformers/model_doc/bert.html#tfbertforquestionanswering).
 
 Here is a detailed [blog](https://dev.to/abhijithneilabraham/tableqa-query-your-tabular-data-with-natural-language-39o) to understand how this works.   
 
@@ -20,7 +20,27 @@ A tabular data can be:
 * Open-Domain, No training required.
 * Add manual schema for customized experience
 * Auto-generate schemas in case schema not provided
-* Data visualisations
+* Data visualisations.  
+
+#### Supported operations.
+- [X] SELECT
+	- [X] one column
+	- [X] multiple columns
+	- [X] all columns
+	- [X] aggregate functions
+		- [X] count-select
+		- [X] sum-select
+		- [X] avg-select
+		- [X] min-select
+		- [X] max-select
+- [X] WHERE
+	- [X] one condition
+	- [X] multiple conditions
+	- [X] operators
+		- [X] equal operator
+		- [X] greater-than operator
+		- [X] less-than operator
+		- [X] between operator 
 
 
 ### Configuration:
