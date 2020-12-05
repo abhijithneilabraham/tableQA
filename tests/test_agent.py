@@ -53,8 +53,8 @@ def test_query_schema():
 
 def test_query_df():
     agent=Agent(df)
-    q='Get me the average age of stomach cancer in men'
-    sql="SELECT AVG(age) FROM dataframe WHERE cancer_site = 'Stomach' "  
+    q='Get me the average age of stomach cancer in male'
+    sql="SELECT AVG(age) FROM dataframe WHERE gender = 'Male' AND cancer_site = 'Stomach' "  
     res=agent.get_query(q)
     if res.strip() != sql.strip():
         print("question",q)
