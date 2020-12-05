@@ -217,10 +217,10 @@ class Nlp:
             if coltype == "Categorical":
                 mappings[colname] = col["mapping"]
     
-            # if _is_numeric(coltype):
-            #     colquery="number of {}".format(keyword)
-            # else:
-            colquery="what {}".format(keyword)
+            if _is_numeric(coltype):
+                colquery="number of {}".format(keyword)
+            else:
+                colquery="which {}".format(keyword)
             
             val, score = qa(q, colquery, return_score=True)
             vt =  nltk.word_tokenize(val)
