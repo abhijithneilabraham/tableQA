@@ -3,8 +3,6 @@ import nltk
 import datetime
 
 
-
-
 def _overlap(x, y, exclude=[]):
     exclude = [t.lower() for t in exclude]
     xt = nltk.word_tokenize(x.lower())
@@ -27,11 +25,14 @@ def _find(lst, sublst):
             return i
     return -1
 
+
 class ColumnType(object):
     sql_type = "VARCHAR(1000)"
+
     def __init__(self):
         if self.__class__ == ColumnType:
             raise Exception("Abstract class.")
+
     def adapt(self, x):
         return x
 
@@ -50,25 +51,26 @@ class Number(ColumnType):
     def adapt(self, x, context=None, allowed_kws=[]):
         allowed_kws = [kw.lower() for kw in allowed_kws]
         allowed = [
-            "than",
-            "above",
-            "below",
-            "small",
-            "smaller"
-            "lesser",
-            "higher",
-            "lower",
-            "from",
-            "to",
-            "between",
-            "greater",
-            "bigger",
-            "larger",
-            "more",
-            "less",
-            "between",
-            "and"
-        ] + allowed_kws
+                      "than",
+                      "above",
+                      "below",
+                      "small",
+                      "smaller"
+                      "lesser",
+                      "higher",
+                      "lower",
+                      "from",
+                      "to",
+                      "between",
+                      "greater",
+                      "bigger",
+                      "larger",
+                      "more",
+                      "less",
+                      "between",
+                      "and"
+                  ] + allowed_kws
+
         def isnum(x):
             try:
                 float(x)
@@ -79,6 +81,7 @@ class Number(ColumnType):
                 return True
             except:
                 return False
+
         xt = nltk.word_tokenize(x.lower())
         nums = len([t for t in xt if isnum(t)])
         if not nums:
@@ -86,7 +89,7 @@ class Number(ColumnType):
         xt = [t for t in xt if isnum(t) or t in allowed]
         if context is not None:
             ct = nltk.word_tokenize(context.lower())
-            idx = _find(ct, xt) # TODO multiple instances
+            idx = _find(ct, xt)  # TODO multiple instances
             idx2 = idx + len(xt) - 1
             while idx > 0 and (isnum(ct[idx - 1]) or ct[idx - 1] in allowed):
                 idx -= 1
@@ -94,6 +97,7 @@ class Number(ColumnType):
                 idx2 += 1
             return ' '.join([w for w in nltk.word_tokenize(context)[idx: idx2 + 1] if w.lower() not in allowed_kws])
         return x
+
 
 class Integer(Number):
     sql_type = "INT"
@@ -122,39 +126,40 @@ class FuzzyString(String):
         return self.values[idx]
 
 
-class Year(Integer):
-    def adapt(self, x, context=None, *args, **kwargs):
-        # TODO
+class Date(Integer):
+    def adapt(self, x, context=None, metric='year', *args, **kwargs):
+        months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october",
+                  "november", "december"]
+        allowed = ["than","above","below","from","to", "between","greater","bigger","larger","more","less","between","and"]
         x = x.lower()
-        curr = datetime.datetime.now().year
-        if  "last year" in x or "previous year" in x:
-            return " {}".format(curr - 1)
-        elif "next year" in x:
-            return " {}".format(curr + 1)
-        elif "current year" in x or "this year" in x:
-            return "{}".format(curr)
+        limit = {
+            'year': [1000, 0],
+            'month': [13, 0],
+            'week': [53, 0],
+        }
+        if metric == 'year':
+            curr = datetime.datetime.now().year
+        elif metric == 'month':
+            curr = datetime.datetime.now().month
+            allowed = allowed + months
+        elif metric == 'week':
+            curr = datetime.datetime.now().isocalendar()[1]
         else:
-            allowed = [
-                "than",
-                "above",
-                "below",
-                "from",
-                "to",
-                "between",
-                "greater",
-                "bigger",
-                "larger",
-                "more",
-                "less",
-                "between",
-                "and"]
+            raise TypeError("Error invoking Date.adapt: Unexpected value for argument 'matrix' ")
+        if "last " + metric in x or "previous " + metric:
+            return "in {}".format(curr - 1)
+        elif "next " + metric in x or "next " + metric in x:
+            return "in {}".format(curr + 1)
+        elif "current " + metric in x or "this " + metric in x:
+            return "in {}".format(curr)
+        else:
             xt = nltk.word_tokenize(x.lower())
-            xt = [t for t in xt if t not in ['the','year']]
+            xt = [t for t in xt if t not in ['the', metric]]
             flag = False
             for t in xt:
                 if t.isdigit():
                     flag = True
-                    if float(t) >= 3000 or float(t) <= 1900:
+                    if float(t) >= limit[metric][0] or float(t) <= limit[metric][1]:
                         return None
                 elif t not in allowed:
                     return None
@@ -162,7 +167,7 @@ class Year(Integer):
                 return
             if context is not None:
                 ct = nltk.word_tokenize(context.lower())
-                idx = _find(ct, xt) # TODO multiple instances
+                idx = _find(ct, xt)  # TODO multiple instances
                 idx2 = idx + len(xt) - 1
                 while idx > 0 and (ct[idx - 1].isdigit() or ct[idx - 1] in allowed):
                     idx -= 1
@@ -170,6 +175,7 @@ class Year(Integer):
                     idx2 += 1
                 return ' '.join(nltk.word_tokenize(context)[idx: idx2 + 1])
             return x
+
 
 class Categorical(String):
 
@@ -184,7 +190,6 @@ class Categorical(String):
         if mx[1] == 0:
             return None
         return mx[0]
-
 
 
 def get(name):

@@ -321,7 +321,7 @@ class Nlp:
                     maxcount=count
                     unknown_slots["main_slot"]=col["name"]
                    
-                    flag=True  if col["type"] in ["Year","Integer","Decimal","Age"] else False
+                    flag=True  if col["type"] in ["Date","Integer","Decimal","Age"] else False
                     
         return unknown_slots,flag
     
