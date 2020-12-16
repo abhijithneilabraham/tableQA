@@ -141,8 +141,8 @@ class data_utils:
                     types[k]="Decimal"
                 if k.lower()=="age":
                         types[k]="Age"
-                if  k.lower() =="year":
-                        types[k]="Year"        
+                if  k.lower() in ("year","month","week"):
+                        types[k]="Date"
                 if 'object' in v:
                     for col in schema["columns"]:
                         if "mapping" in col:

@@ -1,8 +1,7 @@
 import numpy as np
 import nltk
 import datetime
-
-
+import re
 
 
 def _overlap(x, y, exclude=[]):
@@ -122,39 +121,43 @@ class FuzzyString(String):
         return self.values[idx]
 
 
-class Year(Integer):
-    def adapt(self, x, context=None, *args, **kwargs):
+class Date(Integer):
+    def adapt(self, x, context=None,metric='year', *args, **kwargs):
+        months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october",
+                  "november", "december"]
+        allowed = ["than", "above", "below", "from", "to", "between", "greater", "bigger", "larger", "more", "less",
+                   "between", "and"]
         # TODO
         x = x.lower()
-        curr = datetime.datetime.now().year
-        if  "last year" in x or "previous year" in x:
-            return " {}".format(curr - 1)
-        elif "next year" in x:
-            return " {}".format(curr + 1)
-        elif "current year" in x or "this year" in x:
+        limit = {
+            'year': [10000, 0],
+            'month': [13, 0],
+            'week': [53, 0],
+        }
+        if "year" in x or bool(re.match('^([0-9][0-9]{0,3})$', x)):
+            curr = datetime.datetime.now().year
+            metric = "year"
+        elif "month" in x or x in months or bool(re.match('^(1[0-2]|[1-9])$', x)):
+            curr = datetime.datetime.now().month
+            allowed = allowed + months
+            metric = "month"
+        elif "week" in x or bool(re.match('^(5[0-3]|[1-4][0-9]|[1-9])$', x)):
+            curr = datetime.datetime.now().isocalendar()[1]
+            metric = "week"
+        if "last " + metric in x or "previous " + metric in x:
+            return "{}".format(curr - 1)
+        elif "next " + metric in x or "next " + metric in x:
+            return "{}".format(curr + 1)
+        elif "current " + metric in x or "this " + metric in x:
             return "{}".format(curr)
         else:
-            allowed = [
-                "than",
-                "above",
-                "below",
-                "from",
-                "to",
-                "between",
-                "greater",
-                "bigger",
-                "larger",
-                "more",
-                "less",
-                "between",
-                "and"]
             xt = nltk.word_tokenize(x.lower())
-            xt = [t for t in xt if t not in ['the','year']]
+            xt = [t for t in xt if t not in ['the',metric]]
             flag = False
             for t in xt:
                 if t.isdigit():
                     flag = True
-                    if float(t) >= 3000 or float(t) <= 1900:
+                    if float(t) >= limit[metric][0] or float(t) <= limit[metric][1]:
                         return None
                 elif t not in allowed:
                     return None
