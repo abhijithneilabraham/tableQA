@@ -326,7 +326,7 @@ class Nlp:
         return unknown_slots,flag
     
 
-    def get_sql_query(self,df,q):
+    def get_sql_query(self,df,q,distinct):
 
         #get sql query by adding each clauses back to back by aggregate type classification and  entity extraction from slot_fill
         sf=self.slot_fill(df, q)
@@ -340,12 +340,12 @@ class Nlp:
         
         clause=Clause()
         question=""
-        question=clause.adapt(q)
-        if flag: 
+        question = clause.adapt(q, distinct=distinct)
+        if flag:
             for col in schema["columns"]:
                 if "summable" in col.keys() and col["name"] in unknown_slots["main_slot"]:
-                    question=clause.adapt(q,inttype=True,summable=True) 
-                    
+                    question=clause.adapt(q,inttype=True,summable=True)
+
                     break
         if question not in "SELECT {} FROM {}":
             unknown_slots=unknown_slots['main_slot']

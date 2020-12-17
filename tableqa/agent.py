@@ -50,13 +50,13 @@ class Agent:
         self.secret_access_key = secret_access_key
         
 
-    def get_query(self, question, verbose=False):
+    def get_query(self, question, verbose=False,distinct=False):
         """
         # Arguments
 
         question: `str`,containing input utterance.
         verbose: `boolean`, Default False
-
+        distinct: `boolean`, to select distinct values from dataframe
         # Returns
 
         Returns a  `str` of generated sql query.
@@ -70,15 +70,15 @@ class Agent:
             print("Sorry,didn't catch that")
         else:
             if verbose:
-                sql_query = nlp.get_sql_query(df, question)
+                sql_query = nlp.get_sql_query(df, question,distinct=distinct)
                 print('SQL query:', sql_query)
                 return sql_query
             else:
                 with Hide_logs():
-                    sql_query = nlp.get_sql_query(df, question)
+                    sql_query = nlp.get_sql_query(df, question,distinct=distinct)
                     return sql_query
 
-    def query_db(self, question, verbose=False, chart=None, size=(10, 10)):
+    def query_db(self, question, verbose=False, chart=None, size=(10, 10),distinct=False):
         """
         # Arguments
 
@@ -86,12 +86,13 @@ class Agent:
         verbose: `boolean`, Default False
         chart: `str`, specify type of chart. Default None.
         size: `tuple`, figure size.
+        distinct: `boolean`, to select distinct values from dataframe
 
         # Returns
 
         Returns a  `list` of 'tuple` of query outputs from Database.
         """
-        query = self.get_query(question,verbose)
+        query = self.get_query(question,verbose,distinct=distinct)
         database = Database(self.data_dir, self.schema_dir, self.aws_s3, self.access_key_id, self.secret_access_key)
         if self.aws_db:
             fetch_data = getattr(database, 'fetch_data_aws')
