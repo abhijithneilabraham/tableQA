@@ -134,14 +134,14 @@ class Date(Integer):
             'month': [13, 0],
             'week': [53, 0],
         }
-        if "year" in x or bool(re.match('^([0-9][0-9]{0,3})$', x)):
+        if "year" in x or (x.isdigit() and int(x)<10000):
             curr = datetime.datetime.now().year
             metric = "year"
-        elif "month" in x or x in months or bool(re.match('^(1[0-2]|[1-9])$', x)):
+        elif "month" in x or x in months:
             curr = datetime.datetime.now().month
             allowed = allowed + months
             metric = "month"
-        elif "week" in x or bool(re.match('^(5[0-3]|[1-4][0-9]|[1-9])$', x)):
+        elif "week" in x:
             curr = datetime.datetime.now().isocalendar()[1]
             metric = "week"
         if "last " + metric in x or "previous " + metric in x:
