@@ -8,8 +8,7 @@ from .clauses import Clause
 from .conditionmaps import conditions
 from .column_types import get,Number,FuzzyString,Categorical,String
 from .data_utils import data_utils
-
-
+from .logging_utils import get_logger
 qa_model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 qa_tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad',padding=True)
 
@@ -20,8 +19,7 @@ from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 lem=lemmatizer.lemmatize
-
-
+logger = get_logger(__name__)
 
 
 def extract_keywords_from_doc(doc, phrases=True, return_scores=False):
@@ -226,7 +224,7 @@ class Nlp:
             vt =  nltk.word_tokenize(val)
             start_idx = _find(nltk.word_tokenize(q), vt)
             end_idx = start_idx + len(vt) - 1
-            print("filling slots:",colname, val, score)
+            logger.info("filling slots %s %s %s",colname, val, score)
             slots.append((colname, coltype, val, score, start_idx, end_idx))
         slots.sort(key=lambda x: -x[3])
         windows = []
@@ -355,8 +353,7 @@ class Nlp:
             unknown_slots='*'
         question=question.format(unknown_slots,schema["name"].lower())
         
-        
-        print("entities and scores:",sf)
+        logger.info("entities and scores: %s",sf)
         sub_clause=''' WHERE {} = '{}' '''
         for i,s in enumerate(sf):
             condflag=False

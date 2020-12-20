@@ -28,6 +28,7 @@ A tabular data can be:
 	- [X] multiple columns
 	- [X] all columns
 	- [X] aggregate functions
+    - [X] distinct select
 		- [X] count-select
 		- [X] sum-select
 		- [X] avg-select

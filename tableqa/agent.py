@@ -2,10 +2,10 @@
 
 from .nlp import Nlp
 from .database import Database
-from .data_utils import Hide_logs
 import pandas as pd
 from .chart import Chart
-
+from .logging_utils import get_logger
+import logging
 class Agent:
     """
     Generates sql queries and fetches query results from database.
@@ -48,7 +48,6 @@ class Agent:
         self.aws_s3 = aws_s3
         self.access_key_id = access_key_id 
         self.secret_access_key = secret_access_key
-        
 
     def get_query(self, question, verbose=False,distinct=False):
         """
@@ -62,6 +61,7 @@ class Agent:
         Returns a  `str` of generated sql query.
         """
         nlp = Nlp(self.data_dir, self.schema_dir, self.aws_s3, self.access_key_id, self.secret_access_key )
+        root_logger = logging.getLogger()
         if isinstance(self.data_dir,pd.DataFrame):
             df=self.data_dir
         else:
@@ -70,13 +70,15 @@ class Agent:
             print("Sorry,didn't catch that")
         else:
             if verbose:
+                root_logger.setLevel(logging.INFO)
+                logger = get_logger(__name__)
                 sql_query = nlp.get_sql_query(df, question,distinct=distinct)
-                print('SQL query:', sql_query)
+                logger.info('SQL query = %s',sql_query)
                 return sql_query
             else:
-                with Hide_logs():
-                    sql_query = nlp.get_sql_query(df, question,distinct=distinct)
-                    return sql_query
+                root_logger.setLevel(logging.WARNING)
+                sql_query = nlp.get_sql_query(df, question,distinct=distinct)
+                return sql_query
 
     def query_db(self, question, verbose=False, chart=None, size=(10, 10),distinct=False):
         """
