@@ -1,11 +1,10 @@
-import os
 import json
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords, wordnet 
 from nltk.stem import PorterStemmer
 import os
-import sys
+
 import pathlib
 import awswrangler as wr
 import boto3
@@ -258,17 +257,3 @@ class data_utils:
                         vals += list(set(x for x in df[colname] if isinstance(x, str)))
         with open(self.valuesfile, 'w') as f:
             json.dump(values, f)
-        
-
-
-class Hide_logs:
-    def __enter__(self):
-        self._original_stdout = sys.stdout
-        sys.stdout = open(os.devnull, 'w')
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        sys.stdout.close()
-        sys.stdout = self._original_stdout
-
-
-
