@@ -120,12 +120,8 @@ def qa(docs, query, return_score=False, return_all=False, return_source=False, s
     return answer, score
 
 
-
 stop_words = stopwords.words('english')
 stop_words.append('whose')
-
-
-
 
 
 def _norm(x):
@@ -137,10 +133,6 @@ def _norm(x):
 
 def _underscore(x):
     return _norm(x).replace(' ', '_')
-
-
-
-
 
 
 def _find(lst, sublst):
@@ -156,6 +148,7 @@ def _find(lst, sublst):
 
 def _window_overlap(s1, e1, s2, e2):
     return s2 <= e1 if s1 <s2 else s1 <= e2
+
 class Nlp:
     def __init__(self,data_dir,schema_dir,aws_s3, access_key_id, secret_access_key):
         self.data_dir=data_dir
