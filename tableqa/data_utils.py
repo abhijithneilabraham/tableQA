@@ -110,7 +110,7 @@ class data_utils:
                 schema_keywords=[i for i in schema_keywords if i not in stop_words]
                 schema["keywords"]=schema_keywords
                 
-            categorical_maps={i:list(set(data[i].dropna())) for i in data.columns if len(list(set(data[i].dropna())))==2}
+            categorical_maps={i:list(set(data[i].dropna())) for i in data.columns if len(list(set(data[i].dropna())))==2 and data[i].dtype==object}
             cat_kwd_maps={i:0 for i in categorical_maps}
             for k,v in categorical_maps.items():
                 cat1syn,cat2syn=syns(ps(v[0])),syns(ps(v[1]))
