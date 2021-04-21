@@ -342,7 +342,7 @@ class Nlp:
             unknown_slots=unknown_slots['main_slot']
         else:
            unknown_slots= ','.join(unknown_slots['slots'])
-        if not unknown_slots:
+        if not(unknown_slots and unknown_slots.strip()):
             unknown_slots='*'
         question=question.format(unknown_slots,schema["name"].lower())
         
