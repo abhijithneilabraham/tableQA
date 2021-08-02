@@ -8,7 +8,8 @@ A tabular data can be:
 - Dataframes
 - CSV files
 
-[![Build Status](https://travis-ci.com/abhijithneilabraham/tableQA.svg?branch=master)](https://travis-ci.com/abhijithneilabraham/tableQA)
+[![Build Status](https://travis-ci.com/abhijithneilabraham/tableQA.svg?branch=master)](https://travis-ci.com/abhijithneilabraham/tableQA).  
+[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/abhijithneilabraham/tableQA/blob/master/examples/sample.ipynb).  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Bgd3L-839NVZiP3QqWfpkYIufQIm4Rar?usp=sharing)
 
 
