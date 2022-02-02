@@ -1,6 +1,11 @@
 # tableQA
 AI Tool for querying natural language on tabular data.Built using QA models from [transformers](https://huggingface.co/transformers/model_doc/bert.html#tfbertforquestionanswering).
 
+This work is described in the following paper:   
+[TableQuery: Querying tabular data with natural language, by Abhijith Neil Abraham, Fariz Rahman and Damanpreet Kaur](https://arxiv.org/abs/2202.00454).   
+If you use TableQA, please cite the paper. 
+
+
 Here is a detailed [blog](https://dev.to/abhijithneilabraham/tableqa-query-your-tabular-data-with-natural-language-39o) to understand how this works.   
 
 A tabular data can be:
