@@ -203,3 +203,6 @@ agent = Agent(csv_path, schema_path, aws_s3=True, access_key_id=access_key_id, s
 #### Join us
 
 Join our workspace:[Slack](https://join.slack.com/t/newworkspace-ehh1873/shared_invite/zt-hp3i6ic7-exMal1I4ZmFMWaHAwXk8HA)
+
+## License
+[GNU-GPLv3](https://github.com/abhijithneilabraham/tableQA/blob/master/LICENSE)
