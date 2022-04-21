@@ -360,14 +360,16 @@ class Nlp:
             if condflag:
                 subq=subq.replace('=','')
                 subq=subq.replace("'","")
-        
-
-           
-
-            
+                       
             
             question+=subq   #repeatedly concatenates the incoming entities in sql syntax         
-    
+        
+        sub_clause='''GROUP BY {}'''
+        for i,s in enumerate(sf):
+            condflag=False
+            col = s[0]
+            subq1=sub_clause.format(col)
+            question+=subq1
         
         return question
     
